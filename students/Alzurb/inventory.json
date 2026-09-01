@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "hostvars": {
+      "Alzurb-3": {
+        "ansible_port": 2322
+      },
+      "Alzurb-2": {
+        "ansible_port": 7422
+      }
+    }
+  },
+  "all": {
+    "hosts": [
+      "Alzurb-3",
+      "Alzurb-2",
+      "Alzurb-3"
+    ],
+    "vars": {
+      "ansible_host": "193.40.157.25",
+      "ansible_user": "ubuntu"
+    }
+  }
+}

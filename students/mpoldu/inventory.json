@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "hostvars": {
+      "mpoldu-1": {
+        "ansible_port": 14622
+      },
+      "mpoldu-2": {
+        "ansible_port": 14522
+      },
+      "mpoldu-3": {
+        "ansible_port": 18422
+      }
+    }
+  },
+  "all": {
+    "hosts": [
+      "mpoldu-1",
+      "mpoldu-2",
+      "mpoldu-3"
+    ],
+    "vars": {
+      "ansible_host": "193.40.157.25",
+      "ansible_user": "ubuntu"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "hostvars": {
+      "hudolejev-1": {
+        "ansible_port": 50622
+      },
+      "hudolejev-2": {
+        "ansible_port": 33522
+      },
+      "hudolejev-3": {
+        "ansible_port": 42722
+      }
+    }
+  },
+  "all": {
+    "hosts": [
+      "hudolejev-1",
+      "hudolejev-2",
+      "hudolejev-3"
+    ],
+    "vars": {
+      "ansible_host": "193.40.157.25",
+      "ansible_user": "ubuntu"
+    }
+  }
+}

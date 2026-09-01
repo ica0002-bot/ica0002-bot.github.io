@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "hostvars": {
+      "iznetsss-1": {
+        "ansible_port": 39422
+      },
+      "iznetsss-2": {
+        "ansible_port": 32222
+      },
+      "iznetsss-3": {
+        "ansible_port": 41322
+      }
+    }
+  },
+  "all": {
+    "hosts": [
+      "iznetsss-1",
+      "iznetsss-2",
+      "iznetsss-3"
+    ],
+    "vars": {
+      "ansible_host": "193.40.157.25",
+      "ansible_user": "ubuntu"
+    }
+  }
+}

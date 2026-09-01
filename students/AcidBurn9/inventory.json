@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "hostvars": {
+      "AcidBurn9-1": {
+        "ansible_port": 23922
+      },
+      "AcidBurn9-2": {
+        "ansible_port": 10222
+      },
+      "AcidBurn9-3": {
+        "ansible_port": 18922
+      }
+    }
+  },
+  "all": {
+    "hosts": [
+      "AcidBurn9-1",
+      "AcidBurn9-2",
+      "AcidBurn9-3"
+    ],
+    "vars": {
+      "ansible_host": "193.40.157.25",
+      "ansible_user": "ubuntu"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "hostvars": {
+      "NotVsl-1": {
+        "ansible_port": 34422
+      },
+      "NotVsl-2": {
+        "ansible_port": 29422
+      },
+      "NotVsl-3": {
+        "ansible_port": 49722
+      }
+    }
+  },
+  "all": {
+    "hosts": [
+      "NotVsl-1",
+      "NotVsl-2",
+      "NotVsl-3"
+    ],
+    "vars": {
+      "ansible_host": "193.40.157.25",
+      "ansible_user": "ubuntu"
+    }
+  }
+}

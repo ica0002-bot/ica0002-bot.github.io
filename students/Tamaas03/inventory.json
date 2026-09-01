@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "hostvars": {
+      "Tamaas03-1": {
+        "ansible_port": 8722
+      },
+      "Tamaas03-2": {
+        "ansible_port": 24822
+      },
+      "Tamaas03-3": {
+        "ansible_port": 422
+      }
+    }
+  },
+  "all": {
+    "hosts": [
+      "Tamaas03-1",
+      "Tamaas03-2",
+      "Tamaas03-3"
+    ],
+    "vars": {
+      "ansible_host": "193.40.157.25",
+      "ansible_user": "ubuntu"
+    }
+  }
+}

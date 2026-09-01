@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "hostvars": {
+      "KarlErikOol-1": {
+        "ansible_port": 17422
+      },
+      "KarlErikOol-2": {
+        "ansible_port": 5922
+      },
+      "KarlErikOol-3": {
+        "ansible_port": 21022
+      }
+    }
+  },
+  "all": {
+    "hosts": [
+      "KarlErikOol-1",
+      "KarlErikOol-2",
+      "KarlErikOol-3"
+    ],
+    "vars": {
+      "ansible_host": "193.40.157.25",
+      "ansible_user": "ubuntu"
+    }
+  }
+}

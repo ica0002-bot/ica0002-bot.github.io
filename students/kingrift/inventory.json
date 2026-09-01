@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "hostvars": {
+      "kingrift-1": {
+        "ansible_port": 7522
+      },
+      "kingrift-2": {
+        "ansible_port": 15922
+      },
+      "kingrift-3": {
+        "ansible_port": 16422
+      }
+    }
+  },
+  "all": {
+    "hosts": [
+      "kingrift-1",
+      "kingrift-2",
+      "kingrift-3"
+    ],
+    "vars": {
+      "ansible_host": "193.40.157.25",
+      "ansible_user": "ubuntu"
+    }
+  }
+}

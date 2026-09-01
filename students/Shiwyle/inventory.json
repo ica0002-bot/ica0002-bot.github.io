@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "hostvars": {
+      "Shiwyle-1": {
+        "ansible_port": 14922
+      },
+      "Shiwyle-2": {
+        "ansible_port": 5522
+      },
+      "Shiwyle-3": {
+        "ansible_port": 4122
+      }
+    }
+  },
+  "all": {
+    "hosts": [
+      "Shiwyle-1",
+      "Shiwyle-2",
+      "Shiwyle-3"
+    ],
+    "vars": {
+      "ansible_host": "193.40.157.25",
+      "ansible_user": "ubuntu"
+    }
+  }
+}

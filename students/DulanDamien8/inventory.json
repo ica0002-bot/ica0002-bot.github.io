@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "hostvars": {
+      "DulanDamien8-1": {
+        "ansible_port": 19322
+      },
+      "DulanDamien8-2": {
+        "ansible_port": 14522
+      },
+      "DulanDamien8-3": {
+        "ansible_port": 14322
+      }
+    }
+  },
+  "all": {
+    "hosts": [
+      "DulanDamien8-1",
+      "DulanDamien8-2",
+      "DulanDamien8-3"
+    ],
+    "vars": {
+      "ansible_host": "193.40.157.25",
+      "ansible_user": "ubuntu"
+    }
+  }
+}

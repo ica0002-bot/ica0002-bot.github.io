@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "hostvars": {
+      "EdwardLeks-1": {
+        "ansible_port": 43822
+      },
+      "EdwardLeks-2": {
+        "ansible_port": 30122
+      },
+      "EdwardLeks-3": {
+        "ansible_port": 47422
+      }
+    }
+  },
+  "all": {
+    "hosts": [
+      "EdwardLeks-1",
+      "EdwardLeks-2",
+      "EdwardLeks-3"
+    ],
+    "vars": {
+      "ansible_host": "193.40.157.25",
+      "ansible_user": "ubuntu"
+    }
+  }
+}

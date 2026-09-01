@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "hostvars": {
+      "marusjapl-1": {
+        "ansible_port": 36322
+      },
+      "marusjapl-2": {
+        "ansible_port": 40722
+      }
+    }
+  },
+  "all": {
+    "hosts": [
+      "marusjapl-1",
+      "marusjapl-2"
+    ],
+    "vars": {
+      "ansible_host": "193.40.157.25",
+      "ansible_user": "ubuntu"
+    }
+  }
+}

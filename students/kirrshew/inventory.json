@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "hostvars": {
+      "kirrshew-1": {
+        "ansible_port": 48422
+      },
+      "kirrshew-2": {
+        "ansible_port": 47922
+      },
+      "kirrshew-3": {
+        "ansible_port": 50322
+      }
+    }
+  },
+  "all": {
+    "hosts": [
+      "kirrshew-1",
+      "kirrshew-2",
+      "kirrshew-3"
+    ],
+    "vars": {
+      "ansible_host": "193.40.157.25",
+      "ansible_user": "ubuntu"
+    }
+  }
+}

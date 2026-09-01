@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "hostvars": {
+      "HandHe8-3": {
+        "ansible_port": 39922
+      },
+      "HandHe8-2": {
+        "ansible_port": 49222
+      }
+    }
+  },
+  "all": {
+    "hosts": [
+      "HandHe8-3",
+      "HandHe8-2",
+      "HandHe8-3"
+    ],
+    "vars": {
+      "ansible_host": "193.40.157.25",
+      "ansible_user": "ubuntu"
+    }
+  }
+}

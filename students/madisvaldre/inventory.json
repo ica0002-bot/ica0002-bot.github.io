@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "hostvars": {
+      "madisvaldre-1": {
+        "ansible_port": 44022
+      },
+      "madisvaldre-2": {
+        "ansible_port": 46122
+      },
+      "madisvaldre-3": {
+        "ansible_port": 31022
+      }
+    }
+  },
+  "all": {
+    "hosts": [
+      "madisvaldre-1",
+      "madisvaldre-2",
+      "madisvaldre-3"
+    ],
+    "vars": {
+      "ansible_host": "193.40.157.25",
+      "ansible_user": "ubuntu"
+    }
+  }
+}

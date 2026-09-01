@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "hostvars": {
+      "chpart-1": {
+        "ansible_port": 20422
+      },
+      "chpart-2": {
+        "ansible_port": 21422
+      },
+      "chpart-3": {
+        "ansible_port": 822
+      }
+    }
+  },
+  "all": {
+    "hosts": [
+      "chpart-1",
+      "chpart-2",
+      "chpart-3"
+    ],
+    "vars": {
+      "ansible_host": "193.40.157.25",
+      "ansible_user": "ubuntu"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "hostvars": {
+      "Overcrewt-1": {
+        "ansible_port": 32322
+      },
+      "Overcrewt-2": {
+        "ansible_port": 35222
+      },
+      "Overcrewt-3": {
+        "ansible_port": 40122
+      }
+    }
+  },
+  "all": {
+    "hosts": [
+      "Overcrewt-1",
+      "Overcrewt-2",
+      "Overcrewt-3"
+    ],
+    "vars": {
+      "ansible_host": "193.40.157.25",
+      "ansible_user": "ubuntu"
+    }
+  }
+}

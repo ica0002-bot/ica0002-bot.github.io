@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "hostvars": {
+      "TarvoH-1": {
+        "ansible_port": 222
+      },
+      "TarvoH-2": {
+        "ansible_port": 17522
+      },
+      "TarvoH-3": {
+        "ansible_port": 22822
+      }
+    }
+  },
+  "all": {
+    "hosts": [
+      "TarvoH-1",
+      "TarvoH-2",
+      "TarvoH-3"
+    ],
+    "vars": {
+      "ansible_host": "193.40.157.25",
+      "ansible_user": "ubuntu"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "hostvars": {
+      "olchevv-1": {
+        "ansible_port": 12522
+      },
+      "olchevv-2": {
+        "ansible_port": 25322
+      },
+      "olchevv-3": {
+        "ansible_port": 14722
+      }
+    }
+  },
+  "all": {
+    "hosts": [
+      "olchevv-1",
+      "olchevv-2",
+      "olchevv-3"
+    ],
+    "vars": {
+      "ansible_host": "193.40.157.25",
+      "ansible_user": "ubuntu"
+    }
+  }
+}

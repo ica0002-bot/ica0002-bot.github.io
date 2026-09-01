@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "hostvars": {
+      "DJ-Beast-666-1": {
+        "ansible_port": 25422
+      },
+      "DJ-Beast-666-2": {
+        "ansible_port": 1422
+      },
+      "DJ-Beast-666-3": {
+        "ansible_port": 2322
+      }
+    }
+  },
+  "all": {
+    "hosts": [
+      "DJ-Beast-666-1",
+      "DJ-Beast-666-2",
+      "DJ-Beast-666-3"
+    ],
+    "vars": {
+      "ansible_host": "193.40.157.25",
+      "ansible_user": "ubuntu"
+    }
+  }
+}

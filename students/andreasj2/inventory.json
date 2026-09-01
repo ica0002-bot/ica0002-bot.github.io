@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "hostvars": {
+      "andreasj2-1": {
+        "ansible_port": 45522
+      },
+      "andreasj2-2": {
+        "ansible_port": 43222
+      },
+      "andreasj2-3": {
+        "ansible_port": 46522
+      }
+    }
+  },
+  "all": {
+    "hosts": [
+      "andreasj2-1",
+      "andreasj2-2",
+      "andreasj2-3"
+    ],
+    "vars": {
+      "ansible_host": "193.40.157.25",
+      "ansible_user": "ubuntu"
+    }
+  }
+}

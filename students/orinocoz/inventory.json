@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "hostvars": {
+      "orinocoz-1": {
+        "ansible_port": 13022
+      },
+      "orinocoz-2": {
+        "ansible_port": 8522
+      },
+      "orinocoz-3": {
+        "ansible_port": 13822
+      }
+    }
+  },
+  "all": {
+    "hosts": [
+      "orinocoz-1",
+      "orinocoz-2",
+      "orinocoz-3"
+    ],
+    "vars": {
+      "ansible_host": "193.40.157.25",
+      "ansible_user": "ubuntu"
+    }
+  }
+}

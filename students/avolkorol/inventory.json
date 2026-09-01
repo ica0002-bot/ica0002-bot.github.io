@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "hostvars": {
+      "avolkorol-1": {
+        "ansible_port": 22922
+      },
+      "avolkorol-2": {
+        "ansible_port": 6422
+      },
+      "avolkorol-3": {
+        "ansible_port": 13522
+      }
+    }
+  },
+  "all": {
+    "hosts": [
+      "avolkorol-1",
+      "avolkorol-2",
+      "avolkorol-3"
+    ],
+    "vars": {
+      "ansible_host": "193.40.157.25",
+      "ansible_user": "ubuntu"
+    }
+  }
+}

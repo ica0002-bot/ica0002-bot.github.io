@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "hostvars": {
+      "DiscoDude227-1": {
+        "ansible_port": 19922
+      },
+      "DiscoDude227-2": {
+        "ansible_port": 6922
+      },
+      "DiscoDude227-3": {
+        "ansible_port": 23022
+      }
+    }
+  },
+  "all": {
+    "hosts": [
+      "DiscoDude227-1",
+      "DiscoDude227-2",
+      "DiscoDude227-3"
+    ],
+    "vars": {
+      "ansible_host": "193.40.157.25",
+      "ansible_user": "ubuntu"
+    }
+  }
+}

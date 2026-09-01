@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "hostvars": {
+      "understyx-1": {
+        "ansible_port": 26722
+      },
+      "understyx-2": {
+        "ansible_port": 29622
+      },
+      "understyx-3": {
+        "ansible_port": 50122
+      }
+    }
+  },
+  "all": {
+    "hosts": [
+      "understyx-1",
+      "understyx-2",
+      "understyx-3"
+    ],
+    "vars": {
+      "ansible_host": "193.40.157.25",
+      "ansible_user": "ubuntu"
+    }
+  }
+}

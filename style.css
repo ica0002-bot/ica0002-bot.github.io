@@ -1,0 +1,53 @@
+details {
+    border: 1px solid #bbb;
+    padding: 0.5em 1em;
+}
+
+h1 {
+    padding: 0 0.2em;
+}
+
+pre {
+    margin: 0;
+}
+
+td, th {
+    border: 1px solid #bbb;
+    padding: 0.5em 1em;
+    text-align: center;
+    white-space: nowrap;
+}
+
+td.comment {
+    text-align: left;
+    white-space: normal;
+}
+
+th {
+    background-color: #ccc;
+}
+
+tr:nth-child(odd) {
+    background-color: #eee;
+}
+
+.fail {
+    color: #c00;
+}
+
+.footer {
+    padding: 1em 0.2em;
+}
+
+.index-item {
+    border: 1px solid #eee;
+    margin: 1em 0;
+    padding: 1em;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.ok {
+    color: #090;
+}

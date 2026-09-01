@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "hostvars": {
+      "emelykarh-1": {
+        "ansible_port": 32522
+      },
+      "emelykarh-2": {
+        "ansible_port": 46522
+      },
+      "emelykarh-3": {
+        "ansible_port": 33022
+      }
+    }
+  },
+  "all": {
+    "hosts": [
+      "emelykarh-1",
+      "emelykarh-2",
+      "emelykarh-3"
+    ],
+    "vars": {
+      "ansible_host": "193.40.157.25",
+      "ansible_user": "ubuntu"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "hostvars": {
+      "Siim-Alas-1": {
+        "ansible_port": 28222
+      },
+      "Siim-Alas-2": {
+        "ansible_port": 41222
+      },
+      "Siim-Alas-3": {
+        "ansible_port": 41422
+      }
+    }
+  },
+  "all": {
+    "hosts": [
+      "Siim-Alas-1",
+      "Siim-Alas-2",
+      "Siim-Alas-3"
+    ],
+    "vars": {
+      "ansible_host": "193.40.157.25",
+      "ansible_user": "ubuntu"
+    }
+  }
+}

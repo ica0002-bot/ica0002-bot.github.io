@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "hostvars": {
+      "cekundu-1": {
+        "ansible_port": 6722
+      },
+      "cekundu-2": {
+        "ansible_port": 8022
+      },
+      "cekundu-3": {
+        "ansible_port": 16122
+      }
+    }
+  },
+  "all": {
+    "hosts": [
+      "cekundu-1",
+      "cekundu-2",
+      "cekundu-3"
+    ],
+    "vars": {
+      "ansible_host": "193.40.157.25",
+      "ansible_user": "ubuntu"
+    }
+  }
+}

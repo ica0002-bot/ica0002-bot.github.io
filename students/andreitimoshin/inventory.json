@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "hostvars": {
+      "andreitimoshin-1": {
+        "ansible_port": 19322
+      },
+      "andreitimoshin-2": {
+        "ansible_port": 7622
+      },
+      "andreitimoshin-3": {
+        "ansible_port": 5622
+      }
+    }
+  },
+  "all": {
+    "hosts": [
+      "andreitimoshin-1",
+      "andreitimoshin-2",
+      "andreitimoshin-3"
+    ],
+    "vars": {
+      "ansible_host": "193.40.157.25",
+      "ansible_user": "ubuntu"
+    }
+  }
+}

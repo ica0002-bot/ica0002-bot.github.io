@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "hostvars": {
+      "patam2-1": {
+        "ansible_port": 16022
+      },
+      "patam2-2": {
+        "ansible_port": 18722
+      },
+      "patam2-3": {
+        "ansible_port": 22522
+      }
+    }
+  },
+  "all": {
+    "hosts": [
+      "patam2-1",
+      "patam2-2",
+      "patam2-3"
+    ],
+    "vars": {
+      "ansible_host": "193.40.157.25",
+      "ansible_user": "ubuntu"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "hostvars": {
+      "jevgeni-arefjev-3": {
+        "ansible_port": 37722
+      },
+      "jevgeni-arefjev-2": {
+        "ansible_port": 49222
+      }
+    }
+  },
+  "all": {
+    "hosts": [
+      "jevgeni-arefjev-3",
+      "jevgeni-arefjev-2",
+      "jevgeni-arefjev-3"
+    ],
+    "vars": {
+      "ansible_host": "193.40.157.25",
+      "ansible_user": "ubuntu"
+    }
+  }
+}
