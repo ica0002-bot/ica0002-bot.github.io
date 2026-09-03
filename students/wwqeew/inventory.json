@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "hostvars": {
+      "wwqeew-1": {
+        "ansible_port": 422
+      }
+    }
+  },
+  "all": {
+    "hosts": [
+      "wwqeew-1"
+    ],
+    "vars": {
+      "ansible_host": "193.40.157.25",
+      "ansible_user": "ubuntu"
+    }
+  }
+}

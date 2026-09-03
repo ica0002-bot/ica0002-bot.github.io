@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "hostvars": {
+      "h3llboychick-1": {
+        "ansible_port": 50622
+      }
+    }
+  },
+  "all": {
+    "hosts": [
+      "h3llboychick-1"
+    ],
+    "vars": {
+      "ansible_host": "193.40.157.25",
+      "ansible_user": "ubuntu"
+    }
+  }
+}

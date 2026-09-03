@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "hostvars": {
+      "madpaj-1": {
+        "ansible_port": 11022
+      }
+    }
+  },
+  "all": {
+    "hosts": [
+      "madpaj-1"
+    ],
+    "vars": {
+      "ansible_host": "193.40.157.25",
+      "ansible_user": "ubuntu"
+    }
+  }
+}

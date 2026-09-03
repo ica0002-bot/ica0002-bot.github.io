@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "hostvars": {
+      "magna413-1": {
+        "ansible_port": 17422
+      }
+    }
+  },
+  "all": {
+    "hosts": [
+      "magna413-1"
+    ],
+    "vars": {
+      "ansible_host": "193.40.157.25",
+      "ansible_user": "ubuntu"
+    }
+  }
+}

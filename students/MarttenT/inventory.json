@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "hostvars": {
+      "MarttenT-1": {
+        "ansible_port": 20022
+      }
+    }
+  },
+  "all": {
+    "hosts": [
+      "MarttenT-1"
+    ],
+    "vars": {
+      "ansible_host": "193.40.157.25",
+      "ansible_user": "ubuntu"
+    }
+  }
+}

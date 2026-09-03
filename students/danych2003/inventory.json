@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "hostvars": {
+      "danych2003-1": {
+        "ansible_port": 36922
+      }
+    }
+  },
+  "all": {
+    "hosts": [
+      "danych2003-1"
+    ],
+    "vars": {
+      "ansible_host": "193.40.157.25",
+      "ansible_user": "ubuntu"
+    }
+  }
+}
