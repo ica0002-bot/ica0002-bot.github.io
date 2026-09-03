@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "hostvars": {
+      "AljonaSavinova-1": {
+        "ansible_port": 9922
+      }
+    }
+  },
+  "all": {
+    "hosts": [
+      "AljonaSavinova-1"
+    ],
+    "vars": {
+      "ansible_host": "193.40.157.25",
+      "ansible_user": "ubuntu"
+    }
+  }
+}
