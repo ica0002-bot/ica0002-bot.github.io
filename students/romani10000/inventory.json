@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "hostvars": {
+      "romani10000-1": {
+        "ansible_port": 3522
+      }
+    }
+  },
+  "all": {
+    "hosts": [
+      "romani10000-1"
+    ],
+    "vars": {
+      "ansible_host": "193.40.157.25",
+      "ansible_host_key_checking": false,
+      "ansible_user": "ubuntu"
+    }
+  }
+}
