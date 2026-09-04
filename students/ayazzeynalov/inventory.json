@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "hostvars": {
+      "ayazzeynalov-1": {
+        "ansible_port": 42722
+      }
+    }
+  },
+  "all": {
+    "hosts": [
+      "ayazzeynalov-1"
+    ],
+    "vars": {
+      "ansible_host": "193.40.157.25",
+      "ansible_host_key_checking": false,
+      "ansible_user": "ubuntu"
+    }
+  }
+}
