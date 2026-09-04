@@ -2,7 +2,7 @@
   "_meta": {
     "hostvars": {
       "lupus117-1": {
-        "ansible_port": 42622
+        "ansible_port": 25222
       }
     }
   },

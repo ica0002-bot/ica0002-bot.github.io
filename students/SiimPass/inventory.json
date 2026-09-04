@@ -2,7 +2,7 @@
   "_meta": {
     "hostvars": {
       "SiimPass-1": {
-        "ansible_port": 2422
+        "ansible_port": 41522
       }
     }
   },

@@ -2,7 +2,7 @@
   "_meta": {
     "hostvars": {
       "f0ntx-1": {
-        "ansible_port": 35022
+        "ansible_port": 3122
       }
     }
   },
