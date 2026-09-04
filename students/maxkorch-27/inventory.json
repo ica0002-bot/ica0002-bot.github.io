@@ -1,14 +1,14 @@
 {
   "_meta": {
     "hostvars": {
-      "kavink887-1": {
-        "ansible_port": 39422
+      "maxkorch-27-1": {
+        "ansible_port": 33822
       }
     }
   },
   "all": {
     "hosts": [
-      "kavink887-1"
+      "maxkorch-27-1"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
