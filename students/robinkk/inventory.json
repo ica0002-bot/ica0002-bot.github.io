@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "hostvars": {
+      "robinkk-1": {
+        "ansible_port": 26722
+      }
+    }
+  },
+  "all": {
+    "hosts": [
+      "robinkk-1"
+    ],
+    "vars": {
+      "ansible_host": "193.40.157.25",
+      "ansible_host_key_checking": false,
+      "ansible_user": "ubuntu"
+    }
+  }
+}
