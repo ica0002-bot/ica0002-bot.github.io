@@ -2,7 +2,7 @@
   "_meta": {
     "hostvars": {
       "adapsss-1": {
-        "ansible_port": 33522
+        "ansible_port": 5122
       }
     }
   },

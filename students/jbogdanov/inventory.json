@@ -2,7 +2,7 @@
   "_meta": {
     "hostvars": {
       "jbogdanov-1": {
-        "ansible_port": 2622
+        "ansible_port": 49922
       }
     }
   },

@@ -2,7 +2,7 @@
   "_meta": {
     "hostvars": {
       "MacuV-1": {
-        "ansible_port": 46722
+        "ansible_port": 15522
       }
     }
   },

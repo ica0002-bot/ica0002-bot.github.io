@@ -2,7 +2,7 @@
   "_meta": {
     "hostvars": {
       "M-Sirelbu-1": {
-        "ansible_port": 33222
+        "ansible_port": 8222
       }
     }
   },

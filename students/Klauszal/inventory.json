@@ -2,7 +2,7 @@
   "_meta": {
     "hostvars": {
       "Klauszal-1": {
-        "ansible_port": 49822
+        "ansible_port": 13522
       }
     }
   },
