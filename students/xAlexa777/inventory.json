@@ -3,20 +3,12 @@
     "hostvars": {
       "xAlexa777-1": {
         "ansible_port": 37222
-      },
-      "xAlexa777-2": {
-        "ansible_port": 46622
-      },
-      "xAlexa777-3": {
-        "ansible_port": 39522
       }
     }
   },
   "all": {
     "hosts": [
-      "xAlexa777-1",
-      "xAlexa777-2",
-      "xAlexa777-3"
+      "xAlexa777-1"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
