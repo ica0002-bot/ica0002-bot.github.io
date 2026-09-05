@@ -3,20 +3,12 @@
     "hostvars": {
       "RobinRohilaid-1": {
         "ansible_port": 38222
-      },
-      "RobinRohilaid-2": {
-        "ansible_port": 27422
-      },
-      "RobinRohilaid-3": {
-        "ansible_port": 31022
       }
     }
   },
   "all": {
     "hosts": [
-      "RobinRohilaid-1",
-      "RobinRohilaid-2",
-      "RobinRohilaid-3"
+      "RobinRohilaid-1"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
