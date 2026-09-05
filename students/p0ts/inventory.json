@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "hostvars": {
+      "p0ts-1": {
+        "ansible_port": 34122
+      },
+      "p0ts-2": {
+        "ansible_port": 40222
+      }
+    }
+  },
+  "all": {
+    "hosts": [
+      "p0ts-1",
+      "p0ts-2"
+    ],
+    "vars": {
+      "ansible_host": "193.40.157.25",
+      "ansible_host_key_checking": false,
+      "ansible_user": "ubuntu"
+    }
+  }
+}
