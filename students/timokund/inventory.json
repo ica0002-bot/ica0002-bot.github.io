@@ -1,22 +1,14 @@
 {
   "_meta": {
     "hostvars": {
-      "timokund-1": {
-        "ansible_port": 20122
-      },
       "timokund-2": {
         "ansible_port": 23022
-      },
-      "timokund-3": {
-        "ansible_port": 1422
       }
     }
   },
   "all": {
     "hosts": [
-      "timokund-1",
-      "timokund-2",
-      "timokund-3"
+      "timokund-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
