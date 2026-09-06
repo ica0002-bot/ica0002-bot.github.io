@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "hostvars": {
+      "SinivaalSulev-1": {
+        "ansible_port": 27822
+      },
+      "SinivaalSulev-2": {
+        "ansible_port": 34722
+      },
+      "SinivaalSulev-3": {
+        "ansible_port": 46122
+      }
+    }
+  },
+  "all": {
+    "hosts": [
+      "SinivaalSulev-1",
+      "SinivaalSulev-2",
+      "SinivaalSulev-3"
+    ],
+    "vars": {
+      "ansible_host": "193.40.157.25",
+      "ansible_host_key_checking": false,
+      "ansible_user": "ubuntu"
+    }
+  }
+}
