@@ -1,14 +1,14 @@
 {
   "_meta": {
     "hostvars": {
-      "erikalt-1": {
-        "ansible_port": 31722
+      "dakaro123-1": {
+        "ansible_port": 20422
       }
     }
   },
   "all": {
     "hosts": [
-      "erikalt-1"
+      "dakaro123-1"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
