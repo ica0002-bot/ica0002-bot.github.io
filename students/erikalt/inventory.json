@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "hostvars": {
+      "erikalt-1": {
+        "ansible_port": 31722
+      },
+      "erikalt-2": {
+        "ansible_port": 30122
+      }
+    }
+  },
+  "all": {
+    "hosts": [
+      "erikalt-1",
+      "erikalt-2"
+    ],
+    "vars": {
+      "ansible_host": "193.40.157.25",
+      "ansible_host_key_checking": false,
+      "ansible_user": "ubuntu"
+    }
+  }
+}
