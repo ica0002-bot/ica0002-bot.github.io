@@ -15,5 +15,8 @@
       "ansible_host_key_checking": false,
       "ansible_user": "ubuntu"
     }
-  }
+  },
+  "web_servers": [
+    "dakaro123-1"
+  ]
 }
