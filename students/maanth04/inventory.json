@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "hostvars": {
+      "maanth04-1": {
+        "ansible_port": 4922
+      },
+      "maanth04-2": {
+        "ansible_port": 9722
+      }
+    }
+  },
+  "all": {
+    "hosts": [
+      "maanth04-1",
+      "maanth04-2"
+    ],
+    "vars": {
+      "ansible_host": "193.40.157.25",
+      "ansible_host_key_checking": false,
+      "ansible_user": "ubuntu"
+    }
+  },
+  "web_servers": [
+    "maanth04-1"
+  ]
+}
