@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "hostvars": {
+      "veviik-1": {
+        "ansible_port": 46822
+      }
+    }
+  },
+  "all": {
+    "hosts": [
+      "veviik-1"
+    ],
+    "vars": {
+      "ansible_host": "193.40.157.25",
+      "ansible_host_key_checking": false,
+      "ansible_user": "ubuntu"
+    }
+  },
+  "web_servers": [
+    "veviik-1"
+  ]
+}
