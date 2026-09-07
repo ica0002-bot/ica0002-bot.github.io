@@ -3,20 +3,12 @@
     "hostvars": {
       "timmutaja-2": {
         "ansible_port": 27322
-      },
-      "timmutaja-1": {
-        "ansible_port": 48522
-      },
-      "timmutaja-3": {
-        "ansible_port": 28722
       }
     }
   },
   "all": {
     "hosts": [
-      "timmutaja-2",
-      "timmutaja-1",
-      "timmutaja-3"
+      "timmutaja-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
