@@ -2,7 +2,7 @@
   "_meta": {
     "hostvars": {
       "TRG-Sten-1": {
-        "ansible_port": 16822
+        "ansible_port": 35222
       }
     }
   },

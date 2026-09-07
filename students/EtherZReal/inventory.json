@@ -2,7 +2,7 @@
   "_meta": {
     "hostvars": {
       "EtherZReal-1": {
-        "ansible_port": 40222
+        "ansible_port": 15322
       }
     }
   },
