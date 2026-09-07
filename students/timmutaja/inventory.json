@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "hostvars": {
+      "timmutaja-2": {
+        "ansible_port": 27322
+      },
+      "timmutaja-1": {
+        "ansible_port": 48522
+      },
+      "timmutaja-3": {
+        "ansible_port": 28722
+      }
+    }
+  },
+  "all": {
+    "hosts": [
+      "timmutaja-2",
+      "timmutaja-1",
+      "timmutaja-3"
+    ],
+    "vars": {
+      "ansible_host": "193.40.157.25",
+      "ansible_host_key_checking": false,
+      "ansible_user": "ubuntu"
+    }
+  },
+  "web_servers": [
+    "timmutaja-2"
+  ]
+}
