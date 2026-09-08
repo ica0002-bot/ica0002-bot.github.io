@@ -1,14 +1,18 @@
 {
   "_meta": {
     "hostvars": {
-      "leotaltech-1": {
-        "ansible_port": 14122
+      "ke-miil-1": {
+        "ansible_port": 36822
+      },
+      "ke-miil-2": {
+        "ansible_port": 34422
       }
     }
   },
   "all": {
     "hosts": [
-      "leotaltech-1"
+      "ke-miil-1",
+      "ke-miil-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -17,6 +21,6 @@
     }
   },
   "web_servers": [
-    "leotaltech-1"
+    "ke-miil-1"
   ]
 }
