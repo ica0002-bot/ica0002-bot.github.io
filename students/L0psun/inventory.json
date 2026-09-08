@@ -2,7 +2,7 @@
   "_meta": {
     "hostvars": {
       "L0psun-1": {
-        "ansible_port": 27522
+        "ansible_port": 14522
       }
     }
   },

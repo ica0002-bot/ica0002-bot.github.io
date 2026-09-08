@@ -2,7 +2,7 @@
   "_meta": {
     "hostvars": {
       "rezu-ee-1": {
-        "ansible_port": 29622
+        "ansible_port": 15022
       }
     }
   },
