@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "hostvars": {
+      "markusperemees-1": {
+        "ansible_port": 15822
+      },
+      "markusperemees-3": {
+        "ansible_port": 24922
+      },
+      "markusperemees-2": {
+        "ansible_port": 822
+      }
+    }
+  },
+  "all": {
+    "hosts": [
+      "markusperemees-1",
+      "markusperemees-3",
+      "markusperemees-2"
+    ],
+    "vars": {
+      "ansible_host": "193.40.157.25",
+      "ansible_host_key_checking": false,
+      "ansible_user": "ubuntu"
+    }
+  },
+  "web_servers": [
+    "markusperemees-1"
+  ]
+}
