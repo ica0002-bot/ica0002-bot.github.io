@@ -1,22 +1,14 @@
 {
   "_meta": {
-    "hostvars": {
-      "Sjinkwe-1": {
-        "ansible_port": 27422
-      }
-    }
+    "hostvars": {}
   },
   "all": {
-    "hosts": [
-      "Sjinkwe-1"
-    ],
+    "hosts": [],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
       "ansible_user": "ubuntu"
     }
   },
-  "web_servers": [
-    "Sjinkwe-1"
-  ]
+  "web_servers": []
 }

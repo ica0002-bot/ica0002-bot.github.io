@@ -2,7 +2,7 @@
   "_meta": {
     "hostvars": {
       "Uuuks-1": {
-        "ansible_port": 43122
+        "ansible_port": 17222
       }
     }
   },

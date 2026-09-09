@@ -2,7 +2,7 @@
   "_meta": {
     "hostvars": {
       "albera98-1": {
-        "ansible_port": 45622
+        "ansible_port": 5122
       }
     }
   },

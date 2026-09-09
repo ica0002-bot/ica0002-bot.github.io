@@ -2,7 +2,7 @@
   "_meta": {
     "hostvars": {
       "MarttenT-1": {
-        "ansible_port": 30722
+        "ansible_port": 19022
       }
     }
   },

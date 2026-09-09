@@ -2,7 +2,7 @@
   "_meta": {
     "hostvars": {
       "quikwert-1": {
-        "ansible_port": 48922
+        "ansible_port": 2322
       }
     }
   },
