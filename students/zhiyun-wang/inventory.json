@@ -1,22 +1,14 @@
 {
   "_meta": {
-    "hostvars": {
-      "zhiyun-wang-1": {
-        "ansible_port": 43922
-      }
-    }
+    "hostvars": {}
   },
   "all": {
-    "hosts": [
-      "zhiyun-wang-1"
-    ],
+    "hosts": [],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
       "ansible_user": "ubuntu"
     }
   },
-  "web_servers": [
-    "zhiyun-wang-1"
-  ]
+  "web_servers": []
 }
