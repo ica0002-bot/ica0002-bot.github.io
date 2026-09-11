@@ -2,7 +2,7 @@
   "_meta": {
     "hostvars": {
       "danych2003-1": {
-        "ansible_port": 9522
+        "ansible_port": 29622
       }
     }
   },

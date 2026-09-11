@@ -2,7 +2,7 @@
   "_meta": {
     "hostvars": {
       "rasmud-1": {
-        "ansible_port": 3022
+        "ansible_port": 48022
       }
     }
   },

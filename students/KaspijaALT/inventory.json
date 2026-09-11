@@ -2,7 +2,7 @@
   "_meta": {
     "hostvars": {
       "KaspijaALT-1": {
-        "ansible_port": 41422
+        "ansible_port": 19922
       }
     }
   },

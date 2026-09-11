@@ -2,7 +2,7 @@
   "_meta": {
     "hostvars": {
       "Cantfindmysocks-1": {
-        "ansible_port": 27322
+        "ansible_port": 10322
       }
     }
   },
