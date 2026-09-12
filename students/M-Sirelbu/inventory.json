@@ -1,22 +1,14 @@
 {
   "_meta": {
-    "hostvars": {
-      "M-Sirelbu-1": {
-        "ansible_port": 7722
-      }
-    }
+    "hostvars": {}
   },
   "all": {
-    "hosts": [
-      "M-Sirelbu-1"
-    ],
+    "hosts": [],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
       "ansible_user": "ubuntu"
     }
   },
-  "web_servers": [
-    "M-Sirelbu-1"
-  ]
+  "web_servers": []
 }

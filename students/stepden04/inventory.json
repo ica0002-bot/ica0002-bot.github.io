@@ -2,7 +2,7 @@
   "_meta": {
     "hostvars": {
       "stepden04-1": {
-        "ansible_port": 14422
+        "ansible_port": 35222
       }
     }
   },

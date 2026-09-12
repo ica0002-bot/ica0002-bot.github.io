@@ -1,22 +1,14 @@
 {
   "_meta": {
-    "hostvars": {
-      "jbogdanov-1": {
-        "ansible_port": 44922
-      }
-    }
+    "hostvars": {}
   },
   "all": {
-    "hosts": [
-      "jbogdanov-1"
-    ],
+    "hosts": [],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
       "ansible_user": "ubuntu"
     }
   },
-  "web_servers": [
-    "jbogdanov-1"
-  ]
+  "web_servers": []
 }

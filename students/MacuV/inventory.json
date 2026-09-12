@@ -1,22 +1,14 @@
 {
   "_meta": {
-    "hostvars": {
-      "MacuV-1": {
-        "ansible_port": 8022
-      }
-    }
+    "hostvars": {}
   },
   "all": {
-    "hosts": [
-      "MacuV-1"
-    ],
+    "hosts": [],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
       "ansible_user": "ubuntu"
     }
   },
-  "web_servers": [
-    "MacuV-1"
-  ]
+  "web_servers": []
 }
