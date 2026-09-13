@@ -2,7 +2,7 @@
   "_meta": {
     "hostvars": {
       "dakaro123-1": {
-        "ansible_port": 5322
+        "ansible_port": 38422
       }
     }
   },
