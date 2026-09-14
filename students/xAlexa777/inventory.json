@@ -1,22 +1,14 @@
 {
   "_meta": {
-    "hostvars": {
-      "xAlexa777-1": {
-        "ansible_port": 34422
-      }
-    }
+    "hostvars": {}
   },
   "all": {
-    "hosts": [
-      "xAlexa777-1"
-    ],
+    "hosts": [],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
       "ansible_user": "ubuntu"
     }
   },
-  "web_servers": [
-    "xAlexa777-1"
-  ]
+  "web_servers": []
 }

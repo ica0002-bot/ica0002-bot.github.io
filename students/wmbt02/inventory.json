@@ -2,7 +2,7 @@
   "_meta": {
     "hostvars": {
       "wmbt02-1": {
-        "ansible_port": 5322
+        "ansible_port": 33222
       }
     }
   },

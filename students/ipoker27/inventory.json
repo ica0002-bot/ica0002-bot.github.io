@@ -2,7 +2,7 @@
   "_meta": {
     "hostvars": {
       "ipoker27-1": {
-        "ansible_port": 24422
+        "ansible_port": 47522
       }
     }
   },
