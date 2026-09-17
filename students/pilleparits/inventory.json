@@ -3,12 +3,16 @@
     "hostvars": {
       "pilleparits-1": {
         "ansible_port": 36522
+      },
+      "pilleparits-2": {
+        "ansible_port": 42622
       }
     }
   },
   "all": {
     "hosts": [
-      "pilleparits-1"
+      "pilleparits-1",
+      "pilleparits-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
