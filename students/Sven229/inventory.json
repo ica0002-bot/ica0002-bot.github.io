@@ -1,6 +1,9 @@
 {
   "_meta": {
     "hostvars": {
+      "Sven229-2": {
+        "ansible_port": 12622
+      },
       "Sven229-1": {
         "ansible_port": 15522
       }
@@ -8,6 +11,7 @@
   },
   "all": {
     "hosts": [
+      "Sven229-2",
       "Sven229-1"
     ],
     "vars": {
@@ -17,6 +21,6 @@
     }
   },
   "web_servers": [
-    "Sven229-1"
+    "Sven229-2"
   ]
 }
