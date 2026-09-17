@@ -3,12 +3,16 @@
     "hostvars": {
       "markomson-1": {
         "ansible_port": 12222
+      },
+      "markomson-2": {
+        "ansible_port": 20122
       }
     }
   },
   "all": {
     "hosts": [
-      "markomson-1"
+      "markomson-1",
+      "markomson-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",

@@ -3,12 +3,16 @@
     "hostvars": {
       "Cantfindmysocks-1": {
         "ansible_port": 10322
+      },
+      "Cantfindmysocks-2": {
+        "ansible_port": 20222
       }
     }
   },
   "all": {
     "hosts": [
-      "Cantfindmysocks-1"
+      "Cantfindmysocks-1",
+      "Cantfindmysocks-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",

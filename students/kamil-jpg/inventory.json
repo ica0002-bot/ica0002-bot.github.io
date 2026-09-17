@@ -1,6 +1,9 @@
 {
   "_meta": {
     "hostvars": {
+      "kamil-jpg-2": {
+        "ansible_port": 14422
+      },
       "kamil-jpg-1": {
         "ansible_port": 19022
       }
@@ -8,6 +11,7 @@
   },
   "all": {
     "hosts": [
+      "kamil-jpg-2",
       "kamil-jpg-1"
     ],
     "vars": {
@@ -17,6 +21,6 @@
     }
   },
   "web_servers": [
-    "kamil-jpg-1"
+    "kamil-jpg-2"
   ]
 }

@@ -3,12 +3,16 @@
     "hostvars": {
       "ke-miil-1": {
         "ansible_port": 24222
+      },
+      "ke-miil-2": {
+        "ansible_port": 2622
       }
     }
   },
   "all": {
     "hosts": [
-      "ke-miil-1"
+      "ke-miil-1",
+      "ke-miil-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",

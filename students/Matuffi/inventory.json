@@ -1,6 +1,9 @@
 {
   "_meta": {
     "hostvars": {
+      "Matuffi-2": {
+        "ansible_port": 16522
+      },
       "Matuffi-1": {
         "ansible_port": 18622
       }
@@ -8,6 +11,7 @@
   },
   "all": {
     "hosts": [
+      "Matuffi-2",
       "Matuffi-1"
     ],
     "vars": {
@@ -17,6 +21,6 @@
     }
   },
   "web_servers": [
-    "Matuffi-1"
+    "Matuffi-2"
   ]
 }

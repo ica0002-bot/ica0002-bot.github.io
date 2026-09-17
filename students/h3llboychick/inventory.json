@@ -1,6 +1,9 @@
 {
   "_meta": {
     "hostvars": {
+      "h3llboychick-2": {
+        "ansible_port": 38322
+      },
       "h3llboychick-1": {
         "ansible_port": 27522
       }
@@ -8,6 +11,7 @@
   },
   "all": {
     "hosts": [
+      "h3llboychick-2",
       "h3llboychick-1"
     ],
     "vars": {
@@ -17,6 +21,6 @@
     }
   },
   "web_servers": [
-    "h3llboychick-1"
+    "h3llboychick-2"
   ]
 }

@@ -3,12 +3,16 @@
     "hostvars": {
       "ofstardustandthebeasts-1": {
         "ansible_port": 21822
+      },
+      "ofstardustandthebeasts-2": {
+        "ansible_port": 21922
       }
     }
   },
   "all": {
     "hosts": [
-      "ofstardustandthebeasts-1"
+      "ofstardustandthebeasts-1",
+      "ofstardustandthebeasts-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",

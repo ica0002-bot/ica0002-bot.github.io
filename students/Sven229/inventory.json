@@ -3,12 +3,16 @@
     "hostvars": {
       "Sven229-1": {
         "ansible_port": 15522
+      },
+      "Sven229-2": {
+        "ansible_port": 17222
       }
     }
   },
   "all": {
     "hosts": [
-      "Sven229-1"
+      "Sven229-1",
+      "Sven229-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",

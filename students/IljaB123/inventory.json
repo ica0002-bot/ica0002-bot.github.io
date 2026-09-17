@@ -3,12 +3,16 @@
     "hostvars": {
       "IljaB123-1": {
         "ansible_port": 19822
+      },
+      "IljaB123-2": {
+        "ansible_port": 2722
       }
     }
   },
   "all": {
     "hosts": [
-      "IljaB123-1"
+      "IljaB123-1",
+      "IljaB123-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",

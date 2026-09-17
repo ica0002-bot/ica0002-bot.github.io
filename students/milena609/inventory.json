@@ -3,12 +3,16 @@
     "hostvars": {
       "milena609-1": {
         "ansible_port": 16222
+      },
+      "milena609-2": {
+        "ansible_port": 8322
       }
     }
   },
   "all": {
     "hosts": [
-      "milena609-1"
+      "milena609-1",
+      "milena609-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",

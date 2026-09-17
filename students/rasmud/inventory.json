@@ -3,12 +3,16 @@
     "hostvars": {
       "rasmud-1": {
         "ansible_port": 45122
+      },
+      "rasmud-2": {
+        "ansible_port": 33022
       }
     }
   },
   "all": {
     "hosts": [
-      "rasmud-1"
+      "rasmud-1",
+      "rasmud-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",

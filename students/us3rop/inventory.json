@@ -1,6 +1,9 @@
 {
   "_meta": {
     "hostvars": {
+      "us3rop-2": {
+        "ansible_port": 11222
+      },
       "us3rop-1": {
         "ansible_port": 22222
       }
@@ -8,6 +11,7 @@
   },
   "all": {
     "hosts": [
+      "us3rop-2",
       "us3rop-1"
     ],
     "vars": {
@@ -17,6 +21,6 @@
     }
   },
   "web_servers": [
-    "us3rop-1"
+    "us3rop-2"
   ]
 }

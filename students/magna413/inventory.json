@@ -3,12 +3,16 @@
     "hostvars": {
       "magna413-1": {
         "ansible_port": 13222
+      },
+      "magna413-2": {
+        "ansible_port": 21522
       }
     }
   },
   "all": {
     "hosts": [
-      "magna413-1"
+      "magna413-1",
+      "magna413-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",

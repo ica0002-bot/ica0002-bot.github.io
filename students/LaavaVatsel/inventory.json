@@ -1,6 +1,9 @@
 {
   "_meta": {
     "hostvars": {
+      "LaavaVatsel-2": {
+        "ansible_port": 42422
+      },
       "LaavaVatsel-1": {
         "ansible_port": 28322
       }
@@ -8,6 +11,7 @@
   },
   "all": {
     "hosts": [
+      "LaavaVatsel-2",
       "LaavaVatsel-1"
     ],
     "vars": {
@@ -17,6 +21,6 @@
     }
   },
   "web_servers": [
-    "LaavaVatsel-1"
+    "LaavaVatsel-2"
   ]
 }

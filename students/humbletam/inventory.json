@@ -3,12 +3,16 @@
     "hostvars": {
       "humbletam-1": {
         "ansible_port": 43622
+      },
+      "humbletam-2": {
+        "ansible_port": 31722
       }
     }
   },
   "all": {
     "hosts": [
-      "humbletam-1"
+      "humbletam-1",
+      "humbletam-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",

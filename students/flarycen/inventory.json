@@ -3,12 +3,16 @@
     "hostvars": {
       "flarycen-1": {
         "ansible_port": 26722
+      },
+      "flarycen-2": {
+        "ansible_port": 26322
       }
     }
   },
   "all": {
     "hosts": [
-      "flarycen-1"
+      "flarycen-1",
+      "flarycen-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",

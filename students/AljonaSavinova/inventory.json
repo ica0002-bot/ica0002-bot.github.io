@@ -3,12 +3,16 @@
     "hostvars": {
       "AljonaSavinova-1": {
         "ansible_port": 1622
+      },
+      "AljonaSavinova-2": {
+        "ansible_port": 25022
       }
     }
   },
   "all": {
     "hosts": [
-      "AljonaSavinova-1"
+      "AljonaSavinova-1",
+      "AljonaSavinova-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
