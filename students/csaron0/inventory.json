@@ -3,12 +3,16 @@
     "hostvars": {
       "csaron0-1": {
         "ansible_port": 20022
+      },
+      "csaron0-2": {
+        "ansible_port": 6122
       }
     }
   },
   "all": {
     "hosts": [
-      "csaron0-1"
+      "csaron0-1",
+      "csaron0-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
