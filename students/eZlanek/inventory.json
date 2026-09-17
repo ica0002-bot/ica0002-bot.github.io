@@ -3,12 +3,16 @@
     "hostvars": {
       "eZlanek-1": {
         "ansible_port": 14322
+      },
+      "eZlanek-2": {
+        "ansible_port": 8522
       }
     }
   },
   "all": {
     "hosts": [
-      "eZlanek-1"
+      "eZlanek-1",
+      "eZlanek-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
