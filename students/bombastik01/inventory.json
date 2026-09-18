@@ -2,7 +2,7 @@
   "_meta": {
     "hostvars": {
       "bombastik01-1": {
-        "ansible_port": 49322
+        "ansible_port": 8022
       }
     }
   },

@@ -1,18 +1,18 @@
 {
   "_meta": {
     "hostvars": {
-      "Roman-S-IAAB33-2": {
-        "ansible_port": 46422
-      },
       "Roman-S-IAAB33-1": {
-        "ansible_port": 29222
+        "ansible_port": 20222
+      },
+      "Roman-S-IAAB33-2": {
+        "ansible_port": 25022
       }
     }
   },
   "all": {
     "hosts": [
-      "Roman-S-IAAB33-2",
-      "Roman-S-IAAB33-1"
+      "Roman-S-IAAB33-1",
+      "Roman-S-IAAB33-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -21,6 +21,6 @@
     }
   },
   "web_servers": [
-    "Roman-S-IAAB33-2"
+    "Roman-S-IAAB33-1"
   ]
 }

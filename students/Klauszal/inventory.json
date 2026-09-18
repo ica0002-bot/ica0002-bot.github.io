@@ -1,18 +1,18 @@
 {
   "_meta": {
     "hostvars": {
-      "Klauszal-2": {
-        "ansible_port": 17522
-      },
       "Klauszal-1": {
-        "ansible_port": 22522
+        "ansible_port": 39222
+      },
+      "Klauszal-2": {
+        "ansible_port": 46722
       }
     }
   },
   "all": {
     "hosts": [
-      "Klauszal-2",
-      "Klauszal-1"
+      "Klauszal-1",
+      "Klauszal-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -21,6 +21,6 @@
     }
   },
   "web_servers": [
-    "Klauszal-2"
+    "Klauszal-1"
   ]
 }

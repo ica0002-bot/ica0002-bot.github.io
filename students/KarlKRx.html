@@ -14,7 +14,7 @@
 <table>
 <tr><th>Name</th><th>Internal IP</th><th>Public SSH</th><th>Public URL</th></tr>
 
-<tr><td>KarlKRx-1</td><td>192.168.42.217</td><td>ubuntu@193.40.157.25 port 21722</td><td><a href="http://193.40.157.25:21780">http://193.40.157.25:21780</a></td></tr>
+<tr><td>KarlKRx-1</td><td>192.168.43.99</td><td>ubuntu@193.40.157.25 port 35522</td><td><a href="http://193.40.157.25:35580">http://193.40.157.25:35580</a></td></tr>
 
 <tr><td colspan="5">Complete <a href="https://github.com/romankuchin/ica0002-2026/tree/main/03-web-app">lab 3 tasks</a> to get your second machine.</td></tr>
 
@@ -47,7 +47,7 @@
 <table>
 <tr><th>Service</th><th>KarlKRx-1</th><th>Status</th></tr>
 
-<tr><td>Web server</td><td><a href="http://193.40.157.25:21780">http://193.40.157.25:21780</a></td><td class="ok">1/1 up</td></tr>
+<tr><td>Web server</td><td>---</td><td class="fail">0/1 up</td></tr>
 </table>
 <h2>Git repository checks</h2>
 <ul>
@@ -55,13 +55,12 @@
 <li><span class="ok">Ok</span>: <code>ansible.cfg</code> found.</li>
 <li><span class="ok">Ok</span>: <code>hosts</code> found.</li>
 <li><span class="ok">Ok</span>: <code>infra.yaml</code> found.</li>
-<li><span class="fail">Problem</span>: <code>roles/agama/tasks/main.yaml</code> is missing; labs not completed: 3.</li>
+<li><span class="ok">Ok</span>: <code>roles/agama/tasks/main.yaml</code> found.</li>
 <li><span class="ok">Ok</span>: <code>roles/init/tasks/main.yaml</code> found.</li>
-<li><span class="fail">Problem</span>: <code>roles/nginx/tasks/main.yaml</code> is missing; labs not completed: 2, 3.</li>
-<li><span class="fail">Problem</span>: <code>roles/uwsgi/tasks/main.yaml</code> is missing; labs not completed: 3.</li>
+<li><span class="ok">Ok</span>: <code>roles/nginx/tasks/main.yaml</code> found.</li>
+<li><span class="ok">Ok</span>: <code>roles/uwsgi/tasks/main.yaml</code> found.</li>
 </ul>
 
-<p>A few problems found.</p>
-<p>Labs not accepted: 2, 3.</p>
-<p>Last checked on Sep 18 at 00:46 UTC.</p>
+<p>All good so far.</p>
+<p>Last checked on Sep 18 at 03:23 UTC.</p>
 </body></html>

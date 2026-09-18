@@ -1,18 +1,18 @@
 {
   "_meta": {
     "hostvars": {
-      "SiimPass-2": {
-        "ansible_port": 1022
-      },
       "SiimPass-1": {
-        "ansible_port": 17822
+        "ansible_port": 40222
+      },
+      "SiimPass-2": {
+        "ansible_port": 49322
       }
     }
   },
   "all": {
     "hosts": [
-      "SiimPass-2",
-      "SiimPass-1"
+      "SiimPass-1",
+      "SiimPass-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -21,6 +21,6 @@
     }
   },
   "web_servers": [
-    "SiimPass-2"
+    "SiimPass-1"
   ]
 }

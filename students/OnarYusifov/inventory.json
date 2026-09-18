@@ -1,22 +1,14 @@
 {
   "_meta": {
-    "hostvars": {
-      "OnarYusifov-1": {
-        "ansible_port": 6622
-      }
-    }
+    "hostvars": {}
   },
   "all": {
-    "hosts": [
-      "OnarYusifov-1"
-    ],
+    "hosts": [],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
       "ansible_user": "ubuntu"
     }
   },
-  "web_servers": [
-    "OnarYusifov-1"
-  ]
+  "web_servers": []
 }
