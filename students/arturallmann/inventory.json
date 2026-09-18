@@ -3,12 +3,16 @@
     "hostvars": {
       "arturallmann-1": {
         "ansible_port": 36022
+      },
+      "arturallmann-2": {
+        "ansible_port": 32122
       }
     }
   },
   "all": {
     "hosts": [
-      "arturallmann-1"
+      "arturallmann-1",
+      "arturallmann-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
