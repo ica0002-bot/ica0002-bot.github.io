@@ -1,6 +1,9 @@
 {
   "_meta": {
     "hostvars": {
+      "KarlKRx-2": {
+        "ansible_port": 42322
+      },
       "KarlKRx-1": {
         "ansible_port": 35522
       }
@@ -8,6 +11,7 @@
   },
   "all": {
     "hosts": [
+      "KarlKRx-2",
       "KarlKRx-1"
     ],
     "vars": {
@@ -17,6 +21,6 @@
     }
   },
   "web_servers": [
-    "KarlKRx-1"
+    "KarlKRx-2"
   ]
 }
