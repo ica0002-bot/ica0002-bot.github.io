@@ -3,12 +3,16 @@
     "hostvars": {
       "ErikSent-1": {
         "ansible_port": 35822
+      },
+      "ErikSent-2": {
+        "ansible_port": 42722
       }
     }
   },
   "all": {
     "hosts": [
-      "ErikSent-1"
+      "ErikSent-1",
+      "ErikSent-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
