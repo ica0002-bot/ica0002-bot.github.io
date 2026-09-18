@@ -1,6 +1,9 @@
 {
   "_meta": {
     "hostvars": {
+      "Alirza1-2": {
+        "ansible_port": 41122
+      },
       "Alirza1-1": {
         "ansible_port": 27322
       }
@@ -8,6 +11,7 @@
   },
   "all": {
     "hosts": [
+      "Alirza1-2",
       "Alirza1-1"
     ],
     "vars": {
@@ -17,6 +21,6 @@
     }
   },
   "web_servers": [
-    "Alirza1-1"
+    "Alirza1-2"
   ]
 }
