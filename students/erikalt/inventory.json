@@ -3,12 +3,16 @@
     "hostvars": {
       "erikalt-1": {
         "ansible_port": 37622
+      },
+      "erikalt-2": {
+        "ansible_port": 38822
       }
     }
   },
   "all": {
     "hosts": [
-      "erikalt-1"
+      "erikalt-1",
+      "erikalt-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
