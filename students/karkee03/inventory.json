@@ -3,12 +3,16 @@
     "hostvars": {
       "karkee03-1": {
         "ansible_port": 37022
+      },
+      "karkee03-2": {
+        "ansible_port": 32222
       }
     }
   },
   "all": {
     "hosts": [
-      "karkee03-1"
+      "karkee03-1",
+      "karkee03-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
