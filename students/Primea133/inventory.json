@@ -1,22 +1,14 @@
 {
   "_meta": {
-    "hostvars": {
-      "Primea133-1": {
-        "ansible_port": 13622
-      }
-    }
+    "hostvars": {}
   },
   "all": {
-    "hosts": [
-      "Primea133-1"
-    ],
+    "hosts": [],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
       "ansible_user": "ubuntu"
     }
   },
-  "web_servers": [
-    "Primea133-1"
-  ]
+  "web_servers": []
 }

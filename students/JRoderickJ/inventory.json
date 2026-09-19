@@ -1,22 +1,14 @@
 {
   "_meta": {
-    "hostvars": {
-      "JRoderickJ-1": {
-        "ansible_port": 15822
-      }
-    }
+    "hostvars": {}
   },
   "all": {
-    "hosts": [
-      "JRoderickJ-1"
-    ],
+    "hosts": [],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
       "ansible_user": "ubuntu"
     }
   },
-  "web_servers": [
-    "JRoderickJ-1"
-  ]
+  "web_servers": []
 }

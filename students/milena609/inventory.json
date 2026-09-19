@@ -2,14 +2,17 @@
   "_meta": {
     "hostvars": {
       "milena609-2": {
-        "ansible_port": 28922
+        "ansible_port": 16322
+      },
+      "milena609-1": {
+        "ansible_port": 18222
       }
     }
   },
   "all": {
     "hosts": [
       "milena609-2",
-      "milena609-2"
+      "milena609-1"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",

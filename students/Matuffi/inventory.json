@@ -1,18 +1,18 @@
 {
   "_meta": {
     "hostvars": {
-      "Matuffi-2": {
-        "ansible_port": 27622
-      },
       "Matuffi-1": {
-        "ansible_port": 31522
+        "ansible_port": 14422
+      },
+      "Matuffi-2": {
+        "ansible_port": 9722
       }
     }
   },
   "all": {
     "hosts": [
-      "Matuffi-2",
-      "Matuffi-1"
+      "Matuffi-1",
+      "Matuffi-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -21,6 +21,6 @@
     }
   },
   "web_servers": [
-    "Matuffi-2"
+    "Matuffi-1"
   ]
 }

@@ -1,18 +1,18 @@
 {
   "_meta": {
     "hostvars": {
-      "rasble-2": {
-        "ansible_port": 17022
-      },
       "rasble-1": {
-        "ansible_port": 7922
+        "ansible_port": 38822
+      },
+      "rasble-2": {
+        "ansible_port": 42522
       }
     }
   },
   "all": {
     "hosts": [
-      "rasble-2",
-      "rasble-1"
+      "rasble-1",
+      "rasble-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -21,6 +21,6 @@
     }
   },
   "web_servers": [
-    "rasble-2"
+    "rasble-1"
   ]
 }

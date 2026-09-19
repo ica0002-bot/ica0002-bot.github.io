@@ -1,18 +1,18 @@
 {
   "_meta": {
     "hostvars": {
-      "mt26pr-2": {
-        "ansible_port": 29622
-      },
       "mt26pr-1": {
-        "ansible_port": 31122
+        "ansible_port": 15322
+      },
+      "mt26pr-2": {
+        "ansible_port": 7922
       }
     }
   },
   "all": {
     "hosts": [
-      "mt26pr-2",
-      "mt26pr-1"
+      "mt26pr-1",
+      "mt26pr-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -21,6 +21,6 @@
     }
   },
   "web_servers": [
-    "mt26pr-2"
+    "mt26pr-1"
   ]
 }

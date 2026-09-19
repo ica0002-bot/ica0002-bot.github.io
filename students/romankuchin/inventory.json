@@ -1,18 +1,18 @@
 {
   "_meta": {
     "hostvars": {
-      "romankuchin-1": {
-        "ansible_port": 23522
-      },
       "romankuchin-2": {
-        "ansible_port": 6122
+        "ansible_port": 42322
+      },
+      "romankuchin-1": {
+        "ansible_port": 48622
       }
     }
   },
   "all": {
     "hosts": [
-      "romankuchin-1",
-      "romankuchin-2"
+      "romankuchin-2",
+      "romankuchin-1"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -21,6 +21,6 @@
     }
   },
   "web_servers": [
-    "romankuchin-1"
+    "romankuchin-2"
   ]
 }

@@ -1,18 +1,18 @@
 {
   "_meta": {
     "hostvars": {
-      "hudolejev-1": {
-        "ansible_port": 24322
-      },
       "hudolejev-2": {
-        "ansible_port": 3422
+        "ansible_port": 49822
+      },
+      "hudolejev-1": {
+        "ansible_port": 29222
       }
     }
   },
   "all": {
     "hosts": [
-      "hudolejev-1",
-      "hudolejev-2"
+      "hudolejev-2",
+      "hudolejev-1"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -21,6 +21,6 @@
     }
   },
   "web_servers": [
-    "hudolejev-1"
+    "hudolejev-2"
   ]
 }

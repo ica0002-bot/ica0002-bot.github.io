@@ -1,18 +1,18 @@
 {
   "_meta": {
     "hostvars": {
-      "RemuSalminen-2": {
-        "ansible_port": 11722
-      },
       "RemuSalminen-1": {
-        "ansible_port": 4822
+        "ansible_port": 45922
+      },
+      "RemuSalminen-2": {
+        "ansible_port": 48422
       }
     }
   },
   "all": {
     "hosts": [
-      "RemuSalminen-2",
-      "RemuSalminen-1"
+      "RemuSalminen-1",
+      "RemuSalminen-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -21,6 +21,6 @@
     }
   },
   "web_servers": [
-    "RemuSalminen-2"
+    "RemuSalminen-1"
   ]
 }

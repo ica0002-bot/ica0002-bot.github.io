@@ -1,18 +1,18 @@
 {
   "_meta": {
     "hostvars": {
-      "wwqeew-2": {
-        "ansible_port": 37822
-      },
       "wwqeew-1": {
-        "ansible_port": 50722
+        "ansible_port": 12122
+      },
+      "wwqeew-2": {
+        "ansible_port": 17422
       }
     }
   },
   "all": {
     "hosts": [
-      "wwqeew-2",
-      "wwqeew-1"
+      "wwqeew-1",
+      "wwqeew-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -21,6 +21,6 @@
     }
   },
   "web_servers": [
-    "wwqeew-2"
+    "wwqeew-1"
   ]
 }

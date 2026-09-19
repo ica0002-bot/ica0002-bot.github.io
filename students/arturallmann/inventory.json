@@ -1,18 +1,18 @@
 {
   "_meta": {
     "hostvars": {
-      "arturallmann-1": {
-        "ansible_port": 36022
-      },
       "arturallmann-2": {
-        "ansible_port": 32122
+        "ansible_port": 10522
+      },
+      "arturallmann-1": {
+        "ansible_port": 622
       }
     }
   },
   "all": {
     "hosts": [
-      "arturallmann-1",
-      "arturallmann-2"
+      "arturallmann-2",
+      "arturallmann-1"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -21,6 +21,6 @@
     }
   },
   "web_servers": [
-    "arturallmann-1"
+    "arturallmann-2"
   ]
 }

@@ -1,18 +1,18 @@
 {
   "_meta": {
     "hostvars": {
-      "pilleparits-1": {
-        "ansible_port": 13222
-      },
       "pilleparits-2": {
-        "ansible_port": 1422
+        "ansible_port": 46122
+      },
+      "pilleparits-1": {
+        "ansible_port": 34522
       }
     }
   },
   "all": {
     "hosts": [
-      "pilleparits-1",
-      "pilleparits-2"
+      "pilleparits-2",
+      "pilleparits-1"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -21,6 +21,6 @@
     }
   },
   "web_servers": [
-    "pilleparits-1"
+    "pilleparits-2"
   ]
 }
