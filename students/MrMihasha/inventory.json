@@ -3,12 +3,16 @@
     "hostvars": {
       "MrMihasha-1": {
         "ansible_port": 18622
+      },
+      "MrMihasha-2": {
+        "ansible_port": 23622
       }
     }
   },
   "all": {
     "hosts": [
-      "MrMihasha-1"
+      "MrMihasha-1",
+      "MrMihasha-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
