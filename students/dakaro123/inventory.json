@@ -3,12 +3,16 @@
     "hostvars": {
       "dakaro123-1": {
         "ansible_port": 38222
+      },
+      "dakaro123-2": {
+        "ansible_port": 31322
       }
     }
   },
   "all": {
     "hosts": [
-      "dakaro123-1"
+      "dakaro123-1",
+      "dakaro123-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
