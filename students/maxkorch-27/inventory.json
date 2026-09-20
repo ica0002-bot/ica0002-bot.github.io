@@ -3,12 +3,16 @@
     "hostvars": {
       "maxkorch-27-1": {
         "ansible_port": 33022
+      },
+      "maxkorch-27-2": {
+        "ansible_port": 49322
       }
     }
   },
   "all": {
     "hosts": [
-      "maxkorch-27-1"
+      "maxkorch-27-1",
+      "maxkorch-27-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -16,7 +20,9 @@
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [],
+  "db_servers": [
+    "maxkorch-27-2"
+  ],
   "web_servers": [
     "maxkorch-27-1"
   ]
