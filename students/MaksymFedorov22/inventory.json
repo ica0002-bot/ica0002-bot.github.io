@@ -2,7 +2,7 @@
   "_meta": {
     "hostvars": {
       "MaksymFedorov22-1": {
-        "ansible_port": 12822
+        "ansible_port": 33822
       }
     }
   },

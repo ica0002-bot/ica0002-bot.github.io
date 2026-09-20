@@ -1,18 +1,18 @@
 {
   "_meta": {
     "hostvars": {
-      "Cantfindmysocks-1": {
-        "ansible_port": 3822
-      },
       "Cantfindmysocks-2": {
-        "ansible_port": 4222
+        "ansible_port": 36922
+      },
+      "Cantfindmysocks-1": {
+        "ansible_port": 43722
       }
     }
   },
   "all": {
     "hosts": [
-      "Cantfindmysocks-1",
-      "Cantfindmysocks-2"
+      "Cantfindmysocks-2",
+      "Cantfindmysocks-1"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -21,6 +21,6 @@
     }
   },
   "web_servers": [
-    "Cantfindmysocks-1"
+    "Cantfindmysocks-2"
   ]
 }

@@ -1,18 +1,18 @@
 {
   "_meta": {
     "hostvars": {
-      "FLAK-ZOSO-2": {
-        "ansible_port": 35722
-      },
       "FLAK-ZOSO-1": {
-        "ansible_port": 39522
+        "ansible_port": 12222
+      },
+      "FLAK-ZOSO-2": {
+        "ansible_port": 6522
       }
     }
   },
   "all": {
     "hosts": [
-      "FLAK-ZOSO-2",
-      "FLAK-ZOSO-1"
+      "FLAK-ZOSO-1",
+      "FLAK-ZOSO-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -21,6 +21,6 @@
     }
   },
   "web_servers": [
-    "FLAK-ZOSO-2"
+    "FLAK-ZOSO-1"
   ]
 }

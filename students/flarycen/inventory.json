@@ -1,18 +1,18 @@
 {
   "_meta": {
     "hostvars": {
-      "flarycen-2": {
-        "ansible_port": 46222
-      },
       "flarycen-1": {
-        "ansible_port": 50022
+        "ansible_port": 15522
+      },
+      "flarycen-2": {
+        "ansible_port": 8322
       }
     }
   },
   "all": {
     "hosts": [
-      "flarycen-2",
-      "flarycen-1"
+      "flarycen-1",
+      "flarycen-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -21,6 +21,6 @@
     }
   },
   "web_servers": [
-    "flarycen-2"
+    "flarycen-1"
   ]
 }

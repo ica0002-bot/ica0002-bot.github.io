@@ -1,18 +1,18 @@
 {
   "_meta": {
     "hostvars": {
-      "csaron0-2": {
-        "ansible_port": 19122
-      },
       "csaron0-1": {
-        "ansible_port": 24922
+        "ansible_port": 44322
+      },
+      "csaron0-2": {
+        "ansible_port": 44422
       }
     }
   },
   "all": {
     "hosts": [
-      "csaron0-2",
-      "csaron0-1"
+      "csaron0-1",
+      "csaron0-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -21,6 +21,6 @@
     }
   },
   "web_servers": [
-    "csaron0-2"
+    "csaron0-1"
   ]
 }

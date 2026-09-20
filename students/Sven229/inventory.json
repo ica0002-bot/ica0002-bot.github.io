@@ -1,18 +1,18 @@
 {
   "_meta": {
     "hostvars": {
-      "Sven229-2": {
-        "ansible_port": 16022
-      },
       "Sven229-1": {
-        "ansible_port": 17522
+        "ansible_port": 48022
+      },
+      "Sven229-2": {
+        "ansible_port": 35422
       }
     }
   },
   "all": {
     "hosts": [
-      "Sven229-2",
-      "Sven229-1"
+      "Sven229-1",
+      "Sven229-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -21,6 +21,6 @@
     }
   },
   "web_servers": [
-    "Sven229-2"
+    "Sven229-1"
   ]
 }

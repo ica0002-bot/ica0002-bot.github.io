@@ -1,18 +1,18 @@
 {
   "_meta": {
     "hostvars": {
-      "arlekin40000-2": {
-        "ansible_port": 13222
-      },
       "arlekin40000-1": {
-        "ansible_port": 5322
+        "ansible_port": 39022
+      },
+      "arlekin40000-2": {
+        "ansible_port": 27322
       }
     }
   },
   "all": {
     "hosts": [
-      "arlekin40000-2",
-      "arlekin40000-1"
+      "arlekin40000-1",
+      "arlekin40000-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -21,6 +21,6 @@
     }
   },
   "web_servers": [
-    "arlekin40000-2"
+    "arlekin40000-1"
   ]
 }

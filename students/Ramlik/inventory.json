@@ -1,18 +1,18 @@
 {
   "_meta": {
     "hostvars": {
-      "Ramlik-2": {
-        "ansible_port": 34622
-      },
       "Ramlik-1": {
-        "ansible_port": 35522
+        "ansible_port": 17222
+      },
+      "Ramlik-2": {
+        "ansible_port": 20222
       }
     }
   },
   "all": {
     "hosts": [
-      "Ramlik-2",
-      "Ramlik-1"
+      "Ramlik-1",
+      "Ramlik-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -21,6 +21,6 @@
     }
   },
   "web_servers": [
-    "Ramlik-2"
+    "Ramlik-1"
   ]
 }

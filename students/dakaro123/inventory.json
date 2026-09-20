@@ -1,18 +1,18 @@
 {
   "_meta": {
     "hostvars": {
-      "dakaro123-1": {
-        "ansible_port": 38222
-      },
       "dakaro123-2": {
-        "ansible_port": 31322
+        "ansible_port": 3422
+      },
+      "dakaro123-1": {
+        "ansible_port": 8522
       }
     }
   },
   "all": {
     "hosts": [
-      "dakaro123-1",
-      "dakaro123-2"
+      "dakaro123-2",
+      "dakaro123-1"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -21,6 +21,6 @@
     }
   },
   "web_servers": [
-    "dakaro123-1"
+    "dakaro123-2"
   ]
 }

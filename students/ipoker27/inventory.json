@@ -1,18 +1,18 @@
 {
   "_meta": {
     "hostvars": {
-      "ipoker27-2": {
-        "ansible_port": 15822
-      },
       "ipoker27-1": {
-        "ansible_port": 23822
+        "ansible_port": 37122
+      },
+      "ipoker27-2": {
+        "ansible_port": 26522
       }
     }
   },
   "all": {
     "hosts": [
-      "ipoker27-2",
-      "ipoker27-1"
+      "ipoker27-1",
+      "ipoker27-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -21,6 +21,6 @@
     }
   },
   "web_servers": [
-    "ipoker27-2"
+    "ipoker27-1"
   ]
 }

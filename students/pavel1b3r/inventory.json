@@ -1,18 +1,18 @@
 {
   "_meta": {
     "hostvars": {
-      "pavel1b3r-2": {
-        "ansible_port": 45422
-      },
       "pavel1b3r-1": {
-        "ansible_port": 45622
+        "ansible_port": 17422
+      },
+      "pavel1b3r-2": {
+        "ansible_port": 24022
       }
     }
   },
   "all": {
     "hosts": [
-      "pavel1b3r-2",
-      "pavel1b3r-1"
+      "pavel1b3r-1",
+      "pavel1b3r-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -21,6 +21,6 @@
     }
   },
   "web_servers": [
-    "pavel1b3r-2"
+    "pavel1b3r-1"
   ]
 }

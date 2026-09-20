@@ -1,22 +1,14 @@
 {
   "_meta": {
-    "hostvars": {
-      "ariism274-1": {
-        "ansible_port": 22522
-      }
-    }
+    "hostvars": {}
   },
   "all": {
-    "hosts": [
-      "ariism274-1"
-    ],
+    "hosts": [],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
       "ansible_user": "ubuntu"
     }
   },
-  "web_servers": [
-    "ariism274-1"
-  ]
+  "web_servers": []
 }

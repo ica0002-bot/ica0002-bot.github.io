@@ -1,22 +1,14 @@
 {
   "_meta": {
-    "hostvars": {
-      "lupus117-1": {
-        "ansible_port": 43622
-      }
-    }
+    "hostvars": {}
   },
   "all": {
-    "hosts": [
-      "lupus117-1"
-    ],
+    "hosts": [],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
       "ansible_user": "ubuntu"
     }
   },
-  "web_servers": [
-    "lupus117-1"
-  ]
+  "web_servers": []
 }
