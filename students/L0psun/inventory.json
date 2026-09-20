@@ -3,12 +3,16 @@
     "hostvars": {
       "L0psun-1": {
         "ansible_port": 11922
+      },
+      "L0psun-2": {
+        "ansible_port": 14122
       }
     }
   },
   "all": {
     "hosts": [
-      "L0psun-1"
+      "L0psun-1",
+      "L0psun-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -16,7 +20,9 @@
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [],
+  "db_servers": [
+    "L0psun-2"
+  ],
   "web_servers": [
     "L0psun-1"
   ]
