@@ -1,18 +1,18 @@
 {
   "_meta": {
     "hostvars": {
-      "HenrikTimmu-2": {
-        "ansible_port": 11722
-      },
       "HenrikTimmu-1": {
         "ansible_port": 14022
+      },
+      "HenrikTimmu-2": {
+        "ansible_port": 11722
       }
     }
   },
   "all": {
     "hosts": [
-      "HenrikTimmu-2",
-      "HenrikTimmu-1"
+      "HenrikTimmu-1",
+      "HenrikTimmu-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -21,6 +21,6 @@
     }
   },
   "web_servers": [
-    "HenrikTimmu-2"
+    "HenrikTimmu-1"
   ]
 }

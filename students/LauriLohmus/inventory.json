@@ -1,18 +1,18 @@
 {
   "_meta": {
     "hostvars": {
-      "LauriLohmus-2": {
-        "ansible_port": 17922
-      },
       "LauriLohmus-1": {
         "ansible_port": 5222
+      },
+      "LauriLohmus-2": {
+        "ansible_port": 17922
       }
     }
   },
   "all": {
     "hosts": [
-      "LauriLohmus-2",
-      "LauriLohmus-1"
+      "LauriLohmus-1",
+      "LauriLohmus-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -21,6 +21,6 @@
     }
   },
   "web_servers": [
-    "LauriLohmus-2"
+    "LauriLohmus-1"
   ]
 }

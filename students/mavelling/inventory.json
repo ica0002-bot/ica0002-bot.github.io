@@ -1,18 +1,18 @@
 {
   "_meta": {
     "hostvars": {
-      "mavelling-2": {
-        "ansible_port": 35622
-      },
       "mavelling-1": {
         "ansible_port": 28722
+      },
+      "mavelling-2": {
+        "ansible_port": 35622
       }
     }
   },
   "all": {
     "hosts": [
-      "mavelling-2",
-      "mavelling-1"
+      "mavelling-1",
+      "mavelling-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -21,6 +21,6 @@
     }
   },
   "web_servers": [
-    "mavelling-2"
+    "mavelling-1"
   ]
 }

@@ -1,18 +1,18 @@
 {
   "_meta": {
     "hostvars": {
-      "arminschutz-2": {
-        "ansible_port": 43222
-      },
       "arminschutz-1": {
         "ansible_port": 33922
+      },
+      "arminschutz-2": {
+        "ansible_port": 43222
       }
     }
   },
   "all": {
     "hosts": [
-      "arminschutz-2",
-      "arminschutz-1"
+      "arminschutz-1",
+      "arminschutz-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -21,6 +21,6 @@
     }
   },
   "web_servers": [
-    "arminschutz-2"
+    "arminschutz-1"
   ]
 }

@@ -1,18 +1,18 @@
 {
   "_meta": {
     "hostvars": {
-      "rasmud-2": {
-        "ansible_port": 12122
-      },
       "rasmud-1": {
         "ansible_port": 7022
+      },
+      "rasmud-2": {
+        "ansible_port": 12122
       }
     }
   },
   "all": {
     "hosts": [
-      "rasmud-2",
-      "rasmud-1"
+      "rasmud-1",
+      "rasmud-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -21,6 +21,6 @@
     }
   },
   "web_servers": [
-    "rasmud-2"
+    "rasmud-1"
   ]
 }

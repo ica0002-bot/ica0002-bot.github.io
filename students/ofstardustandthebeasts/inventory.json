@@ -1,18 +1,18 @@
 {
   "_meta": {
     "hostvars": {
-      "ofstardustandthebeasts-2": {
-        "ansible_port": 27622
-      },
       "ofstardustandthebeasts-1": {
         "ansible_port": 50822
+      },
+      "ofstardustandthebeasts-2": {
+        "ansible_port": 27622
       }
     }
   },
   "all": {
     "hosts": [
-      "ofstardustandthebeasts-2",
-      "ofstardustandthebeasts-1"
+      "ofstardustandthebeasts-1",
+      "ofstardustandthebeasts-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -21,6 +21,6 @@
     }
   },
   "web_servers": [
-    "ofstardustandthebeasts-2"
+    "ofstardustandthebeasts-1"
   ]
 }

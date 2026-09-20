@@ -1,18 +1,18 @@
 {
   "_meta": {
     "hostvars": {
-      "humbletam-2": {
-        "ansible_port": 11222
-      },
       "humbletam-1": {
         "ansible_port": 17822
+      },
+      "humbletam-2": {
+        "ansible_port": 11222
       }
     }
   },
   "all": {
     "hosts": [
-      "humbletam-2",
-      "humbletam-1"
+      "humbletam-1",
+      "humbletam-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -21,6 +21,6 @@
     }
   },
   "web_servers": [
-    "humbletam-2"
+    "humbletam-1"
   ]
 }

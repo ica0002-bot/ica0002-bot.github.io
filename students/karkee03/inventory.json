@@ -1,18 +1,18 @@
 {
   "_meta": {
     "hostvars": {
-      "karkee03-2": {
-        "ansible_port": 36622
-      },
       "karkee03-1": {
         "ansible_port": 46122
+      },
+      "karkee03-2": {
+        "ansible_port": 36622
       }
     }
   },
   "all": {
     "hosts": [
-      "karkee03-2",
-      "karkee03-1"
+      "karkee03-1",
+      "karkee03-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -21,6 +21,6 @@
     }
   },
   "web_servers": [
-    "karkee03-2"
+    "karkee03-1"
   ]
 }

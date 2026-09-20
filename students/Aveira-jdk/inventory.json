@@ -1,18 +1,18 @@
 {
   "_meta": {
     "hostvars": {
-      "Aveira-jdk-2": {
-        "ansible_port": 37022
-      },
       "Aveira-jdk-1": {
         "ansible_port": 40522
+      },
+      "Aveira-jdk-2": {
+        "ansible_port": 37022
       }
     }
   },
   "all": {
     "hosts": [
-      "Aveira-jdk-2",
-      "Aveira-jdk-1"
+      "Aveira-jdk-1",
+      "Aveira-jdk-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -21,6 +21,6 @@
     }
   },
   "web_servers": [
-    "Aveira-jdk-2"
+    "Aveira-jdk-1"
   ]
 }

@@ -1,18 +1,18 @@
 {
   "_meta": {
     "hostvars": {
-      "stepden04-2": {
-        "ansible_port": 43122
-      },
       "stepden04-1": {
         "ansible_port": 46522
+      },
+      "stepden04-2": {
+        "ansible_port": 43122
       }
     }
   },
   "all": {
     "hosts": [
-      "stepden04-2",
-      "stepden04-1"
+      "stepden04-1",
+      "stepden04-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -21,6 +21,6 @@
     }
   },
   "web_servers": [
-    "stepden04-2"
+    "stepden04-1"
   ]
 }

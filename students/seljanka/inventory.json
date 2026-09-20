@@ -1,18 +1,18 @@
 {
   "_meta": {
     "hostvars": {
-      "seljanka-2": {
-        "ansible_port": 39222
-      },
       "seljanka-1": {
         "ansible_port": 41622
+      },
+      "seljanka-2": {
+        "ansible_port": 39222
       }
     }
   },
   "all": {
     "hosts": [
-      "seljanka-2",
-      "seljanka-1"
+      "seljanka-1",
+      "seljanka-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -21,6 +21,6 @@
     }
   },
   "web_servers": [
-    "seljanka-2"
+    "seljanka-1"
   ]
 }
