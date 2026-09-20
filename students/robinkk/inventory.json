@@ -3,12 +3,16 @@
     "hostvars": {
       "robinkk-1": {
         "ansible_port": 11422
+      },
+      "robinkk-2": {
+        "ansible_port": 13122
       }
     }
   },
   "all": {
     "hosts": [
-      "robinkk-1"
+      "robinkk-1",
+      "robinkk-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
