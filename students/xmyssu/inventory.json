@@ -3,12 +3,16 @@
     "hostvars": {
       "xmyssu-1": {
         "ansible_port": 4322
+      },
+      "xmyssu-2": {
+        "ansible_port": 5322
       }
     }
   },
   "all": {
     "hosts": [
-      "xmyssu-1"
+      "xmyssu-1",
+      "xmyssu-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -16,7 +20,9 @@
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [],
+  "db_servers": [
+    "xmyssu-2"
+  ],
   "web_servers": [
     "xmyssu-1"
   ]
