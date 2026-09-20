@@ -20,6 +20,9 @@
       "ansible_user": "ubuntu"
     }
   },
+  "db_servers": [
+    "arturallmann-2"
+  ],
   "web_servers": [
     "arturallmann-1"
   ]

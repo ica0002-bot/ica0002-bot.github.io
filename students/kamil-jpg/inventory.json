@@ -20,6 +20,9 @@
       "ansible_user": "ubuntu"
     }
   },
+  "db_servers": [
+    "kamil-jpg-2"
+  ],
   "web_servers": [
     "kamil-jpg-1"
   ]

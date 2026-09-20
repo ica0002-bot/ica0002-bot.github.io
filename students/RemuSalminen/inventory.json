@@ -20,6 +20,9 @@
       "ansible_user": "ubuntu"
     }
   },
+  "db_servers": [
+    "RemuSalminen-2"
+  ],
   "web_servers": [
     "RemuSalminen-1"
   ]

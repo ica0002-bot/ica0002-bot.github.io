@@ -20,6 +20,9 @@
       "ansible_user": "ubuntu"
     }
   },
+  "db_servers": [
+    "markomson-2"
+  ],
   "web_servers": [
     "markomson-1"
   ]

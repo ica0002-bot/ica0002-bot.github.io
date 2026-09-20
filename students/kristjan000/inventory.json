@@ -20,6 +20,9 @@
       "ansible_user": "ubuntu"
     }
   },
+  "db_servers": [
+    "kristjan000-2"
+  ],
   "web_servers": [
     "kristjan000-1"
   ]

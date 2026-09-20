@@ -20,6 +20,9 @@
       "ansible_user": "ubuntu"
     }
   },
+  "db_servers": [
+    "madpaj-2"
+  ],
   "web_servers": [
     "madpaj-1"
   ]

@@ -20,6 +20,9 @@
       "ansible_user": "ubuntu"
     }
   },
+  "db_servers": [
+    "iszimm-2"
+  ],
   "web_servers": [
     "iszimm-1"
   ]

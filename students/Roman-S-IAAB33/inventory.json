@@ -20,6 +20,9 @@
       "ansible_user": "ubuntu"
     }
   },
+  "db_servers": [
+    "Roman-S-IAAB33-2"
+  ],
   "web_servers": [
     "Roman-S-IAAB33-1"
   ]

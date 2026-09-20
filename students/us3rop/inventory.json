@@ -20,6 +20,9 @@
       "ansible_user": "ubuntu"
     }
   },
+  "db_servers": [
+    "us3rop-2"
+  ],
   "web_servers": [
     "us3rop-1"
   ]

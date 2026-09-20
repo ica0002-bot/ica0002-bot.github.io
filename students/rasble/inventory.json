@@ -20,6 +20,9 @@
       "ansible_user": "ubuntu"
     }
   },
+  "db_servers": [
+    "rasble-2"
+  ],
   "web_servers": [
     "rasble-1"
   ]

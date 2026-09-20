@@ -20,6 +20,9 @@
       "ansible_user": "ubuntu"
     }
   },
+  "db_servers": [
+    "olmatv-iaab-2"
+  ],
   "web_servers": [
     "olmatv-iaab-1"
   ]

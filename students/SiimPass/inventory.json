@@ -20,6 +20,9 @@
       "ansible_user": "ubuntu"
     }
   },
+  "db_servers": [
+    "SiimPass-2"
+  ],
   "web_servers": [
     "SiimPass-1"
   ]

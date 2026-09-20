@@ -16,6 +16,7 @@
       "ansible_user": "ubuntu"
     }
   },
+  "db_servers": [],
   "web_servers": [
     "mihkep-1"
   ]

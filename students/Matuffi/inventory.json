@@ -20,6 +20,9 @@
       "ansible_user": "ubuntu"
     }
   },
+  "db_servers": [
+    "Matuffi-2"
+  ],
   "web_servers": [
     "Matuffi-1"
   ]

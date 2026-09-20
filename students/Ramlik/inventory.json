@@ -20,6 +20,9 @@
       "ansible_user": "ubuntu"
     }
   },
+  "db_servers": [
+    "Ramlik-2"
+  ],
   "web_servers": [
     "Ramlik-1"
   ]

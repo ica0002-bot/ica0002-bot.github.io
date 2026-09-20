@@ -20,6 +20,9 @@
       "ansible_user": "ubuntu"
     }
   },
+  "db_servers": [
+    "karkee03-2"
+  ],
   "web_servers": [
     "karkee03-1"
   ]

@@ -20,6 +20,9 @@
       "ansible_user": "ubuntu"
     }
   },
+  "db_servers": [
+    "ofstardustandthebeasts-2"
+  ],
   "web_servers": [
     "ofstardustandthebeasts-1"
   ]

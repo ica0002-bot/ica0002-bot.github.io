@@ -20,6 +20,9 @@
       "ansible_user": "ubuntu"
     }
   },
+  "db_servers": [
+    "magna413-2"
+  ],
   "web_servers": [
     "magna413-1"
   ]

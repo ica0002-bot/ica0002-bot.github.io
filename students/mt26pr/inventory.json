@@ -20,6 +20,9 @@
       "ansible_user": "ubuntu"
     }
   },
+  "db_servers": [
+    "mt26pr-2"
+  ],
   "web_servers": [
     "mt26pr-1"
   ]

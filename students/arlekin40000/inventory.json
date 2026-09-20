@@ -20,6 +20,9 @@
       "ansible_user": "ubuntu"
     }
   },
+  "db_servers": [
+    "arlekin40000-2"
+  ],
   "web_servers": [
     "arlekin40000-1"
   ]

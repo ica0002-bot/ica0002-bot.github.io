@@ -20,6 +20,9 @@
       "ansible_user": "ubuntu"
     }
   },
+  "db_servers": [
+    "xAlexa777-2"
+  ],
   "web_servers": [
     "xAlexa777-1"
   ]

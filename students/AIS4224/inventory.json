@@ -20,6 +20,9 @@
       "ansible_user": "ubuntu"
     }
   },
+  "db_servers": [
+    "AIS4224-2"
+  ],
   "web_servers": [
     "AIS4224-1"
   ]

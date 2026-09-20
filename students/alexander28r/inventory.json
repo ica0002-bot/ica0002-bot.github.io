@@ -20,6 +20,9 @@
       "ansible_user": "ubuntu"
     }
   },
+  "db_servers": [
+    "alexander28r-2"
+  ],
   "web_servers": [
     "alexander28r-1"
   ]

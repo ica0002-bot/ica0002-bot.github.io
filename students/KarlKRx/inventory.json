@@ -20,6 +20,9 @@
       "ansible_user": "ubuntu"
     }
   },
+  "db_servers": [
+    "KarlKRx-2"
+  ],
   "web_servers": [
     "KarlKRx-1"
   ]

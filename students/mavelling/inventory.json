@@ -20,6 +20,9 @@
       "ansible_user": "ubuntu"
     }
   },
+  "db_servers": [
+    "mavelling-2"
+  ],
   "web_servers": [
     "mavelling-1"
   ]

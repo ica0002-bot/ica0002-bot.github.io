@@ -20,6 +20,9 @@
       "ansible_user": "ubuntu"
     }
   },
+  "db_servers": [
+    "AljonaSavinova-2"
+  ],
   "web_servers": [
     "AljonaSavinova-1"
   ]

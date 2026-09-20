@@ -20,6 +20,9 @@
       "ansible_user": "ubuntu"
     }
   },
+  "db_servers": [
+    "FLAK-ZOSO-2"
+  ],
   "web_servers": [
     "FLAK-ZOSO-1"
   ]

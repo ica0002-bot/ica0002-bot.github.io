@@ -20,6 +20,9 @@
       "ansible_user": "ubuntu"
     }
   },
+  "db_servers": [
+    "Sven229-2"
+  ],
   "web_servers": [
     "Sven229-1"
   ]

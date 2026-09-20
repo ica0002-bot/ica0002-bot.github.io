@@ -20,6 +20,9 @@
       "ansible_user": "ubuntu"
     }
   },
+  "db_servers": [
+    "csaron0-2"
+  ],
   "web_servers": [
     "csaron0-1"
   ]
