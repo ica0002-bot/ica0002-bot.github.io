@@ -3,12 +3,16 @@
     "hostvars": {
       "kristjan000-1": {
         "ansible_port": 42122
+      },
+      "kristjan000-2": {
+        "ansible_port": 45122
       }
     }
   },
   "all": {
     "hosts": [
-      "kristjan000-1"
+      "kristjan000-1",
+      "kristjan000-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
