@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "maxkorch-27-1": {
-        "ansible_port": 33022
+        "ansible_port": 16522
       },
       "maxkorch-27-2": {
-        "ansible_port": 49322
+        "ansible_port": 2622
       }
     }
   },

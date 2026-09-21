@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "arturallmann-1": {
-        "ansible_port": 47022
+        "ansible_port": 4522
       },
       "arturallmann-2": {
-        "ansible_port": 30722
+        "ansible_port": 17522
       }
     }
   },

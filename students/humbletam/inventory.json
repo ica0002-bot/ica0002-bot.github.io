@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "humbletam-1": {
-        "ansible_port": 17822
+        "ansible_port": 38222
       },
       "humbletam-2": {
-        "ansible_port": 11222
+        "ansible_port": 40822
       }
     }
   },
