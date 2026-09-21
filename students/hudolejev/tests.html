@@ -17,11 +17,11 @@ pre {
 <title>hudolejev test results</title>
 </head>
 <body>
-<pre>Sun Sep 20 17:40:42 EEST 2026
+<pre>Mon Sep 21 19:36:27 EEST 2026
 <span style="font-weight:bold;color:#7f7f7f;">============================= test session starts ==============================</span>
 collected 16 items
 
- <span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">                                    [100%]</span>
+ <span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#cd0000;">F</span><span style="color:#cd0000;">F</span><span style="color:#cd0000;">F</span><span style="color:#cd0000;">F</span><span style="color:#cd0000;">F</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#cd0000;">F</span><span style="color:#cd0000;">                                    [100%]</span>
 
 <span style="color:#00cdcd;"></span><span style="font-weight:bold;color:#7f7f7f;">=========================== short test summary info ============================</span>
 <span style="color:#00cd00;">PASSED</span> <span style="font-weight:bold;color:#7f7f7f;">test_local_ansible_version</span>
@@ -32,15 +32,15 @@ collected 16 items
 <span style="color:#00cd00;">PASSED</span> <span style="font-weight:bold;color:#7f7f7f;">test_local_repo_file_exists[roles/nginx/files/default]</span>
 <span style="color:#00cd00;">PASSED</span> <span style="font-weight:bold;color:#7f7f7f;">test_local_repo_file_exists[roles/nginx/tasks/main.yaml]</span>
 <span style="color:#00cd00;">PASSED</span> <span style="font-weight:bold;color:#7f7f7f;">test_local_repo_file_exists[roles/uwsgi/files/agama.ini]</span>
-<span style="color:#00cd00;">PASSED</span> <span style="font-weight:bold;color:#7f7f7f;">test_web_service_is_listening[nginx&#64;tcp://0.0.0.0:80-hudolejev-1]</span>
-<span style="color:#00cd00;">PASSED</span> <span style="font-weight:bold;color:#7f7f7f;">test_web_service_is_listening[uwsgi&#64;tcp://127.0.0.1:5000-hudolejev-1]</span>
-<span style="color:#00cd00;">PASSED</span> <span style="font-weight:bold;color:#7f7f7f;">test_web_service_is_running_and_enabled[nginx-hudolejev-1]</span>
-<span style="color:#00cd00;">PASSED</span> <span style="font-weight:bold;color:#7f7f7f;">test_web_service_is_running_and_enabled[uwsgi-hudolejev-1]</span>
-<span style="color:#00cd00;">PASSED</span> <span style="font-weight:bold;color:#7f7f7f;">test_web_server_file_exists[/etc/nginx/sites-enabled/default:root:root:644-hudolejev-1]</span>
 <span style="color:#00cd00;">PASSED</span> <span style="font-weight:bold;color:#7f7f7f;">test_web_server_file_exists[/etc/uwsgi/apps-enabled/agama.ini:::-hudolejev-1]</span>
 <span style="color:#00cd00;">PASSED</span> <span style="font-weight:bold;color:#7f7f7f;">test_web_server_file_exists[/opt/agama/agama.py:::-hudolejev-1]</span>
-<span style="color:#00cd00;">PASSED</span> <span style="font-weight:bold;color:#7f7f7f;">test_web_server_html_content[v0.3 running on-hudolejev-1]</span>
-<span style="color:#00cd00;">============================= </span><span style="color:#00cd00;"></span><span style="font-weight:bold;color:#7f7f7f;">16 passed</span><span style="color:#00cd00;"> in 13.58s</span><span style="color:#00cd00;"> ==============================</span>
+<span style="color:#cd0000;">FAILED</span> <span style="font-weight:bold;color:#7f7f7f;">test_web_service_is_listening[nginx&#64;tcp://0.0.0.0:80-hudolejev-1]</span> - AssertionError: nginx is not listening on hudolejev-1 socket tcp://0.0.0.0:80
+<span style="color:#cd0000;">FAILED</span> <span style="font-weight:bold;color:#7f7f7f;">test_web_service_is_listening[uwsgi&#64;tcp://127.0.0.1:5000-hudolejev-1]</span> - AssertionError: uwsgi is not listening on hudolejev-1 socket tcp://127.0.0....
+<span style="color:#cd0000;">FAILED</span> <span style="font-weight:bold;color:#7f7f7f;">test_web_service_is_running_and_enabled[nginx-hudolejev-1]</span> - AssertionError: nginx is not installed on hudolejev-1
+<span style="color:#cd0000;">FAILED</span> <span style="font-weight:bold;color:#7f7f7f;">test_web_service_is_running_and_enabled[uwsgi-hudolejev-1]</span> - AssertionError: uwsgi is not installed on hudolejev-1
+<span style="color:#cd0000;">FAILED</span> <span style="font-weight:bold;color:#7f7f7f;">test_web_server_file_exists[/etc/nginx/sites-enabled/default:root:root:644-hudolejev-1]</span> - AssertionError: Unexpected exit code 1 for CommandResult(backend=&lt;testinfra...
+<span style="color:#cd0000;">FAILED</span> <span style="font-weight:bold;color:#7f7f7f;">test_web_server_html_content[v0.3 running on-hudolejev-1]</span> - AssertionError: Required content is not found on hudolejev-1 -&gt; http://loca...
+<span style="color:#cd0000;">======================== </span><span style="color:#cd0000;"></span><span style="font-weight:bold;color:#7f7f7f;">6 failed</span>, <span style="color:#00cd00;">10 passed</span><span style="color:#cd0000;"> in 11.49s</span><span style="color:#cd0000;"> =========================</span>
 </pre>
 </body>
 </html>
