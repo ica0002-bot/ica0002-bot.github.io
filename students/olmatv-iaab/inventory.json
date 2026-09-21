@@ -1,15 +1,29 @@
 {
   "_meta": {
-    "hostvars": {}
+    "hostvars": {
+      "olmatv-iaab-1": {
+        "ansible_port": 3422
+      },
+      "olmatv-iaab-2": {
+        "ansible_port": 10022
+      }
+    }
   },
   "all": {
-    "hosts": [],
+    "hosts": [
+      "olmatv-iaab-1",
+      "olmatv-iaab-2"
+    ],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [],
-  "web_servers": []
+  "db_servers": [
+    "olmatv-iaab-2"
+  ],
+  "web_servers": [
+    "olmatv-iaab-1"
+  ]
 }
