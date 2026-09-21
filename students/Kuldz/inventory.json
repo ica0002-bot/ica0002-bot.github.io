@@ -3,12 +3,16 @@
     "hostvars": {
       "Kuldz-1": {
         "ansible_port": 21722
+      },
+      "Kuldz-2": {
+        "ansible_port": 7922
       }
     }
   },
   "all": {
     "hosts": [
-      "Kuldz-1"
+      "Kuldz-1",
+      "Kuldz-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -16,7 +20,9 @@
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [],
+  "db_servers": [
+    "Kuldz-2"
+  ],
   "web_servers": [
     "Kuldz-1"
   ]
