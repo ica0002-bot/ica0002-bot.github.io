@@ -3,12 +3,16 @@
     "hostvars": {
       "TRG-Sten-1": {
         "ansible_port": 35822
+      },
+      "TRG-Sten-2": {
+        "ansible_port": 49122
       }
     }
   },
   "all": {
     "hosts": [
-      "TRG-Sten-1"
+      "TRG-Sten-1",
+      "TRG-Sten-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -16,7 +20,9 @@
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [],
+  "db_servers": [
+    "TRG-Sten-2"
+  ],
   "web_servers": [
     "TRG-Sten-1"
   ]

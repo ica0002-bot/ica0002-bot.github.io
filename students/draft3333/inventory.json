@@ -3,12 +3,16 @@
     "hostvars": {
       "draft3333-1": {
         "ansible_port": 33722
+      },
+      "draft3333-2": {
+        "ansible_port": 49622
       }
     }
   },
   "all": {
     "hosts": [
-      "draft3333-1"
+      "draft3333-1",
+      "draft3333-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -16,7 +20,9 @@
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [],
+  "db_servers": [
+    "draft3333-2"
+  ],
   "web_servers": [
     "draft3333-1"
   ]
