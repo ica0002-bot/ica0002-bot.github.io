@@ -3,12 +3,16 @@
     "hostvars": {
       "Tournicotte-1": {
         "ansible_port": 46922
+      },
+      "Tournicotte-2": {
+        "ansible_port": 35422
       }
     }
   },
   "all": {
     "hosts": [
-      "Tournicotte-1"
+      "Tournicotte-1",
+      "Tournicotte-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -16,7 +20,9 @@
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [],
+  "db_servers": [
+    "Tournicotte-2"
+  ],
   "web_servers": [
     "Tournicotte-1"
   ]
