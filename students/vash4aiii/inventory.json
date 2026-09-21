@@ -3,12 +3,16 @@
     "hostvars": {
       "vash4aiii-1": {
         "ansible_port": 28822
+      },
+      "vash4aiii-2": {
+        "ansible_port": 26722
       }
     }
   },
   "all": {
     "hosts": [
-      "vash4aiii-1"
+      "vash4aiii-1",
+      "vash4aiii-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -16,7 +20,9 @@
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [],
+  "db_servers": [
+    "vash4aiii-2"
+  ],
   "web_servers": [
     "vash4aiii-1"
   ]
