@@ -3,12 +3,16 @@
     "hostvars": {
       "bombastik01-1": {
         "ansible_port": 20422
+      },
+      "bombastik01-2": {
+        "ansible_port": 7122
       }
     }
   },
   "all": {
     "hosts": [
-      "bombastik01-1"
+      "bombastik01-1",
+      "bombastik01-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -16,7 +20,9 @@
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [],
+  "db_servers": [
+    "bombastik01-2"
+  ],
   "web_servers": [
     "bombastik01-1"
   ]
