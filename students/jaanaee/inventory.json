@@ -3,12 +3,16 @@
     "hostvars": {
       "jaanaee-1": {
         "ansible_port": 7622
+      },
+      "jaanaee-2": {
+        "ansible_port": 13122
       }
     }
   },
   "all": {
     "hosts": [
-      "jaanaee-1"
+      "jaanaee-1",
+      "jaanaee-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -16,7 +20,9 @@
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [],
+  "db_servers": [
+    "jaanaee-2"
+  ],
   "web_servers": [
     "jaanaee-1"
   ]
