@@ -3,12 +3,16 @@
     "hostvars": {
       "eldensmoke-1": {
         "ansible_port": 44422
+      },
+      "eldensmoke-2": {
+        "ansible_port": 34622
       }
     }
   },
   "all": {
     "hosts": [
-      "eldensmoke-1"
+      "eldensmoke-1",
+      "eldensmoke-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -16,7 +20,9 @@
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [],
+  "db_servers": [
+    "eldensmoke-2"
+  ],
   "web_servers": [
     "eldensmoke-1"
   ]
