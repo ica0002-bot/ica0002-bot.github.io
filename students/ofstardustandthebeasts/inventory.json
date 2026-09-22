@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "ofstardustandthebeasts-1": {
-        "ansible_port": 21322
+        "ansible_port": 34522
       },
       "ofstardustandthebeasts-2": {
-        "ansible_port": 17822
+        "ansible_port": 41022
       }
     }
   },

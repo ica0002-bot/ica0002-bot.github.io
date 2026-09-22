@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "jaleev1-1": {
-        "ansible_port": 32222
+        "ansible_port": 8322
       },
       "jaleev1-2": {
-        "ansible_port": 41622
+        "ansible_port": 9522
       }
     }
   },

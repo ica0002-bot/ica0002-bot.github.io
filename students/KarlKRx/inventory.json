@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "KarlKRx-1": {
-        "ansible_port": 23922
+        "ansible_port": 50822
       },
       "KarlKRx-2": {
-        "ansible_port": 17622
+        "ansible_port": 33822
       }
     }
   },

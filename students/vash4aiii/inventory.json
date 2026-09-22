@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "vash4aiii-1": {
-        "ansible_port": 28822
+        "ansible_port": 17022
       },
       "vash4aiii-2": {
-        "ansible_port": 26722
+        "ansible_port": 4822
       }
     }
   },

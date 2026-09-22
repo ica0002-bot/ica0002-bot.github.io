@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "Dasiso228-1": {
-        "ansible_port": 39522
+        "ansible_port": 24822
       },
       "Dasiso228-2": {
-        "ansible_port": 39122
+        "ansible_port": 13922
       }
     }
   },

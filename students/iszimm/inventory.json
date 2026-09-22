@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "iszimm-1": {
-        "ansible_port": 20422
+        "ansible_port": 33222
       },
       "iszimm-2": {
-        "ansible_port": 24822
+        "ansible_port": 29722
       }
     }
   },

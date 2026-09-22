@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "Kuldz-1": {
-        "ansible_port": 21722
+        "ansible_port": 48722
       },
       "Kuldz-2": {
-        "ansible_port": 7622
+        "ansible_port": 47422
       }
     }
   },
