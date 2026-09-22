@@ -3,12 +3,16 @@
     "hostvars": {
       "e-riri-1": {
         "ansible_port": 27622
+      },
+      "e-riri-2": {
+        "ansible_port": 48922
       }
     }
   },
   "all": {
     "hosts": [
-      "e-riri-1"
+      "e-riri-1",
+      "e-riri-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -16,7 +20,9 @@
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [],
+  "db_servers": [
+    "e-riri-2"
+  ],
   "web_servers": [
     "e-riri-1"
   ]
