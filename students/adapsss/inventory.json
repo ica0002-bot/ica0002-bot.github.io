@@ -3,12 +3,16 @@
     "hostvars": {
       "adapsss-1": {
         "ansible_port": 17922
+      },
+      "adapsss-2": {
+        "ansible_port": 15522
       }
     }
   },
   "all": {
     "hosts": [
-      "adapsss-1"
+      "adapsss-1",
+      "adapsss-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -16,7 +20,9 @@
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [],
+  "db_servers": [
+    "adapsss-2"
+  ],
   "web_servers": [
     "adapsss-1"
   ]
