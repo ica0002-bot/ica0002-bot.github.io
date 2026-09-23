@@ -3,12 +3,16 @@
     "hostvars": {
       "RogerRohilaid-1": {
         "ansible_port": 39022
+      },
+      "RogerRohilaid-2": {
+        "ansible_port": 30722
       }
     }
   },
   "all": {
     "hosts": [
-      "RogerRohilaid-1"
+      "RogerRohilaid-1",
+      "RogerRohilaid-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -16,7 +20,9 @@
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [],
+  "db_servers": [
+    "RogerRohilaid-2"
+  ],
   "web_servers": [
     "RogerRohilaid-1"
   ]
