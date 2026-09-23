@@ -3,12 +3,16 @@
     "hostvars": {
       "alarifredi-1": {
         "ansible_port": 1122
+      },
+      "alarifredi-2": {
+        "ansible_port": 22222
       }
     }
   },
   "all": {
     "hosts": [
-      "alarifredi-1"
+      "alarifredi-1",
+      "alarifredi-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -16,7 +20,9 @@
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [],
+  "db_servers": [
+    "alarifredi-2"
+  ],
   "web_servers": [
     "alarifredi-1"
   ]
