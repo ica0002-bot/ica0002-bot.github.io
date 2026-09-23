@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "whosandrey-1": {
-        "ansible_port": 45522
+        "ansible_port": 1922
       },
       "whosandrey-2": {
-        "ansible_port": 41622
+        "ansible_port": 4322
       }
     }
   },

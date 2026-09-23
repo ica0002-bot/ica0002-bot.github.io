@@ -2,7 +2,7 @@
   "_meta": {
     "hostvars": {
       "stentr-1": {
-        "ansible_port": 45122
+        "ansible_port": 19122
       }
     }
   },

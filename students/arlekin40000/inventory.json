@@ -5,7 +5,7 @@
         "ansible_port": 26922
       },
       "arlekin40000-2": {
-        "ansible_port": 30422
+        "ansible_port": 21522
       }
     }
   },

@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "markomson-1": {
-        "ansible_port": 43022
+        "ansible_port": 18322
       },
       "markomson-2": {
-        "ansible_port": 44622
+        "ansible_port": 4822
       }
     }
   },

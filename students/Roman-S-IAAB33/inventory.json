@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "Roman-S-IAAB33-1": {
-        "ansible_port": 12022
+        "ansible_port": 45122
       },
       "Roman-S-IAAB33-2": {
-        "ansible_port": 3822
+        "ansible_port": 44122
       }
     }
   },

@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "p0ts-1": {
-        "ansible_port": 1422
+        "ansible_port": 33822
       },
       "p0ts-2": {
-        "ansible_port": 21422
+        "ansible_port": 38422
       }
     }
   },
