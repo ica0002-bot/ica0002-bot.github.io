@@ -3,12 +3,16 @@
     "hostvars": {
       "0HaPa-1": {
         "ansible_port": 15122
+      },
+      "0HaPa-2": {
+        "ansible_port": 3622
       }
     }
   },
   "all": {
     "hosts": [
-      "0HaPa-1"
+      "0HaPa-1",
+      "0HaPa-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -16,7 +20,9 @@
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [],
+  "db_servers": [
+    "0HaPa-2"
+  ],
   "web_servers": [
     "0HaPa-1"
   ]
