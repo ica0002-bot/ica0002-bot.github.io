@@ -1,15 +1,29 @@
 {
   "_meta": {
-    "hostvars": {}
+    "hostvars": {
+      "mavelling-1": {
+        "ansible_port": 27222
+      },
+      "mavelling-2": {
+        "ansible_port": 46022
+      }
+    }
   },
   "all": {
-    "hosts": [],
+    "hosts": [
+      "mavelling-1",
+      "mavelling-2"
+    ],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [],
-  "web_servers": []
+  "db_servers": [
+    "mavelling-2"
+  ],
+  "web_servers": [
+    "mavelling-1"
+  ]
 }

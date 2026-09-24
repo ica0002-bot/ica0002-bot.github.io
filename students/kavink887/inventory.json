@@ -1,15 +1,29 @@
 {
   "_meta": {
-    "hostvars": {}
+    "hostvars": {
+      "kavink887-1": {
+        "ansible_port": 30022
+      },
+      "kavink887-2": {
+        "ansible_port": 42322
+      }
+    }
   },
   "all": {
-    "hosts": [],
+    "hosts": [
+      "kavink887-1",
+      "kavink887-2"
+    ],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [],
-  "web_servers": []
+  "db_servers": [
+    "kavink887-2"
+  ],
+  "web_servers": [
+    "kavink887-1"
+  ]
 }

@@ -1,15 +1,29 @@
 {
   "_meta": {
-    "hostvars": {}
+    "hostvars": {
+      "whosandrey-1": {
+        "ansible_port": 47522
+      },
+      "whosandrey-2": {
+        "ansible_port": 26222
+      }
+    }
   },
   "all": {
-    "hosts": [],
+    "hosts": [
+      "whosandrey-1",
+      "whosandrey-2"
+    ],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [],
-  "web_servers": []
+  "db_servers": [
+    "whosandrey-2"
+  ],
+  "web_servers": [
+    "whosandrey-1"
+  ]
 }

@@ -1,15 +1,29 @@
 {
   "_meta": {
-    "hostvars": {}
+    "hostvars": {
+      "eZlanek-1": {
+        "ansible_port": 42622
+      },
+      "eZlanek-2": {
+        "ansible_port": 32322
+      }
+    }
   },
   "all": {
-    "hosts": [],
+    "hosts": [
+      "eZlanek-1",
+      "eZlanek-2"
+    ],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [],
-  "web_servers": []
+  "db_servers": [
+    "eZlanek-2"
+  ],
+  "web_servers": [
+    "eZlanek-1"
+  ]
 }

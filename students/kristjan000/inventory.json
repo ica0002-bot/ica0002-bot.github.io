@@ -1,15 +1,29 @@
 {
   "_meta": {
-    "hostvars": {}
+    "hostvars": {
+      "kristjan000-1": {
+        "ansible_port": 47022
+      },
+      "kristjan000-2": {
+        "ansible_port": 39522
+      }
+    }
   },
   "all": {
-    "hosts": [],
+    "hosts": [
+      "kristjan000-1",
+      "kristjan000-2"
+    ],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [],
-  "web_servers": []
+  "db_servers": [
+    "kristjan000-2"
+  ],
+  "web_servers": [
+    "kristjan000-1"
+  ]
 }

@@ -1,15 +1,29 @@
 {
   "_meta": {
-    "hostvars": {}
+    "hostvars": {
+      "mihkep-1": {
+        "ansible_port": 42122
+      },
+      "mihkep-2": {
+        "ansible_port": 46722
+      }
+    }
   },
   "all": {
-    "hosts": [],
+    "hosts": [
+      "mihkep-1",
+      "mihkep-2"
+    ],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [],
-  "web_servers": []
+  "db_servers": [
+    "mihkep-2"
+  ],
+  "web_servers": [
+    "mihkep-1"
+  ]
 }

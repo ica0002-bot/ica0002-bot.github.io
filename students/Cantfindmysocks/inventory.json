@@ -1,15 +1,29 @@
 {
   "_meta": {
-    "hostvars": {}
+    "hostvars": {
+      "Cantfindmysocks-1": {
+        "ansible_port": 31022
+      },
+      "Cantfindmysocks-2": {
+        "ansible_port": 38322
+      }
+    }
   },
   "all": {
-    "hosts": [],
+    "hosts": [
+      "Cantfindmysocks-1",
+      "Cantfindmysocks-2"
+    ],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [],
-  "web_servers": []
+  "db_servers": [
+    "Cantfindmysocks-2"
+  ],
+  "web_servers": [
+    "Cantfindmysocks-1"
+  ]
 }
