@@ -1,29 +1,15 @@
 {
   "_meta": {
-    "hostvars": {
-      "arminschutz-1": {
-        "ansible_port": 18722
-      },
-      "arminschutz-2": {
-        "ansible_port": 15922
-      }
-    }
+    "hostvars": {}
   },
   "all": {
-    "hosts": [
-      "arminschutz-1",
-      "arminschutz-2"
-    ],
+    "hosts": [],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [
-    "arminschutz-2"
-  ],
-  "web_servers": [
-    "arminschutz-1"
-  ]
+  "db_servers": [],
+  "web_servers": []
 }

@@ -1,29 +1,15 @@
 {
   "_meta": {
-    "hostvars": {
-      "flarycen-1": {
-        "ansible_port": 47222
-      },
-      "flarycen-2": {
-        "ansible_port": 37022
-      }
-    }
+    "hostvars": {}
   },
   "all": {
-    "hosts": [
-      "flarycen-1",
-      "flarycen-2"
-    ],
+    "hosts": [],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [
-    "flarycen-2"
-  ],
-  "web_servers": [
-    "flarycen-1"
-  ]
+  "db_servers": [],
+  "web_servers": []
 }

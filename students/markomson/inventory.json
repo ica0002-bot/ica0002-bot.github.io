@@ -1,29 +1,15 @@
 {
   "_meta": {
-    "hostvars": {
-      "markomson-1": {
-        "ansible_port": 18322
-      },
-      "markomson-2": {
-        "ansible_port": 4822
-      }
-    }
+    "hostvars": {}
   },
   "all": {
-    "hosts": [
-      "markomson-1",
-      "markomson-2"
-    ],
+    "hosts": [],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [
-    "markomson-2"
-  ],
-  "web_servers": [
-    "markomson-1"
-  ]
+  "db_servers": [],
+  "web_servers": []
 }

@@ -1,29 +1,15 @@
 {
   "_meta": {
-    "hostvars": {
-      "erikalt-1": {
-        "ansible_port": 24922
-      },
-      "erikalt-2": {
-        "ansible_port": 11022
-      }
-    }
+    "hostvars": {}
   },
   "all": {
-    "hosts": [
-      "erikalt-1",
-      "erikalt-2"
-    ],
+    "hosts": [],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [
-    "erikalt-2"
-  ],
-  "web_servers": [
-    "erikalt-1"
-  ]
+  "db_servers": [],
+  "web_servers": []
 }

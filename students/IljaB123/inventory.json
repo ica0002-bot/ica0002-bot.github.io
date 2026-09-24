@@ -1,29 +1,15 @@
 {
   "_meta": {
-    "hostvars": {
-      "IljaB123-1": {
-        "ansible_port": 11222
-      },
-      "IljaB123-2": {
-        "ansible_port": 13922
-      }
-    }
+    "hostvars": {}
   },
   "all": {
-    "hosts": [
-      "IljaB123-1",
-      "IljaB123-2"
-    ],
+    "hosts": [],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [
-    "IljaB123-2"
-  ],
-  "web_servers": [
-    "IljaB123-1"
-  ]
+  "db_servers": [],
+  "web_servers": []
 }

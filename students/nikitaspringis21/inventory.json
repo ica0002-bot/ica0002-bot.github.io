@@ -1,29 +1,15 @@
 {
   "_meta": {
-    "hostvars": {
-      "nikitaspringis21-1": {
-        "ansible_port": 50322
-      },
-      "nikitaspringis21-2": {
-        "ansible_port": 45622
-      }
-    }
+    "hostvars": {}
   },
   "all": {
-    "hosts": [
-      "nikitaspringis21-1",
-      "nikitaspringis21-2"
-    ],
+    "hosts": [],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [
-    "nikitaspringis21-2"
-  ],
-  "web_servers": [
-    "nikitaspringis21-1"
-  ]
+  "db_servers": [],
+  "web_servers": []
 }

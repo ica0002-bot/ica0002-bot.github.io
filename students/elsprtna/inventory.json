@@ -1,29 +1,15 @@
 {
   "_meta": {
-    "hostvars": {
-      "elsprtna-1": {
-        "ansible_port": 17022
-      },
-      "elsprtna-2": {
-        "ansible_port": 20622
-      }
-    }
+    "hostvars": {}
   },
   "all": {
-    "hosts": [
-      "elsprtna-1",
-      "elsprtna-2"
-    ],
+    "hosts": [],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [
-    "elsprtna-2"
-  ],
-  "web_servers": [
-    "elsprtna-1"
-  ]
+  "db_servers": [],
+  "web_servers": []
 }

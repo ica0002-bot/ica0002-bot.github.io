@@ -1,29 +1,15 @@
 {
   "_meta": {
-    "hostvars": {
-      "csaron0-1": {
-        "ansible_port": 35822
-      },
-      "csaron0-2": {
-        "ansible_port": 27122
-      }
-    }
+    "hostvars": {}
   },
   "all": {
-    "hosts": [
-      "csaron0-1",
-      "csaron0-2"
-    ],
+    "hosts": [],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [
-    "csaron0-2"
-  ],
-  "web_servers": [
-    "csaron0-1"
-  ]
+  "db_servers": [],
+  "web_servers": []
 }

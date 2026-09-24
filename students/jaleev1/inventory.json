@@ -1,29 +1,15 @@
 {
   "_meta": {
-    "hostvars": {
-      "jaleev1-1": {
-        "ansible_port": 35322
-      },
-      "jaleev1-2": {
-        "ansible_port": 43422
-      }
-    }
+    "hostvars": {}
   },
   "all": {
-    "hosts": [
-      "jaleev1-1",
-      "jaleev1-2"
-    ],
+    "hosts": [],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [
-    "jaleev1-2"
-  ],
-  "web_servers": [
-    "jaleev1-1"
-  ]
+  "db_servers": [],
+  "web_servers": []
 }

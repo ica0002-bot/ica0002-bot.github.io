@@ -1,29 +1,15 @@
 {
   "_meta": {
-    "hostvars": {
-      "MrMihasha-1": {
-        "ansible_port": 1722
-      },
-      "MrMihasha-2": {
-        "ansible_port": 8122
-      }
-    }
+    "hostvars": {}
   },
   "all": {
-    "hosts": [
-      "MrMihasha-1",
-      "MrMihasha-2"
-    ],
+    "hosts": [],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [
-    "MrMihasha-2"
-  ],
-  "web_servers": [
-    "MrMihasha-1"
-  ]
+  "db_servers": [],
+  "web_servers": []
 }

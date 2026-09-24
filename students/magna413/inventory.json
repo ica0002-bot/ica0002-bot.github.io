@@ -1,29 +1,15 @@
 {
   "_meta": {
-    "hostvars": {
-      "magna413-1": {
-        "ansible_port": 14322
-      },
-      "magna413-2": {
-        "ansible_port": 17522
-      }
-    }
+    "hostvars": {}
   },
   "all": {
-    "hosts": [
-      "magna413-1",
-      "magna413-2"
-    ],
+    "hosts": [],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [
-    "magna413-2"
-  ],
-  "web_servers": [
-    "magna413-1"
-  ]
+  "db_servers": [],
+  "web_servers": []
 }

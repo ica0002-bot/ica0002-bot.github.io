@@ -1,29 +1,15 @@
 {
   "_meta": {
-    "hostvars": {
-      "ipoker27-1": {
-        "ansible_port": 922
-      },
-      "ipoker27-2": {
-        "ansible_port": 5722
-      }
-    }
+    "hostvars": {}
   },
   "all": {
-    "hosts": [
-      "ipoker27-1",
-      "ipoker27-2"
-    ],
+    "hosts": [],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [
-    "ipoker27-2"
-  ],
-  "web_servers": [
-    "ipoker27-1"
-  ]
+  "db_servers": [],
+  "web_servers": []
 }

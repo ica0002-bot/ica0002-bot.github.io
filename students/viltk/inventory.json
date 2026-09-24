@@ -1,29 +1,15 @@
 {
   "_meta": {
-    "hostvars": {
-      "viltk-1": {
-        "ansible_port": 45922
-      },
-      "viltk-2": {
-        "ansible_port": 31022
-      }
-    }
+    "hostvars": {}
   },
   "all": {
-    "hosts": [
-      "viltk-1",
-      "viltk-2"
-    ],
+    "hosts": [],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [
-    "viltk-2"
-  ],
-  "web_servers": [
-    "viltk-1"
-  ]
+  "db_servers": [],
+  "web_servers": []
 }

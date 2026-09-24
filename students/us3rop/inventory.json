@@ -1,29 +1,15 @@
 {
   "_meta": {
-    "hostvars": {
-      "us3rop-1": {
-        "ansible_port": 14922
-      },
-      "us3rop-2": {
-        "ansible_port": 3222
-      }
-    }
+    "hostvars": {}
   },
   "all": {
-    "hosts": [
-      "us3rop-1",
-      "us3rop-2"
-    ],
+    "hosts": [],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [
-    "us3rop-2"
-  ],
-  "web_servers": [
-    "us3rop-1"
-  ]
+  "db_servers": [],
+  "web_servers": []
 }

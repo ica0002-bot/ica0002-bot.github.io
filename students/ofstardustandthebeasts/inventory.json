@@ -1,29 +1,15 @@
 {
   "_meta": {
-    "hostvars": {
-      "ofstardustandthebeasts-1": {
-        "ansible_port": 11722
-      },
-      "ofstardustandthebeasts-2": {
-        "ansible_port": 18922
-      }
-    }
+    "hostvars": {}
   },
   "all": {
-    "hosts": [
-      "ofstardustandthebeasts-1",
-      "ofstardustandthebeasts-2"
-    ],
+    "hosts": [],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [
-    "ofstardustandthebeasts-2"
-  ],
-  "web_servers": [
-    "ofstardustandthebeasts-1"
-  ]
+  "db_servers": [],
+  "web_servers": []
 }

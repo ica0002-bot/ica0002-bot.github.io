@@ -1,29 +1,15 @@
 {
   "_meta": {
-    "hostvars": {
-      "danych2003-1": {
-        "ansible_port": 31122
-      },
-      "danych2003-2": {
-        "ansible_port": 50822
-      }
-    }
+    "hostvars": {}
   },
   "all": {
-    "hosts": [
-      "danych2003-1",
-      "danych2003-2"
-    ],
+    "hosts": [],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [
-    "danych2003-2"
-  ],
-  "web_servers": [
-    "danych2003-1"
-  ]
+  "db_servers": [],
+  "web_servers": []
 }

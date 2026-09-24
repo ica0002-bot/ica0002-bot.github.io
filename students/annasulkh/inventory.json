@@ -1,15 +1,9 @@
 {
   "_meta": {
-    "hostvars": {
-      "annasulkh-1": {
-        "ansible_port": 5122
-      }
-    }
+    "hostvars": {}
   },
   "all": {
-    "hosts": [
-      "annasulkh-1"
-    ],
+    "hosts": [],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
@@ -17,7 +11,5 @@
     }
   },
   "db_servers": [],
-  "web_servers": [
-    "annasulkh-1"
-  ]
+  "web_servers": []
 }

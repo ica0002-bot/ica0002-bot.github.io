@@ -1,29 +1,15 @@
 {
   "_meta": {
-    "hostvars": {
-      "L0psun-1": {
-        "ansible_port": 45522
-      },
-      "L0psun-2": {
-        "ansible_port": 32822
-      }
-    }
+    "hostvars": {}
   },
   "all": {
-    "hosts": [
-      "L0psun-1",
-      "L0psun-2"
-    ],
+    "hosts": [],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [
-    "L0psun-2"
-  ],
-  "web_servers": [
-    "L0psun-1"
-  ]
+  "db_servers": [],
+  "web_servers": []
 }

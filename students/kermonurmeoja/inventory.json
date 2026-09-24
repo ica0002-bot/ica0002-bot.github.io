@@ -1,29 +1,15 @@
 {
   "_meta": {
-    "hostvars": {
-      "kermonurmeoja-1": {
-        "ansible_port": 24222
-      },
-      "kermonurmeoja-2": {
-        "ansible_port": 11422
-      }
-    }
+    "hostvars": {}
   },
   "all": {
-    "hosts": [
-      "kermonurmeoja-1",
-      "kermonurmeoja-2"
-    ],
+    "hosts": [],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [
-    "kermonurmeoja-2"
-  ],
-  "web_servers": [
-    "kermonurmeoja-1"
-  ]
+  "db_servers": [],
+  "web_servers": []
 }
