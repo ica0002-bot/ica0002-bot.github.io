@@ -2,7 +2,7 @@
   "_meta": {
     "hostvars": {
       "Tsuki-9-1": {
-        "ansible_port": 21022
+        "ansible_port": 30322
       }
     }
   },

@@ -5,7 +5,7 @@
         "ansible_port": 46222
       },
       "ke-miil-2": {
-        "ansible_port": 36022
+        "ansible_port": 8122
       }
     }
   },

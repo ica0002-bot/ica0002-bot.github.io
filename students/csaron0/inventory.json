@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "csaron0-1": {
-        "ansible_port": 43822
+        "ansible_port": 18322
       },
       "csaron0-2": {
-        "ansible_port": 41022
+        "ansible_port": 6922
       }
     }
   },

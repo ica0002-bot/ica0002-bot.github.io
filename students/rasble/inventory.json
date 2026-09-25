@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "rasble-1": {
-        "ansible_port": 18822
+        "ansible_port": 33822
       },
       "rasble-2": {
-        "ansible_port": 3122
+        "ansible_port": 35422
       }
     }
   },

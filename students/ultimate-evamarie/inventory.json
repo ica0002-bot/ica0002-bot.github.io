@@ -2,7 +2,7 @@
   "_meta": {
     "hostvars": {
       "ultimate-evamarie-1": {
-        "ansible_port": 39622
+        "ansible_port": 24222
       }
     }
   },
