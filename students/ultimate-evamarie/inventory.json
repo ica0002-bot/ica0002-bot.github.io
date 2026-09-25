@@ -1,15 +1,9 @@
 {
   "_meta": {
-    "hostvars": {
-      "ultimate-evamarie-1": {
-        "ansible_port": 24222
-      }
-    }
+    "hostvars": {}
   },
   "all": {
-    "hosts": [
-      "ultimate-evamarie-1"
-    ],
+    "hosts": [],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
@@ -17,7 +11,5 @@
     }
   },
   "db_servers": [],
-  "web_servers": [
-    "ultimate-evamarie-1"
-  ]
+  "web_servers": []
 }
