@@ -1,29 +1,15 @@
 {
   "_meta": {
-    "hostvars": {
-      "stepden04-1": {
-        "ansible_port": 21522
-      },
-      "stepden04-2": {
-        "ansible_port": 17722
-      }
-    }
+    "hostvars": {}
   },
   "all": {
-    "hosts": [
-      "stepden04-1",
-      "stepden04-2"
-    ],
+    "hosts": [],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [
-    "stepden04-2"
-  ],
-  "web_servers": [
-    "stepden04-1"
-  ]
+  "db_servers": [],
+  "web_servers": []
 }

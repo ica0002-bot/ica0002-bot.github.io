@@ -1,29 +1,15 @@
 {
   "_meta": {
-    "hostvars": {
-      "ivatot16-1": {
-        "ansible_port": 6222
-      },
-      "ivatot16-2": {
-        "ansible_port": 23322
-      }
-    }
+    "hostvars": {}
   },
   "all": {
-    "hosts": [
-      "ivatot16-1",
-      "ivatot16-2"
-    ],
+    "hosts": [],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [
-    "ivatot16-2"
-  ],
-  "web_servers": [
-    "ivatot16-1"
-  ]
+  "db_servers": [],
+  "web_servers": []
 }

@@ -1,29 +1,15 @@
 {
   "_meta": {
-    "hostvars": {
-      "xAlexa777-1": {
-        "ansible_port": 46822
-      },
-      "xAlexa777-2": {
-        "ansible_port": 32222
-      }
-    }
+    "hostvars": {}
   },
   "all": {
-    "hosts": [
-      "xAlexa777-1",
-      "xAlexa777-2"
-    ],
+    "hosts": [],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [
-    "xAlexa777-2"
-  ],
-  "web_servers": [
-    "xAlexa777-1"
-  ]
+  "db_servers": [],
+  "web_servers": []
 }

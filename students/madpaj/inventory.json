@@ -3,16 +3,12 @@
     "hostvars": {
       "madpaj-1": {
         "ansible_port": 15322
-      },
-      "madpaj-2": {
-        "ansible_port": 19522
       }
     }
   },
   "all": {
     "hosts": [
-      "madpaj-1",
-      "madpaj-2"
+      "madpaj-1"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -20,9 +16,7 @@
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [
-    "madpaj-2"
-  ],
+  "db_servers": [],
   "web_servers": [
     "madpaj-1"
   ]

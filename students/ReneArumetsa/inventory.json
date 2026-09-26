@@ -1,29 +1,15 @@
 {
   "_meta": {
-    "hostvars": {
-      "ReneArumetsa-1": {
-        "ansible_port": 31322
-      },
-      "ReneArumetsa-2": {
-        "ansible_port": 30722
-      }
-    }
+    "hostvars": {}
   },
   "all": {
-    "hosts": [
-      "ReneArumetsa-1",
-      "ReneArumetsa-2"
-    ],
+    "hosts": [],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [
-    "ReneArumetsa-2"
-  ],
-  "web_servers": [
-    "ReneArumetsa-1"
-  ]
+  "db_servers": [],
+  "web_servers": []
 }

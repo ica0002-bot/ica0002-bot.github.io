@@ -1,29 +1,15 @@
 {
   "_meta": {
-    "hostvars": {
-      "AljonaSavinova-1": {
-        "ansible_port": 18622
-      },
-      "AljonaSavinova-2": {
-        "ansible_port": 20222
-      }
-    }
+    "hostvars": {}
   },
   "all": {
-    "hosts": [
-      "AljonaSavinova-1",
-      "AljonaSavinova-2"
-    ],
+    "hosts": [],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [
-    "AljonaSavinova-2"
-  ],
-  "web_servers": [
-    "AljonaSavinova-1"
-  ]
+  "db_servers": [],
+  "web_servers": []
 }

@@ -1,29 +1,15 @@
 {
   "_meta": {
-    "hostvars": {
-      "vash4aiii-1": {
-        "ansible_port": 50722
-      },
-      "vash4aiii-2": {
-        "ansible_port": 37822
-      }
-    }
+    "hostvars": {}
   },
   "all": {
-    "hosts": [
-      "vash4aiii-1",
-      "vash4aiii-2"
-    ],
+    "hosts": [],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [
-    "vash4aiii-2"
-  ],
-  "web_servers": [
-    "vash4aiii-1"
-  ]
+  "db_servers": [],
+  "web_servers": []
 }

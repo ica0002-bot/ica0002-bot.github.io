@@ -1,29 +1,15 @@
 {
   "_meta": {
-    "hostvars": {
-      "Sven229-1": {
-        "ansible_port": 8322
-      },
-      "Sven229-2": {
-        "ansible_port": 3222
-      }
-    }
+    "hostvars": {}
   },
   "all": {
-    "hosts": [
-      "Sven229-1",
-      "Sven229-2"
-    ],
+    "hosts": [],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [
-    "Sven229-2"
-  ],
-  "web_servers": [
-    "Sven229-1"
-  ]
+  "db_servers": [],
+  "web_servers": []
 }
