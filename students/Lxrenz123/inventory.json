@@ -1,15 +1,29 @@
 {
   "_meta": {
-    "hostvars": {}
+    "hostvars": {
+      "Lxrenz123-1": {
+        "ansible_port": 4522
+      },
+      "Lxrenz123-2": {
+        "ansible_port": 16922
+      }
+    }
   },
   "all": {
-    "hosts": [],
+    "hosts": [
+      "Lxrenz123-1",
+      "Lxrenz123-2"
+    ],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [],
-  "web_servers": []
+  "db_servers": [
+    "Lxrenz123-2"
+  ],
+  "web_servers": [
+    "Lxrenz123-1"
+  ]
 }

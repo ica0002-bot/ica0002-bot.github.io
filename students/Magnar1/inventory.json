@@ -1,15 +1,29 @@
 {
   "_meta": {
-    "hostvars": {}
+    "hostvars": {
+      "Magnar1-1": {
+        "ansible_port": 43022
+      },
+      "Magnar1-2": {
+        "ansible_port": 37222
+      }
+    }
   },
   "all": {
-    "hosts": [],
+    "hosts": [
+      "Magnar1-1",
+      "Magnar1-2"
+    ],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [],
-  "web_servers": []
+  "db_servers": [
+    "Magnar1-2"
+  ],
+  "web_servers": [
+    "Magnar1-1"
+  ]
 }

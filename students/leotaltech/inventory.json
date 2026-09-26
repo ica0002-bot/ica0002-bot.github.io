@@ -1,13 +1,17 @@
 {
   "_meta": {
     "hostvars": {
+      "leotaltech-1": {
+        "ansible_port": 14022
+      },
       "leotaltech-2": {
-        "ansible_port": 28622
+        "ansible_port": 1922
       }
     }
   },
   "all": {
     "hosts": [
+      "leotaltech-1",
       "leotaltech-2"
     ],
     "vars": {
@@ -16,8 +20,10 @@
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [],
-  "web_servers": [
+  "db_servers": [
     "leotaltech-2"
+  ],
+  "web_servers": [
+    "leotaltech-1"
   ]
 }

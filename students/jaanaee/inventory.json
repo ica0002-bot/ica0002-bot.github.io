@@ -1,13 +1,17 @@
 {
   "_meta": {
     "hostvars": {
+      "jaanaee-1": {
+        "ansible_port": 21622
+      },
       "jaanaee-2": {
-        "ansible_port": 28322
+        "ansible_port": 15522
       }
     }
   },
   "all": {
     "hosts": [
+      "jaanaee-1",
       "jaanaee-2"
     ],
     "vars": {
@@ -16,8 +20,10 @@
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [],
-  "web_servers": [
+  "db_servers": [
     "jaanaee-2"
+  ],
+  "web_servers": [
+    "jaanaee-1"
   ]
 }

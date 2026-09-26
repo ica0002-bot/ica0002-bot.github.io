@@ -1,15 +1,29 @@
 {
   "_meta": {
-    "hostvars": {}
+    "hostvars": {
+      "AIS4224-1": {
+        "ansible_port": 39622
+      },
+      "AIS4224-2": {
+        "ansible_port": 43722
+      }
+    }
   },
   "all": {
-    "hosts": [],
+    "hosts": [
+      "AIS4224-1",
+      "AIS4224-2"
+    ],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [],
-  "web_servers": []
+  "db_servers": [
+    "AIS4224-2"
+  ],
+  "web_servers": [
+    "AIS4224-1"
+  ]
 }

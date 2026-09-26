@@ -2,13 +2,17 @@
   "_meta": {
     "hostvars": {
       "arturallmann-1": {
-        "ansible_port": 19922
+        "ansible_port": 46822
+      },
+      "arturallmann-2": {
+        "ansible_port": 32322
       }
     }
   },
   "all": {
     "hosts": [
-      "arturallmann-1"
+      "arturallmann-1",
+      "arturallmann-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -16,7 +20,9 @@
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [],
+  "db_servers": [
+    "arturallmann-2"
+  ],
   "web_servers": [
     "arturallmann-1"
   ]

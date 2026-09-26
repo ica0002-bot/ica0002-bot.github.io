@@ -3,12 +3,16 @@
     "hostvars": {
       "mihkep-1": {
         "ansible_port": 4022
+      },
+      "mihkep-2": {
+        "ansible_port": 45422
       }
     }
   },
   "all": {
     "hosts": [
-      "mihkep-1"
+      "mihkep-1",
+      "mihkep-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -16,7 +20,9 @@
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [],
+  "db_servers": [
+    "mihkep-2"
+  ],
   "web_servers": [
     "mihkep-1"
   ]
