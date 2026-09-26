@@ -11,7 +11,16 @@
 <p>Public key: <a href="https://github.com/kamil-jpg.keys">https://github.com/kamil-jpg.keys</a></p>
 <h2>Virtual machines</h2>
 
-<p>Complete <a href="https://github.com/romankuchin/ica0002-2026/tree/main/01-intro">GitHub repository setup</a> to get your first machine.</p>
+<table>
+<tr><th>Name</th><th>Internal IP</th><th>Public SSH</th><th>Public URL</th></tr>
+
+<tr><td>kamil-jpg-1</td><td>192.168.43.40</td><td>ubuntu@193.40.157.25 port 29622</td><td><a href="http://193.40.157.25:29680">http://193.40.157.25:29680</a></td></tr>
+
+<tr><td>kamil-jpg-2</td><td>192.168.43.139</td><td>ubuntu@193.40.157.25 port 39522</td><td><a href="http://193.40.157.25:39580">http://193.40.157.25:39580</a></td></tr>
+
+<tr><td colspan="5">Complete <a href="https://github.com/romankuchin/ica0002-2026/tree/main/14-dns-slave">lab 14 tasks</a> to get your third machine.</td></tr>
+
+</table>
 
 
 <br>
@@ -37,23 +46,24 @@
 </details>
 <h2>Services</h2>
 <table>
-<p>Complete <a href="https://github.com/romankuchin/ica0002-2026/tree/main/01-intro">GitHub repository setup</a> to get your first machine.</p>
+<table>
+<tr><th>Service</th><th>kamil-jpg-1</th><th>kamil-jpg-2</th><th>Status</th></tr>
 
+<tr><td>Web server</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
 </table>
 <h2>Git repository checks</h2>
 <ul>
 <li><span class="ok">Ok</span>: GitHub repository is set up correctly.</li>
 <li><span class="ok">Ok</span>: <code>ansible.cfg</code> found.</li>
-<li><span class="fail">Problem</span>: <code>group_vars/all.yaml</code> is missing; labs not completed: 4.</li>
+<li><span class="ok">Ok</span>: <code>group_vars/all.yaml</code> found.</li>
 <li><span class="ok">Ok</span>: <code>infra.yaml</code> found.</li>
 <li><span class="ok">Ok</span>: <code>roles/agama/tasks/main.yaml</code> found.</li>
 <li><span class="ok">Ok</span>: <code>roles/init/tasks/main.yaml</code> found.</li>
-<li><span class="fail">Problem</span>: <code>roles/mysql/tasks/main.yaml</code> is missing; labs not completed: 4.</li>
+<li><span class="ok">Ok</span>: <code>roles/mysql/tasks/main.yaml</code> found.</li>
 <li><span class="ok">Ok</span>: <code>roles/nginx/tasks/main.yaml</code> found.</li>
 <li><span class="ok">Ok</span>: <code>roles/uwsgi/tasks/main.yaml</code> found.</li>
 </ul>
 
-<p>A few problems found.</p>
-<p>Labs not accepted: 4.</p>
-<p>Last checked on Sep 26 at 13:39 UTC.</p>
+<p>All good so far.</p>
+<p>Last checked on Sep 26 at 14:08 UTC.</p>
 </body></html>

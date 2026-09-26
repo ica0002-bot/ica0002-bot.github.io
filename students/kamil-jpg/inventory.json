@@ -1,15 +1,29 @@
 {
   "_meta": {
-    "hostvars": {}
+    "hostvars": {
+      "kamil-jpg-1": {
+        "ansible_port": 29622
+      },
+      "kamil-jpg-2": {
+        "ansible_port": 39522
+      }
+    }
   },
   "all": {
-    "hosts": [],
+    "hosts": [
+      "kamil-jpg-1",
+      "kamil-jpg-2"
+    ],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [],
-  "web_servers": []
+  "db_servers": [
+    "kamil-jpg-2"
+  ],
+  "web_servers": [
+    "kamil-jpg-1"
+  ]
 }
