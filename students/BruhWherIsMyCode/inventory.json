@@ -3,12 +3,16 @@
     "hostvars": {
       "BruhWherIsMyCode-1": {
         "ansible_port": 17622
+      },
+      "BruhWherIsMyCode-2": {
+        "ansible_port": 17422
       }
     }
   },
   "all": {
     "hosts": [
-      "BruhWherIsMyCode-1"
+      "BruhWherIsMyCode-1",
+      "BruhWherIsMyCode-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -16,7 +20,9 @@
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [],
+  "db_servers": [
+    "BruhWherIsMyCode-2"
+  ],
   "web_servers": [
     "BruhWherIsMyCode-1"
   ]
