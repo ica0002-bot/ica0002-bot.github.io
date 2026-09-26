@@ -3,12 +3,16 @@
     "hostvars": {
       "romani10000-1": {
         "ansible_port": 20222
+      },
+      "romani10000-2": {
+        "ansible_port": 12522
       }
     }
   },
   "all": {
     "hosts": [
-      "romani10000-1"
+      "romani10000-1",
+      "romani10000-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -16,7 +20,9 @@
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [],
+  "db_servers": [
+    "romani10000-2"
+  ],
   "web_servers": [
     "romani10000-1"
   ]
