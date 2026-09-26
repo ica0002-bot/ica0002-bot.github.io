@@ -3,12 +3,16 @@
     "hostvars": {
       "FeodorDjatlov-1": {
         "ansible_port": 8622
+      },
+      "FeodorDjatlov-2": {
+        "ansible_port": 12122
       }
     }
   },
   "all": {
     "hosts": [
-      "FeodorDjatlov-1"
+      "FeodorDjatlov-1",
+      "FeodorDjatlov-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -16,7 +20,9 @@
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [],
+  "db_servers": [
+    "FeodorDjatlov-2"
+  ],
   "web_servers": [
     "FeodorDjatlov-1"
   ]
