@@ -3,12 +3,16 @@
     "hostvars": {
       "timmutaja-1": {
         "ansible_port": 26922
+      },
+      "timmutaja-2": {
+        "ansible_port": 49622
       }
     }
   },
   "all": {
     "hosts": [
-      "timmutaja-1"
+      "timmutaja-1",
+      "timmutaja-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -16,7 +20,9 @@
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [],
+  "db_servers": [
+    "timmutaja-2"
+  ],
   "web_servers": [
     "timmutaja-1"
   ]
