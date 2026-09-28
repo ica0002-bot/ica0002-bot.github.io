@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "robinkk-1": {
-        "ansible_port": 35722
+        "ansible_port": 3122
       },
       "robinkk-2": {
-        "ansible_port": 47322
+        "ansible_port": 14522
       }
     }
   },

@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "LaavaVatsel-1": {
-        "ansible_port": 36022
+        "ansible_port": 3522
       },
       "LaavaVatsel-2": {
-        "ansible_port": 45622
+        "ansible_port": 2222
       }
     }
   },

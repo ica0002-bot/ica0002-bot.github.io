@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "us3rop-1": {
-        "ansible_port": 4522
+        "ansible_port": 38222
       },
       "us3rop-2": {
-        "ansible_port": 6122
+        "ansible_port": 50322
       }
     }
   },

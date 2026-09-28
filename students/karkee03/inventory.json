@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "karkee03-1": {
-        "ansible_port": 22022
+        "ansible_port": 29722
       },
       "karkee03-2": {
-        "ansible_port": 10222
+        "ansible_port": 46122
       }
     }
   },
