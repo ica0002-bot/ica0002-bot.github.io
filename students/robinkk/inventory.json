@@ -21,7 +21,10 @@
     }
   },
   "db_servers": [
-    "robinkk-2"
+    "robinkk-1"
+  ],
+  "dns_servers": [
+    "robinkk-1"
   ],
   "web_servers": [
     "robinkk-1"

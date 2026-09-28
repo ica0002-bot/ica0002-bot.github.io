@@ -21,7 +21,10 @@
     }
   },
   "db_servers": [
-    "timokund-2"
+    "timokund-1"
+  ],
+  "dns_servers": [
+    "timokund-1"
   ],
   "web_servers": [
     "timokund-1"

@@ -21,7 +21,10 @@
     }
   },
   "db_servers": [
-    "Matuffi-2"
+    "Matuffi-1"
+  ],
+  "dns_servers": [
+    "Matuffi-1"
   ],
   "web_servers": [
     "Matuffi-1"

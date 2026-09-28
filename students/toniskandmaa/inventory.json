@@ -17,6 +17,7 @@
     }
   },
   "db_servers": [],
+  "dns_servers": [],
   "web_servers": [
     "toniskandmaa-1"
   ]

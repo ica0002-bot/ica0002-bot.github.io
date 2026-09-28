@@ -21,7 +21,10 @@
     }
   },
   "db_servers": [
-    "ivatot16-2"
+    "ivatot16-1"
+  ],
+  "dns_servers": [
+    "ivatot16-1"
   ],
   "web_servers": [
     "ivatot16-1"

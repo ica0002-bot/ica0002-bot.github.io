@@ -21,7 +21,10 @@
     }
   },
   "db_servers": [
-    "hudolejev-2"
+    "hudolejev-1"
+  ],
+  "dns_servers": [
+    "hudolejev-1"
   ],
   "web_servers": [
     "hudolejev-1"

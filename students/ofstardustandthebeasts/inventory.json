@@ -21,7 +21,10 @@
     }
   },
   "db_servers": [
-    "ofstardustandthebeasts-2"
+    "ofstardustandthebeasts-1"
+  ],
+  "dns_servers": [
+    "ofstardustandthebeasts-1"
   ],
   "web_servers": [
     "ofstardustandthebeasts-1"

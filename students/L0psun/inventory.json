@@ -21,7 +21,10 @@
     }
   },
   "db_servers": [
-    "L0psun-2"
+    "L0psun-1"
+  ],
+  "dns_servers": [
+    "L0psun-1"
   ],
   "web_servers": [
     "L0psun-1"

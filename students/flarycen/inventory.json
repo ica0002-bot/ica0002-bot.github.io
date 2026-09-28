@@ -21,7 +21,10 @@
     }
   },
   "db_servers": [
-    "flarycen-2"
+    "flarycen-1"
+  ],
+  "dns_servers": [
+    "flarycen-1"
   ],
   "web_servers": [
     "flarycen-1"

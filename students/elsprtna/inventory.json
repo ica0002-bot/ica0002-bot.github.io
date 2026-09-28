@@ -21,7 +21,10 @@
     }
   },
   "db_servers": [
-    "elsprtna-2"
+    "elsprtna-1"
+  ],
+  "dns_servers": [
+    "elsprtna-1"
   ],
   "web_servers": [
     "elsprtna-1"

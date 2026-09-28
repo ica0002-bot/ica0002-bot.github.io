@@ -21,7 +21,10 @@
     }
   },
   "db_servers": [
-    "iszimm-2"
+    "iszimm-1"
+  ],
+  "dns_servers": [
+    "iszimm-1"
   ],
   "web_servers": [
     "iszimm-1"

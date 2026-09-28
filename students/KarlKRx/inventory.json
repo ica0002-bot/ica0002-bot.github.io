@@ -21,7 +21,10 @@
     }
   },
   "db_servers": [
-    "KarlKRx-2"
+    "KarlKRx-1"
+  ],
+  "dns_servers": [
+    "KarlKRx-1"
   ],
   "web_servers": [
     "KarlKRx-1"

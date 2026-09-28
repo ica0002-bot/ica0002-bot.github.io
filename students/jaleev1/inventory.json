@@ -21,7 +21,10 @@
     }
   },
   "db_servers": [
-    "jaleev1-2"
+    "jaleev1-1"
+  ],
+  "dns_servers": [
+    "jaleev1-1"
   ],
   "web_servers": [
     "jaleev1-1"

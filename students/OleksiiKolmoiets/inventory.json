@@ -21,7 +21,10 @@
     }
   },
   "db_servers": [
-    "OleksiiKolmoiets-2"
+    "OleksiiKolmoiets-1"
+  ],
+  "dns_servers": [
+    "OleksiiKolmoiets-1"
   ],
   "web_servers": [
     "OleksiiKolmoiets-1"

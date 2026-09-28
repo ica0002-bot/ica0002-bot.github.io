@@ -21,7 +21,10 @@
     }
   },
   "db_servers": [
-    "milena609-2"
+    "milena609-1"
+  ],
+  "dns_servers": [
+    "milena609-1"
   ],
   "web_servers": [
     "milena609-1"

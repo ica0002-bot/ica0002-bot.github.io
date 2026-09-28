@@ -21,7 +21,10 @@
     }
   },
   "db_servers": [
-    "veviik-2"
+    "veviik-1"
+  ],
+  "dns_servers": [
+    "veviik-1"
   ],
   "web_servers": [
     "veviik-1"

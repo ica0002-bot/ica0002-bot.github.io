@@ -21,7 +21,10 @@
     }
   },
   "db_servers": [
-    "AljonaSavinova-2"
+    "AljonaSavinova-1"
+  ],
+  "dns_servers": [
+    "AljonaSavinova-1"
   ],
   "web_servers": [
     "AljonaSavinova-1"

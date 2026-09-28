@@ -21,7 +21,10 @@
     }
   },
   "db_servers": [
-    "MrMihasha-2"
+    "MrMihasha-1"
+  ],
+  "dns_servers": [
+    "MrMihasha-1"
   ],
   "web_servers": [
     "MrMihasha-1"

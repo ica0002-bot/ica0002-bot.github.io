@@ -21,7 +21,10 @@
     }
   },
   "db_servers": [
-    "RogerRohilaid-2"
+    "RogerRohilaid-1"
+  ],
+  "dns_servers": [
+    "RogerRohilaid-1"
   ],
   "web_servers": [
     "RogerRohilaid-1"

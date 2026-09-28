@@ -21,7 +21,10 @@
     }
   },
   "db_servers": [
-    "Cantfindmysocks-2"
+    "Cantfindmysocks-1"
+  ],
+  "dns_servers": [
+    "Cantfindmysocks-1"
   ],
   "web_servers": [
     "Cantfindmysocks-1"

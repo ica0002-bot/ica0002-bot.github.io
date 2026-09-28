@@ -21,7 +21,10 @@
     }
   },
   "db_servers": [
-    "markomson-2"
+    "markomson-1"
+  ],
+  "dns_servers": [
+    "markomson-1"
   ],
   "web_servers": [
     "markomson-1"

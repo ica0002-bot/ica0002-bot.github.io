@@ -21,7 +21,10 @@
     }
   },
   "db_servers": [
-    "SiimPass-2"
+    "SiimPass-1"
+  ],
+  "dns_servers": [
+    "SiimPass-1"
   ],
   "web_servers": [
     "SiimPass-1"

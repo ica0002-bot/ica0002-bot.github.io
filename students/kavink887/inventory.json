@@ -21,7 +21,10 @@
     }
   },
   "db_servers": [
-    "kavink887-2"
+    "kavink887-1"
+  ],
+  "dns_servers": [
+    "kavink887-1"
   ],
   "web_servers": [
     "kavink887-1"

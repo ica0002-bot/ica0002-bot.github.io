@@ -21,7 +21,10 @@
     }
   },
   "db_servers": [
-    "ke-miil-2"
+    "ke-miil-1"
+  ],
+  "dns_servers": [
+    "ke-miil-1"
   ],
   "web_servers": [
     "ke-miil-1"

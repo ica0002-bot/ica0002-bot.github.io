@@ -21,7 +21,10 @@
     }
   },
   "db_servers": [
-    "HenrikTimmu-2"
+    "HenrikTimmu-1"
+  ],
+  "dns_servers": [
+    "HenrikTimmu-1"
   ],
   "web_servers": [
     "HenrikTimmu-1"

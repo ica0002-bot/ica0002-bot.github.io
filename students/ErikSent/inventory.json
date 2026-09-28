@@ -21,7 +21,10 @@
     }
   },
   "db_servers": [
-    "ErikSent-2"
+    "ErikSent-1"
+  ],
+  "dns_servers": [
+    "ErikSent-1"
   ],
   "web_servers": [
     "ErikSent-1"

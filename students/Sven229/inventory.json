@@ -21,7 +21,10 @@
     }
   },
   "db_servers": [
-    "Sven229-2"
+    "Sven229-1"
+  ],
+  "dns_servers": [
+    "Sven229-1"
   ],
   "web_servers": [
     "Sven229-1"

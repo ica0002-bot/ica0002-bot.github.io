@@ -21,7 +21,10 @@
     }
   },
   "db_servers": [
-    "FeodorDjatlov-2"
+    "FeodorDjatlov-1"
+  ],
+  "dns_servers": [
+    "FeodorDjatlov-1"
   ],
   "web_servers": [
     "FeodorDjatlov-1"

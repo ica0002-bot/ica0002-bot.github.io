@@ -21,7 +21,10 @@
     }
   },
   "db_servers": [
-    "LauriLohmus-2"
+    "LauriLohmus-1"
+  ],
+  "dns_servers": [
+    "LauriLohmus-1"
   ],
   "web_servers": [
     "LauriLohmus-1"

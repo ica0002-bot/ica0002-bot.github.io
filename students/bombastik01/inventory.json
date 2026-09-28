@@ -21,7 +21,10 @@
     }
   },
   "db_servers": [
-    "bombastik01-2"
+    "bombastik01-1"
+  ],
+  "dns_servers": [
+    "bombastik01-1"
   ],
   "web_servers": [
     "bombastik01-1"

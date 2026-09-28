@@ -21,7 +21,10 @@
     }
   },
   "db_servers": [
-    "magna413-2"
+    "magna413-1"
+  ],
+  "dns_servers": [
+    "magna413-1"
   ],
   "web_servers": [
     "magna413-1"

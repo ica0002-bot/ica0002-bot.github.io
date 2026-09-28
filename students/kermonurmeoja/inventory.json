@@ -21,7 +21,10 @@
     }
   },
   "db_servers": [
-    "kermonurmeoja-2"
+    "kermonurmeoja-1"
+  ],
+  "dns_servers": [
+    "kermonurmeoja-1"
   ],
   "web_servers": [
     "kermonurmeoja-1"

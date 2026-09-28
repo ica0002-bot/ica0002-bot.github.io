@@ -21,7 +21,10 @@
     }
   },
   "db_servers": [
-    "Dasiso228-2"
+    "Dasiso228-1"
+  ],
+  "dns_servers": [
+    "Dasiso228-1"
   ],
   "web_servers": [
     "Dasiso228-1"

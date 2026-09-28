@@ -21,7 +21,10 @@
     }
   },
   "db_servers": [
-    "eZlanek-2"
+    "eZlanek-1"
+  ],
+  "dns_servers": [
+    "eZlanek-1"
   ],
   "web_servers": [
     "eZlanek-1"

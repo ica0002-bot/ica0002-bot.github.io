@@ -21,7 +21,10 @@
     }
   },
   "db_servers": [
-    "nikitaspringis21-2"
+    "nikitaspringis21-1"
+  ],
+  "dns_servers": [
+    "nikitaspringis21-1"
   ],
   "web_servers": [
     "nikitaspringis21-1"

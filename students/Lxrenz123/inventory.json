@@ -21,7 +21,10 @@
     }
   },
   "db_servers": [
-    "Lxrenz123-2"
+    "Lxrenz123-1"
+  ],
+  "dns_servers": [
+    "Lxrenz123-1"
   ],
   "web_servers": [
     "Lxrenz123-1"

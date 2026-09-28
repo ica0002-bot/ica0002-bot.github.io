@@ -21,7 +21,10 @@
     }
   },
   "db_servers": [
-    "draft3333-2"
+    "draft3333-1"
+  ],
+  "dns_servers": [
+    "draft3333-1"
   ],
   "web_servers": [
     "draft3333-1"

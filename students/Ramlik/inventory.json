@@ -21,7 +21,10 @@
     }
   },
   "db_servers": [
-    "Ramlik-2"
+    "Ramlik-1"
+  ],
+  "dns_servers": [
+    "Ramlik-1"
   ],
   "web_servers": [
     "Ramlik-1"

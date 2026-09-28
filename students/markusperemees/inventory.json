@@ -21,7 +21,10 @@
     }
   },
   "db_servers": [
-    "markusperemees-2"
+    "markusperemees-1"
+  ],
+  "dns_servers": [
+    "markusperemees-1"
   ],
   "web_servers": [
     "markusperemees-1"

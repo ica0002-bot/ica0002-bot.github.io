@@ -21,7 +21,10 @@
     }
   },
   "db_servers": [
-    "stepden04-2"
+    "stepden04-1"
+  ],
+  "dns_servers": [
+    "stepden04-1"
   ],
   "web_servers": [
     "stepden04-1"

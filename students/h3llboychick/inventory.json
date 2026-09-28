@@ -21,7 +21,10 @@
     }
   },
   "db_servers": [
-    "h3llboychick-2"
+    "h3llboychick-1"
+  ],
+  "dns_servers": [
+    "h3llboychick-1"
   ],
   "web_servers": [
     "h3llboychick-1"

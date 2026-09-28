@@ -21,7 +21,10 @@
     }
   },
   "db_servers": [
-    "p0ts-2"
+    "p0ts-1"
+  ],
+  "dns_servers": [
+    "p0ts-1"
   ],
   "web_servers": [
     "p0ts-1"

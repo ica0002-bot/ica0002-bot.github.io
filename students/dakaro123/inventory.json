@@ -21,7 +21,10 @@
     }
   },
   "db_servers": [
-    "dakaro123-2"
+    "dakaro123-1"
+  ],
+  "dns_servers": [
+    "dakaro123-1"
   ],
   "web_servers": [
     "dakaro123-1"

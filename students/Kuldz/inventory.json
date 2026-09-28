@@ -21,7 +21,10 @@
     }
   },
   "db_servers": [
-    "Kuldz-2"
+    "Kuldz-1"
+  ],
+  "dns_servers": [
+    "Kuldz-1"
   ],
   "web_servers": [
     "Kuldz-1"

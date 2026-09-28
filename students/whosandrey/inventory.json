@@ -21,7 +21,10 @@
     }
   },
   "db_servers": [
-    "whosandrey-2"
+    "whosandrey-1"
+  ],
+  "dns_servers": [
+    "whosandrey-1"
   ],
   "web_servers": [
     "whosandrey-1"

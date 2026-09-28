@@ -21,7 +21,10 @@
     }
   },
   "db_servers": [
-    "karkee03-2"
+    "karkee03-1"
+  ],
+  "dns_servers": [
+    "karkee03-1"
   ],
   "web_servers": [
     "karkee03-1"

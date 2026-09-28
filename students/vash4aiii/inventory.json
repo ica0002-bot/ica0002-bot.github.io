@@ -21,7 +21,10 @@
     }
   },
   "db_servers": [
-    "vash4aiii-2"
+    "vash4aiii-1"
+  ],
+  "dns_servers": [
+    "vash4aiii-1"
   ],
   "web_servers": [
     "vash4aiii-1"

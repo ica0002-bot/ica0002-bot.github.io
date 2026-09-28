@@ -21,7 +21,10 @@
     }
   },
   "db_servers": [
-    "ReneArumetsa-2"
+    "ReneArumetsa-1"
+  ],
+  "dns_servers": [
+    "ReneArumetsa-1"
   ],
   "web_servers": [
     "ReneArumetsa-1"

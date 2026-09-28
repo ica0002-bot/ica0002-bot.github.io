@@ -21,7 +21,10 @@
     }
   },
   "db_servers": [
-    "ipoker27-2"
+    "ipoker27-1"
+  ],
+  "dns_servers": [
+    "ipoker27-1"
   ],
   "web_servers": [
     "ipoker27-1"

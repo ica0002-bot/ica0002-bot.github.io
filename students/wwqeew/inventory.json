@@ -21,7 +21,10 @@
     }
   },
   "db_servers": [
-    "wwqeew-2"
+    "wwqeew-1"
+  ],
+  "dns_servers": [
+    "wwqeew-1"
   ],
   "web_servers": [
     "wwqeew-1"

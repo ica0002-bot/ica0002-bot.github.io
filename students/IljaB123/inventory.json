@@ -21,7 +21,10 @@
     }
   },
   "db_servers": [
-    "IljaB123-2"
+    "IljaB123-1"
+  ],
+  "dns_servers": [
+    "IljaB123-1"
   ],
   "web_servers": [
     "IljaB123-1"

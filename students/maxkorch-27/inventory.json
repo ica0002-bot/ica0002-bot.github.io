@@ -21,7 +21,10 @@
     }
   },
   "db_servers": [
-    "maxkorch-27-2"
+    "maxkorch-27-1"
+  ],
+  "dns_servers": [
+    "maxkorch-27-1"
   ],
   "web_servers": [
     "maxkorch-27-1"

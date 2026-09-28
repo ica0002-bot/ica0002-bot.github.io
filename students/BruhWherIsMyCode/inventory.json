@@ -21,7 +21,10 @@
     }
   },
   "db_servers": [
-    "BruhWherIsMyCode-2"
+    "BruhWherIsMyCode-1"
+  ],
+  "dns_servers": [
+    "BruhWherIsMyCode-1"
   ],
   "web_servers": [
     "BruhWherIsMyCode-1"

@@ -21,7 +21,10 @@
     }
   },
   "db_servers": [
-    "arturallmann-2"
+    "arturallmann-1"
+  ],
+  "dns_servers": [
+    "arturallmann-1"
   ],
   "web_servers": [
     "arturallmann-1"

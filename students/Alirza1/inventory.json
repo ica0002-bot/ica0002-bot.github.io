@@ -21,7 +21,10 @@
     }
   },
   "db_servers": [
-    "Alirza1-2"
+    "Alirza1-1"
+  ],
+  "dns_servers": [
+    "Alirza1-1"
   ],
   "web_servers": [
     "Alirza1-1"

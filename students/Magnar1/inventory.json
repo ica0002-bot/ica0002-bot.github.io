@@ -21,7 +21,10 @@
     }
   },
   "db_servers": [
-    "Magnar1-2"
+    "Magnar1-1"
+  ],
+  "dns_servers": [
+    "Magnar1-1"
   ],
   "web_servers": [
     "Magnar1-1"

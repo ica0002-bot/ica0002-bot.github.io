@@ -21,7 +21,10 @@
     }
   },
   "db_servers": [
-    "erikalt-2"
+    "erikalt-1"
+  ],
+  "dns_servers": [
+    "erikalt-1"
   ],
   "web_servers": [
     "erikalt-1"

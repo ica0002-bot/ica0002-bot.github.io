@@ -21,7 +21,10 @@
     }
   },
   "db_servers": [
-    "pilleparits-2"
+    "pilleparits-1"
+  ],
+  "dns_servers": [
+    "pilleparits-1"
   ],
   "web_servers": [
     "pilleparits-1"

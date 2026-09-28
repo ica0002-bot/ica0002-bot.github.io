@@ -21,7 +21,10 @@
     }
   },
   "db_servers": [
-    "xAlexa777-2"
+    "xAlexa777-1"
+  ],
+  "dns_servers": [
+    "xAlexa777-1"
   ],
   "web_servers": [
     "xAlexa777-1"

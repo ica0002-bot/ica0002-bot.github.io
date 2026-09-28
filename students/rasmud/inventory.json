@@ -21,7 +21,10 @@
     }
   },
   "db_servers": [
-    "rasmud-2"
+    "rasmud-1"
+  ],
+  "dns_servers": [
+    "rasmud-1"
   ],
   "web_servers": [
     "rasmud-1"

@@ -21,7 +21,10 @@
     }
   },
   "db_servers": [
-    "alexander28r-2"
+    "alexander28r-1"
+  ],
+  "dns_servers": [
+    "alexander28r-1"
   ],
   "web_servers": [
     "alexander28r-1"

@@ -21,7 +21,10 @@
     }
   },
   "db_servers": [
-    "arlekin40000-2"
+    "arlekin40000-1"
+  ],
+  "dns_servers": [
+    "arlekin40000-1"
   ],
   "web_servers": [
     "arlekin40000-1"
