@@ -3,12 +3,16 @@
     "hostvars": {
       "algertg-1": {
         "ansible_port": 38022
+      },
+      "algertg-2": {
+        "ansible_port": 38422
       }
     }
   },
   "all": {
     "hosts": [
-      "algertg-1"
+      "algertg-1",
+      "algertg-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -16,8 +20,12 @@
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [],
-  "dns_servers": [],
+  "db_servers": [
+    "algertg-2"
+  ],
+  "dns_servers": [
+    "algertg-2"
+  ],
   "web_servers": [
     "algertg-1"
   ]
