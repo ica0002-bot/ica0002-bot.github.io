@@ -21,10 +21,10 @@
     }
   },
   "db_servers": [
-    "arminschutz-1"
+    "arminschutz-2"
   ],
   "dns_servers": [
-    "arminschutz-1"
+    "arminschutz-2"
   ],
   "web_servers": [
     "arminschutz-1"

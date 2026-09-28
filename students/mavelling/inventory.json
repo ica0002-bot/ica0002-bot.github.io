@@ -21,10 +21,10 @@
     }
   },
   "db_servers": [
-    "mavelling-1"
+    "mavelling-2"
   ],
   "dns_servers": [
-    "mavelling-1"
+    "mavelling-2"
   ],
   "web_servers": [
     "mavelling-1"

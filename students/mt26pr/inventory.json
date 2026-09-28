@@ -21,10 +21,10 @@
     }
   },
   "db_servers": [
-    "mt26pr-1"
+    "mt26pr-2"
   ],
   "dns_servers": [
-    "mt26pr-1"
+    "mt26pr-2"
   ],
   "web_servers": [
     "mt26pr-1"

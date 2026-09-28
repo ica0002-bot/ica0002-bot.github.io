@@ -21,10 +21,10 @@
     }
   },
   "db_servers": [
-    "madpaj-1"
+    "madpaj-2"
   ],
   "dns_servers": [
-    "madpaj-1"
+    "madpaj-2"
   ],
   "web_servers": [
     "madpaj-1"

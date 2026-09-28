@@ -21,10 +21,10 @@
     }
   },
   "db_servers": [
-    "seljanka-1"
+    "seljanka-2"
   ],
   "dns_servers": [
-    "seljanka-1"
+    "seljanka-2"
   ],
   "web_servers": [
     "seljanka-1"

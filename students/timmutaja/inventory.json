@@ -21,10 +21,10 @@
     }
   },
   "db_servers": [
-    "timmutaja-1"
+    "timmutaja-2"
   ],
   "dns_servers": [
-    "timmutaja-1"
+    "timmutaja-2"
   ],
   "web_servers": [
     "timmutaja-1"

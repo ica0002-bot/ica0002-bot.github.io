@@ -21,10 +21,10 @@
     }
   },
   "db_servers": [
-    "alarifredi-1"
+    "alarifredi-2"
   ],
   "dns_servers": [
-    "alarifredi-1"
+    "alarifredi-2"
   ],
   "web_servers": [
     "alarifredi-1"

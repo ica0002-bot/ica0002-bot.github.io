@@ -21,10 +21,10 @@
     }
   },
   "db_servers": [
-    "us3rop-1"
+    "us3rop-2"
   ],
   "dns_servers": [
-    "us3rop-1"
+    "us3rop-2"
   ],
   "web_servers": [
     "us3rop-1"

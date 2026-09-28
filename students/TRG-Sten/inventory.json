@@ -21,10 +21,10 @@
     }
   },
   "db_servers": [
-    "TRG-Sten-1"
+    "TRG-Sten-2"
   ],
   "dns_servers": [
-    "TRG-Sten-1"
+    "TRG-Sten-2"
   ],
   "web_servers": [
     "TRG-Sten-1"

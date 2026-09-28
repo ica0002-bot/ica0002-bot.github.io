@@ -21,10 +21,10 @@
     }
   },
   "db_servers": [
-    "mihkep-1"
+    "mihkep-2"
   ],
   "dns_servers": [
-    "mihkep-1"
+    "mihkep-2"
   ],
   "web_servers": [
     "mihkep-1"

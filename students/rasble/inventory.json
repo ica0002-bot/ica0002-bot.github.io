@@ -21,10 +21,10 @@
     }
   },
   "db_servers": [
-    "rasble-1"
+    "rasble-2"
   ],
   "dns_servers": [
-    "rasble-1"
+    "rasble-2"
   ],
   "web_servers": [
     "rasble-1"

@@ -21,10 +21,10 @@
     }
   },
   "db_servers": [
-    "eldensmoke-1"
+    "eldensmoke-2"
   ],
   "dns_servers": [
-    "eldensmoke-1"
+    "eldensmoke-2"
   ],
   "web_servers": [
     "eldensmoke-1"

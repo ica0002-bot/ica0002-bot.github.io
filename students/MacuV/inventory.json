@@ -21,10 +21,10 @@
     }
   },
   "db_servers": [
-    "MacuV-1"
+    "MacuV-2"
   ],
   "dns_servers": [
-    "MacuV-1"
+    "MacuV-2"
   ],
   "web_servers": [
     "MacuV-1"

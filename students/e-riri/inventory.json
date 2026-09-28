@@ -21,10 +21,10 @@
     }
   },
   "db_servers": [
-    "e-riri-1"
+    "e-riri-2"
   ],
   "dns_servers": [
-    "e-riri-1"
+    "e-riri-2"
   ],
   "web_servers": [
     "e-riri-1"

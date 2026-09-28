@@ -21,10 +21,10 @@
     }
   },
   "db_servers": [
-    "Tournicotte-1"
+    "Tournicotte-2"
   ],
   "dns_servers": [
-    "Tournicotte-1"
+    "Tournicotte-2"
   ],
   "web_servers": [
     "Tournicotte-1"

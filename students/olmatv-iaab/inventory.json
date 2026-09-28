@@ -21,10 +21,10 @@
     }
   },
   "db_servers": [
-    "olmatv-iaab-1"
+    "olmatv-iaab-2"
   ],
   "dns_servers": [
-    "olmatv-iaab-1"
+    "olmatv-iaab-2"
   ],
   "web_servers": [
     "olmatv-iaab-1"

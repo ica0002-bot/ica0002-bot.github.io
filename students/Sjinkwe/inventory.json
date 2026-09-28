@@ -21,10 +21,10 @@
     }
   },
   "db_servers": [
-    "Sjinkwe-1"
+    "Sjinkwe-2"
   ],
   "dns_servers": [
-    "Sjinkwe-1"
+    "Sjinkwe-2"
   ],
   "web_servers": [
     "Sjinkwe-1"

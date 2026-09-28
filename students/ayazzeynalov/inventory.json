@@ -21,10 +21,10 @@
     }
   },
   "db_servers": [
-    "ayazzeynalov-1"
+    "ayazzeynalov-2"
   ],
   "dns_servers": [
-    "ayazzeynalov-1"
+    "ayazzeynalov-2"
   ],
   "web_servers": [
     "ayazzeynalov-1"

@@ -21,10 +21,10 @@
     }
   },
   "db_servers": [
-    "romankuchin-1"
+    "romankuchin-2"
   ],
   "dns_servers": [
-    "romankuchin-1"
+    "romankuchin-2"
   ],
   "web_servers": [
     "romankuchin-1"

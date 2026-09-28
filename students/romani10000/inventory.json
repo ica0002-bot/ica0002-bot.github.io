@@ -21,10 +21,10 @@
     }
   },
   "db_servers": [
-    "romani10000-1"
+    "romani10000-2"
   ],
   "dns_servers": [
-    "romani10000-1"
+    "romani10000-2"
   ],
   "web_servers": [
     "romani10000-1"

@@ -21,10 +21,10 @@
     }
   },
   "db_servers": [
-    "adapsss-1"
+    "adapsss-2"
   ],
   "dns_servers": [
-    "adapsss-1"
+    "adapsss-2"
   ],
   "web_servers": [
     "adapsss-1"

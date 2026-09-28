@@ -21,10 +21,10 @@
     }
   },
   "db_servers": [
-    "xmyssu-1"
+    "xmyssu-2"
   ],
   "dns_servers": [
-    "xmyssu-1"
+    "xmyssu-2"
   ],
   "web_servers": [
     "xmyssu-1"

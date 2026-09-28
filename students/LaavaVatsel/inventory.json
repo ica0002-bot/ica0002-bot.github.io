@@ -21,10 +21,10 @@
     }
   },
   "db_servers": [
-    "LaavaVatsel-1"
+    "LaavaVatsel-2"
   ],
   "dns_servers": [
-    "LaavaVatsel-1"
+    "LaavaVatsel-2"
   ],
   "web_servers": [
     "LaavaVatsel-1"

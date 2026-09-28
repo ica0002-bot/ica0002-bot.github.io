@@ -21,10 +21,10 @@
     }
   },
   "db_servers": [
-    "leotaltech-1"
+    "leotaltech-2"
   ],
   "dns_servers": [
-    "leotaltech-1"
+    "leotaltech-2"
   ],
   "web_servers": [
     "leotaltech-1"

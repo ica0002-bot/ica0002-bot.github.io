@@ -21,10 +21,10 @@
     }
   },
   "db_servers": [
-    "Klauszal-1"
+    "Klauszal-2"
   ],
   "dns_servers": [
-    "Klauszal-1"
+    "Klauszal-2"
   ],
   "web_servers": [
     "Klauszal-1"

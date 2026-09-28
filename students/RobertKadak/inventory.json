@@ -21,10 +21,10 @@
     }
   },
   "db_servers": [
-    "RobertKadak-1"
+    "RobertKadak-2"
   ],
   "dns_servers": [
-    "RobertKadak-1"
+    "RobertKadak-2"
   ],
   "web_servers": [
     "RobertKadak-1"

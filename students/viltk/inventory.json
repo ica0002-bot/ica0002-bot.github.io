@@ -21,10 +21,10 @@
     }
   },
   "db_servers": [
-    "viltk-1"
+    "viltk-2"
   ],
   "dns_servers": [
-    "viltk-1"
+    "viltk-2"
   ],
   "web_servers": [
     "viltk-1"

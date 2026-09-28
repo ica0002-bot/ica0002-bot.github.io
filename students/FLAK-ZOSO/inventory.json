@@ -21,10 +21,10 @@
     }
   },
   "db_servers": [
-    "FLAK-ZOSO-1"
+    "FLAK-ZOSO-2"
   ],
   "dns_servers": [
-    "FLAK-ZOSO-1"
+    "FLAK-ZOSO-2"
   ],
   "web_servers": [
     "FLAK-ZOSO-1"
