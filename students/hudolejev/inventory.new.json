@@ -1,18 +1,18 @@
 {
   "_meta": {
     "hostvars": {
-      "Sjinkwe-1": {
-        "ansible_port": 50722
+      "hudolejev-1": {
+        "ansible_port": 7022
       },
-      "Sjinkwe-2": {
-        "ansible_port": 41622
+      "hudolejev-2": {
+        "ansible_port": 23922
       }
     }
   },
   "all": {
     "hosts": [
-      "Sjinkwe-1",
-      "Sjinkwe-2"
+      "hudolejev-1",
+      "hudolejev-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -21,9 +21,12 @@
     }
   },
   "db_servers": [
-    "Sjinkwe-2"
+    "hudolejev-2"
+  ],
+  "dns_servers": [
+    "hudolejev-2"
   ],
   "web_servers": [
-    "Sjinkwe-1"
+    "hudolejev-1"
   ]
 }
