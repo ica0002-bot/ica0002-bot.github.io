@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "seljanka-1": {
-        "ansible_port": 45522
+        "ansible_port": 21922
       },
       "seljanka-2": {
-        "ansible_port": 49022
+        "ansible_port": 12522
       }
     }
   },

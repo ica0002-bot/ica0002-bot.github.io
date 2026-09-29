@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "HenrikTimmu-1": {
-        "ansible_port": 24422
+        "ansible_port": 38022
       },
       "HenrikTimmu-2": {
-        "ansible_port": 1422
+        "ansible_port": 46022
       }
     }
   },
