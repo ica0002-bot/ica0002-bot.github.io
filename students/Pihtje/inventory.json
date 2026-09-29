@@ -13,12 +13,19 @@
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
+      "ansible_python_interpreter": "/usr/bin/python3.12",
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [],
-  "dns_servers": [],
-  "web_servers": [
-    "Pihtje-1"
-  ]
+  "db_servers": {
+    "hosts": []
+  },
+  "dns_servers": {
+    "hosts": []
+  },
+  "web_servers": {
+    "hosts": [
+      "Pihtje-1"
+    ]
+  }
 }

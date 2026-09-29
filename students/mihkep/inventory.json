@@ -17,16 +17,23 @@
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
+      "ansible_python_interpreter": "/usr/bin/python3.12",
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [
-    "mihkep-2"
-  ],
-  "dns_servers": [
-    "mihkep-2"
-  ],
-  "web_servers": [
-    "mihkep-1"
-  ]
+  "db_servers": {
+    "hosts": [
+      "mihkep-2"
+    ]
+  },
+  "dns_servers": {
+    "hosts": [
+      "mihkep-2"
+    ]
+  },
+  "web_servers": {
+    "hosts": [
+      "mihkep-1"
+    ]
+  }
 }

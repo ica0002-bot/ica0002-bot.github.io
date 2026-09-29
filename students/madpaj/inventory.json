@@ -17,16 +17,23 @@
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
+      "ansible_python_interpreter": "/usr/bin/python3.12",
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [
-    "madpaj-2"
-  ],
-  "dns_servers": [
-    "madpaj-2"
-  ],
-  "web_servers": [
-    "madpaj-1"
-  ]
+  "db_servers": {
+    "hosts": [
+      "madpaj-2"
+    ]
+  },
+  "dns_servers": {
+    "hosts": [
+      "madpaj-2"
+    ]
+  },
+  "web_servers": {
+    "hosts": [
+      "madpaj-1"
+    ]
+  }
 }

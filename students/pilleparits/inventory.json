@@ -17,16 +17,23 @@
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
+      "ansible_python_interpreter": "/usr/bin/python3.12",
       "ansible_user": "ubuntu"
     }
   },
-  "db_servers": [
-    "pilleparits-2"
-  ],
-  "dns_servers": [
-    "pilleparits-2"
-  ],
-  "web_servers": [
-    "pilleparits-1"
-  ]
+  "db_servers": {
+    "hosts": [
+      "pilleparits-2"
+    ]
+  },
+  "dns_servers": {
+    "hosts": [
+      "pilleparits-2"
+    ]
+  },
+  "web_servers": {
+    "hosts": [
+      "pilleparits-1"
+    ]
+  }
 }
