@@ -3,12 +3,16 @@
     "hostvars": {
       "Hervin-kood-1": {
         "ansible_port": 24722
+      },
+      "Hervin-kood-2": {
+        "ansible_port": 22022
       }
     }
   },
   "all": {
     "hosts": [
-      "Hervin-kood-1"
+      "Hervin-kood-1",
+      "Hervin-kood-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -18,10 +22,14 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "Hervin-kood-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "Hervin-kood-2"
+    ]
   },
   "web_servers": {
     "hosts": [
