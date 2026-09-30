@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "Lxrenz123-1": {
-        "ansible_port": 36822
+        "ansible_port": 1022
       },
       "Lxrenz123-2": {
-        "ansible_port": 47522
+        "ansible_port": 15922
       }
     }
   },

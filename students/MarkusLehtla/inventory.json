@@ -2,7 +2,7 @@
   "_meta": {
     "hostvars": {
       "MarkusLehtla-1": {
-        "ansible_port": 12822
+        "ansible_port": 32822
       }
     }
   },

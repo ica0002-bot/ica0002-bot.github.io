@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "alarifredi-1": {
-        "ansible_port": 25222
+        "ansible_port": 35722
       },
       "alarifredi-2": {
-        "ansible_port": 9522
+        "ansible_port": 42322
       }
     }
   },
