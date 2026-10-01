@@ -1,19 +1,9 @@
 {
   "_meta": {
-    "hostvars": {
-      "markusperemees-1": {
-        "ansible_port": 38422
-      },
-      "markusperemees-2": {
-        "ansible_port": 34622
-      }
-    }
+    "hostvars": {}
   },
   "all": {
-    "hosts": [
-      "markusperemees-1",
-      "markusperemees-2"
-    ],
+    "hosts": [],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
@@ -22,18 +12,12 @@
     }
   },
   "db_servers": {
-    "hosts": [
-      "markusperemees-2"
-    ]
+    "hosts": []
   },
   "dns_servers": {
-    "hosts": [
-      "markusperemees-2"
-    ]
+    "hosts": []
   },
   "web_servers": {
-    "hosts": [
-      "markusperemees-1"
-    ]
+    "hosts": []
   }
 }
