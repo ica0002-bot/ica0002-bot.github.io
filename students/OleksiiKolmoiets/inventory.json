@@ -1,9 +1,19 @@
 {
   "_meta": {
-    "hostvars": {}
+    "hostvars": {
+      "OleksiiKolmoiets-1": {
+        "ansible_port": 3722
+      },
+      "OleksiiKolmoiets-2": {
+        "ansible_port": 6722
+      }
+    }
   },
   "all": {
-    "hosts": [],
+    "hosts": [
+      "OleksiiKolmoiets-1",
+      "OleksiiKolmoiets-2"
+    ],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
@@ -12,12 +22,18 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "OleksiiKolmoiets-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "OleksiiKolmoiets-2"
+    ]
   },
   "web_servers": {
-    "hosts": []
+    "hosts": [
+      "OleksiiKolmoiets-1"
+    ]
   }
 }

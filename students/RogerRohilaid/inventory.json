@@ -1,9 +1,19 @@
 {
   "_meta": {
-    "hostvars": {}
+    "hostvars": {
+      "RogerRohilaid-1": {
+        "ansible_port": 26522
+      },
+      "RogerRohilaid-2": {
+        "ansible_port": 35822
+      }
+    }
   },
   "all": {
-    "hosts": [],
+    "hosts": [
+      "RogerRohilaid-1",
+      "RogerRohilaid-2"
+    ],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
@@ -12,12 +22,18 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "RogerRohilaid-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "RogerRohilaid-2"
+    ]
   },
   "web_servers": {
-    "hosts": []
+    "hosts": [
+      "RogerRohilaid-1"
+    ]
   }
 }

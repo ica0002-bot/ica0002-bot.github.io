@@ -1,9 +1,19 @@
 {
   "_meta": {
-    "hostvars": {}
+    "hostvars": {
+      "xmyssu-1": {
+        "ansible_port": 39722
+      },
+      "xmyssu-2": {
+        "ansible_port": 26022
+      }
+    }
   },
   "all": {
-    "hosts": [],
+    "hosts": [
+      "xmyssu-1",
+      "xmyssu-2"
+    ],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
@@ -12,12 +22,18 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "xmyssu-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "xmyssu-2"
+    ]
   },
   "web_servers": {
-    "hosts": []
+    "hosts": [
+      "xmyssu-1"
+    ]
   }
 }

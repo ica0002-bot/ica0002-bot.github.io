@@ -1,9 +1,19 @@
 {
   "_meta": {
-    "hostvars": {}
+    "hostvars": {
+      "algertg-1": {
+        "ansible_port": 7522
+      },
+      "algertg-2": {
+        "ansible_port": 16922
+      }
+    }
   },
   "all": {
-    "hosts": [],
+    "hosts": [
+      "algertg-1",
+      "algertg-2"
+    ],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
@@ -12,12 +22,18 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "algertg-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "algertg-2"
+    ]
   },
   "web_servers": {
-    "hosts": []
+    "hosts": [
+      "algertg-1"
+    ]
   }
 }

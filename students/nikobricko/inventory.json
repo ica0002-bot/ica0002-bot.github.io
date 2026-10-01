@@ -1,9 +1,19 @@
 {
   "_meta": {
-    "hostvars": {}
+    "hostvars": {
+      "nikobricko-1": {
+        "ansible_port": 41322
+      },
+      "nikobricko-2": {
+        "ansible_port": 41122
+      }
+    }
   },
   "all": {
-    "hosts": [],
+    "hosts": [
+      "nikobricko-1",
+      "nikobricko-2"
+    ],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
@@ -12,12 +22,18 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "nikobricko-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "nikobricko-2"
+    ]
   },
   "web_servers": {
-    "hosts": []
+    "hosts": [
+      "nikobricko-1"
+    ]
   }
 }

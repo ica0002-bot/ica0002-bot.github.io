@@ -1,9 +1,19 @@
 {
   "_meta": {
-    "hostvars": {}
+    "hostvars": {
+      "markomson-1": {
+        "ansible_port": 20422
+      },
+      "markomson-2": {
+        "ansible_port": 22022
+      }
+    }
   },
   "all": {
-    "hosts": [],
+    "hosts": [
+      "markomson-1",
+      "markomson-2"
+    ],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
@@ -12,12 +22,18 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "markomson-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "markomson-2"
+    ]
   },
   "web_servers": {
-    "hosts": []
+    "hosts": [
+      "markomson-1"
+    ]
   }
 }

@@ -1,9 +1,19 @@
 {
   "_meta": {
-    "hostvars": {}
+    "hostvars": {
+      "ErikSent-1": {
+        "ansible_port": 1922
+      },
+      "ErikSent-2": {
+        "ansible_port": 11222
+      }
+    }
   },
   "all": {
-    "hosts": [],
+    "hosts": [
+      "ErikSent-1",
+      "ErikSent-2"
+    ],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
@@ -12,12 +22,18 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "ErikSent-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "ErikSent-2"
+    ]
   },
   "web_servers": {
-    "hosts": []
+    "hosts": [
+      "ErikSent-1"
+    ]
   }
 }

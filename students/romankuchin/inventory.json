@@ -1,9 +1,19 @@
 {
   "_meta": {
-    "hostvars": {}
+    "hostvars": {
+      "romankuchin-1": {
+        "ansible_port": 49822
+      },
+      "romankuchin-2": {
+        "ansible_port": 44622
+      }
+    }
   },
   "all": {
-    "hosts": [],
+    "hosts": [
+      "romankuchin-1",
+      "romankuchin-2"
+    ],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
@@ -12,12 +22,18 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "romankuchin-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "romankuchin-2"
+    ]
   },
   "web_servers": {
-    "hosts": []
+    "hosts": [
+      "romankuchin-1"
+    ]
   }
 }

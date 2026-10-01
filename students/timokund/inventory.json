@@ -1,9 +1,19 @@
 {
   "_meta": {
-    "hostvars": {}
+    "hostvars": {
+      "timokund-1": {
+        "ansible_port": 43722
+      },
+      "timokund-2": {
+        "ansible_port": 29822
+      }
+    }
   },
   "all": {
-    "hosts": [],
+    "hosts": [
+      "timokund-1",
+      "timokund-2"
+    ],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
@@ -12,12 +22,18 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "timokund-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "timokund-2"
+    ]
   },
   "web_servers": {
-    "hosts": []
+    "hosts": [
+      "timokund-1"
+    ]
   }
 }

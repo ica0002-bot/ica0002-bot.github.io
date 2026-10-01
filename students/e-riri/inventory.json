@@ -1,9 +1,19 @@
 {
   "_meta": {
-    "hostvars": {}
+    "hostvars": {
+      "e-riri-1": {
+        "ansible_port": 13722
+      },
+      "e-riri-2": {
+        "ansible_port": 20922
+      }
+    }
   },
   "all": {
-    "hosts": [],
+    "hosts": [
+      "e-riri-1",
+      "e-riri-2"
+    ],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
@@ -12,12 +22,18 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "e-riri-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "e-riri-2"
+    ]
   },
   "web_servers": {
-    "hosts": []
+    "hosts": [
+      "e-riri-1"
+    ]
   }
 }

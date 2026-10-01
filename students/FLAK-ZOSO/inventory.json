@@ -1,9 +1,19 @@
 {
   "_meta": {
-    "hostvars": {}
+    "hostvars": {
+      "FLAK-ZOSO-1": {
+        "ansible_port": 33922
+      },
+      "FLAK-ZOSO-2": {
+        "ansible_port": 33522
+      }
+    }
   },
   "all": {
-    "hosts": [],
+    "hosts": [
+      "FLAK-ZOSO-1",
+      "FLAK-ZOSO-2"
+    ],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
@@ -12,12 +22,18 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "FLAK-ZOSO-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "FLAK-ZOSO-2"
+    ]
   },
   "web_servers": {
-    "hosts": []
+    "hosts": [
+      "FLAK-ZOSO-1"
+    ]
   }
 }

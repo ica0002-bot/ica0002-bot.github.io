@@ -1,9 +1,19 @@
 {
   "_meta": {
-    "hostvars": {}
+    "hostvars": {
+      "iszimm-1": {
+        "ansible_port": 17922
+      },
+      "iszimm-2": {
+        "ansible_port": 10222
+      }
+    }
   },
   "all": {
-    "hosts": [],
+    "hosts": [
+      "iszimm-1",
+      "iszimm-2"
+    ],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
@@ -12,12 +22,18 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "iszimm-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "iszimm-2"
+    ]
   },
   "web_servers": {
-    "hosts": []
+    "hosts": [
+      "iszimm-1"
+    ]
   }
 }

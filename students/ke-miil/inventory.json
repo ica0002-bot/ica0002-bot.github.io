@@ -1,9 +1,19 @@
 {
   "_meta": {
-    "hostvars": {}
+    "hostvars": {
+      "ke-miil-1": {
+        "ansible_port": 18122
+      },
+      "ke-miil-2": {
+        "ansible_port": 22222
+      }
+    }
   },
   "all": {
-    "hosts": [],
+    "hosts": [
+      "ke-miil-1",
+      "ke-miil-2"
+    ],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
@@ -12,12 +22,18 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "ke-miil-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "ke-miil-2"
+    ]
   },
   "web_servers": {
-    "hosts": []
+    "hosts": [
+      "ke-miil-1"
+    ]
   }
 }

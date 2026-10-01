@@ -1,9 +1,19 @@
 {
   "_meta": {
-    "hostvars": {}
+    "hostvars": {
+      "adapsss-1": {
+        "ansible_port": 1622
+      },
+      "adapsss-2": {
+        "ansible_port": 15922
+      }
+    }
   },
   "all": {
-    "hosts": [],
+    "hosts": [
+      "adapsss-1",
+      "adapsss-2"
+    ],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
@@ -12,12 +22,18 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "adapsss-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "adapsss-2"
+    ]
   },
   "web_servers": {
-    "hosts": []
+    "hosts": [
+      "adapsss-1"
+    ]
   }
 }

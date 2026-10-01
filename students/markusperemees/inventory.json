@@ -1,9 +1,15 @@
 {
   "_meta": {
-    "hostvars": {}
+    "hostvars": {
+      "markusperemees-2": {
+        "ansible_port": 16822
+      }
+    }
   },
   "all": {
-    "hosts": [],
+    "hosts": [
+      "markusperemees-2"
+    ],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
@@ -18,6 +24,8 @@
     "hosts": []
   },
   "web_servers": {
-    "hosts": []
+    "hosts": [
+      "markusperemees-2"
+    ]
   }
 }
