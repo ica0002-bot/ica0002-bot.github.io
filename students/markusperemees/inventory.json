@@ -1,6 +1,9 @@
 {
   "_meta": {
     "hostvars": {
+      "markusperemees-1": {
+        "ansible_port": 24322
+      },
       "markusperemees-2": {
         "ansible_port": 16822
       }
@@ -8,6 +11,7 @@
   },
   "all": {
     "hosts": [
+      "markusperemees-1",
       "markusperemees-2"
     ],
     "vars": {
@@ -18,14 +22,18 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "markusperemees-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "markusperemees-2"
+    ]
   },
   "web_servers": {
     "hosts": [
-      "markusperemees-2"
+      "markusperemees-1"
     ]
   }
 }
