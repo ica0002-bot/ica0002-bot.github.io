@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "e-riri-1": {
-        "ansible_port": 13722
+        "ansible_port": 30522
       },
       "e-riri-2": {
-        "ansible_port": 20922
+        "ansible_port": 34622
       }
     }
   },

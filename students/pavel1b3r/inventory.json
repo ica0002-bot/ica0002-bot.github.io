@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "pavel1b3r-1": {
-        "ansible_port": 48922
+        "ansible_port": 19722
       },
       "pavel1b3r-2": {
-        "ansible_port": 27122
+        "ansible_port": 2822
       }
     }
   },

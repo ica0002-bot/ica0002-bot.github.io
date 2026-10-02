@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "erikalt-1": {
-        "ansible_port": 18722
+        "ansible_port": 49722
       },
       "erikalt-2": {
-        "ansible_port": 21722
+        "ansible_port": 49122
       }
     }
   },

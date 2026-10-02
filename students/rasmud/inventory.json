@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "rasmud-1": {
-        "ansible_port": 36722
+        "ansible_port": 222
       },
       "rasmud-2": {
-        "ansible_port": 35522
+        "ansible_port": 7122
       }
     }
   },
