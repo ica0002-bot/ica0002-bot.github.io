@@ -3,12 +3,16 @@
     "hostvars": {
       "hudolejev-1": {
         "ansible_port": 12822
+      },
+      "hudolejev-2": {
+        "ansible_port": 15922
       }
     }
   },
   "all": {
     "hosts": [
-      "hudolejev-1"
+      "hudolejev-1",
+      "hudolejev-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -18,10 +22,14 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "hudolejev-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "hudolejev-2"
+    ]
   },
   "web_servers": {
     "hosts": [
