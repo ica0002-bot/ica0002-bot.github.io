@@ -1,9 +1,19 @@
 {
   "_meta": {
-    "hostvars": {}
+    "hostvars": {
+      "anulpl-1": {
+        "ansible_port": 49522
+      },
+      "anulpl-2": {
+        "ansible_port": 36722
+      }
+    }
   },
   "all": {
-    "hosts": [],
+    "hosts": [
+      "anulpl-1",
+      "anulpl-2"
+    ],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
@@ -12,12 +22,18 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "anulpl-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "anulpl-2"
+    ]
   },
   "web_servers": {
-    "hosts": []
+    "hosts": [
+      "anulpl-1"
+    ]
   }
 }
