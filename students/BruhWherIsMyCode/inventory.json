@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "BruhWherIsMyCode-1": {
-        "ansible_port": 13922
+        "ansible_port": 47322
       },
       "BruhWherIsMyCode-2": {
-        "ansible_port": 20222
+        "ansible_port": 49522
       }
     }
   },
