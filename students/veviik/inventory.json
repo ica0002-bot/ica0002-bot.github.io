@@ -31,6 +31,11 @@
       "veviik-2"
     ]
   },
+  "prometheus_servers": {
+    "hosts": [
+      "veviik-2"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "veviik-1"

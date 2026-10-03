@@ -31,6 +31,11 @@
       "nikitaspringis21-2"
     ]
   },
+  "prometheus_servers": {
+    "hosts": [
+      "nikitaspringis21-2"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "nikitaspringis21-1"

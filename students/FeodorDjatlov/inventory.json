@@ -31,6 +31,11 @@
       "FeodorDjatlov-2"
     ]
   },
+  "prometheus_servers": {
+    "hosts": [
+      "FeodorDjatlov-2"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "FeodorDjatlov-1"

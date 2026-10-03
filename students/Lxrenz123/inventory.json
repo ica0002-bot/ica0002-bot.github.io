@@ -31,6 +31,11 @@
       "Lxrenz123-2"
     ]
   },
+  "prometheus_servers": {
+    "hosts": [
+      "Lxrenz123-2"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "Lxrenz123-1"

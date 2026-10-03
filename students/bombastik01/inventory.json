@@ -31,6 +31,11 @@
       "bombastik01-2"
     ]
   },
+  "prometheus_servers": {
+    "hosts": [
+      "bombastik01-2"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "bombastik01-1"

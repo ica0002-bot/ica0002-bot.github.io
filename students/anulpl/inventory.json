@@ -31,6 +31,11 @@
       "anulpl-2"
     ]
   },
+  "prometheus_servers": {
+    "hosts": [
+      "anulpl-2"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "anulpl-1"

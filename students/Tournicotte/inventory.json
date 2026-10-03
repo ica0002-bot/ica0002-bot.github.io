@@ -31,6 +31,11 @@
       "Tournicotte-2"
     ]
   },
+  "prometheus_servers": {
+    "hosts": [
+      "Tournicotte-2"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "Tournicotte-1"

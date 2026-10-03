@@ -31,6 +31,11 @@
       "seljanka-2"
     ]
   },
+  "prometheus_servers": {
+    "hosts": [
+      "seljanka-2"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "seljanka-1"

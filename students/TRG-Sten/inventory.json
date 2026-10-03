@@ -31,6 +31,11 @@
       "TRG-Sten-2"
     ]
   },
+  "prometheus_servers": {
+    "hosts": [
+      "TRG-Sten-2"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "TRG-Sten-1"

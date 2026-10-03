@@ -31,6 +31,11 @@
       "timokund-2"
     ]
   },
+  "prometheus_servers": {
+    "hosts": [
+      "timokund-2"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "timokund-1"

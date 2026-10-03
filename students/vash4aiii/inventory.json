@@ -31,6 +31,11 @@
       "vash4aiii-2"
     ]
   },
+  "prometheus_servers": {
+    "hosts": [
+      "vash4aiii-2"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "vash4aiii-1"

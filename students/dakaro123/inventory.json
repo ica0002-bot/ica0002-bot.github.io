@@ -31,6 +31,11 @@
       "dakaro123-2"
     ]
   },
+  "prometheus_servers": {
+    "hosts": [
+      "dakaro123-2"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "dakaro123-1"

@@ -31,6 +31,11 @@
       "arminschutz-2"
     ]
   },
+  "prometheus_servers": {
+    "hosts": [
+      "arminschutz-2"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "arminschutz-1"

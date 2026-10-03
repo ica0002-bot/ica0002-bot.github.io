@@ -31,6 +31,11 @@
       "ke-miil-2"
     ]
   },
+  "prometheus_servers": {
+    "hosts": [
+      "ke-miil-2"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "ke-miil-1"

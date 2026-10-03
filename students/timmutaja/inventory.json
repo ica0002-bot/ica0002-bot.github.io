@@ -31,6 +31,11 @@
       "timmutaja-2"
     ]
   },
+  "prometheus_servers": {
+    "hosts": [
+      "timmutaja-2"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "timmutaja-1"

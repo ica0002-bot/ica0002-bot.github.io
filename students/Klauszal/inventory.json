@@ -31,6 +31,11 @@
       "Klauszal-2"
     ]
   },
+  "prometheus_servers": {
+    "hosts": [
+      "Klauszal-2"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "Klauszal-1"

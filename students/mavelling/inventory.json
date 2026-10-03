@@ -31,6 +31,11 @@
       "mavelling-2"
     ]
   },
+  "prometheus_servers": {
+    "hosts": [
+      "mavelling-2"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "mavelling-1"

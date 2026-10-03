@@ -31,6 +31,11 @@
       "algertg-2"
     ]
   },
+  "prometheus_servers": {
+    "hosts": [
+      "algertg-2"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "algertg-1"

@@ -31,6 +31,11 @@
       "kamil-jpg-2"
     ]
   },
+  "prometheus_servers": {
+    "hosts": [
+      "kamil-jpg-2"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "kamil-jpg-1"

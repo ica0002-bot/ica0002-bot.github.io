@@ -31,6 +31,11 @@
       "madpaj-2"
     ]
   },
+  "prometheus_servers": {
+    "hosts": [
+      "madpaj-2"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "madpaj-1"

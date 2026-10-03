@@ -31,6 +31,11 @@
       "IljaB123-2"
     ]
   },
+  "prometheus_servers": {
+    "hosts": [
+      "IljaB123-2"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "IljaB123-1"

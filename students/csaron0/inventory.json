@@ -31,6 +31,11 @@
       "csaron0-2"
     ]
   },
+  "prometheus_servers": {
+    "hosts": [
+      "csaron0-2"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "csaron0-1"

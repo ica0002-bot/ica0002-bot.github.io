@@ -31,6 +31,11 @@
       "arlekin40000-2"
     ]
   },
+  "prometheus_servers": {
+    "hosts": [
+      "arlekin40000-2"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "arlekin40000-1"

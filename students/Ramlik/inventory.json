@@ -31,6 +31,11 @@
       "Ramlik-2"
     ]
   },
+  "prometheus_servers": {
+    "hosts": [
+      "Ramlik-2"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "Ramlik-1"

@@ -31,6 +31,11 @@
       "mt26pr-2"
     ]
   },
+  "prometheus_servers": {
+    "hosts": [
+      "mt26pr-2"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "mt26pr-1"

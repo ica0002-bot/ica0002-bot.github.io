@@ -31,6 +31,11 @@
       "Sjinkwe-2"
     ]
   },
+  "prometheus_servers": {
+    "hosts": [
+      "Sjinkwe-2"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "Sjinkwe-1"

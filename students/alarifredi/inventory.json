@@ -31,6 +31,11 @@
       "alarifredi-2"
     ]
   },
+  "prometheus_servers": {
+    "hosts": [
+      "alarifredi-2"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "alarifredi-1"

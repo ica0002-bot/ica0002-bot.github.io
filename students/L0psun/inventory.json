@@ -31,6 +31,11 @@
       "L0psun-2"
     ]
   },
+  "prometheus_servers": {
+    "hosts": [
+      "L0psun-2"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "L0psun-1"

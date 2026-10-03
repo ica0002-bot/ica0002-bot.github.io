@@ -17,6 +17,9 @@
   "dns_servers": {
     "hosts": []
   },
+  "prometheus_servers": {
+    "hosts": []
+  },
   "web_servers": {
     "hosts": []
   }

@@ -31,6 +31,11 @@
       "pavel1b3r-2"
     ]
   },
+  "prometheus_servers": {
+    "hosts": [
+      "pavel1b3r-2"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "pavel1b3r-1"

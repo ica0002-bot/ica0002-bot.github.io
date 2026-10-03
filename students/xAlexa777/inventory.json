@@ -31,6 +31,11 @@
       "xAlexa777-2"
     ]
   },
+  "prometheus_servers": {
+    "hosts": [
+      "xAlexa777-2"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "xAlexa777-1"

@@ -31,6 +31,11 @@
       "h3llboychick-2"
     ]
   },
+  "prometheus_servers": {
+    "hosts": [
+      "h3llboychick-2"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "h3llboychick-1"

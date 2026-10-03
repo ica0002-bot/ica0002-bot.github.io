@@ -31,6 +31,11 @@
       "Alirza1-2"
     ]
   },
+  "prometheus_servers": {
+    "hosts": [
+      "Alirza1-2"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "Alirza1-1"

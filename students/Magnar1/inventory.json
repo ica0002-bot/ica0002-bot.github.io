@@ -31,6 +31,11 @@
       "Magnar1-2"
     ]
   },
+  "prometheus_servers": {
+    "hosts": [
+      "Magnar1-2"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "Magnar1-1"

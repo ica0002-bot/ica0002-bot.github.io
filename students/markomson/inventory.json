@@ -31,6 +31,11 @@
       "markomson-2"
     ]
   },
+  "prometheus_servers": {
+    "hosts": [
+      "markomson-2"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "markomson-1"

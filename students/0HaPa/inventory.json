@@ -31,6 +31,11 @@
       "0HaPa-2"
     ]
   },
+  "prometheus_servers": {
+    "hosts": [
+      "0HaPa-2"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "0HaPa-1"

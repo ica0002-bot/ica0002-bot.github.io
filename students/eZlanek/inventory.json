@@ -31,6 +31,11 @@
       "eZlanek-2"
     ]
   },
+  "prometheus_servers": {
+    "hosts": [
+      "eZlanek-2"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "eZlanek-1"

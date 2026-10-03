@@ -31,6 +31,11 @@
       "magna413-2"
     ]
   },
+  "prometheus_servers": {
+    "hosts": [
+      "magna413-2"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "magna413-1"

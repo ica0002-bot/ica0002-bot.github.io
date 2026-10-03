@@ -31,6 +31,11 @@
       "eldensmoke-2"
     ]
   },
+  "prometheus_servers": {
+    "hosts": [
+      "eldensmoke-2"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "eldensmoke-1"

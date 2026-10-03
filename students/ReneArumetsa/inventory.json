@@ -31,6 +31,11 @@
       "ReneArumetsa-2"
     ]
   },
+  "prometheus_servers": {
+    "hosts": [
+      "ReneArumetsa-2"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "ReneArumetsa-1"

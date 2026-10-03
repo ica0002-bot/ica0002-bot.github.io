@@ -31,6 +31,11 @@
       "Sven229-2"
     ]
   },
+  "prometheus_servers": {
+    "hosts": [
+      "Sven229-2"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "Sven229-1"
