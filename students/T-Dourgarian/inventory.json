@@ -3,12 +3,16 @@
     "hostvars": {
       "T-Dourgarian-1": {
         "ansible_port": 20122
+      },
+      "T-Dourgarian-2": {
+        "ansible_port": 14422
       }
     }
   },
   "all": {
     "hosts": [
-      "T-Dourgarian-1"
+      "T-Dourgarian-1",
+      "T-Dourgarian-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -18,13 +22,19 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "T-Dourgarian-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "T-Dourgarian-2"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "T-Dourgarian-2"
+    ]
   },
   "web_servers": {
     "hosts": [
