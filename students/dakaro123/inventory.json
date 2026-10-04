@@ -1,6 +1,9 @@
 {
   "_meta": {
     "hostvars": {
+      "dakaro123-1": {
+        "ansible_port": 19522
+      },
       "dakaro123-2": {
         "ansible_port": 7622
       }
@@ -8,6 +11,7 @@
   },
   "all": {
     "hosts": [
+      "dakaro123-1",
       "dakaro123-2"
     ],
     "vars": {
@@ -18,17 +22,23 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "dakaro123-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "dakaro123-2"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "dakaro123-2"
+    ]
   },
   "web_servers": {
     "hosts": [
-      "dakaro123-2"
+      "dakaro123-1"
     ]
   }
 }

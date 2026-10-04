@@ -5,7 +5,7 @@
         "ansible_port": 9522
       },
       "timmutaja-2": {
-        "ansible_port": 25222
+        "ansible_port": 1122
       }
     }
   },

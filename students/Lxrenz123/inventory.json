@@ -1,6 +1,9 @@
 {
   "_meta": {
     "hostvars": {
+      "Lxrenz123-1": {
+        "ansible_port": 1022
+      },
       "Lxrenz123-2": {
         "ansible_port": 4222
       }
@@ -8,6 +11,7 @@
   },
   "all": {
     "hosts": [
+      "Lxrenz123-1",
       "Lxrenz123-2"
     ],
     "vars": {
@@ -18,17 +22,23 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "Lxrenz123-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "Lxrenz123-2"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "Lxrenz123-2"
+    ]
   },
   "web_servers": {
     "hosts": [
-      "Lxrenz123-2"
+      "Lxrenz123-1"
     ]
   }
 }
