@@ -3,12 +3,16 @@
     "hostvars": {
       "Klauszal-1": {
         "ansible_port": 49522
+      },
+      "Klauszal-2": {
+        "ansible_port": 27322
       }
     }
   },
   "all": {
     "hosts": [
-      "Klauszal-1"
+      "Klauszal-1",
+      "Klauszal-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -18,13 +22,19 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "Klauszal-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "Klauszal-2"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "Klauszal-2"
+    ]
   },
   "web_servers": {
     "hosts": [
