@@ -3,12 +3,16 @@
     "hostvars": {
       "SinivaalSulev-1": {
         "ansible_port": 33522
+      },
+      "SinivaalSulev-2": {
+        "ansible_port": 37222
       }
     }
   },
   "all": {
     "hosts": [
-      "SinivaalSulev-1"
+      "SinivaalSulev-1",
+      "SinivaalSulev-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -18,13 +22,19 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "SinivaalSulev-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "SinivaalSulev-2"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "SinivaalSulev-2"
+    ]
   },
   "web_servers": {
     "hosts": [
