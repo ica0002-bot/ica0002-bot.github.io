@@ -3,16 +3,12 @@
     "hostvars": {
       "leotaltech-1": {
         "ansible_port": 15022
-      },
-      "leotaltech-2": {
-        "ansible_port": 21022
       }
     }
   },
   "all": {
     "hosts": [
-      "leotaltech-1",
-      "leotaltech-2"
+      "leotaltech-1"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -22,19 +18,13 @@
     }
   },
   "db_servers": {
-    "hosts": [
-      "leotaltech-2"
-    ]
+    "hosts": []
   },
   "dns_servers": {
-    "hosts": [
-      "leotaltech-2"
-    ]
+    "hosts": []
   },
   "prometheus_servers": {
-    "hosts": [
-      "leotaltech-2"
-    ]
+    "hosts": []
   },
   "web_servers": {
     "hosts": [
