@@ -1,9 +1,15 @@
 {
   "_meta": {
-    "hostvars": {}
+    "hostvars": {
+      "jaanaee-1": {
+        "ansible_port": 20622
+      }
+    }
   },
   "all": {
-    "hosts": [],
+    "hosts": [
+      "jaanaee-1"
+    ],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
@@ -21,6 +27,8 @@
     "hosts": []
   },
   "web_servers": {
-    "hosts": []
+    "hosts": [
+      "jaanaee-1"
+    ]
   }
 }
