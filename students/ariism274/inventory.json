@@ -1,15 +1,9 @@
 {
   "_meta": {
-    "hostvars": {
-      "ariism274-1": {
-        "ansible_port": 28922
-      }
-    }
+    "hostvars": {}
   },
   "all": {
-    "hosts": [
-      "ariism274-1"
-    ],
+    "hosts": [],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
@@ -27,8 +21,6 @@
     "hosts": []
   },
   "web_servers": {
-    "hosts": [
-      "ariism274-1"
-    ]
+    "hosts": []
   }
 }
