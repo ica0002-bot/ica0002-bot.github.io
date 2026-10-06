@@ -8,6 +8,7 @@
   },
   "all": {
     "hosts": [
+      "quikwert-1",
       "quikwert-1"
     ],
     "vars": {
@@ -18,13 +19,19 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "quikwert-1"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "quikwert-1"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "quikwert-1"
+    ]
   },
   "web_servers": {
     "hosts": [
