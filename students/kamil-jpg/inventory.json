@@ -3,12 +3,16 @@
     "hostvars": {
       "kamil-jpg-1": {
         "ansible_port": 49322
+      },
+      "kamil-jpg-2": {
+        "ansible_port": 37622
       }
     }
   },
   "all": {
     "hosts": [
-      "kamil-jpg-1"
+      "kamil-jpg-1",
+      "kamil-jpg-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -18,13 +22,19 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "kamil-jpg-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "kamil-jpg-2"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "kamil-jpg-2"
+    ]
   },
   "web_servers": {
     "hosts": [
