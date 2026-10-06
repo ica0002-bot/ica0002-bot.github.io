@@ -1,6 +1,9 @@
 {
   "_meta": {
     "hostvars": {
+      "markomson-1": {
+        "ansible_port": 29322
+      },
       "markomson-2": {
         "ansible_port": 26422
       }
@@ -8,6 +11,7 @@
   },
   "all": {
     "hosts": [
+      "markomson-1",
       "markomson-2"
     ],
     "vars": {
@@ -18,17 +22,23 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "markomson-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "markomson-2"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "markomson-2"
+    ]
   },
   "web_servers": {
     "hosts": [
-      "markomson-2"
+      "markomson-1"
     ]
   }
 }

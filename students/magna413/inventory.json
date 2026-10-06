@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "magna413-1": {
-        "ansible_port": 2222
+        "ansible_port": 29222
       },
       "magna413-2": {
-        "ansible_port": 14922
+        "ansible_port": 27622
       }
     }
   },

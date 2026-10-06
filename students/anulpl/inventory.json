@@ -1,6 +1,9 @@
 {
   "_meta": {
     "hostvars": {
+      "anulpl-1": {
+        "ansible_port": 27922
+      },
       "anulpl-2": {
         "ansible_port": 29822
       }
@@ -8,6 +11,7 @@
   },
   "all": {
     "hosts": [
+      "anulpl-1",
       "anulpl-2"
     ],
     "vars": {
@@ -18,17 +22,23 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "anulpl-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "anulpl-2"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "anulpl-2"
+    ]
   },
   "web_servers": {
     "hosts": [
-      "anulpl-2"
+      "anulpl-1"
     ]
   }
 }

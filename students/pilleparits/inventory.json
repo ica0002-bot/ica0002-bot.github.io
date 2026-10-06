@@ -5,7 +5,7 @@
         "ansible_port": 2622
       },
       "pilleparits-2": {
-        "ansible_port": 24022
+        "ansible_port": 14922
       }
     }
   },

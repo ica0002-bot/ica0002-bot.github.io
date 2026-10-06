@@ -1,6 +1,9 @@
 {
   "_meta": {
     "hostvars": {
+      "ke-miil-1": {
+        "ansible_port": 37222
+      },
       "ke-miil-2": {
         "ansible_port": 39522
       }
@@ -8,6 +11,7 @@
   },
   "all": {
     "hosts": [
+      "ke-miil-1",
       "ke-miil-2"
     ],
     "vars": {
@@ -18,17 +22,23 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "ke-miil-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "ke-miil-2"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "ke-miil-2"
+    ]
   },
   "web_servers": {
     "hosts": [
-      "ke-miil-2"
+      "ke-miil-1"
     ]
   }
 }

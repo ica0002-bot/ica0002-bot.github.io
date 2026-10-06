@@ -1,9 +1,6 @@
 {
   "_meta": {
     "hostvars": {
-      "timokund-1": {
-        "ansible_port": 35422
-      },
       "timokund-2": {
         "ansible_port": 19522
       }
@@ -11,7 +8,6 @@
   },
   "all": {
     "hosts": [
-      "timokund-1",
       "timokund-2"
     ],
     "vars": {
@@ -22,23 +18,17 @@
     }
   },
   "db_servers": {
-    "hosts": [
-      "timokund-2"
-    ]
+    "hosts": []
   },
   "dns_servers": {
-    "hosts": [
-      "timokund-2"
-    ]
+    "hosts": []
   },
   "prometheus_servers": {
-    "hosts": [
-      "timokund-2"
-    ]
+    "hosts": []
   },
   "web_servers": {
     "hosts": [
-      "timokund-1"
+      "timokund-2"
     ]
   }
 }
