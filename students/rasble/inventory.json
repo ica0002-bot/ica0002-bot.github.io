@@ -1,9 +1,6 @@
 {
   "_meta": {
     "hostvars": {
-      "rasble-1": {
-        "ansible_port": 16822
-      },
       "rasble-2": {
         "ansible_port": 422
       }
@@ -11,7 +8,6 @@
   },
   "all": {
     "hosts": [
-      "rasble-1",
       "rasble-2"
     ],
     "vars": {
@@ -22,23 +18,17 @@
     }
   },
   "db_servers": {
-    "hosts": [
-      "rasble-2"
-    ]
+    "hosts": []
   },
   "dns_servers": {
-    "hosts": [
-      "rasble-2"
-    ]
+    "hosts": []
   },
   "prometheus_servers": {
-    "hosts": [
-      "rasble-2"
-    ]
+    "hosts": []
   },
   "web_servers": {
     "hosts": [
-      "rasble-1"
+      "rasble-2"
     ]
   }
 }
