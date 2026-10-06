@@ -5,7 +5,7 @@
         "ansible_port": 35422
       },
       "timokund-2": {
-        "ansible_port": 42322
+        "ansible_port": 19522
       }
     }
   },

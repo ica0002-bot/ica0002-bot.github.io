@@ -2,13 +2,17 @@
   "_meta": {
     "hostvars": {
       "AIS4224-1": {
-        "ansible_port": 11222
+        "ansible_port": 49522
+      },
+      "AIS4224-2": {
+        "ansible_port": 49122
       }
     }
   },
   "all": {
     "hosts": [
-      "AIS4224-1"
+      "AIS4224-1",
+      "AIS4224-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -18,13 +22,19 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "AIS4224-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "AIS4224-2"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "AIS4224-2"
+    ]
   },
   "web_servers": {
     "hosts": [

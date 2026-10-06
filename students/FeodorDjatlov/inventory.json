@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "FeodorDjatlov-1": {
-        "ansible_port": 31522
+        "ansible_port": 13722
       },
       "FeodorDjatlov-2": {
-        "ansible_port": 42522
+        "ansible_port": 11822
       }
     }
   },

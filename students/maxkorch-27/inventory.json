@@ -1,13 +1,17 @@
 {
   "_meta": {
     "hostvars": {
+      "maxkorch-27-1": {
+        "ansible_port": 33722
+      },
       "maxkorch-27-2": {
-        "ansible_port": 26922
+        "ansible_port": 39422
       }
     }
   },
   "all": {
     "hosts": [
+      "maxkorch-27-1",
       "maxkorch-27-2"
     ],
     "vars": {
@@ -18,17 +22,23 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "maxkorch-27-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "maxkorch-27-2"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "maxkorch-27-2"
+    ]
   },
   "web_servers": {
     "hosts": [
-      "maxkorch-27-2"
+      "maxkorch-27-1"
     ]
   }
 }

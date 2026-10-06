@@ -1,17 +1,13 @@
 {
   "_meta": {
     "hostvars": {
-      "Jekaterina20-1": {
-        "ansible_port": 32722
-      },
       "Jekaterina20-2": {
-        "ansible_port": 33022
+        "ansible_port": 23322
       }
     }
   },
   "all": {
     "hosts": [
-      "Jekaterina20-1",
       "Jekaterina20-2"
     ],
     "vars": {
@@ -22,23 +18,17 @@
     }
   },
   "db_servers": {
-    "hosts": [
-      "Jekaterina20-2"
-    ]
+    "hosts": []
   },
   "dns_servers": {
-    "hosts": [
-      "Jekaterina20-2"
-    ]
+    "hosts": []
   },
   "prometheus_servers": {
-    "hosts": [
-      "Jekaterina20-2"
-    ]
+    "hosts": []
   },
   "web_servers": {
     "hosts": [
-      "Jekaterina20-1"
+      "Jekaterina20-2"
     ]
   }
 }

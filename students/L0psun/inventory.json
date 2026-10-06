@@ -2,17 +2,13 @@
   "_meta": {
     "hostvars": {
       "L0psun-1": {
-        "ansible_port": 45922
-      },
-      "L0psun-2": {
-        "ansible_port": 32522
+        "ansible_port": 7322
       }
     }
   },
   "all": {
     "hosts": [
-      "L0psun-1",
-      "L0psun-2"
+      "L0psun-1"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -22,19 +18,13 @@
     }
   },
   "db_servers": {
-    "hosts": [
-      "L0psun-2"
-    ]
+    "hosts": []
   },
   "dns_servers": {
-    "hosts": [
-      "L0psun-2"
-    ]
+    "hosts": []
   },
   "prometheus_servers": {
-    "hosts": [
-      "L0psun-2"
-    ]
+    "hosts": []
   },
   "web_servers": {
     "hosts": [

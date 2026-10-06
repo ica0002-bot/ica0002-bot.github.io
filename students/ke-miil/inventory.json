@@ -1,14 +1,14 @@
 {
   "_meta": {
     "hostvars": {
-      "ke-miil-1": {
-        "ansible_port": 4522
+      "ke-miil-2": {
+        "ansible_port": 39522
       }
     }
   },
   "all": {
     "hosts": [
-      "ke-miil-1"
+      "ke-miil-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -28,7 +28,7 @@
   },
   "web_servers": {
     "hosts": [
-      "ke-miil-1"
+      "ke-miil-2"
     ]
   }
 }
