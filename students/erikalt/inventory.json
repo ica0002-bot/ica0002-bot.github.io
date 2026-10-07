@@ -3,12 +3,16 @@
     "hostvars": {
       "erikalt-1": {
         "ansible_port": 20622
+      },
+      "erikalt-2": {
+        "ansible_port": 20522
       }
     }
   },
   "all": {
     "hosts": [
-      "erikalt-1"
+      "erikalt-1",
+      "erikalt-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -18,13 +22,19 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "erikalt-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "erikalt-2"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "erikalt-2"
+    ]
   },
   "web_servers": {
     "hosts": [

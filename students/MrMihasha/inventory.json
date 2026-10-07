@@ -3,12 +3,16 @@
     "hostvars": {
       "MrMihasha-1": {
         "ansible_port": 16522
+      },
+      "MrMihasha-2": {
+        "ansible_port": 15622
       }
     }
   },
   "all": {
     "hosts": [
-      "MrMihasha-1"
+      "MrMihasha-1",
+      "MrMihasha-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -18,13 +22,19 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "MrMihasha-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "MrMihasha-2"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "MrMihasha-2"
+    ]
   },
   "web_servers": {
     "hosts": [
