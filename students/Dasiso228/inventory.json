@@ -3,12 +3,16 @@
     "hostvars": {
       "Dasiso228-1": {
         "ansible_port": 42322
+      },
+      "Dasiso228-2": {
+        "ansible_port": 27522
       }
     }
   },
   "all": {
     "hosts": [
-      "Dasiso228-1"
+      "Dasiso228-1",
+      "Dasiso228-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -18,13 +22,19 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "Dasiso228-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "Dasiso228-2"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "Dasiso228-2"
+    ]
   },
   "web_servers": {
     "hosts": [
