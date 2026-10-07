@@ -3,12 +3,16 @@
     "hostvars": {
       "robinkk-1": {
         "ansible_port": 41122
+      },
+      "robinkk-2": {
+        "ansible_port": 33922
       }
     }
   },
   "all": {
     "hosts": [
-      "robinkk-1"
+      "robinkk-1",
+      "robinkk-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -18,13 +22,19 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "robinkk-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "robinkk-2"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "robinkk-2"
+    ]
   },
   "web_servers": {
     "hosts": [
