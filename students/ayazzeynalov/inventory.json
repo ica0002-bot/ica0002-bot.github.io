@@ -2,17 +2,13 @@
   "_meta": {
     "hostvars": {
       "ayazzeynalov-1": {
-        "ansible_port": 46522
-      },
-      "ayazzeynalov-2": {
-        "ansible_port": 38222
+        "ansible_port": 14922
       }
     }
   },
   "all": {
     "hosts": [
-      "ayazzeynalov-1",
-      "ayazzeynalov-2"
+      "ayazzeynalov-1"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -22,19 +18,13 @@
     }
   },
   "db_servers": {
-    "hosts": [
-      "ayazzeynalov-2"
-    ]
+    "hosts": []
   },
   "dns_servers": {
-    "hosts": [
-      "ayazzeynalov-2"
-    ]
+    "hosts": []
   },
   "prometheus_servers": {
-    "hosts": [
-      "ayazzeynalov-2"
-    ]
+    "hosts": []
   },
   "web_servers": {
     "hosts": [

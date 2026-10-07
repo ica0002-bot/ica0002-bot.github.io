@@ -2,17 +2,13 @@
   "_meta": {
     "hostvars": {
       "Dasiso228-1": {
-        "ansible_port": 12822
-      },
-      "Dasiso228-2": {
-        "ansible_port": 14522
+        "ansible_port": 42322
       }
     }
   },
   "all": {
     "hosts": [
-      "Dasiso228-1",
-      "Dasiso228-2"
+      "Dasiso228-1"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -22,19 +18,13 @@
     }
   },
   "db_servers": {
-    "hosts": [
-      "Dasiso228-2"
-    ]
+    "hosts": []
   },
   "dns_servers": {
-    "hosts": [
-      "Dasiso228-2"
-    ]
+    "hosts": []
   },
   "prometheus_servers": {
-    "hosts": [
-      "Dasiso228-2"
-    ]
+    "hosts": []
   },
   "web_servers": {
     "hosts": [

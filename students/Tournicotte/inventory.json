@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "Tournicotte-1": {
-        "ansible_port": 21922
+        "ansible_port": 36222
       },
       "Tournicotte-2": {
-        "ansible_port": 24922
+        "ansible_port": 39122
       }
     }
   },

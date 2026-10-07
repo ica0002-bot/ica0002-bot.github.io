@@ -2,17 +2,13 @@
   "_meta": {
     "hostvars": {
       "jaanaee-1": {
-        "ansible_port": 9722
-      },
-      "jaanaee-2": {
-        "ansible_port": 18822
+        "ansible_port": 45522
       }
     }
   },
   "all": {
     "hosts": [
-      "jaanaee-1",
-      "jaanaee-2"
+      "jaanaee-1"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -22,19 +18,13 @@
     }
   },
   "db_servers": {
-    "hosts": [
-      "jaanaee-2"
-    ]
+    "hosts": []
   },
   "dns_servers": {
-    "hosts": [
-      "jaanaee-2"
-    ]
+    "hosts": []
   },
   "prometheus_servers": {
-    "hosts": [
-      "jaanaee-2"
-    ]
+    "hosts": []
   },
   "web_servers": {
     "hosts": [

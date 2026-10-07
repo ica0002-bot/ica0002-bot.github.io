@@ -1,15 +1,9 @@
 {
   "_meta": {
-    "hostvars": {
-      "xmyssu-1": {
-        "ansible_port": 18322
-      }
-    }
+    "hostvars": {}
   },
   "all": {
-    "hosts": [
-      "xmyssu-1"
-    ],
+    "hosts": [],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
@@ -27,8 +21,6 @@
     "hosts": []
   },
   "web_servers": {
-    "hosts": [
-      "xmyssu-1"
-    ]
+    "hosts": []
   }
 }
