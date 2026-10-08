@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "alexander28r-1": {
-        "ansible_port": 15122
+        "ansible_port": 26722
       },
       "alexander28r-2": {
-        "ansible_port": 23322
+        "ansible_port": 30222
       }
     }
   },

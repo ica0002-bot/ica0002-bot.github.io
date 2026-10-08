@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "jaanaee-1": {
-        "ansible_port": 45522
+        "ansible_port": 12422
       },
       "jaanaee-2": {
-        "ansible_port": 48422
+        "ansible_port": 16822
       }
     }
   },

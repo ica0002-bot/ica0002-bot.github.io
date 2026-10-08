@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "mihkep-1": {
-        "ansible_port": 5222
+        "ansible_port": 42022
       },
       "mihkep-2": {
-        "ansible_port": 9322
+        "ansible_port": 34322
       }
     }
   },

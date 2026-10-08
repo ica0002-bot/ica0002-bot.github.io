@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "FLAK-ZOSO-1": {
-        "ansible_port": 43022
+        "ansible_port": 11522
       },
       "FLAK-ZOSO-2": {
-        "ansible_port": 39522
+        "ansible_port": 7722
       }
     }
   },
