@@ -1,19 +1,9 @@
 {
   "_meta": {
-    "hostvars": {
-      "magna413-1": {
-        "ansible_port": 43922
-      },
-      "magna413-2": {
-        "ansible_port": 50722
-      }
-    }
+    "hostvars": {}
   },
   "all": {
-    "hosts": [
-      "magna413-1",
-      "magna413-2"
-    ],
+    "hosts": [],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
@@ -22,23 +12,15 @@
     }
   },
   "db_servers": {
-    "hosts": [
-      "magna413-2"
-    ]
+    "hosts": []
   },
   "dns_servers": {
-    "hosts": [
-      "magna413-2"
-    ]
+    "hosts": []
   },
   "prometheus_servers": {
-    "hosts": [
-      "magna413-2"
-    ]
+    "hosts": []
   },
   "web_servers": {
-    "hosts": [
-      "magna413-1"
-    ]
+    "hosts": []
   }
 }
