@@ -3,12 +3,16 @@
     "hostvars": {
       "Siim21-1": {
         "ansible_port": 20522
+      },
+      "Siim21-2": {
+        "ansible_port": 11022
       }
     }
   },
   "all": {
     "hosts": [
-      "Siim21-1"
+      "Siim21-1",
+      "Siim21-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -18,13 +22,19 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "Siim21-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "Siim21-2"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "Siim21-2"
+    ]
   },
   "web_servers": {
     "hosts": [
