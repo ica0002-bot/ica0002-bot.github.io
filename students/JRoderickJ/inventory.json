@@ -1,9 +1,15 @@
 {
   "_meta": {
-    "hostvars": {}
+    "hostvars": {
+      "JRoderickJ-1": {
+        "ansible_port": 27122
+      }
+    }
   },
   "all": {
-    "hosts": [],
+    "hosts": [
+      "JRoderickJ-1"
+    ],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
@@ -21,6 +27,8 @@
     "hosts": []
   },
   "web_servers": {
-    "hosts": []
+    "hosts": [
+      "JRoderickJ-1"
+    ]
   }
 }
