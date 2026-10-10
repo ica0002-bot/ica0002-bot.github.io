@@ -3,12 +3,16 @@
     "hostvars": {
       "alexgot1151-1": {
         "ansible_port": 28122
+      },
+      "alexgot1151-2": {
+        "ansible_port": 40422
       }
     }
   },
   "all": {
     "hosts": [
-      "alexgot1151-1"
+      "alexgot1151-1",
+      "alexgot1151-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -18,13 +22,19 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "alexgot1151-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "alexgot1151-2"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "alexgot1151-2"
+    ]
   },
   "web_servers": {
     "hosts": [
