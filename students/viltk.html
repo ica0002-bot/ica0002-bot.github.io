@@ -49,9 +49,9 @@
 <table>
 <tr><th>Service</th><th>viltk-1</th><th>viltk-2</th><th>Status</th></tr>
 
-<tr><td>DNS server</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
-<tr><td>Web server</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
-<tr><td>Prometheus</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>DNS server</td><td>---</td><td>192.168.42.119:53</td><td class="ok">1/1 up</td></tr>
+<tr><td>Web server</td><td>---</td><td><a href="http://193.40.157.25:11980">http://193.40.157.25:11980</a></td><td class="ok">1/1 up</td></tr>
+<tr><td>Prometheus</td><td><a href="http://193.40.157.25:21180/prometheus">http://193.40.157.25:21180/prometheus</a> -- <span class="fail">HTTP 500</span></td><td><a href="http://193.40.157.25:11980/prometheus">http://193.40.157.25:11980/prometheus</a> -- <span class="fail">HTTP 404</span></td><td class="fail">0/1 up</td></tr>
 </table>
 <h2>Git repository checks</h2>
 <ul>
@@ -59,7 +59,7 @@
 <li><span class="ok">Ok</span>: <code>ansible.cfg</code> found.</li>
 <li><span class="ok">Ok</span>: <code>group_vars/all.yaml</code> found.</li>
 <li><span class="ok">Ok</span>: <code>infra.yaml</code> found.</li>
-<li><span class="fail">Problem</span>: <code>docs/prom_queries.txt</code> is missing; labs not completed: 6.</li>
+<li><span class="ok">Ok</span>: <code>docs/prom_queries.txt</code> found.</li>
 <li><span class="ok">Ok</span>: <code>roles/agama/tasks/main.yaml</code> found.</li>
 <li><span class="ok">Ok</span>: <code>roles/bind/tasks/main.yaml</code> found.</li>
 <li><span class="ok">Ok</span>: <code>roles/init/tasks/main.yaml</code> found.</li>
@@ -69,7 +69,6 @@
 <li><span class="ok">Ok</span>: <code>roles/uwsgi/tasks/main.yaml</code> found.</li>
 </ul>
 
-<p>A few problems found.</p>
-<p>Labs not accepted: 6.</p>
-<p>Last checked on Oct 10 at 14:57 UTC.</p>
+<p>All good so far.</p>
+<p>Last checked on Oct 10 at 15:27 UTC.</p>
 </body></html>
