@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "draft3333-1": {
-        "ansible_port": 40822
+        "ansible_port": 18022
       },
       "draft3333-2": {
-        "ansible_port": 47522
+        "ansible_port": 22222
       }
     }
   },

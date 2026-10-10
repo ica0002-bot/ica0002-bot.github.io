@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "veviik-1": {
-        "ansible_port": 26822
+        "ansible_port": 6522
       },
       "veviik-2": {
-        "ansible_port": 43922
+        "ansible_port": 23622
       }
     }
   },
