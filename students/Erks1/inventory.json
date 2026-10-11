@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "Erks1-1": {
-        "ansible_port": 37322
+        "ansible_port": 15222
       },
       "Erks1-2": {
-        "ansible_port": 29522
+        "ansible_port": 10622
       }
     }
   },

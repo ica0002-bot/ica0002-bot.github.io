@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "ariism274-1": {
-        "ansible_port": 42922
+        "ansible_port": 7922
       },
       "ariism274-2": {
-        "ansible_port": 34022
+        "ansible_port": 10322
       }
     }
   },

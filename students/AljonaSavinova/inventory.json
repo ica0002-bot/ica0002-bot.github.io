@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "AljonaSavinova-1": {
-        "ansible_port": 40022
+        "ansible_port": 19522
       },
       "AljonaSavinova-2": {
-        "ansible_port": 40922
+        "ansible_port": 3722
       }
     }
   },
