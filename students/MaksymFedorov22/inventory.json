@@ -23,6 +23,9 @@
   "dns_servers": {
     "hosts": []
   },
+  "grafana_servers": {
+    "hosts": []
+  },
   "prometheus_servers": {
     "hosts": []
   },

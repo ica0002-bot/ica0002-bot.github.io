@@ -31,6 +31,11 @@
       "RobertKadak-2"
     ]
   },
+  "grafana_servers": {
+    "hosts": [
+      "RobertKadak-2"
+    ]
+  },
   "prometheus_servers": {
     "hosts": [
       "RobertKadak-2"

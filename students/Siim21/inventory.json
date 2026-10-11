@@ -31,6 +31,11 @@
       "Siim21-2"
     ]
   },
+  "grafana_servers": {
+    "hosts": [
+      "Siim21-2"
+    ]
+  },
   "prometheus_servers": {
     "hosts": [
       "Siim21-2"

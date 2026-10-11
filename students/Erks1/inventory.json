@@ -31,6 +31,11 @@
       "Erks1-2"
     ]
   },
+  "grafana_servers": {
+    "hosts": [
+      "Erks1-2"
+    ]
+  },
   "prometheus_servers": {
     "hosts": [
       "Erks1-2"

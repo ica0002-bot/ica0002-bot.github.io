@@ -31,6 +31,11 @@
       "kavink887-2"
     ]
   },
+  "grafana_servers": {
+    "hosts": [
+      "kavink887-2"
+    ]
+  },
   "prometheus_servers": {
     "hosts": [
       "kavink887-2"

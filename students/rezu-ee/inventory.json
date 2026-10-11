@@ -31,6 +31,11 @@
       "rezu-ee-2"
     ]
   },
+  "grafana_servers": {
+    "hosts": [
+      "rezu-ee-2"
+    ]
+  },
   "prometheus_servers": {
     "hosts": [
       "rezu-ee-2"

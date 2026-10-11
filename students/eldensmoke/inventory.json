@@ -31,6 +31,11 @@
       "eldensmoke-2"
     ]
   },
+  "grafana_servers": {
+    "hosts": [
+      "eldensmoke-2"
+    ]
+  },
   "prometheus_servers": {
     "hosts": [
       "eldensmoke-2"

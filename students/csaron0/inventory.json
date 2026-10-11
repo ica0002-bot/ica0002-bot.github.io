@@ -31,6 +31,11 @@
       "csaron0-2"
     ]
   },
+  "grafana_servers": {
+    "hosts": [
+      "csaron0-2"
+    ]
+  },
   "prometheus_servers": {
     "hosts": [
       "csaron0-2"

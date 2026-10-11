@@ -31,6 +31,11 @@
       "ariism274-2"
     ]
   },
+  "grafana_servers": {
+    "hosts": [
+      "ariism274-2"
+    ]
+  },
   "prometheus_servers": {
     "hosts": [
       "ariism274-2"

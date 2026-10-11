@@ -31,6 +31,11 @@
       "T-Dourgarian-2"
     ]
   },
+  "grafana_servers": {
+    "hosts": [
+      "T-Dourgarian-2"
+    ]
+  },
   "prometheus_servers": {
     "hosts": [
       "T-Dourgarian-2"
