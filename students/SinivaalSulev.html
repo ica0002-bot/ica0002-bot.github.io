@@ -50,14 +50,14 @@
 <tr><th>Service</th><th>SinivaalSulev-1</th><th>SinivaalSulev-2</th><th>Status</th></tr>
 
 <tr><td>DNS server</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
-<tr><td>Web server</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
-<tr><td>Prometheus</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Web server</td><td><a href="http://193.40.157.25:10580">http://193.40.157.25:10580</a></td><td>---</td><td class="ok">1/1 up</td></tr>
+<tr><td>Prometheus</td><td><a href="http://193.40.157.25:10580/prometheus">http://193.40.157.25:10580/prometheus</a> -- <span class="fail">HTTP 404</span></td><td>---</td><td class="fail">0/1 up</td></tr>
 </table>
 <h2>Git repository checks</h2>
 <ul>
 <li><span class="ok">Ok</span>: GitHub repository is set up correctly.</li>
 <li><span class="ok">Ok</span>: <code>ansible.cfg</code> found.</li>
-<li><span class="fail">Problem</span>: <code>group_vars/all.yaml</code> is missing; labs not completed: 4, 5, 6.</li>
+<li><span class="ok">Ok</span>: <code>group_vars/all.yaml</code> found.</li>
 <li><span class="ok">Ok</span>: <code>infra.yaml</code> found.</li>
 <li><span class="fail">Problem</span>: <code>docs/prom_queries.txt</code> is missing; labs not completed: 6.</li>
 <li><span class="ok">Ok</span>: <code>roles/agama/tasks/main.yaml</code> found.</li>
@@ -70,6 +70,6 @@
 </ul>
 
 <p>A few problems found.</p>
-<p>Labs not accepted: 4, 5, 6.</p>
-<p>Last checked on Oct 11 at 13:49 UTC.</p>
+<p>Labs not accepted: 5, 6.</p>
+<p>Last checked on Oct 11 at 14:19 UTC.</p>
 </body></html>
