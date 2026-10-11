@@ -33,7 +33,7 @@
   },
   "grafana_servers": {
     "hosts": [
-      "bombastik01-2"
+      "bombastik01-1"
     ]
   },
   "prometheus_servers": {

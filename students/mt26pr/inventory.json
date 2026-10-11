@@ -33,7 +33,7 @@
   },
   "grafana_servers": {
     "hosts": [
-      "mt26pr-2"
+      "mt26pr-1"
     ]
   },
   "prometheus_servers": {

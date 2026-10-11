@@ -33,7 +33,7 @@
   },
   "grafana_servers": {
     "hosts": [
-      "veviik-2"
+      "veviik-1"
     ]
   },
   "prometheus_servers": {

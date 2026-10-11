@@ -33,7 +33,7 @@
   },
   "grafana_servers": {
     "hosts": [
-      "hudolejev-2"
+      "hudolejev-1"
     ]
   },
   "prometheus_servers": {

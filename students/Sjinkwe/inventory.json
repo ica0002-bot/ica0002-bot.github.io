@@ -33,7 +33,7 @@
   },
   "grafana_servers": {
     "hosts": [
-      "Sjinkwe-2"
+      "Sjinkwe-1"
     ]
   },
   "prometheus_servers": {

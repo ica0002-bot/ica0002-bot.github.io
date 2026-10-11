@@ -33,7 +33,7 @@
   },
   "grafana_servers": {
     "hosts": [
-      "kermonurmeoja-2"
+      "kermonurmeoja-1"
     ]
   },
   "prometheus_servers": {

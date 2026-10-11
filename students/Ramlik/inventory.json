@@ -33,7 +33,7 @@
   },
   "grafana_servers": {
     "hosts": [
-      "Ramlik-2"
+      "Ramlik-1"
     ]
   },
   "prometheus_servers": {

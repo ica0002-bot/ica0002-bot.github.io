@@ -33,7 +33,7 @@
   },
   "grafana_servers": {
     "hosts": [
-      "olmatv-iaab-2"
+      "olmatv-iaab-1"
     ]
   },
   "prometheus_servers": {

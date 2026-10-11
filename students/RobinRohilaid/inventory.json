@@ -33,7 +33,7 @@
   },
   "grafana_servers": {
     "hosts": [
-      "RobinRohilaid-2"
+      "RobinRohilaid-1"
     ]
   },
   "prometheus_servers": {

@@ -33,7 +33,7 @@
   },
   "grafana_servers": {
     "hosts": [
-      "erikalt-2"
+      "erikalt-1"
     ]
   },
   "prometheus_servers": {

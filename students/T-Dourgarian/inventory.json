@@ -33,7 +33,7 @@
   },
   "grafana_servers": {
     "hosts": [
-      "T-Dourgarian-2"
+      "T-Dourgarian-1"
     ]
   },
   "prometheus_servers": {

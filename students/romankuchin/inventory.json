@@ -33,7 +33,7 @@
   },
   "grafana_servers": {
     "hosts": [
-      "romankuchin-2"
+      "romankuchin-1"
     ]
   },
   "prometheus_servers": {

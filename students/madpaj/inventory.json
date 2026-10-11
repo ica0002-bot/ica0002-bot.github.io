@@ -33,7 +33,7 @@
   },
   "grafana_servers": {
     "hosts": [
-      "madpaj-2"
+      "madpaj-1"
     ]
   },
   "prometheus_servers": {

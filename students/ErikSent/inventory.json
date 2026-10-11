@@ -33,7 +33,7 @@
   },
   "grafana_servers": {
     "hosts": [
-      "ErikSent-2"
+      "ErikSent-1"
     ]
   },
   "prometheus_servers": {

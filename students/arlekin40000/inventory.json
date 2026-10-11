@@ -33,7 +33,7 @@
   },
   "grafana_servers": {
     "hosts": [
-      "arlekin40000-2"
+      "arlekin40000-1"
     ]
   },
   "prometheus_servers": {

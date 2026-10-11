@@ -33,7 +33,7 @@
   },
   "grafana_servers": {
     "hosts": [
-      "ofstardustandthebeasts-2"
+      "ofstardustandthebeasts-1"
     ]
   },
   "prometheus_servers": {

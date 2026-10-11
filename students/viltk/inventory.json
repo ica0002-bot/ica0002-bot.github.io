@@ -33,7 +33,7 @@
   },
   "grafana_servers": {
     "hosts": [
-      "viltk-2"
+      "viltk-1"
     ]
   },
   "prometheus_servers": {

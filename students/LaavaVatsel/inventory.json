@@ -33,7 +33,7 @@
   },
   "grafana_servers": {
     "hosts": [
-      "LaavaVatsel-2"
+      "LaavaVatsel-1"
     ]
   },
   "prometheus_servers": {

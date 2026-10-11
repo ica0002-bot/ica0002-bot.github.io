@@ -33,7 +33,7 @@
   },
   "grafana_servers": {
     "hosts": [
-      "us3rop-2"
+      "us3rop-1"
     ]
   },
   "prometheus_servers": {

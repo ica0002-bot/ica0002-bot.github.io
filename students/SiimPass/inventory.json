@@ -33,7 +33,7 @@
   },
   "grafana_servers": {
     "hosts": [
-      "SiimPass-2"
+      "SiimPass-1"
     ]
   },
   "prometheus_servers": {

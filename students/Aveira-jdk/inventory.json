@@ -33,7 +33,7 @@
   },
   "grafana_servers": {
     "hosts": [
-      "Aveira-jdk-2"
+      "Aveira-jdk-1"
     ]
   },
   "prometheus_servers": {

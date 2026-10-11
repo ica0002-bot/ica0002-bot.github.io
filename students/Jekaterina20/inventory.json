@@ -33,7 +33,7 @@
   },
   "grafana_servers": {
     "hosts": [
-      "Jekaterina20-2"
+      "Jekaterina20-1"
     ]
   },
   "prometheus_servers": {

@@ -33,7 +33,7 @@
   },
   "grafana_servers": {
     "hosts": [
-      "Siim21-2"
+      "Siim21-1"
     ]
   },
   "prometheus_servers": {

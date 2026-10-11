@@ -33,7 +33,7 @@
   },
   "grafana_servers": {
     "hosts": [
-      "ReneArumetsa-2"
+      "ReneArumetsa-1"
     ]
   },
   "prometheus_servers": {

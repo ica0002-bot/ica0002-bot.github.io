@@ -33,7 +33,7 @@
   },
   "grafana_servers": {
     "hosts": [
-      "Hervin-kood-2"
+      "Hervin-kood-1"
     ]
   },
   "prometheus_servers": {

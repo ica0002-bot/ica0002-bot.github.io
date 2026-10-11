@@ -33,7 +33,7 @@
   },
   "grafana_servers": {
     "hosts": [
-      "iszimm-2"
+      "iszimm-1"
     ]
   },
   "prometheus_servers": {

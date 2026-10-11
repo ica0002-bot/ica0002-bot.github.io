@@ -33,7 +33,7 @@
   },
   "grafana_servers": {
     "hosts": [
-      "ke-miil-2"
+      "ke-miil-1"
     ]
   },
   "prometheus_servers": {

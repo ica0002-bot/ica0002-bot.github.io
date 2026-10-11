@@ -33,7 +33,7 @@
   },
   "grafana_servers": {
     "hosts": [
-      "arturallmann-2"
+      "arturallmann-1"
     ]
   },
   "prometheus_servers": {

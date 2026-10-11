@@ -33,7 +33,7 @@
   },
   "grafana_servers": {
     "hosts": [
-      "IljaB123-2"
+      "IljaB123-1"
     ]
   },
   "prometheus_servers": {

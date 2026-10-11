@@ -33,7 +33,7 @@
   },
   "grafana_servers": {
     "hosts": [
-      "TRG-Sten-2"
+      "TRG-Sten-1"
     ]
   },
   "prometheus_servers": {

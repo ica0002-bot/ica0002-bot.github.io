@@ -33,7 +33,7 @@
   },
   "grafana_servers": {
     "hosts": [
-      "xAlexa777-2"
+      "xAlexa777-1"
     ]
   },
   "prometheus_servers": {

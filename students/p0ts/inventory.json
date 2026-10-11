@@ -33,7 +33,7 @@
   },
   "grafana_servers": {
     "hosts": [
-      "p0ts-2"
+      "p0ts-1"
     ]
   },
   "prometheus_servers": {

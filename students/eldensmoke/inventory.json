@@ -33,7 +33,7 @@
   },
   "grafana_servers": {
     "hosts": [
-      "eldensmoke-2"
+      "eldensmoke-1"
     ]
   },
   "prometheus_servers": {

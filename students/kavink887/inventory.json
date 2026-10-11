@@ -33,7 +33,7 @@
   },
   "grafana_servers": {
     "hosts": [
-      "kavink887-2"
+      "kavink887-1"
     ]
   },
   "prometheus_servers": {

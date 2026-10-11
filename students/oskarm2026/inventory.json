@@ -33,7 +33,7 @@
   },
   "grafana_servers": {
     "hosts": [
-      "oskarm2026-2"
+      "oskarm2026-1"
     ]
   },
   "prometheus_servers": {

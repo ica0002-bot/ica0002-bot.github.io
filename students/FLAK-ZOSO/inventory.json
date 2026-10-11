@@ -33,7 +33,7 @@
   },
   "grafana_servers": {
     "hosts": [
-      "FLAK-ZOSO-2"
+      "FLAK-ZOSO-1"
     ]
   },
   "prometheus_servers": {

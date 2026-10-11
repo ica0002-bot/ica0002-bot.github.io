@@ -33,7 +33,7 @@
   },
   "grafana_servers": {
     "hosts": [
-      "h3llboychick-2"
+      "h3llboychick-1"
     ]
   },
   "prometheus_servers": {

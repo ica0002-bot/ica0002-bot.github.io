@@ -33,7 +33,7 @@
   },
   "grafana_servers": {
     "hosts": [
-      "dakaro123-2"
+      "dakaro123-1"
     ]
   },
   "prometheus_servers": {

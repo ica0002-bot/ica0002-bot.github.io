@@ -33,7 +33,7 @@
   },
   "grafana_servers": {
     "hosts": [
-      "OleksiiKolmoiets-2"
+      "OleksiiKolmoiets-1"
     ]
   },
   "prometheus_servers": {

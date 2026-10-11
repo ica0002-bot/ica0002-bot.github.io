@@ -33,7 +33,7 @@
   },
   "grafana_servers": {
     "hosts": [
-      "eZlanek-2"
+      "eZlanek-1"
     ]
   },
   "prometheus_servers": {

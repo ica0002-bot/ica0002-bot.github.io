@@ -33,7 +33,7 @@
   },
   "grafana_servers": {
     "hosts": [
-      "markomson-2"
+      "markomson-1"
     ]
   },
   "prometheus_servers": {

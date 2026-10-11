@@ -33,7 +33,7 @@
   },
   "grafana_servers": {
     "hosts": [
-      "pilleparits-2"
+      "pilleparits-1"
     ]
   },
   "prometheus_servers": {

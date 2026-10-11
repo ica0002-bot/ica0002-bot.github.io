@@ -17,15 +17,16 @@ pre {
 <title>hudolejev test results</title>
 </head>
 <body>
-<pre>Tue Sep 29 19:26:58 EEST 2026
+<pre>Sun Oct 11 19:20:42 EEST 2026
 <span style="font-weight:bold;color:#7f7f7f;">============================= test session starts ==============================</span>
-collected 31 items
+collected 43 items
 
- <span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">                     [100%]</span>
+ <span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">         [100%]</span>
 
 <span style="color:#00cdcd;"></span><span style="font-weight:bold;color:#7f7f7f;">=========================== short test summary info ============================</span>
 <span style="color:#00cd00;">PASSED</span> <span style="font-weight:bold;color:#7f7f7f;">test_local_ansible_version</span>
 <span style="color:#00cd00;">PASSED</span> <span style="font-weight:bold;color:#7f7f7f;">test_local_repo_file_exists[ansible.cfg]</span>
+<span style="color:#00cd00;">PASSED</span> <span style="font-weight:bold;color:#7f7f7f;">test_local_repo_file_exists[docs/prom_queries.txt]</span>
 <span style="color:#00cd00;">PASSED</span> <span style="font-weight:bold;color:#7f7f7f;">test_local_repo_file_exists[group_vars/all.yaml]</span>
 <span style="color:#00cd00;">PASSED</span> <span style="font-weight:bold;color:#7f7f7f;">test_local_repo_file_exists[infra.yaml]</span>
 <span style="color:#00cd00;">PASSED</span> <span style="font-weight:bold;color:#7f7f7f;">test_local_repo_file_exists[roles/agama/tasks/main.yaml]</span>
@@ -33,29 +34,40 @@ collected 31 items
 <span style="color:#00cd00;">PASSED</span> <span style="font-weight:bold;color:#7f7f7f;">test_local_repo_file_exists[roles/init/tasks/main.yaml]</span>
 <span style="color:#00cd00;">PASSED</span> <span style="font-weight:bold;color:#7f7f7f;">test_local_repo_file_exists[roles/mysql/tasks/main.yaml]</span>
 <span style="color:#00cd00;">PASSED</span> <span style="font-weight:bold;color:#7f7f7f;">test_local_repo_file_exists[roles/nginx/tasks/main.yaml]</span>
+<span style="color:#00cd00;">PASSED</span> <span style="font-weight:bold;color:#7f7f7f;">test_local_repo_file_exists[roles/prometheus/tasks/main.yaml]</span>
+<span style="color:#00cd00;">PASSED</span> <span style="font-weight:bold;color:#7f7f7f;">test_service_is_running_and_enabled[prometheus-node-exporter-hudolejev-1]</span>
+<span style="color:#00cd00;">PASSED</span> <span style="font-weight:bold;color:#7f7f7f;">test_service_is_running_and_enabled[prometheus-node-exporter-hudolejev-2]</span>
+<span style="color:#00cd00;">PASSED</span> <span style="font-weight:bold;color:#7f7f7f;">test_service_is_listening[prometheus-node-exporter&#64;tcp://0.0.0.0:9100-hudolejev-1]</span>
+<span style="color:#00cd00;">PASSED</span> <span style="font-weight:bold;color:#7f7f7f;">test_service_is_listening[prometheus-node-exporter&#64;tcp://0.0.0.0:9100-hudolejev-2]</span>
 <span style="color:#00cd00;">PASSED</span> <span style="font-weight:bold;color:#7f7f7f;">test_service_is_stopped_and_disabled[systemd-resolved-hudolejev-1]</span>
 <span style="color:#00cd00;">PASSED</span> <span style="font-weight:bold;color:#7f7f7f;">test_service_is_stopped_and_disabled[systemd-resolved-hudolejev-2]</span>
 <span style="color:#00cd00;">PASSED</span> <span style="font-weight:bold;color:#7f7f7f;">test_host_is_resolvable[__my_vms__-hudolejev-1]</span>
 <span style="color:#00cd00;">PASSED</span> <span style="font-weight:bold;color:#7f7f7f;">test_host_is_resolvable[__my_vms__-hudolejev-2]</span>
 <span style="color:#00cd00;">PASSED</span> <span style="font-weight:bold;color:#7f7f7f;">test_host_is_resolvable[taltech.ee-hudolejev-1]</span>
 <span style="color:#00cd00;">PASSED</span> <span style="font-weight:bold;color:#7f7f7f;">test_host_is_resolvable[taltech.ee-hudolejev-2]</span>
-<span style="color:#00cd00;">PASSED</span> <span style="font-weight:bold;color:#7f7f7f;">test_dns_service_is_listening[named&#64;tcp://__ip__:53-hudolejev-2]</span>
 <span style="color:#00cd00;">PASSED</span> <span style="font-weight:bold;color:#7f7f7f;">test_dns_service_is_running_and_enabled[bind9-hudolejev-2]</span>
+<span style="color:#00cd00;">PASSED</span> <span style="font-weight:bold;color:#7f7f7f;">test_dns_service_is_listening[named&#64;tcp://__ip__:53-hudolejev-2]</span>
+<span style="color:#00cd00;">PASSED</span> <span style="font-weight:bold;color:#7f7f7f;">test_prometheus_server_file_does_not_contain[/etc/default/prometheus:127.0.0-hudolejev-2]</span>
+<span style="color:#00cd00;">PASSED</span> <span style="font-weight:bold;color:#7f7f7f;">test_prometheus_server_file_does_not_contain[/etc/prometheus/prometheus.yml:192.168.4-hudolejev-2]</span>
+<span style="color:#00cd00;">PASSED</span> <span style="font-weight:bold;color:#7f7f7f;">test_prometheus_is_running_and_enabled[prometheus-hudolejev-2]</span>
+<span style="color:#00cd00;">PASSED</span> <span style="font-weight:bold;color:#7f7f7f;">test_prometheus_is_listening[prometheus&#64;tcp://127.0.0.1:9090-hudolejev-2]</span>
+<span style="color:#00cd00;">PASSED</span> <span style="font-weight:bold;color:#7f7f7f;">test_prometheus_html_content[prometheus_ready 1-hudolejev-2]</span>
+<span style="color:#00cd00;">PASSED</span> <span style="font-weight:bold;color:#7f7f7f;">test_prometheus_html_content[prometheus_target_scrape_pool_targets{scrape_job=&quot;node&quot;} 2-hudolejev-2]</span>
 <span style="color:#00cd00;">PASSED</span> <span style="font-weight:bold;color:#7f7f7f;">test_db_server_file_exists[/etc/mysql/mysql.conf.d/override.cnf:::-hudolejev-2]</span>
-<span style="color:#00cd00;">PASSED</span> <span style="font-weight:bold;color:#7f7f7f;">test_db_service_is_listening[mysqld&#64;tcp://0.0.0.0:3306-hudolejev-2]</span>
 <span style="color:#00cd00;">PASSED</span> <span style="font-weight:bold;color:#7f7f7f;">test_db_service_is_running_and_enabled[mysql-hudolejev-2]</span>
+<span style="color:#00cd00;">PASSED</span> <span style="font-weight:bold;color:#7f7f7f;">test_db_service_is_listening[mysqld&#64;tcp://0.0.0.0:3306-hudolejev-2]</span>
 <span style="color:#00cd00;">PASSED</span> <span style="font-weight:bold;color:#7f7f7f;">test_mysql_database_exists[agama-hudolejev-2]</span>
 <span style="color:#00cd00;">PASSED</span> <span style="font-weight:bold;color:#7f7f7f;">test_mysql_user_exists[agama&#64;%-hudolejev-2]</span>
 <span style="color:#00cd00;">PASSED</span> <span style="font-weight:bold;color:#7f7f7f;">test_web_server_file_exists[/etc/nginx/sites-enabled/default:root:root:644-hudolejev-1]</span>
 <span style="color:#00cd00;">PASSED</span> <span style="font-weight:bold;color:#7f7f7f;">test_web_server_file_exists[/etc/uwsgi/apps-enabled/agama.ini:agama::400-hudolejev-1]</span>
 <span style="color:#00cd00;">PASSED</span> <span style="font-weight:bold;color:#7f7f7f;">test_web_server_file_exists[/opt/agama/agama.py:::-hudolejev-1]</span>
-<span style="color:#00cd00;">PASSED</span> <span style="font-weight:bold;color:#7f7f7f;">test_web_service_is_listening[nginx&#64;tcp://0.0.0.0:80-hudolejev-1]</span>
-<span style="color:#00cd00;">PASSED</span> <span style="font-weight:bold;color:#7f7f7f;">test_web_service_is_listening[uwsgi&#64;tcp://127.0.0.1:5000-hudolejev-1]</span>
 <span style="color:#00cd00;">PASSED</span> <span style="font-weight:bold;color:#7f7f7f;">test_web_service_is_running_and_enabled[nginx-hudolejev-1]</span>
 <span style="color:#00cd00;">PASSED</span> <span style="font-weight:bold;color:#7f7f7f;">test_web_service_is_running_and_enabled[uwsgi-hudolejev-1]</span>
+<span style="color:#00cd00;">PASSED</span> <span style="font-weight:bold;color:#7f7f7f;">test_web_service_is_listening[nginx&#64;tcp://0.0.0.0:80-hudolejev-1]</span>
+<span style="color:#00cd00;">PASSED</span> <span style="font-weight:bold;color:#7f7f7f;">test_web_service_is_listening[uwsgi&#64;tcp://127.0.0.1:5000-hudolejev-1]</span>
 <span style="color:#00cd00;">PASSED</span> <span style="font-weight:bold;color:#7f7f7f;">test_web_server_html_content[v0.3 running on-hudolejev-1]</span>
 <span style="color:#00cd00;">PASSED</span> <span style="font-weight:bold;color:#7f7f7f;">test_web_server_file_does_not_contain[/etc/uwsgi/apps-enabled/agama.ini:192.168.4-hudolejev-1]</span>
-<span style="color:#00cd00;">============================= </span><span style="color:#00cd00;"></span><span style="font-weight:bold;color:#7f7f7f;">31 passed</span><span style="color:#00cd00;"> in 36.31s</span><span style="color:#00cd00;"> ==============================</span>
+<span style="color:#00cd00;">============================= </span><span style="color:#00cd00;"></span><span style="font-weight:bold;color:#7f7f7f;">43 passed</span><span style="color:#00cd00;"> in 55.50s</span><span style="color:#00cd00;"> ==============================</span>
 </pre>
 </body>
 </html>

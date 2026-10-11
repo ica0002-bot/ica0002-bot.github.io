@@ -33,7 +33,7 @@
   },
   "grafana_servers": {
     "hosts": [
-      "arminschutz-2"
+      "arminschutz-1"
     ]
   },
   "prometheus_servers": {

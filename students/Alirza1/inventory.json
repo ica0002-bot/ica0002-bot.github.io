@@ -33,7 +33,7 @@
   },
   "grafana_servers": {
     "hosts": [
-      "Alirza1-2"
+      "Alirza1-1"
     ]
   },
   "prometheus_servers": {

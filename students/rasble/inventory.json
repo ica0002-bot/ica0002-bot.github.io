@@ -33,7 +33,7 @@
   },
   "grafana_servers": {
     "hosts": [
-      "rasble-2"
+      "rasble-1"
     ]
   },
   "prometheus_servers": {

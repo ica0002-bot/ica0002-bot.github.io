@@ -33,7 +33,7 @@
   },
   "grafana_servers": {
     "hosts": [
-      "ipoker27-2"
+      "ipoker27-1"
     ]
   },
   "prometheus_servers": {

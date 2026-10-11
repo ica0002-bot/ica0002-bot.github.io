@@ -33,7 +33,7 @@
   },
   "grafana_servers": {
     "hosts": [
-      "SinivaalSulev-2"
+      "SinivaalSulev-1"
     ]
   },
   "prometheus_servers": {

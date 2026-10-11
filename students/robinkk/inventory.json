@@ -33,7 +33,7 @@
   },
   "grafana_servers": {
     "hosts": [
-      "robinkk-2"
+      "robinkk-1"
     ]
   },
   "prometheus_servers": {

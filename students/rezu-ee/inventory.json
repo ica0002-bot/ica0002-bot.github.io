@@ -33,7 +33,7 @@
   },
   "grafana_servers": {
     "hosts": [
-      "rezu-ee-2"
+      "rezu-ee-1"
     ]
   },
   "prometheus_servers": {

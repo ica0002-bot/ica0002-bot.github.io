@@ -33,7 +33,7 @@
   },
   "grafana_servers": {
     "hosts": [
-      "Cantfindmysocks-2"
+      "Cantfindmysocks-1"
     ]
   },
   "prometheus_servers": {

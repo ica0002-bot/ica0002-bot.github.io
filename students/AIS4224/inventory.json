@@ -33,7 +33,7 @@
   },
   "grafana_servers": {
     "hosts": [
-      "AIS4224-2"
+      "AIS4224-1"
     ]
   },
   "prometheus_servers": {
