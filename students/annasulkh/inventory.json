@@ -3,12 +3,16 @@
     "hostvars": {
       "annasulkh-1": {
         "ansible_port": 27022
+      },
+      "annasulkh-2": {
+        "ansible_port": 44522
       }
     }
   },
   "all": {
     "hosts": [
-      "annasulkh-1"
+      "annasulkh-1",
+      "annasulkh-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -18,16 +22,24 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "annasulkh-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "annasulkh-2"
+    ]
   },
   "grafana_servers": {
-    "hosts": []
+    "hosts": [
+      "annasulkh-1"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "annasulkh-2"
+    ]
   },
   "web_servers": {
     "hosts": [
