@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "romankuchin-1": {
-        "ansible_port": 34922
+        "ansible_port": 24022
       },
       "romankuchin-2": {
-        "ansible_port": 37522
+        "ansible_port": 7122
       }
     }
   },

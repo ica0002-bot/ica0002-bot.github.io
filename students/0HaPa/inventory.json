@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "0HaPa-1": {
-        "ansible_port": 32822
+        "ansible_port": 3822
       },
       "0HaPa-2": {
-        "ansible_port": 37322
+        "ansible_port": 14122
       }
     }
   },
