@@ -14,7 +14,7 @@
 <table>
 <tr><th>Name</th><th>Internal IP</th><th>Public SSH</th><th>Public URL</th></tr>
 
-<tr><td>mt26pr-1</td><td>192.168.42.62</td><td>ubuntu@193.40.157.25 port 6222</td><td><a href="http://193.40.157.25:6280">http://193.40.157.25:6280</a></td></tr>
+<tr><td>mt26pr-1</td><td>192.168.42.32</td><td>ubuntu@193.40.157.25 port 3222</td><td><a href="http://193.40.157.25:3280">http://193.40.157.25:3280</a></td></tr>
 
 <tr><td>mt26pr-2</td><td>192.168.42.216</td><td>ubuntu@193.40.157.25 port 21622</td><td><a href="http://193.40.157.25:21680">http://193.40.157.25:21680</a></td></tr>
 
@@ -52,6 +52,7 @@
 <tr><td>DNS server</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
 <tr><td>Web server</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
 <tr><td>Prometheus</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Grafana</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
 </table>
 <h2>Git repository checks</h2>
 <ul>
@@ -62,6 +63,8 @@
 <li><span class="ok">Ok</span>: <code>docs/prom_queries.txt</code> found.</li>
 <li><span class="ok">Ok</span>: <code>roles/agama/tasks/main.yaml</code> found.</li>
 <li><span class="ok">Ok</span>: <code>roles/bind/tasks/main.yaml</code> found.</li>
+<li><span class="fail">Problem</span>: <code>roles/grafana/tasks/main.yaml</code> is missing; labs not completed: 7.</li>
+<li><span class="fail">Problem</span>: <code>roles/grafana/files/main.json</code> is missing; labs not completed: 7.</li>
 <li><span class="ok">Ok</span>: <code>roles/init/tasks/main.yaml</code> found.</li>
 <li><span class="ok">Ok</span>: <code>roles/mysql/tasks/main.yaml</code> found.</li>
 <li><span class="ok">Ok</span>: <code>roles/nginx/tasks/main.yaml</code> found.</li>
@@ -69,6 +72,7 @@
 <li><span class="ok">Ok</span>: <code>roles/uwsgi/tasks/main.yaml</code> found.</li>
 </ul>
 
-<p>All good so far.</p>
-<p>Last checked on Oct 13 at 14:40 UTC.</p>
+<p>A few problems found.</p>
+<p>Labs not accepted: 7.</p>
+<p>Last checked on Oct 13 at 14:46 UTC.</p>
 </body></html>
