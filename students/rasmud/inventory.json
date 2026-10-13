@@ -3,16 +3,12 @@
     "hostvars": {
       "rasmud-1": {
         "ansible_port": 50222
-      },
-      "rasmud-2": {
-        "ansible_port": 36722
       }
     }
   },
   "all": {
     "hosts": [
-      "rasmud-1",
-      "rasmud-2"
+      "rasmud-1"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -22,24 +18,16 @@
     }
   },
   "db_servers": {
-    "hosts": [
-      "rasmud-2"
-    ]
+    "hosts": []
   },
   "dns_servers": {
-    "hosts": [
-      "rasmud-2"
-    ]
+    "hosts": []
   },
   "grafana_servers": {
-    "hosts": [
-      "rasmud-1"
-    ]
+    "hosts": []
   },
   "prometheus_servers": {
-    "hosts": [
-      "rasmud-2"
-    ]
+    "hosts": []
   },
   "web_servers": {
     "hosts": [
