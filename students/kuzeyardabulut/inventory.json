@@ -3,16 +3,12 @@
     "hostvars": {
       "kuzeyardabulut-1": {
         "ansible_port": 19522
-      },
-      "kuzeyardabulut-2": {
-        "ansible_port": 1422
       }
     }
   },
   "all": {
     "hosts": [
-      "kuzeyardabulut-1",
-      "kuzeyardabulut-2"
+      "kuzeyardabulut-1"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -22,24 +18,16 @@
     }
   },
   "db_servers": {
-    "hosts": [
-      "kuzeyardabulut-2"
-    ]
+    "hosts": []
   },
   "dns_servers": {
-    "hosts": [
-      "kuzeyardabulut-2"
-    ]
+    "hosts": []
   },
   "grafana_servers": {
-    "hosts": [
-      "kuzeyardabulut-1"
-    ]
+    "hosts": []
   },
   "prometheus_servers": {
-    "hosts": [
-      "kuzeyardabulut-2"
-    ]
+    "hosts": []
   },
   "web_servers": {
     "hosts": [
