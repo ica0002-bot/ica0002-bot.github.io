@@ -1,19 +1,9 @@
 {
   "_meta": {
-    "hostvars": {
-      "elsprtna-1": {
-        "ansible_port": 29722
-      },
-      "elsprtna-2": {
-        "ansible_port": 34322
-      }
-    }
+    "hostvars": {}
   },
   "all": {
-    "hosts": [
-      "elsprtna-1",
-      "elsprtna-2"
-    ],
+    "hosts": [],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
@@ -22,28 +12,18 @@
     }
   },
   "db_servers": {
-    "hosts": [
-      "elsprtna-2"
-    ]
+    "hosts": []
   },
   "dns_servers": {
-    "hosts": [
-      "elsprtna-2"
-    ]
+    "hosts": []
   },
   "grafana_servers": {
-    "hosts": [
-      "elsprtna-1"
-    ]
+    "hosts": []
   },
   "prometheus_servers": {
-    "hosts": [
-      "elsprtna-2"
-    ]
+    "hosts": []
   },
   "web_servers": {
-    "hosts": [
-      "elsprtna-1"
-    ]
+    "hosts": []
   }
 }

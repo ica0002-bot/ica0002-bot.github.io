@@ -1,15 +1,9 @@
 {
   "_meta": {
-    "hostvars": {
-      "vuryy-1": {
-        "ansible_port": 19422
-      }
-    }
+    "hostvars": {}
   },
   "all": {
-    "hosts": [
-      "vuryy-1"
-    ],
+    "hosts": [],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
@@ -30,8 +24,6 @@
     "hosts": []
   },
   "web_servers": {
-    "hosts": [
-      "vuryy-1"
-    ]
+    "hosts": []
   }
 }
