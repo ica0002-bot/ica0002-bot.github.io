@@ -1,9 +1,19 @@
 {
   "_meta": {
-    "hostvars": {}
+    "hostvars": {
+      "ivatot16-1": {
+        "ansible_port": 8222
+      },
+      "ivatot16-2": {
+        "ansible_port": 12122
+      }
+    }
   },
   "all": {
-    "hosts": [],
+    "hosts": [
+      "ivatot16-1",
+      "ivatot16-2"
+    ],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
@@ -12,18 +22,28 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "ivatot16-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "ivatot16-2"
+    ]
   },
   "grafana_servers": {
-    "hosts": []
+    "hosts": [
+      "ivatot16-1"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "ivatot16-2"
+    ]
   },
   "web_servers": {
-    "hosts": []
+    "hosts": [
+      "ivatot16-1"
+    ]
   }
 }
