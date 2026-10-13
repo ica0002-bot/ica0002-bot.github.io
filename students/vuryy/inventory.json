@@ -3,12 +3,16 @@
     "hostvars": {
       "vuryy-1": {
         "ansible_port": 39622
+      },
+      "vuryy-2": {
+        "ansible_port": 50522
       }
     }
   },
   "all": {
     "hosts": [
-      "vuryy-1"
+      "vuryy-1",
+      "vuryy-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -18,16 +22,24 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "vuryy-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "vuryy-2"
+    ]
   },
   "grafana_servers": {
-    "hosts": []
+    "hosts": [
+      "vuryy-1"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "vuryy-2"
+    ]
   },
   "web_servers": {
     "hosts": [
