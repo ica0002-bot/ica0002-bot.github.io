@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "olmatv-iaab-1": {
-        "ansible_port": 9522
+        "ansible_port": 41722
       },
       "olmatv-iaab-2": {
-        "ansible_port": 12722
+        "ansible_port": 37122
       }
     }
   },
