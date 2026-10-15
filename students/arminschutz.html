@@ -14,9 +14,9 @@
 <table>
 <tr><th>Name</th><th>Internal IP</th><th>Public SSH</th><th>Public URL</th></tr>
 
-<tr><td>arminschutz-1</td><td>192.168.43.156</td><td>ubuntu@193.40.157.25 port 41222</td><td><a href="http://193.40.157.25:41280">http://193.40.157.25:41280</a></td></tr>
+<tr><td>arminschutz-1</td><td>192.168.42.201</td><td>ubuntu@193.40.157.25 port 20122</td><td><a href="http://193.40.157.25:20180">http://193.40.157.25:20180</a></td></tr>
 
-<tr><td>arminschutz-2</td><td>192.168.43.245</td><td>ubuntu@193.40.157.25 port 50122</td><td><a href="http://193.40.157.25:50180">http://193.40.157.25:50180</a></td></tr>
+<tr><td>arminschutz-2</td><td>192.168.42.28</td><td>ubuntu@193.40.157.25 port 2822</td><td><a href="http://193.40.157.25:2880">http://193.40.157.25:2880</a></td></tr>
 
 <tr><td colspan="5">Complete <a href="https://github.com/romankuchin/ica0002-2026/tree/main/14-dns-slave">lab 14 tasks</a> to get your third machine.</td></tr>
 
@@ -49,10 +49,10 @@
 <table>
 <tr><th>Service</th><th>arminschutz-1</th><th>arminschutz-2</th><th>Status</th></tr>
 
-<tr><td>DNS server</td><td>---</td><td>192.168.43.245:53</td><td class="ok">1/1 up</td></tr>
-<tr><td>Web server</td><td><a href="http://193.40.157.25:41280">http://193.40.157.25:41280</a> -- <span class="fail">HTTP 500</span></td><td><a href="http://193.40.157.25:50180">http://193.40.157.25:50180</a> -- <span class="fail">HTTP 502</span></td><td class="fail">0/1 up</td></tr>
-<tr><td>Prometheus</td><td><a href="http://193.40.157.25:41280/prometheus">http://193.40.157.25:41280/prometheus</a> -- <span class="fail">HTTP 500</span></td><td><a href="http://193.40.157.25:50180/prometheus">http://193.40.157.25:50180/prometheus</a> -- <span class="fail">HTTP 404</span></td><td class="fail">0/1 up</td></tr>
-<tr><td>Grafana</td><td><a href="http://193.40.157.25:41280/grafana">http://193.40.157.25:41280/grafana</a> -- <span class="fail">HTTP 404</span></td><td><a href="http://193.40.157.25:50180/grafana">http://193.40.157.25:50180/grafana</a> -- <span class="fail">HTTP 502</span></td><td class="fail">0/1 up</td></tr>
+<tr><td>DNS server</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Web server</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Prometheus</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Grafana</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
 </table>
 <h2>Git repository checks</h2>
 <ul>
@@ -74,5 +74,5 @@
 
 <p>A few problems found.</p>
 <p>Labs not accepted: 7.</p>
-<p>Last checked on Oct 15 at 00:50 UTC.</p>
+<p>Last checked on Oct 15 at 03:28 UTC.</p>
 </body></html>
