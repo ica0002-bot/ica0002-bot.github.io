@@ -1,9 +1,19 @@
 {
   "_meta": {
-    "hostvars": {}
+    "hostvars": {
+      "KarlKRx-1": {
+        "ansible_port": 5822
+      },
+      "KarlKRx-2": {
+        "ansible_port": 15222
+      }
+    }
   },
   "all": {
-    "hosts": [],
+    "hosts": [
+      "KarlKRx-1",
+      "KarlKRx-2"
+    ],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
@@ -12,18 +22,28 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "KarlKRx-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "KarlKRx-2"
+    ]
   },
   "grafana_servers": {
-    "hosts": []
+    "hosts": [
+      "KarlKRx-1"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "KarlKRx-2"
+    ]
   },
   "web_servers": {
-    "hosts": []
+    "hosts": [
+      "KarlKRx-1"
+    ]
   }
 }
