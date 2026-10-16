@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "viltk-1": {
-        "ansible_port": 30722
+        "ansible_port": 4522
       },
       "viltk-2": {
-        "ansible_port": 27122
+        "ansible_port": 10222
       }
     }
   },
