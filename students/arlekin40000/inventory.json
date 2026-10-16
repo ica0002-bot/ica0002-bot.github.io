@@ -3,16 +3,12 @@
     "hostvars": {
       "arlekin40000-1": {
         "ansible_port": 39722
-      },
-      "arlekin40000-2": {
-        "ansible_port": 29322
       }
     }
   },
   "all": {
     "hosts": [
-      "arlekin40000-1",
-      "arlekin40000-2"
+      "arlekin40000-1"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -22,24 +18,16 @@
     }
   },
   "db_servers": {
-    "hosts": [
-      "arlekin40000-2"
-    ]
+    "hosts": []
   },
   "dns_servers": {
-    "hosts": [
-      "arlekin40000-2"
-    ]
+    "hosts": []
   },
   "grafana_servers": {
-    "hosts": [
-      "arlekin40000-1"
-    ]
+    "hosts": []
   },
   "prometheus_servers": {
-    "hosts": [
-      "arlekin40000-2"
-    ]
+    "hosts": []
   },
   "web_servers": {
     "hosts": [
