@@ -3,12 +3,16 @@
     "hostvars": {
       "us3rop-1": {
         "ansible_port": 9522
+      },
+      "us3rop-2": {
+        "ansible_port": 5422
       }
     }
   },
   "all": {
     "hosts": [
-      "us3rop-1"
+      "us3rop-1",
+      "us3rop-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -18,16 +22,24 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "us3rop-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "us3rop-2"
+    ]
   },
   "grafana_servers": {
-    "hosts": []
+    "hosts": [
+      "us3rop-1"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "us3rop-2"
+    ]
   },
   "web_servers": {
     "hosts": [

@@ -3,12 +3,16 @@
     "hostvars": {
       "kristjan000-1": {
         "ansible_port": 17422
+      },
+      "kristjan000-2": {
+        "ansible_port": 1122
       }
     }
   },
   "all": {
     "hosts": [
-      "kristjan000-1"
+      "kristjan000-1",
+      "kristjan000-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -18,16 +22,24 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "kristjan000-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "kristjan000-2"
+    ]
   },
   "grafana_servers": {
-    "hosts": []
+    "hosts": [
+      "kristjan000-1"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "kristjan000-2"
+    ]
   },
   "web_servers": {
     "hosts": [
