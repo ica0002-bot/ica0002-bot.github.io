@@ -3,16 +3,12 @@
     "hostvars": {
       "wanamies-1": {
         "ansible_port": 2122
-      },
-      "wanamies-2": {
-        "ansible_port": 12422
       }
     }
   },
   "all": {
     "hosts": [
-      "wanamies-1",
-      "wanamies-2"
+      "wanamies-1"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -22,29 +18,19 @@
     }
   },
   "db_servers": {
-    "hosts": [
-      "wanamies-2"
-    ]
+    "hosts": []
   },
   "dns_servers": {
-    "hosts": [
-      "wanamies-2"
-    ]
+    "hosts": []
   },
   "grafana_servers": {
-    "hosts": [
-      "wanamies-1"
-    ]
+    "hosts": []
   },
   "prometheus_servers": {
-    "hosts": [
-      "wanamies-2"
-    ]
+    "hosts": []
   },
   "loki_servers": {
-    "hosts": [
-      "wanamies-1"
-    ]
+    "hosts": []
   },
   "web_servers": {
     "hosts": [
