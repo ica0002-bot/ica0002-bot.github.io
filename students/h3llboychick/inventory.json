@@ -41,6 +41,11 @@
       "h3llboychick-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "h3llboychick-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "h3llboychick-1"

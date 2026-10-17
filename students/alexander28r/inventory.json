@@ -41,6 +41,11 @@
       "alexander28r-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "alexander28r-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "alexander28r-1"

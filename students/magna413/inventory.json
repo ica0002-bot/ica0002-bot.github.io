@@ -41,6 +41,11 @@
       "magna413-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "magna413-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "magna413-1"

@@ -41,6 +41,11 @@
       "SinivaalSulev-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "SinivaalSulev-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "SinivaalSulev-1"

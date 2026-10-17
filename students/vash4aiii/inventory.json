@@ -41,6 +41,11 @@
       "vash4aiii-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "vash4aiii-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "vash4aiii-1"

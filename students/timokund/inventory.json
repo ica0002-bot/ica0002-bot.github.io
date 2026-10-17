@@ -41,6 +41,11 @@
       "timokund-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "timokund-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "timokund-1"

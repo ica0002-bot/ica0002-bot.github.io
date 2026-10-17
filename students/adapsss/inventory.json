@@ -41,6 +41,11 @@
       "adapsss-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "adapsss-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "adapsss-1"

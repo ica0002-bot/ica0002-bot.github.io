@@ -41,6 +41,11 @@
       "AIS4224-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "AIS4224-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "AIS4224-1"

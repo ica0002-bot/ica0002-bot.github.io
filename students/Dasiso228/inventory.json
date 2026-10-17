@@ -41,6 +41,11 @@
       "Dasiso228-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "Dasiso228-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "Dasiso228-1"

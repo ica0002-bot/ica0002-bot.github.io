@@ -41,6 +41,11 @@
       "p0ts-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "p0ts-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "p0ts-1"

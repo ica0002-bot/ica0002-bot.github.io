@@ -41,6 +41,11 @@
       "Sjinkwe-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "Sjinkwe-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "Sjinkwe-1"

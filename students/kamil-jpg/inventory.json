@@ -41,6 +41,11 @@
       "kamil-jpg-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "kamil-jpg-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "kamil-jpg-1"

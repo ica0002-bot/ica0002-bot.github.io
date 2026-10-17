@@ -41,6 +41,11 @@
       "RobertKadak-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "RobertKadak-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "RobertKadak-1"

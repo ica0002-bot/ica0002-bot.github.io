@@ -41,6 +41,11 @@
       "LauriLohmus-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "LauriLohmus-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "LauriLohmus-1"

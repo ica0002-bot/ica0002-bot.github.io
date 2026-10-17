@@ -41,6 +41,11 @@
       "seljanka-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "seljanka-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "seljanka-1"

@@ -41,6 +41,11 @@
       "veviik-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "veviik-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "veviik-1"

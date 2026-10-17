@@ -41,6 +41,11 @@
       "AljonaSavinova-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "AljonaSavinova-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "AljonaSavinova-1"

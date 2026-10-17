@@ -41,6 +41,11 @@
       "elsprtna-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "elsprtna-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "elsprtna-1"

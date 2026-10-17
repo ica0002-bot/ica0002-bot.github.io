@@ -41,6 +41,11 @@
       "Jekaterina20-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "Jekaterina20-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "Jekaterina20-1"

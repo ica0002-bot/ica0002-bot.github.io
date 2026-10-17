@@ -41,6 +41,11 @@
       "OleksiiKolmoiets-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "OleksiiKolmoiets-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "OleksiiKolmoiets-1"

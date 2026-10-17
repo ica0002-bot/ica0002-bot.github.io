@@ -41,6 +41,11 @@
       "kavink887-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "kavink887-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "kavink887-1"

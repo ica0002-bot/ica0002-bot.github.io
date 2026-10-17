@@ -41,6 +41,11 @@
       "olmatv-iaab-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "olmatv-iaab-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "olmatv-iaab-1"

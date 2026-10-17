@@ -41,6 +41,11 @@
       "ofstardustandthebeasts-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "ofstardustandthebeasts-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "ofstardustandthebeasts-1"

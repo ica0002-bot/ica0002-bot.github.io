@@ -41,6 +41,11 @@
       "eZlanek-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "eZlanek-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "eZlanek-1"

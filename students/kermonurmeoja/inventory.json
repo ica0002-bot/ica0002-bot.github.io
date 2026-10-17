@@ -41,6 +41,11 @@
       "kermonurmeoja-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "kermonurmeoja-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "kermonurmeoja-1"

@@ -41,6 +41,11 @@
       "robinkk-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "robinkk-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "robinkk-1"

@@ -41,6 +41,11 @@
       "LaavaVatsel-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "LaavaVatsel-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "LaavaVatsel-1"

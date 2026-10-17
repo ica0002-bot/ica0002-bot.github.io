@@ -41,6 +41,11 @@
       "KarlKRx-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "KarlKRx-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "KarlKRx-1"

@@ -41,6 +41,11 @@
       "Klauszal-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "Klauszal-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "Klauszal-1"

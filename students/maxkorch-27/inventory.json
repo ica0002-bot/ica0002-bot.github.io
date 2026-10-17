@@ -41,6 +41,11 @@
       "maxkorch-27-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "maxkorch-27-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "maxkorch-27-1"

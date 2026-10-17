@@ -41,6 +41,11 @@
       "FeodorDjatlov-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "FeodorDjatlov-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "FeodorDjatlov-1"

@@ -41,6 +41,11 @@
       "Alirza1-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "Alirza1-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "Alirza1-1"

@@ -41,6 +41,11 @@
       "us3rop-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "us3rop-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "us3rop-1"

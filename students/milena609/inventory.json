@@ -41,6 +41,11 @@
       "milena609-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "milena609-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "milena609-1"

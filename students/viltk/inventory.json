@@ -41,6 +41,11 @@
       "viltk-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "viltk-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "viltk-1"

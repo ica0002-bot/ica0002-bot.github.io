@@ -41,6 +41,11 @@
       "wwqeew-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "wwqeew-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "wwqeew-1"

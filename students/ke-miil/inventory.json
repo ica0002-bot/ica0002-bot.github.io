@@ -41,6 +41,11 @@
       "ke-miil-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "ke-miil-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "ke-miil-1"

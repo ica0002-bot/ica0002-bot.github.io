@@ -41,6 +41,11 @@
       "dakaro123-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "dakaro123-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "dakaro123-1"

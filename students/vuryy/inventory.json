@@ -41,6 +41,11 @@
       "vuryy-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "vuryy-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "vuryy-1"

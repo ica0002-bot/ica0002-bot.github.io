@@ -41,6 +41,11 @@
       "albera98-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "albera98-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "albera98-1"

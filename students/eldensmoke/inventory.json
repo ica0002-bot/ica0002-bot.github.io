@@ -41,6 +41,11 @@
       "eldensmoke-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "eldensmoke-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "eldensmoke-1"

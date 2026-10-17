@@ -41,6 +41,11 @@
       "0HaPa-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "0HaPa-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "0HaPa-1"

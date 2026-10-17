@@ -41,6 +41,11 @@
       "whosandrey-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "whosandrey-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "whosandrey-1"

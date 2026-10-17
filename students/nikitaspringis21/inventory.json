@@ -41,6 +41,11 @@
       "nikitaspringis21-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "nikitaspringis21-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "nikitaspringis21-1"

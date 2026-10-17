@@ -41,6 +41,11 @@
       "mavelling-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "mavelling-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "mavelling-1"

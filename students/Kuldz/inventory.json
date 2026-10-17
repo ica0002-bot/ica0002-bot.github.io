@@ -41,6 +41,11 @@
       "Kuldz-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "Kuldz-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "Kuldz-1"

@@ -41,6 +41,11 @@
       "romankuchin-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "romankuchin-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "romankuchin-1"

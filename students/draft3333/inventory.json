@@ -41,6 +41,11 @@
       "draft3333-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "draft3333-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "draft3333-1"

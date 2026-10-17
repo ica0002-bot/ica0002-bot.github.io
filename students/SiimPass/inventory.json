@@ -41,6 +41,11 @@
       "SiimPass-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "SiimPass-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "SiimPass-1"

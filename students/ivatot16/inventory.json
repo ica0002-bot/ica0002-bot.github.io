@@ -41,6 +41,11 @@
       "ivatot16-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "ivatot16-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "ivatot16-1"

@@ -41,6 +41,11 @@
       "markusperemees-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "markusperemees-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "markusperemees-1"

@@ -41,6 +41,11 @@
       "ultimate-evamarie-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "ultimate-evamarie-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "ultimate-evamarie-1"

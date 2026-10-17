@@ -41,6 +41,11 @@
       "Magnar1-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "Magnar1-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "Magnar1-1"

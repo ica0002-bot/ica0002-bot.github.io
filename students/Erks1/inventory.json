@@ -41,6 +41,11 @@
       "Erks1-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "Erks1-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "Erks1-1"

@@ -41,6 +41,11 @@
       "romani10000-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "romani10000-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "romani10000-1"

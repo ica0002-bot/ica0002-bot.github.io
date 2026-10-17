@@ -41,6 +41,11 @@
       "kuzeyardabulut-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "kuzeyardabulut-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "kuzeyardabulut-1"

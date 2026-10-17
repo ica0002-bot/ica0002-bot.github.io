@@ -41,6 +41,11 @@
       "Lxrenz123-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "Lxrenz123-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "Lxrenz123-1"

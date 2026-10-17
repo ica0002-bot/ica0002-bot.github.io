@@ -41,6 +41,11 @@
       "L0psun-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "L0psun-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "L0psun-1"

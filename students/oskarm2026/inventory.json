@@ -41,6 +41,11 @@
       "oskarm2026-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "oskarm2026-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "oskarm2026-1"

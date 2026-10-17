@@ -41,6 +41,11 @@
       "Tipkakao123-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "Tipkakao123-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "Tipkakao123-1"

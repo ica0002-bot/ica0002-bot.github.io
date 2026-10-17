@@ -41,6 +41,11 @@
       "ErikSent-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "ErikSent-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "ErikSent-1"

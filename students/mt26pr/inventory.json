@@ -41,6 +41,11 @@
       "mt26pr-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "mt26pr-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "mt26pr-1"

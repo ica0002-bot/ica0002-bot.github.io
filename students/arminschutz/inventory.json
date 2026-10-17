@@ -41,6 +41,11 @@
       "arminschutz-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "arminschutz-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "arminschutz-1"

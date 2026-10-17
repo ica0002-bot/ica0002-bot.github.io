@@ -41,6 +41,11 @@
       "ReneArumetsa-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "ReneArumetsa-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "ReneArumetsa-1"

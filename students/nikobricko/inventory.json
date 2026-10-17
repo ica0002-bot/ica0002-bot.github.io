@@ -41,6 +41,11 @@
       "nikobricko-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "nikobricko-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "nikobricko-1"

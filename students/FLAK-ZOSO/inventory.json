@@ -41,6 +41,11 @@
       "FLAK-ZOSO-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "FLAK-ZOSO-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "FLAK-ZOSO-1"

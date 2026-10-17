@@ -41,6 +41,11 @@
       "Siim21-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "Siim21-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "Siim21-1"

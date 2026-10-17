@@ -41,6 +41,11 @@
       "pilleparits-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "pilleparits-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "pilleparits-1"

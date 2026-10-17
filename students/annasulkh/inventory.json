@@ -41,6 +41,11 @@
       "annasulkh-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "annasulkh-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "annasulkh-1"

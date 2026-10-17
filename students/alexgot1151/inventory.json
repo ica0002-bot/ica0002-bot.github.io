@@ -41,6 +41,11 @@
       "alexgot1151-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "alexgot1151-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "alexgot1151-1"

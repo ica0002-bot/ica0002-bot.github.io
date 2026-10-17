@@ -41,6 +41,11 @@
       "RemuSalminen-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "RemuSalminen-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "RemuSalminen-1"

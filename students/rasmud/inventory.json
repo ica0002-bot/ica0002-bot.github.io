@@ -41,6 +41,11 @@
       "rasmud-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "rasmud-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "rasmud-1"

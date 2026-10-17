@@ -41,6 +41,11 @@
       "alarifredi-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "alarifredi-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "alarifredi-1"

@@ -41,6 +41,11 @@
       "flarycen-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "flarycen-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "flarycen-1"

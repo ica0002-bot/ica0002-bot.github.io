@@ -41,6 +41,11 @@
       "kristjan000-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "kristjan000-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "kristjan000-1"

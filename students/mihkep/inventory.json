@@ -41,6 +41,11 @@
       "mihkep-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "mihkep-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "mihkep-1"

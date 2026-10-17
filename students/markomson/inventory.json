@@ -41,6 +41,11 @@
       "markomson-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "markomson-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "markomson-1"

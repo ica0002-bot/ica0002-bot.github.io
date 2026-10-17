@@ -41,6 +41,11 @@
       "rasble-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "rasble-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "rasble-1"

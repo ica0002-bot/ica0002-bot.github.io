@@ -41,6 +41,11 @@
       "madpaj-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "madpaj-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "madpaj-1"

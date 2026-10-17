@@ -29,6 +29,9 @@
   "prometheus_servers": {
     "hosts": []
   },
+  "loki_servers": {
+    "hosts": []
+  },
   "web_servers": {
     "hosts": [
       "toniskandmaa-1"

@@ -41,6 +41,11 @@
       "MrMihasha-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "MrMihasha-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "MrMihasha-1"

@@ -41,6 +41,11 @@
       "Aveira-jdk-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "Aveira-jdk-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "Aveira-jdk-1"

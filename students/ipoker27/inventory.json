@@ -41,6 +41,11 @@
       "ipoker27-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "ipoker27-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "ipoker27-1"

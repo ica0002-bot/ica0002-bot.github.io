@@ -41,6 +41,11 @@
       "erikalt-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "erikalt-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "erikalt-1"

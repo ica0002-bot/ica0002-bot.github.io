@@ -41,6 +41,11 @@
       "TRG-Sten-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "TRG-Sten-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "TRG-Sten-1"

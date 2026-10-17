@@ -41,6 +41,11 @@
       "anulpl-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "anulpl-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "anulpl-1"

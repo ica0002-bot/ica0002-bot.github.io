@@ -41,6 +41,11 @@
       "Matuffi-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "Matuffi-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "Matuffi-1"

@@ -41,6 +41,11 @@
       "ayazzeynalov-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "ayazzeynalov-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "ayazzeynalov-1"

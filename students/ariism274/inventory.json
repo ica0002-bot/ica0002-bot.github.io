@@ -41,6 +41,11 @@
       "ariism274-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "ariism274-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "ariism274-1"

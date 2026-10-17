@@ -41,6 +41,11 @@
       "RobinRohilaid-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "RobinRohilaid-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "RobinRohilaid-1"

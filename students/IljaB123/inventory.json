@@ -41,6 +41,11 @@
       "IljaB123-2"
     ]
   },
+  "loki_servers": {
+    "hosts": [
+      "IljaB123-1"
+    ]
+  },
   "web_servers": {
     "hosts": [
       "IljaB123-1"
