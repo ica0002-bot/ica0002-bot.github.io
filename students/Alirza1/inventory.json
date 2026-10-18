@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "Alirza1-1": {
-        "ansible_port": 8322
+        "ansible_port": 35522
       },
       "Alirza1-2": {
-        "ansible_port": 21222
+        "ansible_port": 38922
       }
     }
   },

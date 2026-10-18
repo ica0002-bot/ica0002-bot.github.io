@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "kermonurmeoja-1": {
-        "ansible_port": 13022
+        "ansible_port": 46622
       },
       "kermonurmeoja-2": {
-        "ansible_port": 1822
+        "ansible_port": 34822
       }
     }
   },

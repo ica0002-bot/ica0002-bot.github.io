@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "mt26pr-1": {
-        "ansible_port": 23222
+        "ansible_port": 40222
       },
       "mt26pr-2": {
-        "ansible_port": 19622
+        "ansible_port": 43722
       }
     }
   },
