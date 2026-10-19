@@ -1,6 +1,9 @@
 {
   "_meta": {
     "hostvars": {
+      "olmatv-iaab-1": {
+        "ansible_port": 20522
+      },
       "olmatv-iaab-2": {
         "ansible_port": 7922
       }
@@ -8,6 +11,7 @@
   },
   "all": {
     "hosts": [
+      "olmatv-iaab-1",
       "olmatv-iaab-2"
     ],
     "vars": {
@@ -18,23 +22,33 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "olmatv-iaab-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "olmatv-iaab-2"
+    ]
   },
   "grafana_servers": {
-    "hosts": []
+    "hosts": [
+      "olmatv-iaab-1"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "olmatv-iaab-2"
+    ]
   },
   "loki_servers": {
-    "hosts": []
+    "hosts": [
+      "olmatv-iaab-1"
+    ]
   },
   "web_servers": {
     "hosts": [
-      "olmatv-iaab-2"
+      "olmatv-iaab-1"
     ]
   }
 }
