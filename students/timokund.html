@@ -14,9 +14,9 @@
 <table>
 <tr><th>Name</th><th>Internal IP</th><th>Public SSH</th><th>Public URL</th></tr>
 
-<tr><td>timokund-1</td><td>192.168.42.210</td><td>ubuntu@193.40.157.25 port 21022</td><td><a href="http://193.40.157.25:21080">http://193.40.157.25:21080</a></td></tr>
+<tr><td>timokund-1</td><td>192.168.43.212</td><td>ubuntu@193.40.157.25 port 46822</td><td><a href="http://193.40.157.25:46880">http://193.40.157.25:46880</a></td></tr>
 
-<tr><td>timokund-2</td><td>192.168.42.79</td><td>ubuntu@193.40.157.25 port 7922</td><td><a href="http://193.40.157.25:7980">http://193.40.157.25:7980</a></td></tr>
+<tr><td>timokund-2</td><td>192.168.43.108</td><td>ubuntu@193.40.157.25 port 36422</td><td><a href="http://193.40.157.25:36480">http://193.40.157.25:36480</a></td></tr>
 
 <tr><td colspan="5">Complete <a href="https://github.com/romankuchin/ica0002-2026/tree/main/14-dns-slave">lab 14 tasks</a> to get your third machine.</td></tr>
 
@@ -49,10 +49,10 @@
 <table>
 <tr><th>Service</th><th>timokund-1</th><th>timokund-2</th><th>Status</th></tr>
 
-<tr><td>DNS server</td><td>---</td><td>192.168.42.79:53</td><td class="ok">1/1 up</td></tr>
-<tr><td>Web server</td><td><a href="http://193.40.157.25:21080">http://193.40.157.25:21080</a></td><td><a href="http://193.40.157.25:7980">http://193.40.157.25:7980</a></td><td class="ok">2/1 up</td></tr>
-<tr><td>Prometheus</td><td>---</td><td><a href="http://193.40.157.25:7980/prometheus">http://193.40.157.25:7980/prometheus</a></td><td class="ok">1/1 up</td></tr>
-<tr><td>Grafana</td><td><a href="http://193.40.157.25:21080/grafana">http://193.40.157.25:21080/grafana</a></td><td>---</td><td class="ok">1/1 up</td></tr>
+<tr><td>DNS server</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Web server</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Prometheus</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Grafana</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
 </table>
 <h2>Git repository checks</h2>
 <ul>
@@ -74,5 +74,5 @@
 
 <p>A few problems found.</p>
 <p>Labs not accepted: 7.</p>
-<p>Last checked on Oct 19 at 00:51 UTC.</p>
+<p>Last checked on Oct 19 at 03:31 UTC.</p>
 </body></html>

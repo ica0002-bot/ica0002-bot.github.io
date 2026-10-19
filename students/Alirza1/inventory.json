@@ -1,19 +1,9 @@
 {
   "_meta": {
-    "hostvars": {
-      "Alirza1-1": {
-        "ansible_port": 35522
-      },
-      "Alirza1-2": {
-        "ansible_port": 38922
-      }
-    }
+    "hostvars": {}
   },
   "all": {
-    "hosts": [
-      "Alirza1-1",
-      "Alirza1-2"
-    ],
+    "hosts": [],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
@@ -22,33 +12,21 @@
     }
   },
   "db_servers": {
-    "hosts": [
-      "Alirza1-2"
-    ]
+    "hosts": []
   },
   "dns_servers": {
-    "hosts": [
-      "Alirza1-2"
-    ]
+    "hosts": []
   },
   "grafana_servers": {
-    "hosts": [
-      "Alirza1-1"
-    ]
+    "hosts": []
   },
   "prometheus_servers": {
-    "hosts": [
-      "Alirza1-2"
-    ]
+    "hosts": []
   },
   "loki_servers": {
-    "hosts": [
-      "Alirza1-1"
-    ]
+    "hosts": []
   },
   "web_servers": {
-    "hosts": [
-      "Alirza1-1"
-    ]
+    "hosts": []
   }
 }

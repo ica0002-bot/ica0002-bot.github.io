@@ -1,17 +1,13 @@
 {
   "_meta": {
     "hostvars": {
-      "mavelling-1": {
-        "ansible_port": 43022
-      },
       "mavelling-2": {
-        "ansible_port": 47722
+        "ansible_port": 13022
       }
     }
   },
   "all": {
     "hosts": [
-      "mavelling-1",
       "mavelling-2"
     ],
     "vars": {
@@ -22,33 +18,23 @@
     }
   },
   "db_servers": {
-    "hosts": [
-      "mavelling-2"
-    ]
+    "hosts": []
   },
   "dns_servers": {
-    "hosts": [
-      "mavelling-2"
-    ]
+    "hosts": []
   },
   "grafana_servers": {
-    "hosts": [
-      "mavelling-1"
-    ]
+    "hosts": []
   },
   "prometheus_servers": {
-    "hosts": [
-      "mavelling-2"
-    ]
+    "hosts": []
   },
   "loki_servers": {
-    "hosts": [
-      "mavelling-1"
-    ]
+    "hosts": []
   },
   "web_servers": {
     "hosts": [
-      "mavelling-1"
+      "mavelling-2"
     ]
   }
 }

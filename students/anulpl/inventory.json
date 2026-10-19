@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "anulpl-1": {
-        "ansible_port": 29722
+        "ansible_port": 10422
       },
       "anulpl-2": {
-        "ansible_port": 26422
+        "ansible_port": 22322
       }
     }
   },

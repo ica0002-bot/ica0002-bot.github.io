@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "eZlanek-1": {
-        "ansible_port": 35022
+        "ansible_port": 23922
       },
       "eZlanek-2": {
-        "ansible_port": 50722
+        "ansible_port": 18222
       }
     }
   },
