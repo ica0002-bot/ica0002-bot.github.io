@@ -16,7 +16,9 @@
 
 <tr><td>ripurg-1</td><td>192.168.43.186</td><td>ubuntu@193.40.157.25 port 44222</td><td><a href="http://193.40.157.25:44280">http://193.40.157.25:44280</a></td></tr>
 
-<tr><td colspan="5">Complete <a href="https://github.com/romankuchin/ica0002-2026/tree/main/03-web-app">lab 3 tasks</a> to get your second machine.</td></tr>
+<tr><td>ripurg-2</td><td>192.168.42.178</td><td>ubuntu@193.40.157.25 port 17822</td><td><a href="http://193.40.157.25:17880">http://193.40.157.25:17880</a></td></tr>
+
+<tr><td colspan="5">Complete <a href="https://github.com/romankuchin/ica0002-2026/tree/main/14-dns-slave">lab 14 tasks</a> to get your third machine.</td></tr>
 
 </table>
 
@@ -45,12 +47,12 @@
 <h2>Services</h2>
 <table>
 <table>
-<tr><th>Service</th><th>ripurg-1</th><th>Status</th></tr>
+<tr><th>Service</th><th>ripurg-1</th><th>ripurg-2</th><th>Status</th></tr>
 
-<tr><td>DNS server</td><td>---</td><td class="fail">0/1 up</td></tr>
-<tr><td>Web server</td><td><a href="http://193.40.157.25:44280">http://193.40.157.25:44280</a></td><td class="ok">1/1 up</td></tr>
-<tr><td>Prometheus</td><td><a href="http://193.40.157.25:44280/prometheus">http://193.40.157.25:44280/prometheus</a> -- <span class="fail">HTTP 404</span></td><td class="fail">0/1 up</td></tr>
-<tr><td>Grafana</td><td><a href="http://193.40.157.25:44280/grafana">http://193.40.157.25:44280/grafana</a> -- <span class="fail">HTTP 404</span></td><td class="fail">0/1 up</td></tr>
+<tr><td>DNS server</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Web server</td><td><a href="http://193.40.157.25:44280">http://193.40.157.25:44280</a></td><td>---</td><td class="ok">1/1 up</td></tr>
+<tr><td>Prometheus</td><td><a href="http://193.40.157.25:44280/prometheus">http://193.40.157.25:44280/prometheus</a> -- <span class="fail">HTTP 404</span></td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Grafana</td><td><a href="http://193.40.157.25:44280/grafana">http://193.40.157.25:44280/grafana</a> -- <span class="fail">HTTP 404</span></td><td>---</td><td class="fail">0/1 up</td></tr>
 </table>
 <h2>Git repository checks</h2>
 <ul>
@@ -72,5 +74,5 @@
 
 <p>A few problems found.</p>
 <p>Labs not accepted: 4, 5, 6, 7.</p>
-<p>Last checked on Oct 20 at 00:21 UTC.</p>
+<p>Last checked on Oct 20 at 00:51 UTC.</p>
 </body></html>
