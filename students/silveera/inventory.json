@@ -3,20 +3,12 @@
     "hostvars": {
       "silveera-1": {
         "ansible_port": 27322
-      },
-      "silveera-2": {
-        "ansible_port": 28122
-      },
-      "silveera-3": {
-        "ansible_port": 30422
       }
     }
   },
   "all": {
     "hosts": [
-      "silveera-1",
-      "silveera-2",
-      "silveera-3"
+      "silveera-1"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -41,6 +33,8 @@
     "hosts": []
   },
   "web_servers": {
-    "hosts": []
+    "hosts": [
+      "silveera-1"
+    ]
   }
 }
