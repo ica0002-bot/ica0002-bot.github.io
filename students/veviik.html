@@ -14,11 +14,9 @@
 <table>
 <tr><th>Name</th><th>Internal IP</th><th>Public SSH</th><th>Public URL</th></tr>
 
-<tr><td>veviik-1</td><td>192.168.42.140</td><td>ubuntu@193.40.157.25 port 14022</td><td><a href="http://193.40.157.25:14080">http://193.40.157.25:14080</a></td></tr>
+<tr><td>veviik-1</td><td>192.168.42.41</td><td>ubuntu@193.40.157.25 port 4122</td><td><a href="http://193.40.157.25:4180">http://193.40.157.25:4180</a></td></tr>
 
-<tr><td>veviik-2</td><td>192.168.42.41</td><td>ubuntu@193.40.157.25 port 4122</td><td><a href="http://193.40.157.25:4180">http://193.40.157.25:4180</a></td></tr>
-
-<tr><td colspan="5">Complete <a href="https://github.com/romankuchin/ica0002-2026/tree/main/14-dns-slave">lab 14 tasks</a> to get your third machine.</td></tr>
+<tr><td colspan="5">Complete <a href="https://github.com/romankuchin/ica0002-2026/tree/main/03-web-app">lab 3 tasks</a> to get your second machine.</td></tr>
 
 </table>
 
@@ -47,12 +45,12 @@
 <h2>Services</h2>
 <table>
 <table>
-<tr><th>Service</th><th>veviik-1</th><th>veviik-2</th><th>Status</th></tr>
+<tr><th>Service</th><th>veviik-1</th><th>Status</th></tr>
 
-<tr><td>DNS server</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
-<tr><td>Web server</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
-<tr><td>Prometheus</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
-<tr><td>Grafana</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>DNS server</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Web server</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Prometheus</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Grafana</td><td>---</td><td class="fail">0/1 up</td></tr>
 </table>
 <h2>Git repository checks</h2>
 <ul>
@@ -68,11 +66,11 @@
 <li><span class="ok">Ok</span>: <code>roles/init/tasks/main.yaml</code> found.</li>
 <li><span class="ok">Ok</span>: <code>roles/mysql/tasks/main.yaml</code> found.</li>
 <li><span class="ok">Ok</span>: <code>roles/nginx/tasks/main.yaml</code> found.</li>
-<li><span class="fail">Problem</span>: <code>roles/prometheus/tasks/main.yaml</code> is missing; labs not completed: 6.</li>
+<li><span class="ok">Ok</span>: <code>roles/prometheus/tasks/main.yaml</code> found.</li>
 <li><span class="ok">Ok</span>: <code>roles/uwsgi/tasks/main.yaml</code> found.</li>
 </ul>
 
 <p>A few problems found.</p>
-<p>Labs not accepted: 6, 7.</p>
-<p>Last checked on Oct 20 at 10:55 UTC.</p>
+<p>Labs not accepted: 7.</p>
+<p>Last checked on Oct 20 at 11:24 UTC.</p>
 </body></html>
