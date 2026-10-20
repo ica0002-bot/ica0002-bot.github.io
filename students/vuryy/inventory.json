@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "vuryy-1": {
-        "ansible_port": 37222
+        "ansible_port": 12322
       },
       "vuryy-2": {
-        "ansible_port": 47822
+        "ansible_port": 18022
       }
     }
   },

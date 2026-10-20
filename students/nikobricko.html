@@ -14,9 +14,9 @@
 <table>
 <tr><th>Name</th><th>Internal IP</th><th>Public SSH</th><th>Public URL</th></tr>
 
-<tr><td>nikobricko-1</td><td>192.168.43.3</td><td>ubuntu@193.40.157.25 port 25922</td><td><a href="http://193.40.157.25:25980">http://193.40.157.25:25980</a></td></tr>
+<tr><td>nikobricko-1</td><td>192.168.42.237</td><td>ubuntu@193.40.157.25 port 23722</td><td><a href="http://193.40.157.25:23780">http://193.40.157.25:23780</a></td></tr>
 
-<tr><td>nikobricko-2</td><td>192.168.43.198</td><td>ubuntu@193.40.157.25 port 45422</td><td><a href="http://193.40.157.25:45480">http://193.40.157.25:45480</a></td></tr>
+<tr><td>nikobricko-2</td><td>192.168.42.89</td><td>ubuntu@193.40.157.25 port 8922</td><td><a href="http://193.40.157.25:8980">http://193.40.157.25:8980</a></td></tr>
 
 <tr><td colspan="5">Complete <a href="https://github.com/romankuchin/ica0002-2026/tree/main/14-dns-slave">lab 14 tasks</a> to get your third machine.</td></tr>
 
@@ -49,10 +49,10 @@
 <table>
 <tr><th>Service</th><th>nikobricko-1</th><th>nikobricko-2</th><th>Status</th></tr>
 
-<tr><td>DNS server</td><td>---</td><td>192.168.43.198:53</td><td class="ok">1/1 up</td></tr>
-<tr><td>Web server</td><td><a href="http://193.40.157.25:25980">http://193.40.157.25:25980</a></td><td>---</td><td class="ok">1/1 up</td></tr>
-<tr><td>Prometheus</td><td><a href="http://193.40.157.25:25980/prometheus">http://193.40.157.25:25980/prometheus</a> -- <span class="fail">HTTP 404</span></td><td>---</td><td class="fail">0/1 up</td></tr>
-<tr><td>Grafana</td><td><a href="http://193.40.157.25:25980/grafana">http://193.40.157.25:25980/grafana</a> -- <span class="fail">HTTP 404</span></td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>DNS server</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Web server</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Prometheus</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Grafana</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
 </table>
 <h2>Git repository checks</h2>
 <ul>
@@ -62,7 +62,7 @@
 <li><span class="ok">Ok</span>: <code>infra.yaml</code> found.</li>
 <li><span class="fail">Problem</span>: <code>docs/prom_queries.txt</code> is missing; labs not completed: 6.</li>
 <li><span class="ok">Ok</span>: <code>roles/agama/tasks/main.yaml</code> found.</li>
-<li><span class="fail">Problem</span>: <code>roles/bind/tasks/main.yaml</code> is missing; labs not completed: 5, 6.</li>
+<li><span class="ok">Ok</span>: <code>roles/bind/tasks/main.yaml</code> found.</li>
 <li><span class="fail">Problem</span>: <code>roles/grafana/tasks/main.yaml</code> is missing; labs not completed: 7.</li>
 <li><span class="fail">Problem</span>: <code>roles/grafana/files/main.json</code> is missing; labs not completed: 7.</li>
 <li><span class="ok">Ok</span>: <code>roles/init/tasks/main.yaml</code> found.</li>
@@ -73,6 +73,6 @@
 </ul>
 
 <p>A few problems found.</p>
-<p>Labs not accepted: 5, 6, 7.</p>
-<p>Last checked on Oct 20 at 00:51 UTC.</p>
+<p>Labs not accepted: 6, 7.</p>
+<p>Last checked on Oct 20 at 03:28 UTC.</p>
 </body></html>

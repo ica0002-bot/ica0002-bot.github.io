@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "Magnar1-1": {
-        "ansible_port": 10922
+        "ansible_port": 42322
       },
       "Magnar1-2": {
-        "ansible_port": 1122
+        "ansible_port": 33422
       }
     }
   },

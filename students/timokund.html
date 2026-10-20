@@ -14,9 +14,9 @@
 <table>
 <tr><th>Name</th><th>Internal IP</th><th>Public SSH</th><th>Public URL</th></tr>
 
-<tr><td>timokund-1</td><td>192.168.43.212</td><td>ubuntu@193.40.157.25 port 46822</td><td><a href="http://193.40.157.25:46880">http://193.40.157.25:46880</a></td></tr>
+<tr><td>timokund-1</td><td>192.168.42.137</td><td>ubuntu@193.40.157.25 port 13722</td><td><a href="http://193.40.157.25:13780">http://193.40.157.25:13780</a></td></tr>
 
-<tr><td>timokund-2</td><td>192.168.43.108</td><td>ubuntu@193.40.157.25 port 36422</td><td><a href="http://193.40.157.25:36480">http://193.40.157.25:36480</a></td></tr>
+<tr><td>timokund-2</td><td>192.168.42.196</td><td>ubuntu@193.40.157.25 port 19622</td><td><a href="http://193.40.157.25:19680">http://193.40.157.25:19680</a></td></tr>
 
 <tr><td colspan="5">Complete <a href="https://github.com/romankuchin/ica0002-2026/tree/main/14-dns-slave">lab 14 tasks</a> to get your third machine.</td></tr>
 
@@ -49,10 +49,10 @@
 <table>
 <tr><th>Service</th><th>timokund-1</th><th>timokund-2</th><th>Status</th></tr>
 
-<tr><td>DNS server</td><td>---</td><td>192.168.43.108:53</td><td class="ok">1/1 up</td></tr>
-<tr><td>Web server</td><td><a href="http://193.40.157.25:46880">http://193.40.157.25:46880</a></td><td><a href="http://193.40.157.25:36480">http://193.40.157.25:36480</a></td><td class="ok">2/1 up</td></tr>
-<tr><td>Prometheus</td><td>---</td><td><a href="http://193.40.157.25:36480/prometheus">http://193.40.157.25:36480/prometheus</a></td><td class="ok">1/1 up</td></tr>
-<tr><td>Grafana</td><td><a href="http://193.40.157.25:46880/grafana">http://193.40.157.25:46880/grafana</a></td><td>---</td><td class="ok">1/1 up</td></tr>
+<tr><td>DNS server</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Web server</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Prometheus</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Grafana</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
 </table>
 <h2>Git repository checks</h2>
 <ul>
@@ -73,5 +73,5 @@
 </ul>
 
 <p>All good so far.</p>
-<p>Last checked on Oct 20 at 00:51 UTC.</p>
+<p>Last checked on Oct 20 at 03:29 UTC.</p>
 </body></html>
