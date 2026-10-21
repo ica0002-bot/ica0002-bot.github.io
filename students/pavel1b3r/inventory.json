@@ -3,12 +3,16 @@
     "hostvars": {
       "pavel1b3r-1": {
         "ansible_port": 40822
+      },
+      "pavel1b3r-2": {
+        "ansible_port": 34422
       }
     }
   },
   "all": {
     "hosts": [
-      "pavel1b3r-1"
+      "pavel1b3r-1",
+      "pavel1b3r-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -18,19 +22,29 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "pavel1b3r-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "pavel1b3r-2"
+    ]
   },
   "grafana_servers": {
-    "hosts": []
+    "hosts": [
+      "pavel1b3r-1"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "pavel1b3r-2"
+    ]
   },
   "loki_servers": {
-    "hosts": []
+    "hosts": [
+      "pavel1b3r-1"
+    ]
   },
   "web_servers": {
     "hosts": [
