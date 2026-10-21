@@ -2,7 +2,7 @@
   "_meta": {
     "hostvars": {
       "golobe-1": {
-        "ansible_port": 34222
+        "ansible_port": 22122
       }
     }
   },

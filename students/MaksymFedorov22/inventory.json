@@ -1,15 +1,9 @@
 {
   "_meta": {
-    "hostvars": {
-      "MaksymFedorov22-1": {
-        "ansible_port": 43322
-      }
-    }
+    "hostvars": {}
   },
   "all": {
-    "hosts": [
-      "MaksymFedorov22-1"
-    ],
+    "hosts": [],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
@@ -33,8 +27,6 @@
     "hosts": []
   },
   "web_servers": {
-    "hosts": [
-      "MaksymFedorov22-1"
-    ]
+    "hosts": []
   }
 }
