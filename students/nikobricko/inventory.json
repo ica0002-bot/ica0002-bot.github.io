@@ -1,6 +1,9 @@
 {
   "_meta": {
     "hostvars": {
+      "nikobricko-1": {
+        "ansible_port": 16622
+      },
       "nikobricko-2": {
         "ansible_port": 11922
       }
@@ -8,6 +11,7 @@
   },
   "all": {
     "hosts": [
+      "nikobricko-1",
       "nikobricko-2"
     ],
     "vars": {
@@ -18,23 +22,33 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "nikobricko-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "nikobricko-2"
+    ]
   },
   "grafana_servers": {
-    "hosts": []
+    "hosts": [
+      "nikobricko-1"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "nikobricko-2"
+    ]
   },
   "loki_servers": {
-    "hosts": []
+    "hosts": [
+      "nikobricko-1"
+    ]
   },
   "web_servers": {
     "hosts": [
-      "nikobricko-2"
+      "nikobricko-1"
     ]
   }
 }
