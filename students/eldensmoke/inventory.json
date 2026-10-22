@@ -1,17 +1,13 @@
 {
   "_meta": {
     "hostvars": {
-      "eldensmoke-1": {
-        "ansible_port": 2422
-      },
       "eldensmoke-2": {
-        "ansible_port": 22622
+        "ansible_port": 41922
       }
     }
   },
   "all": {
     "hosts": [
-      "eldensmoke-1",
       "eldensmoke-2"
     ],
     "vars": {
@@ -22,33 +18,23 @@
     }
   },
   "db_servers": {
-    "hosts": [
-      "eldensmoke-2"
-    ]
+    "hosts": []
   },
   "dns_servers": {
-    "hosts": [
-      "eldensmoke-2"
-    ]
+    "hosts": []
   },
   "grafana_servers": {
-    "hosts": [
-      "eldensmoke-1"
-    ]
+    "hosts": []
   },
   "prometheus_servers": {
-    "hosts": [
-      "eldensmoke-2"
-    ]
+    "hosts": []
   },
   "loki_servers": {
-    "hosts": [
-      "eldensmoke-1"
-    ]
+    "hosts": []
   },
   "web_servers": {
     "hosts": [
-      "eldensmoke-1"
+      "eldensmoke-2"
     ]
   }
 }

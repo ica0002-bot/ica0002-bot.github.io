@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "RobinRohilaid-1": {
-        "ansible_port": 39022
+        "ansible_port": 23822
       },
       "RobinRohilaid-2": {
-        "ansible_port": 38822
+        "ansible_port": 2422
       }
     }
   },
