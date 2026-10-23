@@ -5,7 +5,7 @@
         "ansible_port": 51022
       },
       "0HaPa-2": {
-        "ansible_port": 50622
+        "ansible_port": 42322
       }
     }
   },
