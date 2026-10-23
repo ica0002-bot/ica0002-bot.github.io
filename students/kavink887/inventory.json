@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "kavink887-1": {
-        "ansible_port": 2122
+        "ansible_port": 17022
       },
       "kavink887-2": {
-        "ansible_port": 12122
+        "ansible_port": 2422
       }
     }
   },
