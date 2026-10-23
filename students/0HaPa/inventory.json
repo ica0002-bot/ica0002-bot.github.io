@@ -1,17 +1,13 @@
 {
   "_meta": {
     "hostvars": {
-      "0HaPa-1": {
-        "ansible_port": 51022
-      },
       "0HaPa-2": {
-        "ansible_port": 42322
+        "ansible_port": 41622
       }
     }
   },
   "all": {
     "hosts": [
-      "0HaPa-1",
       "0HaPa-2"
     ],
     "vars": {
@@ -22,33 +18,23 @@
     }
   },
   "db_servers": {
-    "hosts": [
-      "0HaPa-2"
-    ]
+    "hosts": []
   },
   "dns_servers": {
-    "hosts": [
-      "0HaPa-2"
-    ]
+    "hosts": []
   },
   "grafana_servers": {
-    "hosts": [
-      "0HaPa-1"
-    ]
+    "hosts": []
   },
   "prometheus_servers": {
-    "hosts": [
-      "0HaPa-2"
-    ]
+    "hosts": []
   },
   "loki_servers": {
-    "hosts": [
-      "0HaPa-1"
-    ]
+    "hosts": []
   },
   "web_servers": {
     "hosts": [
-      "0HaPa-1"
+      "0HaPa-2"
     ]
   }
 }
