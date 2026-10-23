@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "ke-miil-1": {
-        "ansible_port": 47922
+        "ansible_port": 10622
       },
       "ke-miil-2": {
-        "ansible_port": 37322
+        "ansible_port": 16222
       }
     }
   },

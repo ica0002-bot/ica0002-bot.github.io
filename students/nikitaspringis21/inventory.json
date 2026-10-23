@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "nikitaspringis21-1": {
-        "ansible_port": 2822
+        "ansible_port": 29522
       },
       "nikitaspringis21-2": {
-        "ansible_port": 19022
+        "ansible_port": 50022
       }
     }
   },

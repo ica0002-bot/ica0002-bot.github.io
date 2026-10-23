@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "IljaB123-1": {
-        "ansible_port": 28822
+        "ansible_port": 8922
       },
       "IljaB123-2": {
-        "ansible_port": 25922
+        "ansible_port": 16522
       }
     }
   },

@@ -1,17 +1,13 @@
 {
   "_meta": {
     "hostvars": {
-      "kavink887-1": {
-        "ansible_port": 49322
-      },
       "kavink887-2": {
-        "ansible_port": 28522
+        "ansible_port": 12122
       }
     }
   },
   "all": {
     "hosts": [
-      "kavink887-1",
       "kavink887-2"
     ],
     "vars": {
@@ -22,33 +18,23 @@
     }
   },
   "db_servers": {
-    "hosts": [
-      "kavink887-2"
-    ]
+    "hosts": []
   },
   "dns_servers": {
-    "hosts": [
-      "kavink887-2"
-    ]
+    "hosts": []
   },
   "grafana_servers": {
-    "hosts": [
-      "kavink887-1"
-    ]
+    "hosts": []
   },
   "prometheus_servers": {
-    "hosts": [
-      "kavink887-2"
-    ]
+    "hosts": []
   },
   "loki_servers": {
-    "hosts": [
-      "kavink887-1"
-    ]
+    "hosts": []
   },
   "web_servers": {
     "hosts": [
-      "kavink887-1"
+      "kavink887-2"
     ]
   }
 }
