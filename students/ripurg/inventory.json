@@ -3,12 +3,16 @@
     "hostvars": {
       "ripurg-1": {
         "ansible_port": 33422
+      },
+      "ripurg-2": {
+        "ansible_port": 47422
       }
     }
   },
   "all": {
     "hosts": [
-      "ripurg-1"
+      "ripurg-1",
+      "ripurg-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -18,19 +22,29 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "ripurg-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "ripurg-2"
+    ]
   },
   "grafana_servers": {
-    "hosts": []
+    "hosts": [
+      "ripurg-1"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "ripurg-2"
+    ]
   },
   "loki_servers": {
-    "hosts": []
+    "hosts": [
+      "ripurg-1"
+    ]
   },
   "web_servers": {
     "hosts": [

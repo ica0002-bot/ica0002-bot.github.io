@@ -1,6 +1,9 @@
 {
   "_meta": {
     "hostvars": {
+      "markusperemees-1": {
+        "ansible_port": 422
+      },
       "markusperemees-2": {
         "ansible_port": 12022
       }
@@ -8,6 +11,7 @@
   },
   "all": {
     "hosts": [
+      "markusperemees-1",
       "markusperemees-2"
     ],
     "vars": {
@@ -18,23 +22,33 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "markusperemees-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "markusperemees-2"
+    ]
   },
   "grafana_servers": {
-    "hosts": []
+    "hosts": [
+      "markusperemees-1"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "markusperemees-2"
+    ]
   },
   "loki_servers": {
-    "hosts": []
+    "hosts": [
+      "markusperemees-1"
+    ]
   },
   "web_servers": {
     "hosts": [
-      "markusperemees-2"
+      "markusperemees-1"
     ]
   }
 }

@@ -1,6 +1,9 @@
 {
   "_meta": {
     "hostvars": {
+      "p0ts-1": {
+        "ansible_port": 43422
+      },
       "p0ts-2": {
         "ansible_port": 27622
       }
@@ -8,6 +11,7 @@
   },
   "all": {
     "hosts": [
+      "p0ts-1",
       "p0ts-2"
     ],
     "vars": {
@@ -18,23 +22,33 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "p0ts-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "p0ts-2"
+    ]
   },
   "grafana_servers": {
-    "hosts": []
+    "hosts": [
+      "p0ts-1"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "p0ts-2"
+    ]
   },
   "loki_servers": {
-    "hosts": []
+    "hosts": [
+      "p0ts-1"
+    ]
   },
   "web_servers": {
     "hosts": [
-      "p0ts-2"
+      "p0ts-1"
     ]
   }
 }
