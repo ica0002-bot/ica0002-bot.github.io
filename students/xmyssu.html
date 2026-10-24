@@ -11,7 +11,16 @@
 <p>Public key: <a href="https://github.com/xmyssu.keys">https://github.com/xmyssu.keys</a></p>
 <h2>Virtual machines</h2>
 
-<p>Complete <a href="https://github.com/romankuchin/ica0002-2026/tree/main/01-intro">GitHub repository setup</a> to get your first machine.</p>
+<table>
+<tr><th>Name</th><th>Internal IP</th><th>Public SSH</th><th>Public URL</th></tr>
+
+<tr><td>xmyssu-1</td><td>192.168.42.11</td><td>ubuntu@193.40.157.25 port 1122</td><td><a href="http://193.40.157.25:1180">http://193.40.157.25:1180</a></td></tr>
+
+<tr><td>xmyssu-2</td><td>192.168.42.145</td><td>ubuntu@193.40.157.25 port 14522</td><td><a href="http://193.40.157.25:14580">http://193.40.157.25:14580</a></td></tr>
+
+<tr><td colspan="5">Complete <a href="https://github.com/romankuchin/ica0002-2026/tree/main/14-dns-slave">lab 14 tasks</a> to get your third machine.</td></tr>
+
+</table>
 
 
 <br>
@@ -37,8 +46,13 @@
 </details>
 <h2>Services</h2>
 <table>
-<p>Complete <a href="https://github.com/romankuchin/ica0002-2026/tree/main/01-intro">GitHub repository setup</a> to get your first machine.</p>
+<table>
+<tr><th>Service</th><th>xmyssu-1</th><th>xmyssu-2</th><th>Status</th></tr>
 
+<tr><td>DNS server</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Web server</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Prometheus</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Grafana</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
 </table>
 <h2>Git repository checks</h2>
 <ul>
@@ -48,7 +62,7 @@
 <li><span class="ok">Ok</span>: <code>infra.yaml</code> found.</li>
 <li><span class="fail">Problem</span>: <code>docs/prom_queries.txt</code> is missing; labs not completed: 6.</li>
 <li><span class="ok">Ok</span>: <code>roles/agama/tasks/main.yaml</code> found.</li>
-<li><span class="fail">Problem</span>: <code>roles/bind/tasks/main.yaml</code> is missing; labs not completed: 5, 6.</li>
+<li><span class="ok">Ok</span>: <code>roles/bind/tasks/main.yaml</code> found.</li>
 <li><span class="fail">Problem</span>: <code>roles/grafana/files/main.json</code> is missing; labs not completed: 7, 8.</li>
 <li><span class="fail">Problem</span>: <code>roles/grafana/tasks/main.yaml</code> is missing; labs not completed: 7, 8.</li>
 <li><span class="ok">Ok</span>: <code>roles/init/tasks/main.yaml</code> found.</li>
@@ -61,6 +75,6 @@
 </ul>
 
 <p>A few problems found.</p>
-<p>Labs not accepted: 5, 6, 7, 8.</p>
-<p>Last checked on Oct 24 at 11:50 UTC.</p>
+<p>Labs not accepted: 6, 7, 8.</p>
+<p>Last checked on Oct 24 at 12:20 UTC.</p>
 </body></html>
