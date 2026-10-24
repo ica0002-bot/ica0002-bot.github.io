@@ -2,17 +2,13 @@
   "_meta": {
     "hostvars": {
       "ultimate-evamarie-1": {
-        "ansible_port": 14922
-      },
-      "ultimate-evamarie-2": {
-        "ansible_port": 18522
+        "ansible_port": 39122
       }
     }
   },
   "all": {
     "hosts": [
-      "ultimate-evamarie-1",
-      "ultimate-evamarie-2"
+      "ultimate-evamarie-1"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -22,29 +18,19 @@
     }
   },
   "db_servers": {
-    "hosts": [
-      "ultimate-evamarie-2"
-    ]
+    "hosts": []
   },
   "dns_servers": {
-    "hosts": [
-      "ultimate-evamarie-2"
-    ]
+    "hosts": []
   },
   "grafana_servers": {
-    "hosts": [
-      "ultimate-evamarie-1"
-    ]
+    "hosts": []
   },
   "prometheus_servers": {
-    "hosts": [
-      "ultimate-evamarie-2"
-    ]
+    "hosts": []
   },
   "loki_servers": {
-    "hosts": [
-      "ultimate-evamarie-1"
-    ]
+    "hosts": []
   },
   "web_servers": {
     "hosts": [

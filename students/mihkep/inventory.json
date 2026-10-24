@@ -2,17 +2,13 @@
   "_meta": {
     "hostvars": {
       "mihkep-1": {
-        "ansible_port": 23522
-      },
-      "mihkep-2": {
-        "ansible_port": 5822
+        "ansible_port": 37622
       }
     }
   },
   "all": {
     "hosts": [
-      "mihkep-1",
-      "mihkep-2"
+      "mihkep-1"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -22,29 +18,19 @@
     }
   },
   "db_servers": {
-    "hosts": [
-      "mihkep-2"
-    ]
+    "hosts": []
   },
   "dns_servers": {
-    "hosts": [
-      "mihkep-2"
-    ]
+    "hosts": []
   },
   "grafana_servers": {
-    "hosts": [
-      "mihkep-1"
-    ]
+    "hosts": []
   },
   "prometheus_servers": {
-    "hosts": [
-      "mihkep-2"
-    ]
+    "hosts": []
   },
   "loki_servers": {
-    "hosts": [
-      "mihkep-1"
-    ]
+    "hosts": []
   },
   "web_servers": {
     "hosts": [

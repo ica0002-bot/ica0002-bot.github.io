@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "arlekin40000-1": {
-        "ansible_port": 24522
+        "ansible_port": 35422
       },
       "arlekin40000-2": {
-        "ansible_port": 5722
+        "ansible_port": 41322
       }
     }
   },

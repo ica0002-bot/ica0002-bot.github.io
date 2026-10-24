@@ -14,9 +14,9 @@
 <table>
 <tr><th>Name</th><th>Internal IP</th><th>Public SSH</th><th>Public URL</th></tr>
 
-<tr><td>Sjinkwe-1</td><td>192.168.42.11</td><td>ubuntu@193.40.157.25 port 1122</td><td><a href="http://193.40.157.25:1180">http://193.40.157.25:1180</a></td></tr>
+<tr><td>Sjinkwe-1</td><td>192.168.43.59</td><td>ubuntu@193.40.157.25 port 31522</td><td><a href="http://193.40.157.25:31580">http://193.40.157.25:31580</a></td></tr>
 
-<tr><td>Sjinkwe-2</td><td>192.168.42.214</td><td>ubuntu@193.40.157.25 port 21422</td><td><a href="http://193.40.157.25:21480">http://193.40.157.25:21480</a></td></tr>
+<tr><td>Sjinkwe-2</td><td>192.168.43.198</td><td>ubuntu@193.40.157.25 port 45422</td><td><a href="http://193.40.157.25:45480">http://193.40.157.25:45480</a></td></tr>
 
 <tr><td colspan="5">Complete <a href="https://github.com/romankuchin/ica0002-2026/tree/main/14-dns-slave">lab 14 tasks</a> to get your third machine.</td></tr>
 
@@ -49,10 +49,10 @@
 <table>
 <tr><th>Service</th><th>Sjinkwe-1</th><th>Sjinkwe-2</th><th>Status</th></tr>
 
-<tr><td>DNS server</td><td>---</td><td>192.168.42.214:53</td><td class="ok">1/1 up</td></tr>
-<tr><td>Web server</td><td><a href="http://193.40.157.25:1180">http://193.40.157.25:1180</a></td><td>---</td><td class="ok">1/1 up</td></tr>
-<tr><td>Prometheus</td><td><a href="http://193.40.157.25:1180/prometheus">http://193.40.157.25:1180/prometheus</a> -- <span class="fail">HTTP 404</span></td><td><a href="http://193.40.157.25:21480/prometheus">http://193.40.157.25:21480/prometheus</a> -- <span class="fail">HTTP 404</span></td><td class="fail">0/1 up</td></tr>
-<tr><td>Grafana</td><td><a href="http://193.40.157.25:1180/grafana">http://193.40.157.25:1180/grafana</a> -- <span class="fail">HTTP 404</span></td><td><a href="http://193.40.157.25:21480/grafana">http://193.40.157.25:21480/grafana</a> -- <span class="fail">HTTP 502</span></td><td class="fail">0/1 up</td></tr>
+<tr><td>DNS server</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Web server</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Prometheus</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Grafana</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
 </table>
 <h2>Git repository checks</h2>
 <ul>
@@ -64,7 +64,7 @@
 <li><span class="ok">Ok</span>: <code>roles/agama/tasks/main.yaml</code> found.</li>
 <li><span class="ok">Ok</span>: <code>roles/bind/tasks/main.yaml</code> found.</li>
 <li><span class="fail">Problem</span>: <code>roles/grafana/files/main.json</code> is missing; labs not completed: 7, 8.</li>
-<li><span class="fail">Problem</span>: <code>roles/grafana/tasks/main.yaml</code> is missing; labs not completed: 7, 8.</li>
+<li><span class="ok">Ok</span>: <code>roles/grafana/tasks/main.yaml</code> found.</li>
 <li><span class="ok">Ok</span>: <code>roles/init/tasks/main.yaml</code> found.</li>
 <li><span class="fail">Problem</span>: <code>roles/loki/tasks/main.yaml</code> is missing; labs not completed: 8.</li>
 <li><span class="ok">Ok</span>: <code>roles/mysql/tasks/main.yaml</code> found.</li>
@@ -76,5 +76,5 @@
 
 <p>A few problems found.</p>
 <p>Labs not accepted: 7, 8.</p>
-<p>Last checked on Oct 24 at 00:50 UTC.</p>
+<p>Last checked on Oct 24 at 03:28 UTC.</p>
 </body></html>
