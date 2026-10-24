@@ -1,9 +1,19 @@
 {
   "_meta": {
-    "hostvars": {}
+    "hostvars": {
+      "RobertKadak-1": {
+        "ansible_port": 13622
+      },
+      "RobertKadak-2": {
+        "ansible_port": 5922
+      }
+    }
   },
   "all": {
-    "hosts": [],
+    "hosts": [
+      "RobertKadak-1",
+      "RobertKadak-2"
+    ],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
@@ -12,21 +22,33 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "RobertKadak-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "RobertKadak-2"
+    ]
   },
   "grafana_servers": {
-    "hosts": []
+    "hosts": [
+      "RobertKadak-1"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "RobertKadak-2"
+    ]
   },
   "loki_servers": {
-    "hosts": []
+    "hosts": [
+      "RobertKadak-1"
+    ]
   },
   "web_servers": {
-    "hosts": []
+    "hosts": [
+      "RobertKadak-1"
+    ]
   }
 }

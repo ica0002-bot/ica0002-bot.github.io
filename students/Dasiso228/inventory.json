@@ -1,9 +1,19 @@
 {
   "_meta": {
-    "hostvars": {}
+    "hostvars": {
+      "Dasiso228-1": {
+        "ansible_port": 21022
+      },
+      "Dasiso228-2": {
+        "ansible_port": 7322
+      }
+    }
   },
   "all": {
-    "hosts": [],
+    "hosts": [
+      "Dasiso228-1",
+      "Dasiso228-2"
+    ],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
@@ -12,21 +22,33 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "Dasiso228-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "Dasiso228-2"
+    ]
   },
   "grafana_servers": {
-    "hosts": []
+    "hosts": [
+      "Dasiso228-1"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "Dasiso228-2"
+    ]
   },
   "loki_servers": {
-    "hosts": []
+    "hosts": [
+      "Dasiso228-1"
+    ]
   },
   "web_servers": {
-    "hosts": []
+    "hosts": [
+      "Dasiso228-1"
+    ]
   }
 }

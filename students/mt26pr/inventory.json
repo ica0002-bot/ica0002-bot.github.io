@@ -1,9 +1,19 @@
 {
   "_meta": {
-    "hostvars": {}
+    "hostvars": {
+      "mt26pr-1": {
+        "ansible_port": 34922
+      },
+      "mt26pr-2": {
+        "ansible_port": 32222
+      }
+    }
   },
   "all": {
-    "hosts": [],
+    "hosts": [
+      "mt26pr-1",
+      "mt26pr-2"
+    ],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
@@ -12,21 +22,33 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "mt26pr-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "mt26pr-2"
+    ]
   },
   "grafana_servers": {
-    "hosts": []
+    "hosts": [
+      "mt26pr-1"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "mt26pr-2"
+    ]
   },
   "loki_servers": {
-    "hosts": []
+    "hosts": [
+      "mt26pr-1"
+    ]
   },
   "web_servers": {
-    "hosts": []
+    "hosts": [
+      "mt26pr-1"
+    ]
   }
 }

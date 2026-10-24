@@ -1,9 +1,19 @@
 {
   "_meta": {
-    "hostvars": {}
+    "hostvars": {
+      "Primea133-1": {
+        "ansible_port": 10122
+      },
+      "Primea133-2": {
+        "ansible_port": 23622
+      }
+    }
   },
   "all": {
-    "hosts": [],
+    "hosts": [
+      "Primea133-1",
+      "Primea133-2"
+    ],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
@@ -12,21 +22,33 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "Primea133-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "Primea133-2"
+    ]
   },
   "grafana_servers": {
-    "hosts": []
+    "hosts": [
+      "Primea133-1"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "Primea133-2"
+    ]
   },
   "loki_servers": {
-    "hosts": []
+    "hosts": [
+      "Primea133-1"
+    ]
   },
   "web_servers": {
-    "hosts": []
+    "hosts": [
+      "Primea133-1"
+    ]
   }
 }
