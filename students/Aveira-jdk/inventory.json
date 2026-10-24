@@ -3,12 +3,16 @@
     "hostvars": {
       "Aveira-jdk-1": {
         "ansible_port": 49522
+      },
+      "Aveira-jdk-2": {
+        "ansible_port": 29022
       }
     }
   },
   "all": {
     "hosts": [
-      "Aveira-jdk-1"
+      "Aveira-jdk-1",
+      "Aveira-jdk-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -18,19 +22,29 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "Aveira-jdk-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "Aveira-jdk-2"
+    ]
   },
   "grafana_servers": {
-    "hosts": []
+    "hosts": [
+      "Aveira-jdk-1"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "Aveira-jdk-2"
+    ]
   },
   "loki_servers": {
-    "hosts": []
+    "hosts": [
+      "Aveira-jdk-1"
+    ]
   },
   "web_servers": {
     "hosts": [

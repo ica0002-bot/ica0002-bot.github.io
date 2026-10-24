@@ -3,12 +3,16 @@
     "hostvars": {
       "arturallmann-1": {
         "ansible_port": 46122
+      },
+      "arturallmann-2": {
+        "ansible_port": 35522
       }
     }
   },
   "all": {
     "hosts": [
-      "arturallmann-1"
+      "arturallmann-1",
+      "arturallmann-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -18,19 +22,29 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "arturallmann-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "arturallmann-2"
+    ]
   },
   "grafana_servers": {
-    "hosts": []
+    "hosts": [
+      "arturallmann-1"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "arturallmann-2"
+    ]
   },
   "loki_servers": {
-    "hosts": []
+    "hosts": [
+      "arturallmann-1"
+    ]
   },
   "web_servers": {
     "hosts": [
