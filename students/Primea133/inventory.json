@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "Primea133-1": {
-        "ansible_port": 10122
+        "ansible_port": 46322
       },
       "Primea133-2": {
-        "ansible_port": 23622
+        "ansible_port": 35222
       }
     }
   },

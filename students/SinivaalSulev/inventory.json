@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "SinivaalSulev-1": {
-        "ansible_port": 47122
+        "ansible_port": 12922
       },
       "SinivaalSulev-2": {
-        "ansible_port": 33122
+        "ansible_port": 4022
       }
     }
   },

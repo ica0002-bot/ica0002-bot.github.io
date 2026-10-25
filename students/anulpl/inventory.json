@@ -1,19 +1,9 @@
 {
   "_meta": {
-    "hostvars": {
-      "anulpl-1": {
-        "ansible_port": 45722
-      },
-      "anulpl-2": {
-        "ansible_port": 49422
-      }
-    }
+    "hostvars": {}
   },
   "all": {
-    "hosts": [
-      "anulpl-1",
-      "anulpl-2"
-    ],
+    "hosts": [],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
@@ -22,33 +12,21 @@
     }
   },
   "db_servers": {
-    "hosts": [
-      "anulpl-2"
-    ]
+    "hosts": []
   },
   "dns_servers": {
-    "hosts": [
-      "anulpl-2"
-    ]
+    "hosts": []
   },
   "grafana_servers": {
-    "hosts": [
-      "anulpl-1"
-    ]
+    "hosts": []
   },
   "prometheus_servers": {
-    "hosts": [
-      "anulpl-2"
-    ]
+    "hosts": []
   },
   "loki_servers": {
-    "hosts": [
-      "anulpl-1"
-    ]
+    "hosts": []
   },
   "web_servers": {
-    "hosts": [
-      "anulpl-1"
-    ]
+    "hosts": []
   }
 }

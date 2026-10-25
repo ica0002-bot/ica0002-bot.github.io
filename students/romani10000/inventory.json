@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "romani10000-1": {
-        "ansible_port": 18622
+        "ansible_port": 41622
       },
       "romani10000-2": {
-        "ansible_port": 13222
+        "ansible_port": 27022
       }
     }
   },

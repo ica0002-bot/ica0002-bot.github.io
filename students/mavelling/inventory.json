@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "mavelling-1": {
-        "ansible_port": 31422
+        "ansible_port": 11222
       },
       "mavelling-2": {
-        "ansible_port": 31922
+        "ansible_port": 19422
       }
     }
   },

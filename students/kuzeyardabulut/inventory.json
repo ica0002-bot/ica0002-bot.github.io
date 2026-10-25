@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "kuzeyardabulut-1": {
-        "ansible_port": 43822
+        "ansible_port": 2122
       },
       "kuzeyardabulut-2": {
-        "ansible_port": 39022
+        "ansible_port": 17822
       }
     }
   },
