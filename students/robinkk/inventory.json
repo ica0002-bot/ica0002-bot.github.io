@@ -5,7 +5,7 @@
         "ansible_port": 38422
       },
       "robinkk-2": {
-        "ansible_port": 50222
+        "ansible_port": 34622
       }
     }
   },
