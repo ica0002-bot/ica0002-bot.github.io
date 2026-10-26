@@ -11,7 +11,16 @@
 <p>Public key: <a href="https://github.com/adapsss.keys">https://github.com/adapsss.keys</a></p>
 <h2>Virtual machines</h2>
 
-<p>Complete <a href="https://github.com/romankuchin/ica0002-2026/tree/main/01-intro">GitHub repository setup</a> to get your first machine.</p>
+<table>
+<tr><th>Name</th><th>Internal IP</th><th>Public SSH</th><th>Public URL</th></tr>
+
+<tr><td>adapsss-1</td><td>192.168.43.200</td><td>ubuntu@193.40.157.25 port 45622</td><td><a href="http://193.40.157.25:45680">http://193.40.157.25:45680</a></td></tr>
+
+<tr><td>adapsss-2</td><td>192.168.43.150</td><td>ubuntu@193.40.157.25 port 40622</td><td><a href="http://193.40.157.25:40680">http://193.40.157.25:40680</a></td></tr>
+
+<tr><td colspan="5">Complete <a href="https://github.com/romankuchin/ica0002-2026/tree/main/14-dns-slave">lab 14 tasks</a> to get your third machine.</td></tr>
+
+</table>
 
 
 <br>
@@ -37,8 +46,13 @@
 </details>
 <h2>Services</h2>
 <table>
-<p>Complete <a href="https://github.com/romankuchin/ica0002-2026/tree/main/01-intro">GitHub repository setup</a> to get your first machine.</p>
+<table>
+<tr><th>Service</th><th>adapsss-1</th><th>adapsss-2</th><th>Status</th></tr>
 
+<tr><td>DNS server</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Web server</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Prometheus</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Grafana</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
 </table>
 <h2>Git repository checks</h2>
 <ul>
@@ -49,8 +63,8 @@
 <li><span class="ok">Ok</span>: <code>docs/prom_queries.txt</code> found.</li>
 <li><span class="ok">Ok</span>: <code>roles/agama/tasks/main.yaml</code> found.</li>
 <li><span class="ok">Ok</span>: <code>roles/bind/tasks/main.yaml</code> found.</li>
-<li><span class="fail">Problem</span>: <code>roles/grafana/files/main.json</code> is missing; labs not completed: 7, 8.</li>
-<li><span class="fail">Problem</span>: <code>roles/grafana/tasks/main.yaml</code> is missing; labs not completed: 7, 8.</li>
+<li><span class="ok">Ok</span>: <code>roles/grafana/files/main.json</code> found.</li>
+<li><span class="ok">Ok</span>: <code>roles/grafana/tasks/main.yaml</code> found.</li>
 <li><span class="ok">Ok</span>: <code>roles/init/tasks/main.yaml</code> found.</li>
 <li><span class="fail">Problem</span>: <code>roles/loki/tasks/main.yaml</code> is missing; labs not completed: 8.</li>
 <li><span class="ok">Ok</span>: <code>roles/mysql/tasks/main.yaml</code> found.</li>
@@ -61,6 +75,6 @@
 </ul>
 
 <p>A few problems found.</p>
-<p>Labs not accepted: 7, 8.</p>
-<p>Last checked on Oct 26 at 11:48 UTC.</p>
+<p>Labs not accepted: 8.</p>
+<p>Last checked on Oct 26 at 12:20 UTC.</p>
 </body></html>
