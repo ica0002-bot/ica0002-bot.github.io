@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "eldensmoke-1": {
-        "ansible_port": 8622
+        "ansible_port": 29522
       },
       "eldensmoke-2": {
-        "ansible_port": 24922
+        "ansible_port": 34822
       }
     }
   },

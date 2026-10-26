@@ -14,9 +14,9 @@
 <table>
 <tr><th>Name</th><th>Internal IP</th><th>Public SSH</th><th>Public URL</th></tr>
 
-<tr><td>xmyssu-1</td><td>192.168.43.15</td><td>ubuntu@193.40.157.25 port 27122</td><td><a href="http://193.40.157.25:27180">http://193.40.157.25:27180</a></td></tr>
+<tr><td>xmyssu-1</td><td>192.168.42.131</td><td>ubuntu@193.40.157.25 port 13122</td><td><a href="http://193.40.157.25:13180">http://193.40.157.25:13180</a></td></tr>
 
-<tr><td>xmyssu-2</td><td>192.168.43.78</td><td>ubuntu@193.40.157.25 port 33422</td><td><a href="http://193.40.157.25:33480">http://193.40.157.25:33480</a></td></tr>
+<tr><td>xmyssu-2</td><td>192.168.42.106</td><td>ubuntu@193.40.157.25 port 10622</td><td><a href="http://193.40.157.25:10680">http://193.40.157.25:10680</a></td></tr>
 
 <tr><td colspan="5">Complete <a href="https://github.com/romankuchin/ica0002-2026/tree/main/14-dns-slave">lab 14 tasks</a> to get your third machine.</td></tr>
 
@@ -49,10 +49,10 @@
 <table>
 <tr><th>Service</th><th>xmyssu-1</th><th>xmyssu-2</th><th>Status</th></tr>
 
-<tr><td>DNS server</td><td>---</td><td>192.168.43.78:53</td><td class="ok">1/1 up</td></tr>
-<tr><td>Web server</td><td><a href="http://193.40.157.25:27180">http://193.40.157.25:27180</a></td><td><a href="http://193.40.157.25:33480">http://193.40.157.25:33480</a></td><td class="ok">2/1 up</td></tr>
-<tr><td>Prometheus</td><td>---</td><td><a href="http://193.40.157.25:33480/prometheus">http://193.40.157.25:33480/prometheus</a></td><td class="ok">1/1 up</td></tr>
-<tr><td>Grafana</td><td><a href="http://193.40.157.25:27180/grafana">http://193.40.157.25:27180/grafana</a></td><td>---</td><td class="ok">1/1 up</td></tr>
+<tr><td>DNS server</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Web server</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Prometheus</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Grafana</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
 </table>
 <h2>Git repository checks</h2>
 <ul>
@@ -76,5 +76,5 @@
 
 <p>A few problems found.</p>
 <p>Labs not accepted: 8.</p>
-<p>Last checked on Oct 26 at 00:50 UTC.</p>
+<p>Last checked on Oct 26 at 03:26 UTC.</p>
 </body></html>

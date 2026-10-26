@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "Matuffi-1": {
-        "ansible_port": 3522
+        "ansible_port": 35922
       },
       "Matuffi-2": {
-        "ansible_port": 622
+        "ansible_port": 42022
       }
     }
   },
