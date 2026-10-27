@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "ivatot16-1": {
-        "ansible_port": 49222
+        "ansible_port": 14422
       },
       "ivatot16-2": {
-        "ansible_port": 36022
+        "ansible_port": 2722
       }
     }
   },

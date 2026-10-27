@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "ayazzeynalov-1": {
-        "ansible_port": 37022
+        "ansible_port": 422
       },
       "ayazzeynalov-2": {
-        "ansible_port": 44022
+        "ansible_port": 3222
       }
     }
   },
