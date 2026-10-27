@@ -1,9 +1,19 @@
 {
   "_meta": {
-    "hostvars": {}
+    "hostvars": {
+      "eZlanek-1": {
+        "ansible_port": 18222
+      },
+      "eZlanek-2": {
+        "ansible_port": 13022
+      }
+    }
   },
   "all": {
-    "hosts": [],
+    "hosts": [
+      "eZlanek-1",
+      "eZlanek-2"
+    ],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
@@ -12,21 +22,33 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "eZlanek-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "eZlanek-2"
+    ]
   },
   "grafana_servers": {
-    "hosts": []
+    "hosts": [
+      "eZlanek-1"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "eZlanek-2"
+    ]
   },
   "loki_servers": {
-    "hosts": []
+    "hosts": [
+      "eZlanek-1"
+    ]
   },
   "web_servers": {
-    "hosts": []
+    "hosts": [
+      "eZlanek-1"
+    ]
   }
 }
