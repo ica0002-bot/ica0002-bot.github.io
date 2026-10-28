@@ -14,9 +14,9 @@
 <table>
 <tr><th>Name</th><th>Internal IP</th><th>Public SSH</th><th>Public URL</th></tr>
 
-<tr><td>ayazzeynalov-1</td><td>192.168.42.4</td><td>ubuntu@193.40.157.25 port 422</td><td><a href="http://193.40.157.25:480">http://193.40.157.25:480</a></td></tr>
+<tr><td>ayazzeynalov-1</td><td>192.168.43.35</td><td>ubuntu@193.40.157.25 port 29122</td><td><a href="http://193.40.157.25:29180">http://193.40.157.25:29180</a></td></tr>
 
-<tr><td>ayazzeynalov-2</td><td>192.168.42.32</td><td>ubuntu@193.40.157.25 port 3222</td><td><a href="http://193.40.157.25:3280">http://193.40.157.25:3280</a></td></tr>
+<tr><td>ayazzeynalov-2</td><td>192.168.43.149</td><td>ubuntu@193.40.157.25 port 40522</td><td><a href="http://193.40.157.25:40580">http://193.40.157.25:40580</a></td></tr>
 
 <tr><td colspan="5">Complete <a href="https://github.com/romankuchin/ica0002-2026/tree/main/14-dns-slave">lab 14 tasks</a> to get your third machine.</td></tr>
 
@@ -49,16 +49,16 @@
 <table>
 <tr><th>Service</th><th>ayazzeynalov-1</th><th>ayazzeynalov-2</th><th>Status</th></tr>
 
-<tr><td>DNS server</td><td>---</td><td>192.168.42.32:53</td><td class="ok">1/1 up</td></tr>
-<tr><td>Web server</td><td><a href="http://193.40.157.25:480">http://193.40.157.25:480</a></td><td><a href="http://193.40.157.25:3280">http://193.40.157.25:3280</a></td><td class="ok">2/1 up</td></tr>
-<tr><td>Prometheus</td><td>---</td><td><a href="http://193.40.157.25:3280/prometheus">http://193.40.157.25:3280/prometheus</a></td><td class="ok">1/1 up</td></tr>
-<tr><td>Grafana</td><td><a href="http://193.40.157.25:480/grafana">http://193.40.157.25:480/grafana</a> -- <span class="fail">HTTP 404</span></td><td><a href="http://193.40.157.25:3280/grafana">http://193.40.157.25:3280/grafana</a> -- <span class="fail">HTTP 404</span></td><td class="fail">0/1 up</td></tr>
+<tr><td>DNS server</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Web server</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Prometheus</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Grafana</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
 </table>
 <h2>Git repository checks</h2>
 <ul>
 <li><span class="ok">Ok</span>: GitHub repository is set up correctly.</li>
 <li><span class="ok">Ok</span>: <code>ansible.cfg</code> found.</li>
-<li><span class="fail">Problem</span>: <code>docs/backup_sla.md</code> is missing; labs not completed: 9.</li>
+<li><span class="ok">Ok</span>: <code>docs/backup_sla.md</code> found.</li>
 <li><span class="ok">Ok</span>: <code>group_vars/all.yaml</code> found.</li>
 <li><span class="ok">Ok</span>: <code>infra.yaml</code> found.</li>
 <li><span class="ok">Ok</span>: <code>docs/prom_queries.txt</code> found.</li>
@@ -75,7 +75,6 @@
 <li><span class="ok">Ok</span>: <code>docs/slo.md</code> found.</li>
 </ul>
 
-<p>A few problems found.</p>
-<p>Labs not accepted: 9.</p>
-<p>Last checked on Oct 28 at 00:50 UTC.</p>
+<p>All good so far.</p>
+<p>Last checked on Oct 28 at 03:26 UTC.</p>
 </body></html>

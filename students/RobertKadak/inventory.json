@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "RobertKadak-1": {
-        "ansible_port": 40522
+        "ansible_port": 3822
       },
       "RobertKadak-2": {
-        "ansible_port": 33822
+        "ansible_port": 8322
       }
     }
   },

@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "milena609-1": {
-        "ansible_port": 1822
+        "ansible_port": 38422
       },
       "milena609-2": {
-        "ansible_port": 1922
+        "ansible_port": 30622
       }
     }
   },
