@@ -3,12 +3,16 @@
     "hostvars": {
       "xAlexa777-1": {
         "ansible_port": 22322
+      },
+      "xAlexa777-2": {
+        "ansible_port": 25422
       }
     }
   },
   "all": {
     "hosts": [
-      "xAlexa777-1"
+      "xAlexa777-1",
+      "xAlexa777-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -18,19 +22,29 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "xAlexa777-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "xAlexa777-2"
+    ]
   },
   "grafana_servers": {
-    "hosts": []
+    "hosts": [
+      "xAlexa777-1"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "xAlexa777-2"
+    ]
   },
   "loki_servers": {
-    "hosts": []
+    "hosts": [
+      "xAlexa777-1"
+    ]
   },
   "web_servers": {
     "hosts": [
