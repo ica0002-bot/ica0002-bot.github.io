@@ -3,16 +3,12 @@
     "hostvars": {
       "RometTristan-1": {
         "ansible_port": 32522
-      },
-      "RometTristan-2": {
-        "ansible_port": 33722
       }
     }
   },
   "all": {
     "hosts": [
-      "RometTristan-1",
-      "RometTristan-2"
+      "RometTristan-1"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -22,29 +18,19 @@
     }
   },
   "db_servers": {
-    "hosts": [
-      "RometTristan-2"
-    ]
+    "hosts": []
   },
   "dns_servers": {
-    "hosts": [
-      "RometTristan-2"
-    ]
+    "hosts": []
   },
   "grafana_servers": {
-    "hosts": [
-      "RometTristan-1"
-    ]
+    "hosts": []
   },
   "prometheus_servers": {
-    "hosts": [
-      "RometTristan-2"
-    ]
+    "hosts": []
   },
   "loki_servers": {
-    "hosts": [
-      "RometTristan-1"
-    ]
+    "hosts": []
   },
   "web_servers": {
     "hosts": [
