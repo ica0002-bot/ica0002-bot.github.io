@@ -1,0 +1,54 @@
+{
+  "_meta": {
+    "hostvars": {
+      "RometTristan-1": {
+        "ansible_port": 32522
+      },
+      "RometTristan-2": {
+        "ansible_port": 33722
+      }
+    }
+  },
+  "all": {
+    "hosts": [
+      "RometTristan-1",
+      "RometTristan-2"
+    ],
+    "vars": {
+      "ansible_host": "193.40.157.25",
+      "ansible_host_key_checking": false,
+      "ansible_python_interpreter": "/usr/bin/python3.12",
+      "ansible_user": "ubuntu"
+    }
+  },
+  "db_servers": {
+    "hosts": [
+      "RometTristan-2"
+    ]
+  },
+  "dns_servers": {
+    "hosts": [
+      "RometTristan-2"
+    ]
+  },
+  "grafana_servers": {
+    "hosts": [
+      "RometTristan-1"
+    ]
+  },
+  "prometheus_servers": {
+    "hosts": [
+      "RometTristan-2"
+    ]
+  },
+  "loki_servers": {
+    "hosts": [
+      "RometTristan-1"
+    ]
+  },
+  "web_servers": {
+    "hosts": [
+      "RometTristan-1"
+    ]
+  }
+}
