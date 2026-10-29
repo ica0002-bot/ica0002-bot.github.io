@@ -1,6 +1,9 @@
 {
   "_meta": {
     "hostvars": {
+      "wwqeew-1": {
+        "ansible_port": 17022
+      },
       "wwqeew-2": {
         "ansible_port": 3622
       }
@@ -8,6 +11,7 @@
   },
   "all": {
     "hosts": [
+      "wwqeew-1",
       "wwqeew-2"
     ],
     "vars": {
@@ -18,23 +22,33 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "wwqeew-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "wwqeew-2"
+    ]
   },
   "grafana_servers": {
-    "hosts": []
+    "hosts": [
+      "wwqeew-1"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "wwqeew-2"
+    ]
   },
   "loki_servers": {
-    "hosts": []
+    "hosts": [
+      "wwqeew-1"
+    ]
   },
   "web_servers": {
     "hosts": [
-      "wwqeew-2"
+      "wwqeew-1"
     ]
   }
 }
