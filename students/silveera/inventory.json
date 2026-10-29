@@ -2,7 +2,7 @@
   "_meta": {
     "hostvars": {
       "silveera-1": {
-        "ansible_port": 33422
+        "ansible_port": 8722
       }
     }
   },

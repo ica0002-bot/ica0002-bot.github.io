@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "xmyssu-1": {
-        "ansible_port": 21022
+        "ansible_port": 40422
       },
       "xmyssu-2": {
-        "ansible_port": 22922
+        "ansible_port": 43522
       }
     }
   },

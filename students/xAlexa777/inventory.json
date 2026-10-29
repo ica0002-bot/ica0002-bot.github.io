@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "xAlexa777-1": {
-        "ansible_port": 22322
+        "ansible_port": 41122
       },
       "xAlexa777-2": {
-        "ansible_port": 25422
+        "ansible_port": 38022
       }
     }
   },
