@@ -50,16 +50,16 @@
 <tr><th>Service</th><th>toniskandmaa-1</th><th>toniskandmaa-2</th><th>Status</th></tr>
 
 <tr><td>DNS server</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
-<tr><td>Web server</td><td><a href="http://193.40.157.25:39080">http://193.40.157.25:39080</a></td><td>---</td><td class="ok">1/1 up</td></tr>
-<tr><td>Prometheus</td><td><a href="http://193.40.157.25:39080/prometheus">http://193.40.157.25:39080/prometheus</a> -- <span class="fail">HTTP 404</span></td><td>---</td><td class="fail">0/1 up</td></tr>
-<tr><td>Grafana</td><td><a href="http://193.40.157.25:39080/grafana">http://193.40.157.25:39080/grafana</a> -- <span class="fail">HTTP 404</span></td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Web server</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Prometheus</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Grafana</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
 </table>
 <h2>Git repository checks</h2>
 <ul>
 <li><span class="ok">Ok</span>: GitHub repository is set up correctly.</li>
 <li><span class="ok">Ok</span>: <code>ansible.cfg</code> found.</li>
 <li><span class="fail">Problem</span>: <code>docs/backup_sla.md</code> is missing; labs not completed: 9.</li>
-<li><span class="fail">Problem</span>: <code>group_vars/all.yaml</code> is missing; labs not completed: 4, 5, 6, 7, 8.</li>
+<li><span class="ok">Ok</span>: <code>group_vars/all.yaml</code> found.</li>
 <li><span class="ok">Ok</span>: <code>infra.yaml</code> found.</li>
 <li><span class="fail">Problem</span>: <code>docs/prom_queries.txt</code> is missing; labs not completed: 6.</li>
 <li><span class="ok">Ok</span>: <code>roles/agama/tasks/main.yaml</code> found.</li>
@@ -68,7 +68,7 @@
 <li><span class="fail">Problem</span>: <code>roles/grafana/tasks/main.yaml</code> is missing; labs not completed: 7, 8.</li>
 <li><span class="ok">Ok</span>: <code>roles/init/tasks/main.yaml</code> found.</li>
 <li><span class="fail">Problem</span>: <code>roles/loki/tasks/main.yaml</code> is missing; labs not completed: 8.</li>
-<li><span class="fail">Problem</span>: <code>roles/mysql/tasks/main.yaml</code> is missing; labs not completed: 4.</li>
+<li><span class="ok">Ok</span>: <code>roles/mysql/tasks/main.yaml</code> found.</li>
 <li><span class="ok">Ok</span>: <code>roles/nginx/tasks/main.yaml</code> found.</li>
 <li><span class="fail">Problem</span>: <code>roles/prometheus/tasks/main.yaml</code> is missing; labs not completed: 6.</li>
 <li><span class="ok">Ok</span>: <code>roles/uwsgi/tasks/main.yaml</code> found.</li>
@@ -76,6 +76,6 @@
 </ul>
 
 <p>A few problems found.</p>
-<p>Labs not accepted: 4, 5, 6, 7, 8, 9.</p>
-<p>Last checked on Oct 29 at 20:20 UTC.</p>
+<p>Labs not accepted: 5, 6, 7, 8, 9.</p>
+<p>Last checked on Oct 29 at 20:50 UTC.</p>
 </body></html>
