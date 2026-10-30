@@ -14,9 +14,9 @@
 <table>
 <tr><th>Name</th><th>Internal IP</th><th>Public SSH</th><th>Public URL</th></tr>
 
-<tr><td>bombastik01-1</td><td>192.168.43.220</td><td>ubuntu@193.40.157.25 port 47622</td><td><a href="http://193.40.157.25:47680">http://193.40.157.25:47680</a></td></tr>
+<tr><td>bombastik01-1</td><td>192.168.42.21</td><td>ubuntu@193.40.157.25 port 2122</td><td><a href="http://193.40.157.25:2180">http://193.40.157.25:2180</a></td></tr>
 
-<tr><td>bombastik01-2</td><td>192.168.43.175</td><td>ubuntu@193.40.157.25 port 43122</td><td><a href="http://193.40.157.25:43180">http://193.40.157.25:43180</a></td></tr>
+<tr><td>bombastik01-2</td><td>192.168.42.74</td><td>ubuntu@193.40.157.25 port 7422</td><td><a href="http://193.40.157.25:7480">http://193.40.157.25:7480</a></td></tr>
 
 <tr><td colspan="5">Complete <a href="https://github.com/romankuchin/ica0002-2026/tree/main/14-dns-slave">lab 14 tasks</a> to get your third machine.</td></tr>
 
@@ -49,10 +49,10 @@
 <table>
 <tr><th>Service</th><th>bombastik01-1</th><th>bombastik01-2</th><th>Status</th></tr>
 
-<tr><td>DNS server</td><td>---</td><td>192.168.43.175:53</td><td class="ok">1/1 up</td></tr>
-<tr><td>Web server</td><td>---</td><td><a href="http://193.40.157.25:43180">http://193.40.157.25:43180</a></td><td class="ok">1/1 up</td></tr>
-<tr><td>Prometheus</td><td>---</td><td><a href="http://193.40.157.25:43180/prometheus">http://193.40.157.25:43180/prometheus</a></td><td class="ok">1/1 up</td></tr>
-<tr><td>Grafana</td><td><a href="http://193.40.157.25:47680/grafana">http://193.40.157.25:47680/grafana</a> -- <span class="fail">HTTP 404</span></td><td><a href="http://193.40.157.25:43180/grafana">http://193.40.157.25:43180/grafana</a> -- <span class="fail">HTTP 404</span></td><td class="fail">0/1 up</td></tr>
+<tr><td>DNS server</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Web server</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Prometheus</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Grafana</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
 </table>
 <h2>Git repository checks</h2>
 <ul>
@@ -76,5 +76,5 @@
 </ul>
 
 <p>All good so far.</p>
-<p>Last checked on Oct 30 at 00:49 UTC.</p>
+<p>Last checked on Oct 30 at 03:34 UTC.</p>
 </body></html>

@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "Ramlik-1": {
-        "ansible_port": 41722
+        "ansible_port": 22122
       },
       "Ramlik-2": {
-        "ansible_port": 41522
+        "ansible_port": 3122
       }
     }
   },

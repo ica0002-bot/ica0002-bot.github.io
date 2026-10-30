@@ -1,15 +1,9 @@
 {
   "_meta": {
-    "hostvars": {
-      "silveera-1": {
-        "ansible_port": 8722
-      }
-    }
+    "hostvars": {}
   },
   "all": {
-    "hosts": [
-      "silveera-1"
-    ],
+    "hosts": [],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
@@ -33,8 +27,6 @@
     "hosts": []
   },
   "web_servers": {
-    "hosts": [
-      "silveera-1"
-    ]
+    "hosts": []
   }
 }
