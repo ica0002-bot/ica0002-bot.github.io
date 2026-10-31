@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "T-Dourgarian-1": {
-        "ansible_port": 6722
+        "ansible_port": 42622
       },
       "T-Dourgarian-2": {
-        "ansible_port": 20522
+        "ansible_port": 46422
       }
     }
   },
