@@ -3,16 +3,12 @@
     "hostvars": {
       "toniskandmaa-1": {
         "ansible_port": 13422
-      },
-      "toniskandmaa-2": {
-        "ansible_port": 12122
       }
     }
   },
   "all": {
     "hosts": [
-      "toniskandmaa-1",
-      "toniskandmaa-2"
+      "toniskandmaa-1"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -22,29 +18,19 @@
     }
   },
   "db_servers": {
-    "hosts": [
-      "toniskandmaa-2"
-    ]
+    "hosts": []
   },
   "dns_servers": {
-    "hosts": [
-      "toniskandmaa-2"
-    ]
+    "hosts": []
   },
   "grafana_servers": {
-    "hosts": [
-      "toniskandmaa-1"
-    ]
+    "hosts": []
   },
   "prometheus_servers": {
-    "hosts": [
-      "toniskandmaa-2"
-    ]
+    "hosts": []
   },
   "loki_servers": {
-    "hosts": [
-      "toniskandmaa-1"
-    ]
+    "hosts": []
   },
   "web_servers": {
     "hosts": [
