@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "Hervin-kood-1": {
-        "ansible_port": 50022
+        "ansible_port": 22122
       },
       "Hervin-kood-2": {
-        "ansible_port": 47022
+        "ansible_port": 17422
       }
     }
   },
