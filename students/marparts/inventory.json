@@ -1,14 +1,14 @@
 {
   "_meta": {
     "hostvars": {
-      "marparts-2": {
-        "ansible_port": 42522
+      "marparts-1": {
+        "ansible_port": 13522
       }
     }
   },
   "all": {
     "hosts": [
-      "marparts-2"
+      "marparts-1"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -34,7 +34,7 @@
   },
   "web_servers": {
     "hosts": [
-      "marparts-2"
+      "marparts-1"
     ]
   }
 }
