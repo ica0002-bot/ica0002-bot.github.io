@@ -44,24 +44,29 @@
 <ul>
 <li><span class="ok">Ok</span>: GitHub repository is set up correctly.</li>
 <li><span class="ok">Ok</span>: <code>ansible.cfg</code> found.</li>
-<li><span class="fail">Problem</span>: <code>docs/backup_sla.md</code> is missing; labs not completed: 9.</li>
+<li><span class="fail">Problem</span>: <code>docs/backup_restore.md</code> is missing; labs not completed: 10.</li>
+<li><span class="fail">Problem</span>: <code>docs/backup_sla.md</code> is missing; labs not completed: 9, 10.</li>
 <li><span class="ok">Ok</span>: <code>group_vars/all.yaml</code> found.</li>
 <li><span class="ok">Ok</span>: <code>infra.yaml</code> found.</li>
 <li><span class="ok">Ok</span>: <code>docs/prom_queries.txt</code> found.</li>
 <li><span class="ok">Ok</span>: <code>roles/agama/tasks/main.yaml</code> found.</li>
 <li><span class="ok">Ok</span>: <code>roles/bind/tasks/main.yaml</code> found.</li>
+<li><span class="fail">Problem</span>: <code>roles/grafana/files/backups.json</code> is missing; labs not completed: 10.</li>
 <li><span class="ok">Ok</span>: <code>roles/grafana/files/main.json</code> found.</li>
 <li><span class="ok">Ok</span>: <code>roles/grafana/tasks/main.yaml</code> found.</li>
 <li><span class="ok">Ok</span>: <code>roles/init/tasks/main.yaml</code> found.</li>
-<li><span class="fail">Problem</span>: <code>roles/loki/tasks/main.yaml</code> is missing; labs not completed: 8.</li>
+<li><span class="fail">Problem</span>: <code>roles/loki/tasks/main.yaml</code> is missing; labs not completed: 8, 10.</li>
+<li><span class="fail">Problem</span>: <code>roles/loki/templates/backup-cron.j2</code> is missing; labs not completed: 10.</li>
 <li><span class="ok">Ok</span>: <code>roles/mysql/tasks/main.yaml</code> found.</li>
+<li><span class="fail">Problem</span>: <code>roles/mysql/templates/backup-cron.j2</code> is missing; labs not completed: 10.</li>
 <li><span class="ok">Ok</span>: <code>roles/nginx/tasks/main.yaml</code> found.</li>
 <li><span class="ok">Ok</span>: <code>roles/prometheus/tasks/main.yaml</code> found.</li>
+<li><span class="fail">Problem</span>: <code>roles/prometheus/templates/backup-cron.j2</code> is missing; labs not completed: 10.</li>
 <li><span class="ok">Ok</span>: <code>roles/uwsgi/tasks/main.yaml</code> found.</li>
 <li><span class="fail">Problem</span>: <code>docs/slo.md</code> is missing; labs not completed: 8.</li>
 </ul>
 
 <p>A few problems found.</p>
-<p>Labs not accepted: 8, 9.</p>
-<p>Last checked on Nov 03 at 15:44 UTC.</p>
+<p>Labs not accepted: 8, 9, 10.</p>
+<p>Last checked on Nov 03 at 15:49 UTC.</p>
 </body></html>
