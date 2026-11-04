@@ -1,6 +1,9 @@
 {
   "_meta": {
     "hostvars": {
+      "milena609-1": {
+        "ansible_port": 47422
+      },
       "milena609-2": {
         "ansible_port": 35922
       }
@@ -8,6 +11,7 @@
   },
   "all": {
     "hosts": [
+      "milena609-1",
       "milena609-2"
     ],
     "vars": {
@@ -18,23 +22,33 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "milena609-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "milena609-2"
+    ]
   },
   "grafana_servers": {
-    "hosts": []
+    "hosts": [
+      "milena609-1"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "milena609-2"
+    ]
   },
   "loki_servers": {
-    "hosts": []
+    "hosts": [
+      "milena609-1"
+    ]
   },
   "web_servers": {
     "hosts": [
-      "milena609-2"
+      "milena609-1"
     ]
   }
 }

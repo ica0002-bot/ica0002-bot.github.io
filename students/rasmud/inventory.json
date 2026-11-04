@@ -1,6 +1,9 @@
 {
   "_meta": {
     "hostvars": {
+      "rasmud-1": {
+        "ansible_port": 12422
+      },
       "rasmud-2": {
         "ansible_port": 11822
       }
@@ -8,6 +11,7 @@
   },
   "all": {
     "hosts": [
+      "rasmud-1",
       "rasmud-2"
     ],
     "vars": {
@@ -18,23 +22,33 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "rasmud-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "rasmud-2"
+    ]
   },
   "grafana_servers": {
-    "hosts": []
+    "hosts": [
+      "rasmud-1"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "rasmud-2"
+    ]
   },
   "loki_servers": {
-    "hosts": []
+    "hosts": [
+      "rasmud-1"
+    ]
   },
   "web_servers": {
     "hosts": [
-      "rasmud-2"
+      "rasmud-1"
     ]
   }
 }
