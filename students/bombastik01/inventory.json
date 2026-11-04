@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "bombastik01-1": {
-        "ansible_port": 42822
+        "ansible_port": 422
       },
       "bombastik01-2": {
-        "ansible_port": 32322
+        "ansible_port": 2522
       }
     }
   },
