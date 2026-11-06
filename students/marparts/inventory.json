@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "marparts-1": {
-        "ansible_port": 7322
+        "ansible_port": 50622
       },
       "marparts-2": {
-        "ansible_port": 16622
+        "ansible_port": 44722
       }
     }
   },
