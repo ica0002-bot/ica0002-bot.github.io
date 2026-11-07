@@ -48,9 +48,9 @@
 <tr><th>Service</th><th>Smarten7-1</th><th>Status</th></tr>
 
 <tr><td>DNS server</td><td>---</td><td class="fail">0/1 up</td></tr>
-<tr><td>Web server</td><td>---</td><td class="fail">0/1 up</td></tr>
-<tr><td>Prometheus</td><td>---</td><td class="fail">0/1 up</td></tr>
-<tr><td>Grafana</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Web server</td><td><a href="http://193.40.157.25:17880">http://193.40.157.25:17880</a></td><td class="ok">1/1 up</td></tr>
+<tr><td>Prometheus</td><td><a href="http://193.40.157.25:17880/prometheus">http://193.40.157.25:17880/prometheus</a> -- <span class="fail">HTTP 404</span></td><td class="fail">0/1 up</td></tr>
+<tr><td>Grafana</td><td><a href="http://193.40.157.25:17880/grafana">http://193.40.157.25:17880/grafana</a> -- <span class="fail">HTTP 404</span></td><td class="fail">0/1 up</td></tr>
 </table>
 <h2>Git repository checks</h2>
 <ul>
@@ -66,7 +66,7 @@
 <li><span class="fail">Problem</span>: <code>roles/grafana/files/backups.json</code> is missing; labs not completed: 10.</li>
 <li><span class="fail">Problem</span>: <code>roles/grafana/files/main.json</code> is missing; labs not completed: 7, 8.</li>
 <li><span class="fail">Problem</span>: <code>roles/grafana/tasks/main.yaml</code> is missing; labs not completed: 7, 8.</li>
-<li><span class="fail">Problem</span>: <code>roles/init/tasks/main.yaml</code> is missing; labs not completed: 1, 4, 9, 10.</li>
+<li><span class="ok">Ok</span>: <code>roles/init/tasks/main.yaml</code> found.</li>
 <li><span class="fail">Problem</span>: <code>roles/loki/tasks/main.yaml</code> is missing; labs not completed: 8, 10.</li>
 <li><span class="fail">Problem</span>: <code>roles/loki/templates/backup-cron.j2</code> is missing; labs not completed: 10.</li>
 <li><span class="fail">Problem</span>: <code>roles/mysql/tasks/main.yaml</code> is missing; labs not completed: 4, 10.</li>
@@ -79,6 +79,6 @@
 </ul>
 
 <p>A few problems found.</p>
-<p>Labs not accepted: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.</p>
-<p>Last checked on Nov 07 at 14:19 UTC.</p>
+<p>Labs not accepted: 2, 3, 4, 5, 6, 7, 8, 9, 10.</p>
+<p>Last checked on Nov 07 at 14:49 UTC.</p>
 </body></html>
