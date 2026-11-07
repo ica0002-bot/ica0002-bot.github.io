@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "hudolejev-1": {
-        "ansible_port": 13622
+        "ansible_port": 45322
       },
       "hudolejev-2": {
-        "ansible_port": 19222
+        "ansible_port": 37622
       }
     }
   },
