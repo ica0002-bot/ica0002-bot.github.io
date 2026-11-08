@@ -1,9 +1,19 @@
 {
   "_meta": {
-    "hostvars": {}
+    "hostvars": {
+      "toniskandmaa-1": {
+        "ansible_port": 17722
+      },
+      "toniskandmaa-2": {
+        "ansible_port": 19122
+      }
+    }
   },
   "all": {
-    "hosts": [],
+    "hosts": [
+      "toniskandmaa-1",
+      "toniskandmaa-2"
+    ],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
@@ -12,21 +22,33 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "toniskandmaa-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "toniskandmaa-2"
+    ]
   },
   "grafana_servers": {
-    "hosts": []
+    "hosts": [
+      "toniskandmaa-1"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "toniskandmaa-2"
+    ]
   },
   "loki_servers": {
-    "hosts": []
+    "hosts": [
+      "toniskandmaa-1"
+    ]
   },
   "web_servers": {
-    "hosts": []
+    "hosts": [
+      "toniskandmaa-1"
+    ]
   }
 }

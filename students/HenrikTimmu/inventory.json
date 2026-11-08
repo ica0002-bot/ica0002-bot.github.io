@@ -1,9 +1,19 @@
 {
   "_meta": {
-    "hostvars": {}
+    "hostvars": {
+      "HenrikTimmu-1": {
+        "ansible_port": 722
+      },
+      "HenrikTimmu-2": {
+        "ansible_port": 23522
+      }
+    }
   },
   "all": {
-    "hosts": [],
+    "hosts": [
+      "HenrikTimmu-1",
+      "HenrikTimmu-2"
+    ],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
@@ -12,21 +22,33 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "HenrikTimmu-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "HenrikTimmu-2"
+    ]
   },
   "grafana_servers": {
-    "hosts": []
+    "hosts": [
+      "HenrikTimmu-1"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "HenrikTimmu-2"
+    ]
   },
   "loki_servers": {
-    "hosts": []
+    "hosts": [
+      "HenrikTimmu-1"
+    ]
   },
   "web_servers": {
-    "hosts": []
+    "hosts": [
+      "HenrikTimmu-1"
+    ]
   }
 }

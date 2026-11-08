@@ -5,7 +5,7 @@
         "ansible_port": 34122
       },
       "seljanka-2": {
-        "ansible_port": 34322
+        "ansible_port": 34222
       }
     }
   },
