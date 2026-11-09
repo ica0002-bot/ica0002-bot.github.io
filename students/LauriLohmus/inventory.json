@@ -1,6 +1,9 @@
 {
   "_meta": {
     "hostvars": {
+      "LauriLohmus-1": {
+        "ansible_port": 46322
+      },
       "LauriLohmus-2": {
         "ansible_port": 42522
       }
@@ -8,6 +11,7 @@
   },
   "all": {
     "hosts": [
+      "LauriLohmus-1",
       "LauriLohmus-2"
     ],
     "vars": {
@@ -18,23 +22,33 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "LauriLohmus-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "LauriLohmus-2"
+    ]
   },
   "grafana_servers": {
-    "hosts": []
+    "hosts": [
+      "LauriLohmus-1"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "LauriLohmus-2"
+    ]
   },
   "loki_servers": {
-    "hosts": []
+    "hosts": [
+      "LauriLohmus-1"
+    ]
   },
   "web_servers": {
     "hosts": [
-      "LauriLohmus-2"
+      "LauriLohmus-1"
     ]
   }
 }
