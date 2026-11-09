@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "pilleparits-1": {
-        "ansible_port": 21222
+        "ansible_port": 41522
       },
       "pilleparits-2": {
-        "ansible_port": 15222
+        "ansible_port": 40522
       }
     }
   },

@@ -14,9 +14,9 @@
 <table>
 <tr><th>Name</th><th>Internal IP</th><th>Public SSH</th><th>Public URL</th></tr>
 
-<tr><td>arminschutz-1</td><td>192.168.43.174</td><td>ubuntu@193.40.157.25 port 43022</td><td><a href="http://193.40.157.25:43080">http://193.40.157.25:43080</a></td></tr>
+<tr><td>arminschutz-1</td><td>192.168.42.118</td><td>ubuntu@193.40.157.25 port 11822</td><td><a href="http://193.40.157.25:11880">http://193.40.157.25:11880</a></td></tr>
 
-<tr><td>arminschutz-2</td><td>192.168.43.35</td><td>ubuntu@193.40.157.25 port 29122</td><td><a href="http://193.40.157.25:29180">http://193.40.157.25:29180</a></td></tr>
+<tr><td>arminschutz-2</td><td>192.168.42.104</td><td>ubuntu@193.40.157.25 port 10422</td><td><a href="http://193.40.157.25:10480">http://193.40.157.25:10480</a></td></tr>
 
 <tr><td colspan="5">Complete <a href="https://github.com/romankuchin/ica0002-2026/tree/main/14-dns-slave">lab 14 tasks</a> to get your third machine.</td></tr>
 
@@ -49,10 +49,10 @@
 <table>
 <tr><th>Service</th><th>arminschutz-1</th><th>arminschutz-2</th><th>Status</th></tr>
 
-<tr><td>DNS server</td><td>---</td><td>192.168.43.35:53</td><td class="ok">1/1 up</td></tr>
-<tr><td>Web server</td><td><a href="http://193.40.157.25:43080">http://193.40.157.25:43080</a></td><td>---</td><td class="ok">1/1 up</td></tr>
-<tr><td>Prometheus</td><td><a href="http://193.40.157.25:43080/prometheus">http://193.40.157.25:43080/prometheus</a> -- <span class="fail">HTTP 404</span></td><td><a href="http://193.40.157.25:29180/prometheus">http://193.40.157.25:29180/prometheus</a> -- <span class="fail">HTTP 404</span></td><td class="fail">0/1 up</td></tr>
-<tr><td>Grafana</td><td><a href="http://193.40.157.25:43080/grafana">http://193.40.157.25:43080/grafana</a> -- <span class="fail">HTTP 404</span></td><td><a href="http://193.40.157.25:29180/grafana">http://193.40.157.25:29180/grafana</a> -- <span class="fail">HTTP 502</span></td><td class="fail">0/1 up</td></tr>
+<tr><td>DNS server</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Web server</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Prometheus</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Grafana</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
 </table>
 <h2>Git repository checks</h2>
 <ul>
@@ -82,5 +82,5 @@
 
 <p>A few problems found.</p>
 <p>Labs not accepted: 10.</p>
-<p>Last checked on Nov 09 at 00:49 UTC.</p>
+<p>Last checked on Nov 09 at 03:25 UTC.</p>
 </body></html>

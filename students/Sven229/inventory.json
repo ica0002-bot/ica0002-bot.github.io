@@ -1,17 +1,13 @@
 {
   "_meta": {
     "hostvars": {
-      "Sven229-1": {
-        "ansible_port": 43522
-      },
       "Sven229-2": {
-        "ansible_port": 50322
+        "ansible_port": 17222
       }
     }
   },
   "all": {
     "hosts": [
-      "Sven229-1",
       "Sven229-2"
     ],
     "vars": {
@@ -22,33 +18,23 @@
     }
   },
   "db_servers": {
-    "hosts": [
-      "Sven229-2"
-    ]
+    "hosts": []
   },
   "dns_servers": {
-    "hosts": [
-      "Sven229-2"
-    ]
+    "hosts": []
   },
   "grafana_servers": {
-    "hosts": [
-      "Sven229-1"
-    ]
+    "hosts": []
   },
   "prometheus_servers": {
-    "hosts": [
-      "Sven229-2"
-    ]
+    "hosts": []
   },
   "loki_servers": {
-    "hosts": [
-      "Sven229-1"
-    ]
+    "hosts": []
   },
   "web_servers": {
     "hosts": [
-      "Sven229-1"
+      "Sven229-2"
     ]
   }
 }

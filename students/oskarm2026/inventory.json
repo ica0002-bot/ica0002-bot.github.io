@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "oskarm2026-1": {
-        "ansible_port": 30522
+        "ansible_port": 12622
       },
       "oskarm2026-2": {
-        "ansible_port": 31522
+        "ansible_port": 20122
       }
     }
   },

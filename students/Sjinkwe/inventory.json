@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "Sjinkwe-1": {
-        "ansible_port": 46722
+        "ansible_port": 4822
       },
       "Sjinkwe-2": {
-        "ansible_port": 47122
+        "ansible_port": 15422
       }
     }
   },
