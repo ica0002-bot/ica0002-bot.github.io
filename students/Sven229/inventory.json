@@ -1,9 +1,15 @@
 {
   "_meta": {
-    "hostvars": {}
+    "hostvars": {
+      "Sven229-1": {
+        "ansible_port": 8822
+      }
+    }
   },
   "all": {
-    "hosts": [],
+    "hosts": [
+      "Sven229-1"
+    ],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
@@ -27,6 +33,8 @@
     "hosts": []
   },
   "web_servers": {
-    "hosts": []
+    "hosts": [
+      "Sven229-1"
+    ]
   }
 }
