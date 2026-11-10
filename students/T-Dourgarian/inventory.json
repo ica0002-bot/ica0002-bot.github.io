@@ -29,7 +29,6 @@
   },
   "dns_servers": {
     "hosts": [
-      "T-Dourgarian-1",
       "T-Dourgarian-2"
     ]
   },

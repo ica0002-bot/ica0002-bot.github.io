@@ -29,7 +29,6 @@
   },
   "dns_servers": {
     "hosts": [
-      "draft3333-1",
       "draft3333-2"
     ]
   },

@@ -29,7 +29,6 @@
   },
   "dns_servers": {
     "hosts": [
-      "mt26pr-1",
       "mt26pr-2"
     ]
   },

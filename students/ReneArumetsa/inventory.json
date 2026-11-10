@@ -29,7 +29,6 @@
   },
   "dns_servers": {
     "hosts": [
-      "ReneArumetsa-1",
       "ReneArumetsa-2"
     ]
   },

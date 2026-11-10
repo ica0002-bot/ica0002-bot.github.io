@@ -29,7 +29,6 @@
   },
   "dns_servers": {
     "hosts": [
-      "adapsss-1",
       "adapsss-2"
     ]
   },

@@ -29,7 +29,6 @@
   },
   "dns_servers": {
     "hosts": [
-      "Klauszal-1",
       "Klauszal-2"
     ]
   },

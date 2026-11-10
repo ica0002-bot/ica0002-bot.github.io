@@ -29,7 +29,6 @@
   },
   "dns_servers": {
     "hosts": [
-      "Smarten7-1",
       "Smarten7-2"
     ]
   },

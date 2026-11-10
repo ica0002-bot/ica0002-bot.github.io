@@ -29,7 +29,6 @@
   },
   "dns_servers": {
     "hosts": [
-      "robinkk-1",
       "robinkk-2"
     ]
   },

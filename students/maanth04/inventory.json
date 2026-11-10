@@ -29,7 +29,6 @@
   },
   "dns_servers": {
     "hosts": [
-      "maanth04-1",
       "maanth04-2"
     ]
   },

@@ -29,7 +29,6 @@
   },
   "dns_servers": {
     "hosts": [
-      "rasmud-1",
       "rasmud-2"
     ]
   },

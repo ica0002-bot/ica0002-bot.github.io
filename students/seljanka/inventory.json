@@ -29,7 +29,6 @@
   },
   "dns_servers": {
     "hosts": [
-      "seljanka-1",
       "seljanka-2"
     ]
   },

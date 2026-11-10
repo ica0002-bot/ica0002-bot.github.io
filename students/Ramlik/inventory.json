@@ -29,7 +29,6 @@
   },
   "dns_servers": {
     "hosts": [
-      "Ramlik-1",
       "Ramlik-2"
     ]
   },

@@ -29,7 +29,6 @@
   },
   "dns_servers": {
     "hosts": [
-      "kermonurmeoja-1",
       "kermonurmeoja-2"
     ]
   },

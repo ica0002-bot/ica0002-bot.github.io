@@ -29,7 +29,6 @@
   },
   "dns_servers": {
     "hosts": [
-      "hudolejev-1",
       "hudolejev-2"
     ]
   },

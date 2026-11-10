@@ -29,7 +29,6 @@
   },
   "dns_servers": {
     "hosts": [
-      "wwqeew-1",
       "wwqeew-2"
     ]
   },

@@ -29,7 +29,6 @@
   },
   "dns_servers": {
     "hosts": [
-      "toniskandmaa-1",
       "toniskandmaa-2"
     ]
   },

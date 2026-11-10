@@ -29,7 +29,6 @@
   },
   "dns_servers": {
     "hosts": [
-      "FLAK-ZOSO-1",
       "FLAK-ZOSO-2"
     ]
   },

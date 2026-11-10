@@ -29,7 +29,6 @@
   },
   "dns_servers": {
     "hosts": [
-      "marparts-1",
       "marparts-2"
     ]
   },

@@ -29,7 +29,6 @@
   },
   "dns_servers": {
     "hosts": [
-      "bombastik01-1",
       "bombastik01-2"
     ]
   },

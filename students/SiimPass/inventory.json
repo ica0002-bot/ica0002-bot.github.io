@@ -29,7 +29,6 @@
   },
   "dns_servers": {
     "hosts": [
-      "SiimPass-1",
       "SiimPass-2"
     ]
   },

@@ -29,7 +29,6 @@
   },
   "dns_servers": {
     "hosts": [
-      "flarycen-1",
       "flarycen-2"
     ]
   },

@@ -29,7 +29,6 @@
   },
   "dns_servers": {
     "hosts": [
-      "dakaro123-1",
       "dakaro123-2"
     ]
   },

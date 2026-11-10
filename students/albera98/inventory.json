@@ -29,7 +29,6 @@
   },
   "dns_servers": {
     "hosts": [
-      "albera98-1",
       "albera98-2"
     ]
   },

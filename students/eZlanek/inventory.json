@@ -29,7 +29,6 @@
   },
   "dns_servers": {
     "hosts": [
-      "eZlanek-1",
       "eZlanek-2"
     ]
   },

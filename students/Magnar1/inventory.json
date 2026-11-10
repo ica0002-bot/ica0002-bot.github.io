@@ -29,7 +29,6 @@
   },
   "dns_servers": {
     "hosts": [
-      "Magnar1-1",
       "Magnar1-2"
     ]
   },

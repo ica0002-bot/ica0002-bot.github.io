@@ -29,7 +29,6 @@
   },
   "dns_servers": {
     "hosts": [
-      "ayazzeynalov-1",
       "ayazzeynalov-2"
     ]
   },

@@ -29,7 +29,6 @@
   },
   "dns_servers": {
     "hosts": [
-      "whosandrey-1",
       "whosandrey-2"
     ]
   },

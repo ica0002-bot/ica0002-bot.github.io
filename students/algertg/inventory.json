@@ -29,7 +29,6 @@
   },
   "dns_servers": {
     "hosts": [
-      "algertg-1",
       "algertg-2"
     ]
   },

@@ -29,7 +29,6 @@
   },
   "dns_servers": {
     "hosts": [
-      "LauriLohmus-1",
       "LauriLohmus-2"
     ]
   },

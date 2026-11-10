@@ -29,7 +29,6 @@
   },
   "dns_servers": {
     "hosts": [
-      "Cantfindmysocks-1",
       "Cantfindmysocks-2"
     ]
   },

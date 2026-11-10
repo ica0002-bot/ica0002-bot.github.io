@@ -29,7 +29,6 @@
   },
   "dns_servers": {
     "hosts": [
-      "us3rop-1",
       "us3rop-2"
     ]
   },

@@ -29,7 +29,6 @@
   },
   "dns_servers": {
     "hosts": [
-      "rasble-1",
       "rasble-2"
     ]
   },

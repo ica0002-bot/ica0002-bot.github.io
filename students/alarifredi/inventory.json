@@ -29,7 +29,6 @@
   },
   "dns_servers": {
     "hosts": [
-      "alarifredi-1",
       "alarifredi-2"
     ]
   },

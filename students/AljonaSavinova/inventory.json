@@ -29,7 +29,6 @@
   },
   "dns_servers": {
     "hosts": [
-      "AljonaSavinova-1",
       "AljonaSavinova-2"
     ]
   },

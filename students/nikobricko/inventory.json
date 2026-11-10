@@ -29,7 +29,6 @@
   },
   "dns_servers": {
     "hosts": [
-      "nikobricko-1",
       "nikobricko-2"
     ]
   },

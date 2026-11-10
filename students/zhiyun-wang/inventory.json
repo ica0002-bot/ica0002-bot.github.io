@@ -29,7 +29,6 @@
   },
   "dns_servers": {
     "hosts": [
-      "zhiyun-wang-1",
       "zhiyun-wang-2"
     ]
   },

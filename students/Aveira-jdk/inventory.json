@@ -29,7 +29,6 @@
   },
   "dns_servers": {
     "hosts": [
-      "Aveira-jdk-1",
       "Aveira-jdk-2"
     ]
   },

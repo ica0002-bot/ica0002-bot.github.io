@@ -29,7 +29,6 @@
   },
   "dns_servers": {
     "hosts": [
-      "pilleparits-1",
       "pilleparits-2"
     ]
   },

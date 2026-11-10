@@ -29,7 +29,6 @@
   },
   "dns_servers": {
     "hosts": [
-      "kavink887-1",
       "kavink887-2"
     ]
   },

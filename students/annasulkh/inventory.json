@@ -29,7 +29,6 @@
   },
   "dns_servers": {
     "hosts": [
-      "annasulkh-1",
       "annasulkh-2"
     ]
   },

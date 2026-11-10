@@ -29,7 +29,6 @@
   },
   "dns_servers": {
     "hosts": [
-      "MrMihasha-1",
       "MrMihasha-2"
     ]
   },

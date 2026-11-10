@@ -29,7 +29,6 @@
   },
   "dns_servers": {
     "hosts": [
-      "LaavaVatsel-1",
       "LaavaVatsel-2"
     ]
   },

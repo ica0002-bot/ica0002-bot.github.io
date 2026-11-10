@@ -29,7 +29,6 @@
   },
   "dns_servers": {
     "hosts": [
-      "stepden04-1",
       "stepden04-2"
     ]
   },

@@ -29,7 +29,6 @@
   },
   "dns_servers": {
     "hosts": [
-      "RometTristan-1",
       "RometTristan-2"
     ]
   },

@@ -29,7 +29,6 @@
   },
   "dns_servers": {
     "hosts": [
-      "kristjan000-1",
       "kristjan000-2"
     ]
   },

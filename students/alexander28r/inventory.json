@@ -29,7 +29,6 @@
   },
   "dns_servers": {
     "hosts": [
-      "alexander28r-1",
       "alexander28r-2"
     ]
   },

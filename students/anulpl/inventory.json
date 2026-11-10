@@ -29,7 +29,6 @@
   },
   "dns_servers": {
     "hosts": [
-      "anulpl-1",
       "anulpl-2"
     ]
   },

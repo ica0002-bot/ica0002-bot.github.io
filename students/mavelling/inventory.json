@@ -29,7 +29,6 @@
   },
   "dns_servers": {
     "hosts": [
-      "mavelling-1",
       "mavelling-2"
     ]
   },
