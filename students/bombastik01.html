@@ -50,9 +50,9 @@
 <tr><th>Service</th><th>bombastik01-1</th><th>bombastik01-2</th><th>Status</th></tr>
 
 <tr><td>DNS server</td><td>---</td><td>192.168.42.123:53</td><td class="ok">1/1 up</td></tr>
-<tr><td>Web server</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
-<tr><td>Prometheus</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
-<tr><td>Grafana</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Web server</td><td><a href="http://193.40.157.25:20280">http://193.40.157.25:20280</a></td><td><a href="http://193.40.157.25:12380">http://193.40.157.25:12380</a></td><td class="ok">2/1 up</td></tr>
+<tr><td>Prometheus</td><td>---</td><td><a href="http://193.40.157.25:12380/prometheus">http://193.40.157.25:12380/prometheus</a></td><td class="ok">1/1 up</td></tr>
+<tr><td>Grafana</td><td><a href="http://193.40.157.25:20280/grafana">http://193.40.157.25:20280/grafana</a> -- <span class="fail">HTTP 404</span></td><td><a href="http://193.40.157.25:12380/grafana">http://193.40.157.25:12380/grafana</a> -- <span class="fail">HTTP 404</span></td><td class="fail">0/1 up</td></tr>
 </table>
 <h2>Git repository checks</h2>
 <ul>
@@ -67,7 +67,7 @@
 <li><span class="ok">Ok</span>: <code>roles/bind/tasks/main.yaml</code> found.</li>
 <li><span class="ok">Ok</span>: <code>roles/grafana/files/backups.json</code> found.</li>
 <li><span class="ok">Ok</span>: <code>roles/grafana/files/main.json</code> found.</li>
-<li><span class="fail">Problem</span>: <code>roles/grafana/files/mysql.json</code> is missing; labs not completed: 11.</li>
+<li><span class="ok">Ok</span>: <code>roles/grafana/files/mysql.json</code> found.</li>
 <li><span class="ok">Ok</span>: <code>roles/grafana/tasks/main.yaml</code> found.</li>
 <li><span class="ok">Ok</span>: <code>roles/init/tasks/main.yaml</code> found.</li>
 <li><span class="ok">Ok</span>: <code>roles/loki/tasks/main.yaml</code> found.</li>
@@ -81,7 +81,6 @@
 <li><span class="ok">Ok</span>: <code>docs/slo.md</code> found.</li>
 </ul>
 
-<p>A few problems found.</p>
-<p>Labs not accepted: 11.</p>
-<p>Last checked on Nov 10 at 17:51 UTC.</p>
+<p>All good so far.</p>
+<p>Last checked on Nov 10 at 18:21 UTC.</p>
 </body></html>
