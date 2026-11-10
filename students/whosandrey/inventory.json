@@ -23,11 +23,13 @@
   },
   "db_servers": {
     "hosts": [
+      "whosandrey-1",
       "whosandrey-2"
     ]
   },
   "dns_servers": {
     "hosts": [
+      "whosandrey-1",
       "whosandrey-2"
     ]
   },

@@ -23,11 +23,13 @@
   },
   "db_servers": {
     "hosts": [
+      "viltk-1",
       "viltk-2"
     ]
   },
   "dns_servers": {
     "hosts": [
+      "viltk-1",
       "viltk-2"
     ]
   },

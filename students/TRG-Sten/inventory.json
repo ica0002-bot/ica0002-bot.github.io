@@ -23,11 +23,13 @@
   },
   "db_servers": {
     "hosts": [
+      "TRG-Sten-1",
       "TRG-Sten-2"
     ]
   },
   "dns_servers": {
     "hosts": [
+      "TRG-Sten-1",
       "TRG-Sten-2"
     ]
   },

@@ -23,11 +23,13 @@
   },
   "db_servers": {
     "hosts": [
+      "annasulkh-1",
       "annasulkh-2"
     ]
   },
   "dns_servers": {
     "hosts": [
+      "annasulkh-1",
       "annasulkh-2"
     ]
   },

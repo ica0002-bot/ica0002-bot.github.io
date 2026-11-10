@@ -23,11 +23,13 @@
   },
   "db_servers": {
     "hosts": [
+      "milena609-1",
       "milena609-2"
     ]
   },
   "dns_servers": {
     "hosts": [
+      "milena609-1",
       "milena609-2"
     ]
   },

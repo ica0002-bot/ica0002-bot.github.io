@@ -23,11 +23,13 @@
   },
   "db_servers": {
     "hosts": [
+      "alexander28r-1",
       "alexander28r-2"
     ]
   },
   "dns_servers": {
     "hosts": [
+      "alexander28r-1",
       "alexander28r-2"
     ]
   },

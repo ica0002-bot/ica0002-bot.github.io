@@ -23,11 +23,13 @@
   },
   "db_servers": {
     "hosts": [
+      "Smarten7-1",
       "Smarten7-2"
     ]
   },
   "dns_servers": {
     "hosts": [
+      "Smarten7-1",
       "Smarten7-2"
     ]
   },

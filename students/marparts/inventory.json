@@ -23,11 +23,13 @@
   },
   "db_servers": {
     "hosts": [
+      "marparts-1",
       "marparts-2"
     ]
   },
   "dns_servers": {
     "hosts": [
+      "marparts-1",
       "marparts-2"
     ]
   },

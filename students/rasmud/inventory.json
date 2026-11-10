@@ -23,11 +23,13 @@
   },
   "db_servers": {
     "hosts": [
+      "rasmud-1",
       "rasmud-2"
     ]
   },
   "dns_servers": {
     "hosts": [
+      "rasmud-1",
       "rasmud-2"
     ]
   },

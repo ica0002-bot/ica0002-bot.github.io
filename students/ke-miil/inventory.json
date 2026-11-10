@@ -23,11 +23,13 @@
   },
   "db_servers": {
     "hosts": [
+      "ke-miil-1",
       "ke-miil-2"
     ]
   },
   "dns_servers": {
     "hosts": [
+      "ke-miil-1",
       "ke-miil-2"
     ]
   },

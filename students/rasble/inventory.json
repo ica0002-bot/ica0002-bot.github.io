@@ -23,11 +23,13 @@
   },
   "db_servers": {
     "hosts": [
+      "rasble-1",
       "rasble-2"
     ]
   },
   "dns_servers": {
     "hosts": [
+      "rasble-1",
       "rasble-2"
     ]
   },

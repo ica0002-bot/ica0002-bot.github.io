@@ -23,11 +23,13 @@
   },
   "db_servers": {
     "hosts": [
+      "ofstardustandthebeasts-1",
       "ofstardustandthebeasts-2"
     ]
   },
   "dns_servers": {
     "hosts": [
+      "ofstardustandthebeasts-1",
       "ofstardustandthebeasts-2"
     ]
   },

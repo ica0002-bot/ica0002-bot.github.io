@@ -23,11 +23,13 @@
   },
   "db_servers": {
     "hosts": [
+      "toniskandmaa-1",
       "toniskandmaa-2"
     ]
   },
   "dns_servers": {
     "hosts": [
+      "toniskandmaa-1",
       "toniskandmaa-2"
     ]
   },

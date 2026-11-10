@@ -23,11 +23,13 @@
   },
   "db_servers": {
     "hosts": [
+      "SinivaalSulev-1",
       "SinivaalSulev-2"
     ]
   },
   "dns_servers": {
     "hosts": [
+      "SinivaalSulev-1",
       "SinivaalSulev-2"
     ]
   },

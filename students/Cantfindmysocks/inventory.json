@@ -23,11 +23,13 @@
   },
   "db_servers": {
     "hosts": [
+      "Cantfindmysocks-1",
       "Cantfindmysocks-2"
     ]
   },
   "dns_servers": {
     "hosts": [
+      "Cantfindmysocks-1",
       "Cantfindmysocks-2"
     ]
   },

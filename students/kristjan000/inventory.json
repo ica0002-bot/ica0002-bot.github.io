@@ -23,11 +23,13 @@
   },
   "db_servers": {
     "hosts": [
+      "kristjan000-1",
       "kristjan000-2"
     ]
   },
   "dns_servers": {
     "hosts": [
+      "kristjan000-1",
       "kristjan000-2"
     ]
   },

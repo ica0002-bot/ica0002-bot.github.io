@@ -23,11 +23,13 @@
   },
   "db_servers": {
     "hosts": [
+      "RobinRohilaid-1",
       "RobinRohilaid-2"
     ]
   },
   "dns_servers": {
     "hosts": [
+      "RobinRohilaid-1",
       "RobinRohilaid-2"
     ]
   },

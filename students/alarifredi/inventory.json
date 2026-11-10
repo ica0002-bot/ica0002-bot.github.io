@@ -23,11 +23,13 @@
   },
   "db_servers": {
     "hosts": [
+      "alarifredi-1",
       "alarifredi-2"
     ]
   },
   "dns_servers": {
     "hosts": [
+      "alarifredi-1",
       "alarifredi-2"
     ]
   },

@@ -23,11 +23,13 @@
   },
   "db_servers": {
     "hosts": [
+      "L0psun-1",
       "L0psun-2"
     ]
   },
   "dns_servers": {
     "hosts": [
+      "L0psun-1",
       "L0psun-2"
     ]
   },

@@ -23,11 +23,13 @@
   },
   "db_servers": {
     "hosts": [
+      "Matuffi-1",
       "Matuffi-2"
     ]
   },
   "dns_servers": {
     "hosts": [
+      "Matuffi-1",
       "Matuffi-2"
     ]
   },

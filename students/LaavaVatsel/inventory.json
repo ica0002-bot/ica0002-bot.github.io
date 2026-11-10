@@ -23,11 +23,13 @@
   },
   "db_servers": {
     "hosts": [
+      "LaavaVatsel-1",
       "LaavaVatsel-2"
     ]
   },
   "dns_servers": {
     "hosts": [
+      "LaavaVatsel-1",
       "LaavaVatsel-2"
     ]
   },

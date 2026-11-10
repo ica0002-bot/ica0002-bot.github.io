@@ -23,11 +23,13 @@
   },
   "db_servers": {
     "hosts": [
+      "Sven229-1",
       "Sven229-2"
     ]
   },
   "dns_servers": {
     "hosts": [
+      "Sven229-1",
       "Sven229-2"
     ]
   },

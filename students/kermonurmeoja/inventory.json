@@ -23,11 +23,13 @@
   },
   "db_servers": {
     "hosts": [
+      "kermonurmeoja-1",
       "kermonurmeoja-2"
     ]
   },
   "dns_servers": {
     "hosts": [
+      "kermonurmeoja-1",
       "kermonurmeoja-2"
     ]
   },

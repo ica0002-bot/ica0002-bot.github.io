@@ -23,11 +23,13 @@
   },
   "db_servers": {
     "hosts": [
+      "elsprtna-1",
       "elsprtna-2"
     ]
   },
   "dns_servers": {
     "hosts": [
+      "elsprtna-1",
       "elsprtna-2"
     ]
   },

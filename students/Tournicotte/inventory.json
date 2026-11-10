@@ -23,11 +23,13 @@
   },
   "db_servers": {
     "hosts": [
+      "Tournicotte-1",
       "Tournicotte-2"
     ]
   },
   "dns_servers": {
     "hosts": [
+      "Tournicotte-1",
       "Tournicotte-2"
     ]
   },

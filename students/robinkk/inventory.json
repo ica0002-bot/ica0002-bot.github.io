@@ -23,11 +23,13 @@
   },
   "db_servers": {
     "hosts": [
+      "robinkk-1",
       "robinkk-2"
     ]
   },
   "dns_servers": {
     "hosts": [
+      "robinkk-1",
       "robinkk-2"
     ]
   },

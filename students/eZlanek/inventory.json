@@ -23,11 +23,13 @@
   },
   "db_servers": {
     "hosts": [
+      "eZlanek-1",
       "eZlanek-2"
     ]
   },
   "dns_servers": {
     "hosts": [
+      "eZlanek-1",
       "eZlanek-2"
     ]
   },

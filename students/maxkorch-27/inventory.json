@@ -23,11 +23,13 @@
   },
   "db_servers": {
     "hosts": [
+      "maxkorch-27-1",
       "maxkorch-27-2"
     ]
   },
   "dns_servers": {
     "hosts": [
+      "maxkorch-27-1",
       "maxkorch-27-2"
     ]
   },

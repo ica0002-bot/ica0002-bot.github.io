@@ -23,11 +23,13 @@
   },
   "db_servers": {
     "hosts": [
+      "ipoker27-1",
       "ipoker27-2"
     ]
   },
   "dns_servers": {
     "hosts": [
+      "ipoker27-1",
       "ipoker27-2"
     ]
   },

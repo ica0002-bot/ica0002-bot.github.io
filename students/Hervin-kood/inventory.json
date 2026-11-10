@@ -23,11 +23,13 @@
   },
   "db_servers": {
     "hosts": [
+      "Hervin-kood-1",
       "Hervin-kood-2"
     ]
   },
   "dns_servers": {
     "hosts": [
+      "Hervin-kood-1",
       "Hervin-kood-2"
     ]
   },

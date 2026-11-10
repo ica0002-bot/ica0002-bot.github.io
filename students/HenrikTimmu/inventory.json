@@ -23,11 +23,13 @@
   },
   "db_servers": {
     "hosts": [
+      "HenrikTimmu-1",
       "HenrikTimmu-2"
     ]
   },
   "dns_servers": {
     "hosts": [
+      "HenrikTimmu-1",
       "HenrikTimmu-2"
     ]
   },

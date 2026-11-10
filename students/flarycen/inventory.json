@@ -23,11 +23,13 @@
   },
   "db_servers": {
     "hosts": [
+      "flarycen-1",
       "flarycen-2"
     ]
   },
   "dns_servers": {
     "hosts": [
+      "flarycen-1",
       "flarycen-2"
     ]
   },

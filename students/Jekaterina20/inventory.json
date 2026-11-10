@@ -23,11 +23,13 @@
   },
   "db_servers": {
     "hosts": [
+      "Jekaterina20-1",
       "Jekaterina20-2"
     ]
   },
   "dns_servers": {
     "hosts": [
+      "Jekaterina20-1",
       "Jekaterina20-2"
     ]
   },

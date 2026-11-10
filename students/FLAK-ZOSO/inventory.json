@@ -23,11 +23,13 @@
   },
   "db_servers": {
     "hosts": [
+      "FLAK-ZOSO-1",
       "FLAK-ZOSO-2"
     ]
   },
   "dns_servers": {
     "hosts": [
+      "FLAK-ZOSO-1",
       "FLAK-ZOSO-2"
     ]
   },

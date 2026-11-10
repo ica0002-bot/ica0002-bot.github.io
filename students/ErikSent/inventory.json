@@ -23,11 +23,13 @@
   },
   "db_servers": {
     "hosts": [
+      "ErikSent-1",
       "ErikSent-2"
     ]
   },
   "dns_servers": {
     "hosts": [
+      "ErikSent-1",
       "ErikSent-2"
     ]
   },

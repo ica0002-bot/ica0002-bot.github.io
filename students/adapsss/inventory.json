@@ -23,11 +23,13 @@
   },
   "db_servers": {
     "hosts": [
+      "adapsss-1",
       "adapsss-2"
     ]
   },
   "dns_servers": {
     "hosts": [
+      "adapsss-1",
       "adapsss-2"
     ]
   },

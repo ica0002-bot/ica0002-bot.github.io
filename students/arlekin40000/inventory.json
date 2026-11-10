@@ -23,11 +23,13 @@
   },
   "db_servers": {
     "hosts": [
+      "arlekin40000-1",
       "arlekin40000-2"
     ]
   },
   "dns_servers": {
     "hosts": [
+      "arlekin40000-1",
       "arlekin40000-2"
     ]
   },

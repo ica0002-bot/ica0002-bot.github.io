@@ -23,11 +23,13 @@
   },
   "db_servers": {
     "hosts": [
+      "oskarm2026-1",
       "oskarm2026-2"
     ]
   },
   "dns_servers": {
     "hosts": [
+      "oskarm2026-1",
       "oskarm2026-2"
     ]
   },

@@ -23,11 +23,13 @@
   },
   "db_servers": {
     "hosts": [
+      "AljonaSavinova-1",
       "AljonaSavinova-2"
     ]
   },
   "dns_servers": {
     "hosts": [
+      "AljonaSavinova-1",
       "AljonaSavinova-2"
     ]
   },

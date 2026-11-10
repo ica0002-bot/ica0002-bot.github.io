@@ -23,11 +23,13 @@
   },
   "db_servers": {
     "hosts": [
+      "Ramlik-1",
       "Ramlik-2"
     ]
   },
   "dns_servers": {
     "hosts": [
+      "Ramlik-1",
       "Ramlik-2"
     ]
   },

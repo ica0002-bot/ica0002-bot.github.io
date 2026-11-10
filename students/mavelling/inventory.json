@@ -23,11 +23,13 @@
   },
   "db_servers": {
     "hosts": [
+      "mavelling-1",
       "mavelling-2"
     ]
   },
   "dns_servers": {
     "hosts": [
+      "mavelling-1",
       "mavelling-2"
     ]
   },

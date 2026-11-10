@@ -23,11 +23,13 @@
   },
   "db_servers": {
     "hosts": [
+      "ivatot16-1",
       "ivatot16-2"
     ]
   },
   "dns_servers": {
     "hosts": [
+      "ivatot16-1",
       "ivatot16-2"
     ]
   },

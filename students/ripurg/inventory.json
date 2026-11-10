@@ -23,11 +23,13 @@
   },
   "db_servers": {
     "hosts": [
+      "ripurg-1",
       "ripurg-2"
     ]
   },
   "dns_servers": {
     "hosts": [
+      "ripurg-1",
       "ripurg-2"
     ]
   },

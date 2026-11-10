@@ -23,11 +23,13 @@
   },
   "db_servers": {
     "hosts": [
+      "ReneArumetsa-1",
       "ReneArumetsa-2"
     ]
   },
   "dns_servers": {
     "hosts": [
+      "ReneArumetsa-1",
       "ReneArumetsa-2"
     ]
   },

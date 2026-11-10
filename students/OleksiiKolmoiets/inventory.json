@@ -23,11 +23,13 @@
   },
   "db_servers": {
     "hosts": [
+      "OleksiiKolmoiets-1",
       "OleksiiKolmoiets-2"
     ]
   },
   "dns_servers": {
     "hosts": [
+      "OleksiiKolmoiets-1",
       "OleksiiKolmoiets-2"
     ]
   },

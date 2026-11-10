@@ -23,11 +23,13 @@
   },
   "db_servers": {
     "hosts": [
+      "seljanka-1",
       "seljanka-2"
     ]
   },
   "dns_servers": {
     "hosts": [
+      "seljanka-1",
       "seljanka-2"
     ]
   },

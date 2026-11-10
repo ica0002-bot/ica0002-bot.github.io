@@ -23,11 +23,13 @@
   },
   "db_servers": {
     "hosts": [
+      "p0ts-1",
       "p0ts-2"
     ]
   },
   "dns_servers": {
     "hosts": [
+      "p0ts-1",
       "p0ts-2"
     ]
   },

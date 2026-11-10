@@ -23,11 +23,13 @@
   },
   "db_servers": {
     "hosts": [
+      "madpaj-1",
       "madpaj-2"
     ]
   },
   "dns_servers": {
     "hosts": [
+      "madpaj-1",
       "madpaj-2"
     ]
   },
