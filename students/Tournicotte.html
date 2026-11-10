@@ -14,9 +14,9 @@
 <table>
 <tr><th>Name</th><th>Internal IP</th><th>Public SSH</th><th>Public URL</th></tr>
 
-<tr><td>Tournicotte-1</td><td>192.168.43.180</td><td>ubuntu@193.40.157.25 port 43622</td><td><a href="http://193.40.157.25:43680">http://193.40.157.25:43680</a></td></tr>
+<tr><td>Tournicotte-1</td><td>192.168.42.18</td><td>ubuntu@193.40.157.25 port 1822</td><td><a href="http://193.40.157.25:1880">http://193.40.157.25:1880</a></td></tr>
 
-<tr><td>Tournicotte-2</td><td>192.168.43.161</td><td>ubuntu@193.40.157.25 port 41722</td><td><a href="http://193.40.157.25:41780">http://193.40.157.25:41780</a></td></tr>
+<tr><td>Tournicotte-2</td><td>192.168.42.76</td><td>ubuntu@193.40.157.25 port 7622</td><td><a href="http://193.40.157.25:7680">http://193.40.157.25:7680</a></td></tr>
 
 <tr><td colspan="5">Complete <a href="https://github.com/romankuchin/ica0002-2026/tree/main/14-dns-slave">lab 14 tasks</a> to get your third machine.</td></tr>
 
@@ -49,10 +49,10 @@
 <table>
 <tr><th>Service</th><th>Tournicotte-1</th><th>Tournicotte-2</th><th>Status</th></tr>
 
-<tr><td>DNS server</td><td>---</td><td>192.168.43.161:53</td><td class="ok">1/1 up</td></tr>
-<tr><td>Web server</td><td><a href="http://193.40.157.25:43680">http://193.40.157.25:43680</a></td><td><a href="http://193.40.157.25:41780">http://193.40.157.25:41780</a></td><td class="ok">2/1 up</td></tr>
-<tr><td>Prometheus</td><td>---</td><td><a href="http://193.40.157.25:41780/prometheus">http://193.40.157.25:41780/prometheus</a></td><td class="ok">1/1 up</td></tr>
-<tr><td>Grafana</td><td><a href="http://193.40.157.25:43680/grafana">http://193.40.157.25:43680/grafana</a> -- <span class="fail">HTTP 404</span></td><td><a href="http://193.40.157.25:41780/grafana">http://193.40.157.25:41780/grafana</a> -- <span class="fail">HTTP 404</span></td><td class="fail">0/1 up</td></tr>
+<tr><td>DNS server</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Web server</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Prometheus</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Grafana</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
 </table>
 <h2>Git repository checks</h2>
 <ul>
@@ -82,5 +82,5 @@
 
 <p>A few problems found.</p>
 <p>Labs not accepted: 7, 8, 9, 10.</p>
-<p>Last checked on Nov 10 at 00:50 UTC.</p>
+<p>Last checked on Nov 10 at 03:28 UTC.</p>
 </body></html>

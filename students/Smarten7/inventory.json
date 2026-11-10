@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "Smarten7-1": {
-        "ansible_port": 3222
+        "ansible_port": 43322
       },
       "Smarten7-2": {
-        "ansible_port": 21522
+        "ansible_port": 49322
       }
     }
   },

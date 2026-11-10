@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "elsprtna-1": {
-        "ansible_port": 8222
+        "ansible_port": 31922
       },
       "elsprtna-2": {
-        "ansible_port": 20222
+        "ansible_port": 42522
       }
     }
   },

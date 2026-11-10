@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "madpaj-1": {
-        "ansible_port": 9822
+        "ansible_port": 35422
       },
       "madpaj-2": {
-        "ansible_port": 6022
+        "ansible_port": 43522
       }
     }
   },
