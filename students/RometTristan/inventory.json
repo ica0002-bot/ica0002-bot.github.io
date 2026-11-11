@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "RometTristan-1": {
-        "ansible_port": 19922
+        "ansible_port": 31922
       },
       "RometTristan-2": {
-        "ansible_port": 6022
+        "ansible_port": 29722
       }
     }
   },
