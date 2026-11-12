@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "Jekaterina20-1": {
-        "ansible_port": 30122
+        "ansible_port": 1822
       },
       "Jekaterina20-2": {
-        "ansible_port": 43222
+        "ansible_port": 23122
       }
     }
   },

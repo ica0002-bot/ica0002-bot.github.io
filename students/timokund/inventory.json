@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "timokund-1": {
-        "ansible_port": 46622
+        "ansible_port": 5022
       },
       "timokund-2": {
-        "ansible_port": 50522
+        "ansible_port": 15422
       }
     }
   },

@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "ReneArumetsa-1": {
-        "ansible_port": 32022
+        "ansible_port": 21022
       },
       "ReneArumetsa-2": {
-        "ansible_port": 34822
+        "ansible_port": 1622
       }
     }
   },

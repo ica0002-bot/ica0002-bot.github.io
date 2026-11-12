@@ -1,17 +1,13 @@
 {
   "_meta": {
     "hostvars": {
-      "marparts-1": {
-        "ansible_port": 11022
-      },
       "marparts-2": {
-        "ansible_port": 24522
+        "ansible_port": 50622
       }
     }
   },
   "all": {
     "hosts": [
-      "marparts-1",
       "marparts-2"
     ],
     "vars": {
@@ -22,34 +18,23 @@
     }
   },
   "db_servers": {
-    "hosts": [
-      "marparts-1",
-      "marparts-2"
-    ]
+    "hosts": []
   },
   "dns_servers": {
-    "hosts": [
-      "marparts-2"
-    ]
+    "hosts": []
   },
   "grafana_servers": {
-    "hosts": [
-      "marparts-1"
-    ]
+    "hosts": []
   },
   "prometheus_servers": {
-    "hosts": [
-      "marparts-2"
-    ]
+    "hosts": []
   },
   "loki_servers": {
-    "hosts": [
-      "marparts-1"
-    ]
+    "hosts": []
   },
   "web_servers": {
     "hosts": [
-      "marparts-1"
+      "marparts-2"
     ]
   }
 }

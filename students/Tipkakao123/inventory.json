@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "Tipkakao123-1": {
-        "ansible_port": 49522
+        "ansible_port": 10622
       },
       "Tipkakao123-2": {
-        "ansible_port": 43922
+        "ansible_port": 24922
       }
     }
   },

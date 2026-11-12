@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "annasulkh-1": {
-        "ansible_port": 4522
+        "ansible_port": 47622
       },
       "annasulkh-2": {
-        "ansible_port": 2122
+        "ansible_port": 44022
       }
     }
   },
