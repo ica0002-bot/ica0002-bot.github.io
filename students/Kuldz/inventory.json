@@ -1,9 +1,19 @@
 {
   "_meta": {
-    "hostvars": {}
+    "hostvars": {
+      "Kuldz-1": {
+        "ansible_port": 2322
+      },
+      "Kuldz-2": {
+        "ansible_port": 22422
+      }
+    }
   },
   "all": {
-    "hosts": [],
+    "hosts": [
+      "Kuldz-1",
+      "Kuldz-2"
+    ],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
@@ -12,21 +22,34 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "Kuldz-1",
+      "Kuldz-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "Kuldz-2"
+    ]
   },
   "grafana_servers": {
-    "hosts": []
+    "hosts": [
+      "Kuldz-1"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "Kuldz-2"
+    ]
   },
   "loki_servers": {
-    "hosts": []
+    "hosts": [
+      "Kuldz-1"
+    ]
   },
   "web_servers": {
-    "hosts": []
+    "hosts": [
+      "Kuldz-1"
+    ]
   }
 }
