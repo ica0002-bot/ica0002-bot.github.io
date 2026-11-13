@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "OleksiiKolmoiets-1": {
-        "ansible_port": 46522
+        "ansible_port": 7122
       },
       "OleksiiKolmoiets-2": {
-        "ansible_port": 32322
+        "ansible_port": 24822
       }
     }
   },

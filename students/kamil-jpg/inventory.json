@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "kamil-jpg-1": {
-        "ansible_port": 36022
+        "ansible_port": 10222
       },
       "kamil-jpg-2": {
-        "ansible_port": 34622
+        "ansible_port": 5022
       }
     }
   },
