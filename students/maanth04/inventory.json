@@ -1,9 +1,6 @@
 {
   "_meta": {
     "hostvars": {
-      "maanth04-1": {
-        "ansible_port": 24522
-      },
       "maanth04-2": {
         "ansible_port": 7922
       }
@@ -11,7 +8,6 @@
   },
   "all": {
     "hosts": [
-      "maanth04-1",
       "maanth04-2"
     ],
     "vars": {
@@ -22,34 +18,23 @@
     }
   },
   "db_servers": {
-    "hosts": [
-      "maanth04-1",
-      "maanth04-2"
-    ]
+    "hosts": []
   },
   "dns_servers": {
-    "hosts": [
-      "maanth04-2"
-    ]
+    "hosts": []
   },
   "grafana_servers": {
-    "hosts": [
-      "maanth04-1"
-    ]
+    "hosts": []
   },
   "prometheus_servers": {
-    "hosts": [
-      "maanth04-2"
-    ]
+    "hosts": []
   },
   "loki_servers": {
-    "hosts": [
-      "maanth04-1"
-    ]
+    "hosts": []
   },
   "web_servers": {
     "hosts": [
-      "maanth04-1"
+      "maanth04-2"
     ]
   }
 }
