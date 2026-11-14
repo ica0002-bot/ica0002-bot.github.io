@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "maanth04-1": {
-        "ansible_port": 10622
+        "ansible_port": 36522
       },
       "maanth04-2": {
-        "ansible_port": 7922
+        "ansible_port": 46322
       }
     }
   },

@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "Siim21-1": {
-        "ansible_port": 9622
+        "ansible_port": 38322
       },
       "Siim21-2": {
-        "ansible_port": 14622
+        "ansible_port": 38922
       }
     }
   },
