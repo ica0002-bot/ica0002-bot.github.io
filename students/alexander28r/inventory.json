@@ -3,12 +3,16 @@
     "hostvars": {
       "alexander28r-1": {
         "ansible_port": 45722
+      },
+      "alexander28r-2": {
+        "ansible_port": 42722
       }
     }
   },
   "all": {
     "hosts": [
-      "alexander28r-1"
+      "alexander28r-1",
+      "alexander28r-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -18,19 +22,30 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "alexander28r-1",
+      "alexander28r-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "alexander28r-2"
+    ]
   },
   "grafana_servers": {
-    "hosts": []
+    "hosts": [
+      "alexander28r-1"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "alexander28r-2"
+    ]
   },
   "loki_servers": {
-    "hosts": []
+    "hosts": [
+      "alexander28r-1"
+    ]
   },
   "web_servers": {
     "hosts": [

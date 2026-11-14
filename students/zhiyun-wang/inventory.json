@@ -3,12 +3,16 @@
     "hostvars": {
       "zhiyun-wang-1": {
         "ansible_port": 15222
+      },
+      "zhiyun-wang-2": {
+        "ansible_port": 24922
       }
     }
   },
   "all": {
     "hosts": [
-      "zhiyun-wang-1"
+      "zhiyun-wang-1",
+      "zhiyun-wang-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -18,19 +22,30 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "zhiyun-wang-1",
+      "zhiyun-wang-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "zhiyun-wang-2"
+    ]
   },
   "grafana_servers": {
-    "hosts": []
+    "hosts": [
+      "zhiyun-wang-1"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "zhiyun-wang-2"
+    ]
   },
   "loki_servers": {
-    "hosts": []
+    "hosts": [
+      "zhiyun-wang-1"
+    ]
   },
   "web_servers": {
     "hosts": [

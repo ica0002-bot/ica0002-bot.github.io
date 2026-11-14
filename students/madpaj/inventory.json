@@ -3,12 +3,16 @@
     "hostvars": {
       "madpaj-1": {
         "ansible_port": 39022
+      },
+      "madpaj-2": {
+        "ansible_port": 49722
       }
     }
   },
   "all": {
     "hosts": [
-      "madpaj-1"
+      "madpaj-1",
+      "madpaj-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -18,19 +22,30 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "madpaj-1",
+      "madpaj-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "madpaj-2"
+    ]
   },
   "grafana_servers": {
-    "hosts": []
+    "hosts": [
+      "madpaj-1"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "madpaj-2"
+    ]
   },
   "loki_servers": {
-    "hosts": []
+    "hosts": [
+      "madpaj-1"
+    ]
   },
   "web_servers": {
     "hosts": [
