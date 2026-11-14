@@ -3,16 +3,12 @@
     "hostvars": {
       "viltk-1": {
         "ansible_port": 12922
-      },
-      "viltk-2": {
-        "ansible_port": 16122
       }
     }
   },
   "all": {
     "hosts": [
-      "viltk-1",
-      "viltk-2"
+      "viltk-1"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -22,30 +18,19 @@
     }
   },
   "db_servers": {
-    "hosts": [
-      "viltk-1",
-      "viltk-2"
-    ]
+    "hosts": []
   },
   "dns_servers": {
-    "hosts": [
-      "viltk-2"
-    ]
+    "hosts": []
   },
   "grafana_servers": {
-    "hosts": [
-      "viltk-1"
-    ]
+    "hosts": []
   },
   "prometheus_servers": {
-    "hosts": [
-      "viltk-2"
-    ]
+    "hosts": []
   },
   "loki_servers": {
-    "hosts": [
-      "viltk-1"
-    ]
+    "hosts": []
   },
   "web_servers": {
     "hosts": [
