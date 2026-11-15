@@ -12,7 +12,6 @@
   "all": {
     "hosts": [
       "arminschutz-1",
-      "arminschutz-2",
       "arminschutz-2"
     ],
     "vars": {
@@ -23,21 +22,34 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "arminschutz-1",
+      "arminschutz-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "arminschutz-2"
+    ]
   },
   "grafana_servers": {
-    "hosts": []
+    "hosts": [
+      "arminschutz-1"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "arminschutz-2"
+    ]
   },
   "loki_servers": {
-    "hosts": []
+    "hosts": [
+      "arminschutz-1"
+    ]
   },
   "web_servers": {
-    "hosts": []
+    "hosts": [
+      "arminschutz-1"
+    ]
   }
 }
