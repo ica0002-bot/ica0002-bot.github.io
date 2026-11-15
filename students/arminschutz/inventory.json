@@ -5,13 +5,14 @@
         "ansible_port": 22822
       },
       "arminschutz-2": {
-        "ansible_port": 19722
+        "ansible_port": 9322
       }
     }
   },
   "all": {
     "hosts": [
       "arminschutz-1",
+      "arminschutz-2",
       "arminschutz-2"
     ],
     "vars": {
@@ -22,34 +23,21 @@
     }
   },
   "db_servers": {
-    "hosts": [
-      "arminschutz-1",
-      "arminschutz-2"
-    ]
+    "hosts": []
   },
   "dns_servers": {
-    "hosts": [
-      "arminschutz-2"
-    ]
+    "hosts": []
   },
   "grafana_servers": {
-    "hosts": [
-      "arminschutz-1"
-    ]
+    "hosts": []
   },
   "prometheus_servers": {
-    "hosts": [
-      "arminschutz-2"
-    ]
+    "hosts": []
   },
   "loki_servers": {
-    "hosts": [
-      "arminschutz-1"
-    ]
+    "hosts": []
   },
   "web_servers": {
-    "hosts": [
-      "arminschutz-1"
-    ]
+    "hosts": []
   }
 }

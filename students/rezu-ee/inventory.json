@@ -1,9 +1,6 @@
 {
   "_meta": {
     "hostvars": {
-      "rezu-ee-1": {
-        "ansible_port": 44522
-      },
       "rezu-ee-2": {
         "ansible_port": 30122
       }
@@ -11,7 +8,6 @@
   },
   "all": {
     "hosts": [
-      "rezu-ee-1",
       "rezu-ee-2"
     ],
     "vars": {
@@ -22,34 +18,23 @@
     }
   },
   "db_servers": {
-    "hosts": [
-      "rezu-ee-1",
-      "rezu-ee-2"
-    ]
+    "hosts": []
   },
   "dns_servers": {
-    "hosts": [
-      "rezu-ee-2"
-    ]
+    "hosts": []
   },
   "grafana_servers": {
-    "hosts": [
-      "rezu-ee-1"
-    ]
+    "hosts": []
   },
   "prometheus_servers": {
-    "hosts": [
-      "rezu-ee-2"
-    ]
+    "hosts": []
   },
   "loki_servers": {
-    "hosts": [
-      "rezu-ee-1"
-    ]
+    "hosts": []
   },
   "web_servers": {
     "hosts": [
-      "rezu-ee-1"
+      "rezu-ee-2"
     ]
   }
 }
