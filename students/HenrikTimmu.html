@@ -11,7 +11,16 @@
 <p>Public key: <a href="https://github.com/HenrikTimmu.keys">https://github.com/HenrikTimmu.keys</a></p>
 <h2>Virtual machines</h2>
 
-<p>Complete <a href="https://github.com/romankuchin/ica0002-2026/tree/main/01-intro">GitHub repository setup</a> to get your first machine.</p>
+<table>
+<tr><th>Name</th><th>Internal IP</th><th>Public SSH</th><th>Public URL</th></tr>
+
+<tr><td>HenrikTimmu-1</td><td>192.168.42.111</td><td>ubuntu@193.40.157.25 port 11122</td><td><a href="http://193.40.157.25:11180">http://193.40.157.25:11180</a></td></tr>
+
+<tr><td>HenrikTimmu-2</td><td>192.168.42.203</td><td>ubuntu@193.40.157.25 port 20322</td><td><a href="http://193.40.157.25:20380">http://193.40.157.25:20380</a></td></tr>
+
+<tr><td colspan="5">Complete <a href="https://github.com/romankuchin/ica0002-2026/tree/main/14-dns-slave">lab 14 tasks</a> to get your third machine.</td></tr>
+
+</table>
 
 
 <br>
@@ -37,8 +46,13 @@
 </details>
 <h2>Services</h2>
 <table>
-<p>Complete <a href="https://github.com/romankuchin/ica0002-2026/tree/main/01-intro">GitHub repository setup</a> to get your first machine.</p>
+<table>
+<tr><th>Service</th><th>HenrikTimmu-1</th><th>HenrikTimmu-2</th><th>Status</th></tr>
 
+<tr><td>DNS server</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Web server</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Prometheus</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Grafana</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
 </table>
 <h2>Git repository checks</h2>
 <ul>
@@ -53,7 +67,7 @@
 <li><span class="ok">Ok</span>: <code>roles/bind/tasks/main.yaml</code> found.</li>
 <li><span class="ok">Ok</span>: <code>roles/grafana/files/backups.json</code> found.</li>
 <li><span class="ok">Ok</span>: <code>roles/grafana/files/main.json</code> found.</li>
-<li><span class="fail">Problem</span>: <code>roles/grafana/files/mysql.json</code> is missing; labs not completed: 11.</li>
+<li><span class="ok">Ok</span>: <code>roles/grafana/files/mysql.json</code> found.</li>
 <li><span class="ok">Ok</span>: <code>roles/grafana/tasks/main.yaml</code> found.</li>
 <li><span class="ok">Ok</span>: <code>roles/init/tasks/main.yaml</code> found.</li>
 <li><span class="ok">Ok</span>: <code>roles/loki/tasks/main.yaml</code> found.</li>
@@ -67,7 +81,6 @@
 <li><span class="ok">Ok</span>: <code>docs/slo.md</code> found.</li>
 </ul>
 
-<p>A few problems found.</p>
-<p>Labs not accepted: 11.</p>
-<p>Last checked on Nov 16 at 18:51 UTC.</p>
+<p>All good so far.</p>
+<p>Last checked on Nov 16 at 19:22 UTC.</p>
 </body></html>
