@@ -3,16 +3,12 @@
     "hostvars": {
       "Lxrenz123-1": {
         "ansible_port": 14622
-      },
-      "Lxrenz123-2": {
-        "ansible_port": 23422
       }
     }
   },
   "all": {
     "hosts": [
-      "Lxrenz123-1",
-      "Lxrenz123-2"
+      "Lxrenz123-1"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -22,30 +18,19 @@
     }
   },
   "db_servers": {
-    "hosts": [
-      "Lxrenz123-1",
-      "Lxrenz123-2"
-    ]
+    "hosts": []
   },
   "dns_servers": {
-    "hosts": [
-      "Lxrenz123-2"
-    ]
+    "hosts": []
   },
   "grafana_servers": {
-    "hosts": [
-      "Lxrenz123-1"
-    ]
+    "hosts": []
   },
   "prometheus_servers": {
-    "hosts": [
-      "Lxrenz123-2"
-    ]
+    "hosts": []
   },
   "loki_servers": {
-    "hosts": [
-      "Lxrenz123-1"
-    ]
+    "hosts": []
   },
   "web_servers": {
     "hosts": [

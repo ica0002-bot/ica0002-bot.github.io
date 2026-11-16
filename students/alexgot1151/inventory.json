@@ -12,6 +12,8 @@
   "all": {
     "hosts": [
       "alexgot1151-1",
+      "alexgot1151-1",
+      "alexgot1151-2",
       "alexgot1151-2"
     ],
     "vars": {
@@ -22,34 +24,21 @@
     }
   },
   "db_servers": {
-    "hosts": [
-      "alexgot1151-1",
-      "alexgot1151-2"
-    ]
+    "hosts": []
   },
   "dns_servers": {
-    "hosts": [
-      "alexgot1151-2"
-    ]
+    "hosts": []
   },
   "grafana_servers": {
-    "hosts": [
-      "alexgot1151-1"
-    ]
+    "hosts": []
   },
   "prometheus_servers": {
-    "hosts": [
-      "alexgot1151-2"
-    ]
+    "hosts": []
   },
   "loki_servers": {
-    "hosts": [
-      "alexgot1151-1"
-    ]
+    "hosts": []
   },
   "web_servers": {
-    "hosts": [
-      "alexgot1151-1"
-    ]
+    "hosts": []
   }
 }
