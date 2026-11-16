@@ -1,6 +1,9 @@
 {
   "_meta": {
     "hostvars": {
+      "maxkorch-27-1": {
+        "ansible_port": 28222
+      },
       "maxkorch-27-2": {
         "ansible_port": 34722
       }
@@ -8,6 +11,7 @@
   },
   "all": {
     "hosts": [
+      "maxkorch-27-1",
       "maxkorch-27-2"
     ],
     "vars": {
@@ -18,23 +22,34 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "maxkorch-27-1",
+      "maxkorch-27-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "maxkorch-27-2"
+    ]
   },
   "grafana_servers": {
-    "hosts": []
+    "hosts": [
+      "maxkorch-27-1"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "maxkorch-27-2"
+    ]
   },
   "loki_servers": {
-    "hosts": []
+    "hosts": [
+      "maxkorch-27-1"
+    ]
   },
   "web_servers": {
     "hosts": [
-      "maxkorch-27-2"
+      "maxkorch-27-1"
     ]
   }
 }
