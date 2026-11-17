@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "leotaltech-1": {
-        "ansible_port": 9322
+        "ansible_port": 37122
       },
       "leotaltech-2": {
-        "ansible_port": 11022
+        "ansible_port": 37522
       }
     }
   },

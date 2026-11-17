@@ -14,9 +14,9 @@
 <table>
 <tr><th>Name</th><th>Internal IP</th><th>Public SSH</th><th>Public URL</th></tr>
 
-<tr><td>iszimm-1</td><td>192.168.43.150</td><td>ubuntu@193.40.157.25 port 40622</td><td><a href="http://193.40.157.25:40680">http://193.40.157.25:40680</a></td></tr>
+<tr><td>iszimm-1</td><td>192.168.42.176</td><td>ubuntu@193.40.157.25 port 17622</td><td><a href="http://193.40.157.25:17680">http://193.40.157.25:17680</a></td></tr>
 
-<tr><td>iszimm-2</td><td>192.168.43.108</td><td>ubuntu@193.40.157.25 port 36422</td><td><a href="http://193.40.157.25:36480">http://193.40.157.25:36480</a></td></tr>
+<tr><td>iszimm-2</td><td>192.168.42.44</td><td>ubuntu@193.40.157.25 port 4422</td><td><a href="http://193.40.157.25:4480">http://193.40.157.25:4480</a></td></tr>
 
 <tr><td colspan="5">Complete <a href="https://github.com/romankuchin/ica0002-2026/tree/main/14-dns-slave">lab 14 tasks</a> to get your third machine.</td></tr>
 
@@ -49,10 +49,10 @@
 <table>
 <tr><th>Service</th><th>iszimm-1</th><th>iszimm-2</th><th>Status</th></tr>
 
-<tr><td>DNS server</td><td>---</td><td>192.168.43.108:53</td><td class="ok">1/1 up</td></tr>
-<tr><td>Web server</td><td><a href="http://193.40.157.25:40680">http://193.40.157.25:40680</a></td><td>---</td><td class="ok">1/1 up</td></tr>
-<tr><td>Prometheus</td><td><a href="http://193.40.157.25:40680/prometheus">http://193.40.157.25:40680/prometheus</a> -- <span class="fail">HTTP 404</span></td><td><a href="http://193.40.157.25:36480/prometheus">http://193.40.157.25:36480/prometheus</a> -- <span class="fail">HTTP 404</span></td><td class="fail">0/1 up</td></tr>
-<tr><td>Grafana</td><td><a href="http://193.40.157.25:40680/grafana">http://193.40.157.25:40680/grafana</a> -- <span class="fail">HTTP 404</span></td><td><a href="http://193.40.157.25:36480/grafana">http://193.40.157.25:36480/grafana</a> -- <span class="fail">HTTP 404</span></td><td class="fail">0/1 up</td></tr>
+<tr><td>DNS server</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Web server</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Prometheus</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Grafana</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
 </table>
 <h2>Git repository checks</h2>
 <ul>
@@ -82,5 +82,5 @@
 </ul>
 
 <p>All good so far.</p>
-<p>Last checked on Nov 17 at 00:52 UTC.</p>
+<p>Last checked on Nov 17 at 03:49 UTC.</p>
 </body></html>

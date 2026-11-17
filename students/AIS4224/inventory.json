@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "AIS4224-1": {
-        "ansible_port": 26522
+        "ansible_port": 19222
       },
       "AIS4224-2": {
-        "ansible_port": 49722
+        "ansible_port": 13422
       }
     }
   },

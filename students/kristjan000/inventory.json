@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "kristjan000-1": {
-        "ansible_port": 33622
+        "ansible_port": 21722
       },
       "kristjan000-2": {
-        "ansible_port": 50322
+        "ansible_port": 9622
       }
     }
   },
