@@ -3,12 +3,16 @@
     "hostvars": {
       "AljonaSavinova-1": {
         "ansible_port": 46122
+      },
+      "AljonaSavinova-2": {
+        "ansible_port": 30022
       }
     }
   },
   "all": {
     "hosts": [
-      "AljonaSavinova-1"
+      "AljonaSavinova-1",
+      "AljonaSavinova-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -18,19 +22,30 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "AljonaSavinova-1",
+      "AljonaSavinova-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "AljonaSavinova-2"
+    ]
   },
   "grafana_servers": {
-    "hosts": []
+    "hosts": [
+      "AljonaSavinova-1"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "AljonaSavinova-2"
+    ]
   },
   "loki_servers": {
-    "hosts": []
+    "hosts": [
+      "AljonaSavinova-1"
+    ]
   },
   "web_servers": {
     "hosts": [
