@@ -14,9 +14,9 @@
 <table>
 <tr><th>Name</th><th>Internal IP</th><th>Public SSH</th><th>Public URL</th></tr>
 
-<tr><td>Sjinkwe-1</td><td>192.168.42.206</td><td>ubuntu@193.40.157.25 port 20622</td><td><a href="http://193.40.157.25:20680">http://193.40.157.25:20680</a></td></tr>
+<tr><td>Sjinkwe-1</td><td>192.168.43.250</td><td>ubuntu@193.40.157.25 port 50622</td><td><a href="http://193.40.157.25:50680">http://193.40.157.25:50680</a></td></tr>
 
-<tr><td>Sjinkwe-2</td><td>192.168.42.149</td><td>ubuntu@193.40.157.25 port 14922</td><td><a href="http://193.40.157.25:14980">http://193.40.157.25:14980</a></td></tr>
+<tr><td>Sjinkwe-2</td><td>192.168.43.105</td><td>ubuntu@193.40.157.25 port 36122</td><td><a href="http://193.40.157.25:36180">http://193.40.157.25:36180</a></td></tr>
 
 <tr><td colspan="5">Complete <a href="https://github.com/romankuchin/ica0002-2026/tree/main/14-dns-slave">lab 14 tasks</a> to get your third machine.</td></tr>
 
@@ -49,16 +49,16 @@
 <table>
 <tr><th>Service</th><th>Sjinkwe-1</th><th>Sjinkwe-2</th><th>Status</th></tr>
 
-<tr><td>DNS server</td><td>---</td><td>192.168.42.149:53</td><td class="ok">1/1 up</td></tr>
-<tr><td>Web server</td><td><a href="http://193.40.157.25:20680">http://193.40.157.25:20680</a></td><td>---</td><td class="ok">1/1 up</td></tr>
-<tr><td>Prometheus</td><td><a href="http://193.40.157.25:20680/prometheus">http://193.40.157.25:20680/prometheus</a> -- <span class="fail">HTTP 404</span></td><td><a href="http://193.40.157.25:14980/prometheus">http://193.40.157.25:14980/prometheus</a> -- <span class="fail">HTTP 404</span></td><td class="fail">0/1 up</td></tr>
-<tr><td>Grafana</td><td><a href="http://193.40.157.25:20680/grafana">http://193.40.157.25:20680/grafana</a></td><td>---</td><td class="ok">1/1 up</td></tr>
+<tr><td>DNS server</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Web server</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Prometheus</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Grafana</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
 </table>
 <h2>Git repository checks</h2>
 <ul>
 <li><span class="ok">Ok</span>: GitHub repository is set up correctly.</li>
 <li><span class="ok">Ok</span>: <code>ansible.cfg</code> found.</li>
-<li><span class="fail">Problem</span>: <code>docs/backup_restore.md</code> is missing; labs not completed: 10.</li>
+<li><span class="ok">Ok</span>: <code>docs/backup_restore.md</code> found.</li>
 <li><span class="ok">Ok</span>: <code>docs/backup_sla.md</code> found.</li>
 <li><span class="ok">Ok</span>: <code>group_vars/all.yaml</code> found.</li>
 <li><span class="ok">Ok</span>: <code>infra.yaml</code> found.</li>
@@ -66,15 +66,15 @@
 <li><span class="ok">Ok</span>: <code>roles/agama/tasks/main.yaml</code> found.</li>
 <li><span class="ok">Ok</span>: <code>roles/bind/tasks/main.yaml</code> found.</li>
 <li><span class="fail">Problem</span>: <code>roles/docker/tasks/main.yaml</code> is missing; labs not completed: 12.</li>
-<li><span class="fail">Problem</span>: <code>roles/grafana/files/backups.json</code> is missing; labs not completed: 10.</li>
+<li><span class="ok">Ok</span>: <code>roles/grafana/files/backups.json</code> found.</li>
 <li><span class="ok">Ok</span>: <code>roles/grafana/files/main.json</code> found.</li>
 <li><span class="fail">Problem</span>: <code>roles/grafana/files/mysql.json</code> is missing; labs not completed: 11.</li>
 <li><span class="ok">Ok</span>: <code>roles/grafana/tasks/main.yaml</code> found.</li>
 <li><span class="ok">Ok</span>: <code>roles/init/tasks/main.yaml</code> found.</li>
 <li><span class="ok">Ok</span>: <code>roles/loki/tasks/main.yaml</code> found.</li>
-<li><span class="fail">Problem</span>: <code>roles/loki/templates/backup-cron.j2</code> is missing; labs not completed: 10.</li>
+<li><span class="ok">Ok</span>: <code>roles/loki/templates/backup-cron.j2</code> found.</li>
 <li><span class="ok">Ok</span>: <code>roles/mysql/tasks/main.yaml</code> found.</li>
-<li><span class="fail">Problem</span>: <code>roles/mysql/templates/backup-cron.j2</code> is missing; labs not completed: 10.</li>
+<li><span class="ok">Ok</span>: <code>roles/mysql/templates/backup-cron.j2</code> found.</li>
 <li><span class="ok">Ok</span>: <code>roles/nginx/tasks/main.yaml</code> found.</li>
 <li><span class="ok">Ok</span>: <code>roles/prometheus/tasks/main.yaml</code> found.</li>
 <li><span class="fail">Problem</span>: <code>roles/prometheus/templates/backup-cron.j2</code> is missing; labs not completed: 10.</li>
@@ -84,5 +84,5 @@
 
 <p>A few problems found.</p>
 <p>Labs not accepted: 10, 11, 12.</p>
-<p>Last checked on Nov 18 at 00:53 UTC.</p>
+<p>Last checked on Nov 18 at 03:44 UTC.</p>
 </body></html>
