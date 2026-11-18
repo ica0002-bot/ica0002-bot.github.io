@@ -3,12 +3,16 @@
     "hostvars": {
       "chpart-1": {
         "ansible_port": 39122
+      },
+      "chpart-2": {
+        "ansible_port": 42922
       }
     }
   },
   "all": {
     "hosts": [
-      "chpart-1"
+      "chpart-1",
+      "chpart-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -18,19 +22,30 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "chpart-1",
+      "chpart-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "chpart-2"
+    ]
   },
   "grafana_servers": {
-    "hosts": []
+    "hosts": [
+      "chpart-1"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "chpart-2"
+    ]
   },
   "loki_servers": {
-    "hosts": []
+    "hosts": [
+      "chpart-1"
+    ]
   },
   "web_servers": {
     "hosts": [
