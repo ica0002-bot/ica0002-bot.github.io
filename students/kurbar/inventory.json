@@ -2,17 +2,13 @@
   "_meta": {
     "hostvars": {
       "kurbar-1": {
-        "ansible_port": 27522
-      },
-      "kurbar-2": {
-        "ansible_port": 46922
+        "ansible_port": 13922
       }
     }
   },
   "all": {
     "hosts": [
-      "kurbar-1",
-      "kurbar-2"
+      "kurbar-1"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -22,30 +18,19 @@
     }
   },
   "db_servers": {
-    "hosts": [
-      "kurbar-1",
-      "kurbar-2"
-    ]
+    "hosts": []
   },
   "dns_servers": {
-    "hosts": [
-      "kurbar-2"
-    ]
+    "hosts": []
   },
   "grafana_servers": {
-    "hosts": [
-      "kurbar-1"
-    ]
+    "hosts": []
   },
   "prometheus_servers": {
-    "hosts": [
-      "kurbar-2"
-    ]
+    "hosts": []
   },
   "loki_servers": {
-    "hosts": [
-      "kurbar-1"
-    ]
+    "hosts": []
   },
   "web_servers": {
     "hosts": [

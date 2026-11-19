@@ -2,17 +2,13 @@
   "_meta": {
     "hostvars": {
       "timokund-1": {
-        "ansible_port": 15922
-      },
-      "timokund-2": {
-        "ansible_port": 6822
+        "ansible_port": 43322
       }
     }
   },
   "all": {
     "hosts": [
-      "timokund-1",
-      "timokund-2"
+      "timokund-1"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -22,30 +18,19 @@
     }
   },
   "db_servers": {
-    "hosts": [
-      "timokund-1",
-      "timokund-2"
-    ]
+    "hosts": []
   },
   "dns_servers": {
-    "hosts": [
-      "timokund-2"
-    ]
+    "hosts": []
   },
   "grafana_servers": {
-    "hosts": [
-      "timokund-1"
-    ]
+    "hosts": []
   },
   "prometheus_servers": {
-    "hosts": [
-      "timokund-2"
-    ]
+    "hosts": []
   },
   "loki_servers": {
-    "hosts": [
-      "timokund-1"
-    ]
+    "hosts": []
   },
   "web_servers": {
     "hosts": [

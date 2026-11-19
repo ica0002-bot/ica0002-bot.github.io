@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "markusperemees-1": {
-        "ansible_port": 26422
+        "ansible_port": 9422
       },
       "markusperemees-2": {
-        "ansible_port": 32322
+        "ansible_port": 20522
       }
     }
   },
