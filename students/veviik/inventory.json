@@ -3,12 +3,16 @@
     "hostvars": {
       "veviik-1": {
         "ansible_port": 27322
+      },
+      "veviik-2": {
+        "ansible_port": 34622
       }
     }
   },
   "all": {
     "hosts": [
-      "veviik-1"
+      "veviik-1",
+      "veviik-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -18,19 +22,30 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "veviik-1",
+      "veviik-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "veviik-2"
+    ]
   },
   "grafana_servers": {
-    "hosts": []
+    "hosts": [
+      "veviik-1"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "veviik-2"
+    ]
   },
   "loki_servers": {
-    "hosts": []
+    "hosts": [
+      "veviik-1"
+    ]
   },
   "web_servers": {
     "hosts": [

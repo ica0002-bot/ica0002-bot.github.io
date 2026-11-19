@@ -3,12 +3,16 @@
     "hostvars": {
       "xmyssu-1": {
         "ansible_port": 28622
+      },
+      "xmyssu-2": {
+        "ansible_port": 31922
       }
     }
   },
   "all": {
     "hosts": [
-      "xmyssu-1"
+      "xmyssu-1",
+      "xmyssu-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -18,19 +22,30 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "xmyssu-1",
+      "xmyssu-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "xmyssu-2"
+    ]
   },
   "grafana_servers": {
-    "hosts": []
+    "hosts": [
+      "xmyssu-1"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "xmyssu-2"
+    ]
   },
   "loki_servers": {
-    "hosts": []
+    "hosts": [
+      "xmyssu-1"
+    ]
   },
   "web_servers": {
     "hosts": [
