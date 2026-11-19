@@ -1,6 +1,9 @@
 {
   "_meta": {
     "hostvars": {
+      "Ramlik-1": {
+        "ansible_port": 43822
+      },
       "Ramlik-2": {
         "ansible_port": 34822
       }
@@ -8,6 +11,7 @@
   },
   "all": {
     "hosts": [
+      "Ramlik-1",
       "Ramlik-2"
     ],
     "vars": {
@@ -18,23 +22,34 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "Ramlik-1",
+      "Ramlik-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "Ramlik-2"
+    ]
   },
   "grafana_servers": {
-    "hosts": []
+    "hosts": [
+      "Ramlik-1"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "Ramlik-2"
+    ]
   },
   "loki_servers": {
-    "hosts": []
+    "hosts": [
+      "Ramlik-1"
+    ]
   },
   "web_servers": {
     "hosts": [
-      "Ramlik-2"
+      "Ramlik-1"
     ]
   }
 }
