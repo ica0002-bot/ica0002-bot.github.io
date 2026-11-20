@@ -1,6 +1,9 @@
 {
   "_meta": {
     "hostvars": {
+      "stepden04-1": {
+        "ansible_port": 47722
+      },
       "stepden04-2": {
         "ansible_port": 29222
       }
@@ -8,6 +11,7 @@
   },
   "all": {
     "hosts": [
+      "stepden04-1",
       "stepden04-2"
     ],
     "vars": {
@@ -18,23 +22,34 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "stepden04-1",
+      "stepden04-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "stepden04-2"
+    ]
   },
   "grafana_servers": {
-    "hosts": []
+    "hosts": [
+      "stepden04-1"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "stepden04-2"
+    ]
   },
   "loki_servers": {
-    "hosts": []
+    "hosts": [
+      "stepden04-1"
+    ]
   },
   "web_servers": {
     "hosts": [
-      "stepden04-2"
+      "stepden04-1"
     ]
   }
 }
