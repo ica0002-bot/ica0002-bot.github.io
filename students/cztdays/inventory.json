@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "cztdays-1": {
-        "ansible_port": 5122
+        "ansible_port": 25922
       },
       "cztdays-2": {
-        "ansible_port": 24322
+        "ansible_port": 42022
       }
     }
   },

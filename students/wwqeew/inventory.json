@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "wwqeew-1": {
-        "ansible_port": 17222
+        "ansible_port": 44722
       },
       "wwqeew-2": {
-        "ansible_port": 4222
+        "ansible_port": 36122
       }
     }
   },

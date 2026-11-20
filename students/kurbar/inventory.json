@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "kurbar-1": {
-        "ansible_port": 13922
+        "ansible_port": 27822
       },
       "kurbar-2": {
-        "ansible_port": 622
+        "ansible_port": 36022
       }
     }
   },
