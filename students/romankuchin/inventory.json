@@ -1,17 +1,13 @@
 {
   "_meta": {
     "hostvars": {
-      "romankuchin-1": {
-        "ansible_port": 6622
-      },
       "romankuchin-2": {
-        "ansible_port": 3722
+        "ansible_port": 39422
       }
     }
   },
   "all": {
     "hosts": [
-      "romankuchin-1",
       "romankuchin-2"
     ],
     "vars": {
@@ -22,34 +18,23 @@
     }
   },
   "db_servers": {
-    "hosts": [
-      "romankuchin-1",
-      "romankuchin-2"
-    ]
+    "hosts": []
   },
   "dns_servers": {
-    "hosts": [
-      "romankuchin-2"
-    ]
+    "hosts": []
   },
   "grafana_servers": {
-    "hosts": [
-      "romankuchin-1"
-    ]
+    "hosts": []
   },
   "prometheus_servers": {
-    "hosts": [
-      "romankuchin-2"
-    ]
+    "hosts": []
   },
   "loki_servers": {
-    "hosts": [
-      "romankuchin-1"
-    ]
+    "hosts": []
   },
   "web_servers": {
     "hosts": [
-      "romankuchin-1"
+      "romankuchin-2"
     ]
   }
 }

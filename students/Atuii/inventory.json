@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "Atuii-1": {
-        "ansible_port": 45722
+        "ansible_port": 16322
       },
       "Atuii-2": {
-        "ansible_port": 33022
+        "ansible_port": 21022
       }
     }
   },

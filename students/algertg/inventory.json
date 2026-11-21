@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "algertg-1": {
-        "ansible_port": 47422
+        "ansible_port": 13622
       },
       "algertg-2": {
-        "ansible_port": 49322
+        "ansible_port": 3722
       }
     }
   },
