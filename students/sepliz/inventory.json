@@ -2,7 +2,7 @@
   "_meta": {
     "hostvars": {
       "sepliz-1": {
-        "ansible_port": 8922
+        "ansible_port": 7122
       }
     }
   },
