@@ -1,6 +1,9 @@
 {
   "_meta": {
     "hostvars": {
+      "hudolejev-1": {
+        "ansible_port": 40622
+      },
       "hudolejev-2": {
         "ansible_port": 34522
       }
@@ -8,6 +11,7 @@
   },
   "all": {
     "hosts": [
+      "hudolejev-1",
       "hudolejev-2"
     ],
     "vars": {
@@ -18,23 +22,34 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "hudolejev-1",
+      "hudolejev-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "hudolejev-2"
+    ]
   },
   "grafana_servers": {
-    "hosts": []
+    "hosts": [
+      "hudolejev-1"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "hudolejev-2"
+    ]
   },
   "loki_servers": {
-    "hosts": []
+    "hosts": [
+      "hudolejev-1"
+    ]
   },
   "web_servers": {
     "hosts": [
-      "hudolejev-2"
+      "hudolejev-1"
     ]
   }
 }
