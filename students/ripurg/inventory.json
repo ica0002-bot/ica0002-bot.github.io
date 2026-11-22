@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "ripurg-1": {
-        "ansible_port": 47122
+        "ansible_port": 18322
       },
       "ripurg-2": {
-        "ansible_port": 46322
+        "ansible_port": 3722
       }
     }
   },

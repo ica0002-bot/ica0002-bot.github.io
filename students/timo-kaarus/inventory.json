@@ -2,7 +2,7 @@
   "_meta": {
     "hostvars": {
       "timo-kaarus-1": {
-        "ansible_port": 38722
+        "ansible_port": 8322
       }
     }
   },

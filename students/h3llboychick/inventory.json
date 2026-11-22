@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "h3llboychick-1": {
-        "ansible_port": 31422
+        "ansible_port": 10522
       },
       "h3llboychick-2": {
-        "ansible_port": 42022
+        "ansible_port": 14322
       }
     }
   },
