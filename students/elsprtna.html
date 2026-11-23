@@ -14,9 +14,9 @@
 <table>
 <tr><th>Name</th><th>Internal IP</th><th>Public SSH</th><th>Public URL</th></tr>
 
-<tr><td>elsprtna-1</td><td>192.168.43.54</td><td>ubuntu@193.40.157.25 port 31022</td><td><a href="http://193.40.157.25:31080">http://193.40.157.25:31080</a></td></tr>
+<tr><td>elsprtna-1</td><td>192.168.42.95</td><td>ubuntu@193.40.157.25 port 9522</td><td><a href="http://193.40.157.25:9580">http://193.40.157.25:9580</a></td></tr>
 
-<tr><td>elsprtna-2</td><td>192.168.43.113</td><td>ubuntu@193.40.157.25 port 36922</td><td><a href="http://193.40.157.25:36980">http://193.40.157.25:36980</a></td></tr>
+<tr><td>elsprtna-2</td><td>192.168.42.29</td><td>ubuntu@193.40.157.25 port 2922</td><td><a href="http://193.40.157.25:2980">http://193.40.157.25:2980</a></td></tr>
 
 <tr><td colspan="5">Complete <a href="https://github.com/romankuchin/ica0002-2026/tree/main/14-dns-slave">lab 14 tasks</a> to get your third machine.</td></tr>
 
@@ -49,10 +49,10 @@
 <table>
 <tr><th>Service</th><th>elsprtna-1</th><th>elsprtna-2</th><th>Status</th></tr>
 
-<tr><td>DNS server</td><td>---</td><td>192.168.43.113:53</td><td class="ok">1/1 up</td></tr>
-<tr><td>Web server</td><td><a href="http://193.40.157.25:31080">http://193.40.157.25:31080</a></td><td><a href="http://193.40.157.25:36980">http://193.40.157.25:36980</a></td><td class="ok">2/1 up</td></tr>
-<tr><td>Prometheus</td><td>---</td><td><a href="http://193.40.157.25:36980/prometheus">http://193.40.157.25:36980/prometheus</a></td><td class="ok">1/1 up</td></tr>
-<tr><td>Grafana</td><td><a href="http://193.40.157.25:31080/grafana">http://193.40.157.25:31080/grafana</a></td><td>---</td><td class="ok">1/1 up</td></tr>
+<tr><td>DNS server</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Web server</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Prometheus</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Grafana</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
 </table>
 <h2>Git repository checks</h2>
 <ul>
@@ -83,5 +83,5 @@
 </ul>
 
 <p>All good so far.</p>
-<p>Last checked on Nov 23 at 00:52 UTC.</p>
+<p>Last checked on Nov 23 at 03:41 UTC.</p>
 </body></html>

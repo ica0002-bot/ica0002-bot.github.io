@@ -1,15 +1,9 @@
 {
   "_meta": {
-    "hostvars": {
-      "EtherZReal-1": {
-        "ansible_port": 32222
-      }
-    }
+    "hostvars": {}
   },
   "all": {
-    "hosts": [
-      "EtherZReal-1"
-    ],
+    "hosts": [],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
@@ -33,8 +27,6 @@
     "hosts": []
   },
   "web_servers": {
-    "hosts": [
-      "EtherZReal-1"
-    ]
+    "hosts": []
   }
 }

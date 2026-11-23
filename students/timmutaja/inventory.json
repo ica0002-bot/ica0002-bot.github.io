@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "timmutaja-1": {
-        "ansible_port": 5122
+        "ansible_port": 46622
       },
       "timmutaja-2": {
-        "ansible_port": 5722
+        "ansible_port": 32422
       }
     }
   },
