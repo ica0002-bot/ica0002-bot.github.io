@@ -3,12 +3,16 @@
     "hostvars": {
       "sepliz-1": {
         "ansible_port": 23022
+      },
+      "sepliz-2": {
+        "ansible_port": 19922
       }
     }
   },
   "all": {
     "hosts": [
-      "sepliz-1"
+      "sepliz-1",
+      "sepliz-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -18,19 +22,30 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "sepliz-1",
+      "sepliz-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "sepliz-2"
+    ]
   },
   "grafana_servers": {
-    "hosts": []
+    "hosts": [
+      "sepliz-1"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "sepliz-2"
+    ]
   },
   "loki_servers": {
-    "hosts": []
+    "hosts": [
+      "sepliz-1"
+    ]
   },
   "web_servers": {
     "hosts": [
