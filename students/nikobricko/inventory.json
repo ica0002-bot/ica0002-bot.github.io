@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "nikobricko-1": {
-        "ansible_port": 47922
+        "ansible_port": 622
       },
       "nikobricko-2": {
-        "ansible_port": 35222
+        "ansible_port": 4322
       }
     }
   },

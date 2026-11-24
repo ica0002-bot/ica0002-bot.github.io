@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "toniskandmaa-1": {
-        "ansible_port": 38422
+        "ansible_port": 7322
       },
       "toniskandmaa-2": {
-        "ansible_port": 50922
+        "ansible_port": 19722
       }
     }
   },

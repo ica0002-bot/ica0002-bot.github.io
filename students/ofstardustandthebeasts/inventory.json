@@ -2,17 +2,13 @@
   "_meta": {
     "hostvars": {
       "ofstardustandthebeasts-1": {
-        "ansible_port": 13722
-      },
-      "ofstardustandthebeasts-2": {
-        "ansible_port": 9422
+        "ansible_port": 49522
       }
     }
   },
   "all": {
     "hosts": [
-      "ofstardustandthebeasts-1",
-      "ofstardustandthebeasts-2"
+      "ofstardustandthebeasts-1"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -22,30 +18,19 @@
     }
   },
   "db_servers": {
-    "hosts": [
-      "ofstardustandthebeasts-1",
-      "ofstardustandthebeasts-2"
-    ]
+    "hosts": []
   },
   "dns_servers": {
-    "hosts": [
-      "ofstardustandthebeasts-2"
-    ]
+    "hosts": []
   },
   "grafana_servers": {
-    "hosts": [
-      "ofstardustandthebeasts-1"
-    ]
+    "hosts": []
   },
   "prometheus_servers": {
-    "hosts": [
-      "ofstardustandthebeasts-2"
-    ]
+    "hosts": []
   },
   "loki_servers": {
-    "hosts": [
-      "ofstardustandthebeasts-1"
-    ]
+    "hosts": []
   },
   "web_servers": {
     "hosts": [

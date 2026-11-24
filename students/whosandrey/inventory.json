@@ -2,17 +2,13 @@
   "_meta": {
     "hostvars": {
       "whosandrey-1": {
-        "ansible_port": 11222
-      },
-      "whosandrey-2": {
-        "ansible_port": 20522
+        "ansible_port": 36622
       }
     }
   },
   "all": {
     "hosts": [
-      "whosandrey-1",
-      "whosandrey-2"
+      "whosandrey-1"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -22,30 +18,19 @@
     }
   },
   "db_servers": {
-    "hosts": [
-      "whosandrey-1",
-      "whosandrey-2"
-    ]
+    "hosts": []
   },
   "dns_servers": {
-    "hosts": [
-      "whosandrey-2"
-    ]
+    "hosts": []
   },
   "grafana_servers": {
-    "hosts": [
-      "whosandrey-1"
-    ]
+    "hosts": []
   },
   "prometheus_servers": {
-    "hosts": [
-      "whosandrey-2"
-    ]
+    "hosts": []
   },
   "loki_servers": {
-    "hosts": [
-      "whosandrey-1"
-    ]
+    "hosts": []
   },
   "web_servers": {
     "hosts": [
