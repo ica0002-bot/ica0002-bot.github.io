@@ -1,6 +1,9 @@
 {
   "_meta": {
     "hostvars": {
+      "ipoker27-1": {
+        "ansible_port": 45522
+      },
       "ipoker27-2": {
         "ansible_port": 44122
       }
@@ -8,6 +11,7 @@
   },
   "all": {
     "hosts": [
+      "ipoker27-1",
       "ipoker27-2"
     ],
     "vars": {
@@ -18,22 +22,34 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "ipoker27-1",
+      "ipoker27-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "ipoker27-2"
+    ]
   },
   "grafana_servers": {
-    "hosts": []
+    "hosts": [
+      "ipoker27-1"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "ipoker27-2"
+    ]
   },
   "loki_servers": {
-    "hosts": []
+    "hosts": [
+      "ipoker27-1"
+    ]
   },
   "web_servers": {
     "hosts": [
+      "ipoker27-1",
       "ipoker27-2"
     ]
   }
