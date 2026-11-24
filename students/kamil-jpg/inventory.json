@@ -49,7 +49,8 @@
   },
   "web_servers": {
     "hosts": [
-      "kamil-jpg-1"
+      "kamil-jpg-1",
+      "kamil-jpg-2"
     ]
   }
 }

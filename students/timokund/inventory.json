@@ -49,7 +49,8 @@
   },
   "web_servers": {
     "hosts": [
-      "timokund-1"
+      "timokund-1",
+      "timokund-2"
     ]
   }
 }

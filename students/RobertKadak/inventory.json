@@ -49,7 +49,8 @@
   },
   "web_servers": {
     "hosts": [
-      "RobertKadak-1"
+      "RobertKadak-1",
+      "RobertKadak-2"
     ]
   }
 }

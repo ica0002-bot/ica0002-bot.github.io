@@ -49,7 +49,8 @@
   },
   "web_servers": {
     "hosts": [
-      "eldensmoke-1"
+      "eldensmoke-1",
+      "eldensmoke-2"
     ]
   }
 }

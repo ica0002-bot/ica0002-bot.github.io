@@ -49,7 +49,8 @@
   },
   "web_servers": {
     "hosts": [
-      "elerir-10-1"
+      "elerir-10-1",
+      "elerir-10-2"
     ]
   }
 }

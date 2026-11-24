@@ -49,7 +49,8 @@
   },
   "web_servers": {
     "hosts": [
-      "SinivaalSulev-1"
+      "SinivaalSulev-1",
+      "SinivaalSulev-2"
     ]
   }
 }

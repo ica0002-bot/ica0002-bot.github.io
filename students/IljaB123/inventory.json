@@ -49,7 +49,8 @@
   },
   "web_servers": {
     "hosts": [
-      "IljaB123-1"
+      "IljaB123-1",
+      "IljaB123-2"
     ]
   }
 }

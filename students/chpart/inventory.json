@@ -49,7 +49,8 @@
   },
   "web_servers": {
     "hosts": [
-      "chpart-1"
+      "chpart-1",
+      "chpart-2"
     ]
   }
 }

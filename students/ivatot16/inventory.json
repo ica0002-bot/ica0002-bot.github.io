@@ -49,7 +49,8 @@
   },
   "web_servers": {
     "hosts": [
-      "ivatot16-1"
+      "ivatot16-1",
+      "ivatot16-2"
     ]
   }
 }

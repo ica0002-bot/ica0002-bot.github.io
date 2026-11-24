@@ -49,7 +49,8 @@
   },
   "web_servers": {
     "hosts": [
-      "iszimm-1"
+      "iszimm-1",
+      "iszimm-2"
     ]
   }
 }

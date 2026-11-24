@@ -49,7 +49,8 @@
   },
   "web_servers": {
     "hosts": [
-      "0HaPa-1"
+      "0HaPa-1",
+      "0HaPa-2"
     ]
   }
 }

@@ -49,7 +49,8 @@
   },
   "web_servers": {
     "hosts": [
-      "cztdays-1"
+      "cztdays-1",
+      "cztdays-2"
     ]
   }
 }

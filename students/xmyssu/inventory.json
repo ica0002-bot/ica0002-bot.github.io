@@ -49,7 +49,8 @@
   },
   "web_servers": {
     "hosts": [
-      "xmyssu-1"
+      "xmyssu-1",
+      "xmyssu-2"
     ]
   }
 }

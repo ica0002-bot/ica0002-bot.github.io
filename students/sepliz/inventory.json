@@ -49,7 +49,8 @@
   },
   "web_servers": {
     "hosts": [
-      "sepliz-1"
+      "sepliz-1",
+      "sepliz-2"
     ]
   }
 }

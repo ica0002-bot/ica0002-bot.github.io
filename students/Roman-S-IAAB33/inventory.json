@@ -49,7 +49,8 @@
   },
   "web_servers": {
     "hosts": [
-      "Roman-S-IAAB33-1"
+      "Roman-S-IAAB33-1",
+      "Roman-S-IAAB33-2"
     ]
   }
 }

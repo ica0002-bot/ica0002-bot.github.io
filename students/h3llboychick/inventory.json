@@ -49,7 +49,8 @@
   },
   "web_servers": {
     "hosts": [
-      "h3llboychick-1"
+      "h3llboychick-1",
+      "h3llboychick-2"
     ]
   }
 }

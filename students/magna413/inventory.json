@@ -49,7 +49,8 @@
   },
   "web_servers": {
     "hosts": [
-      "magna413-1"
+      "magna413-1",
+      "magna413-2"
     ]
   }
 }

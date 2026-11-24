@@ -49,7 +49,8 @@
   },
   "web_servers": {
     "hosts": [
-      "JRoderickJ-1"
+      "JRoderickJ-1",
+      "JRoderickJ-2"
     ]
   }
 }

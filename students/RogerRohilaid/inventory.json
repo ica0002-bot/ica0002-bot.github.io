@@ -49,7 +49,8 @@
   },
   "web_servers": {
     "hosts": [
-      "RogerRohilaid-1"
+      "RogerRohilaid-1",
+      "RogerRohilaid-2"
     ]
   }
 }

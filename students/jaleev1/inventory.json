@@ -49,7 +49,8 @@
   },
   "web_servers": {
     "hosts": [
-      "jaleev1-1"
+      "jaleev1-1",
+      "jaleev1-2"
     ]
   }
 }

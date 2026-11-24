@@ -49,7 +49,8 @@
   },
   "web_servers": {
     "hosts": [
-      "viltk-1"
+      "viltk-1",
+      "viltk-2"
     ]
   }
 }
