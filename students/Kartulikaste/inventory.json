@@ -3,12 +3,16 @@
     "hostvars": {
       "Kartulikaste-1": {
         "ansible_port": 41022
+      },
+      "Kartulikaste-2": {
+        "ansible_port": 32322
       }
     }
   },
   "all": {
     "hosts": [
-      "Kartulikaste-1"
+      "Kartulikaste-1",
+      "Kartulikaste-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -18,23 +22,35 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "Kartulikaste-1",
+      "Kartulikaste-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "Kartulikaste-2"
+    ]
   },
   "grafana_servers": {
-    "hosts": []
+    "hosts": [
+      "Kartulikaste-1"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "Kartulikaste-2"
+    ]
   },
   "loki_servers": {
-    "hosts": []
+    "hosts": [
+      "Kartulikaste-1"
+    ]
   },
   "web_servers": {
     "hosts": [
-      "Kartulikaste-1"
+      "Kartulikaste-1",
+      "Kartulikaste-2"
     ]
   }
 }
