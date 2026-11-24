@@ -50,7 +50,7 @@
 <tr><th>Service</th><th>vuryy-1</th><th>vuryy-2</th><th>Status</th></tr>
 
 <tr><td>DNS server</td><td>---</td><td>192.168.42.166:53</td><td class="ok">1/1 up</td></tr>
-<tr><td>Web server</td><td><a href="http://193.40.157.25:22080">http://193.40.157.25:22080</a> -- <span class="fail">HTTP 500</span></td><td><a href="http://193.40.157.25:16680">http://193.40.157.25:16680</a> -- <span class="fail">HTTP 500</span></td><td class="fail">0/2 up</td></tr>
+<tr><td>Web server</td><td><a href="http://193.40.157.25:22080">http://193.40.157.25:22080</a></td><td><a href="http://193.40.157.25:16680">http://193.40.157.25:16680</a></td><td class="ok">2/2 up</td></tr>
 <tr><td>Prometheus</td><td>---</td><td><a href="http://193.40.157.25:16680/prometheus">http://193.40.157.25:16680/prometheus</a></td><td class="ok">1/1 up</td></tr>
 <tr><td>Grafana</td><td><a href="http://193.40.157.25:22080/grafana">http://193.40.157.25:22080/grafana</a></td><td>---</td><td class="ok">1/1 up</td></tr>
 <tr><td>Web app HA </td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
@@ -74,7 +74,7 @@
 <li><span class="fail">Problem</span>: <code>roles/haproxy/tasks/main.yaml</code> is missing; labs not completed: 13.</li>
 <li><span class="ok">Ok</span>: <code>roles/init/tasks/main.yaml</code> found.</li>
 <li><span class="fail">Problem</span>: <code>roles/keepalived/tasks/main.yaml</code> is missing; labs not completed: 13.</li>
-<li><span class="fail">Problem</span>: <code>roles/loki/tasks/main.yaml</code> is missing; labs not completed: 8, 10.</li>
+<li><span class="ok">Ok</span>: <code>roles/loki/tasks/main.yaml</code> found.</li>
 <li><span class="fail">Problem</span>: <code>roles/loki/templates/backup-cron.j2</code> is missing; labs not completed: 10.</li>
 <li><span class="ok">Ok</span>: <code>roles/mysql/tasks/main.yaml</code> found.</li>
 <li><span class="fail">Problem</span>: <code>roles/mysql/templates/backup-cron.j2</code> is missing; labs not completed: 10.</li>
@@ -82,10 +82,10 @@
 <li><span class="ok">Ok</span>: <code>roles/prometheus/tasks/main.yaml</code> found.</li>
 <li><span class="fail">Problem</span>: <code>roles/prometheus/templates/backup-cron.j2</code> is missing; labs not completed: 10.</li>
 <li><span class="ok">Ok</span>: <code>roles/uwsgi/tasks/main.yaml</code> found.</li>
-<li><span class="fail">Problem</span>: <code>docs/slo.md</code> is missing; labs not completed: 8.</li>
+<li><span class="ok">Ok</span>: <code>docs/slo.md</code> found.</li>
 </ul>
 
 <p>A few problems found.</p>
-<p>Labs not accepted: 8, 9, 10, 11, 12, 13.</p>
-<p>Last checked on Nov 24 at 17:58 UTC.</p>
+<p>Labs not accepted: 9, 10, 11, 12, 13.</p>
+<p>Last checked on Nov 24 at 18:28 UTC.</p>
 </body></html>
