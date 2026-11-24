@@ -13,11 +13,11 @@
 <h2>Virtual machines</h2>
 
 <table>
-<tr><th>Name</th><th>Internal IP</th><th>Public SSH</th><th>Public URL</th></tr>
+<tr><th>Name</th><th>Internal IP</th><th>Public SSH</th><th>Public URL</th><th>Public HA URL</th></tr>
 
-<tr><td>romankuchin-1</td><td>192.168.42.140</td><td>ubuntu@193.40.157.25 port 14022</td><td><a href="http://193.40.157.25:14080">http://193.40.157.25:14080</a></td></tr>
+<tr><td>romankuchin-1</td><td>192.168.42.140</td><td>ubuntu@193.40.157.25 port 14022</td><td><a href="http://193.40.157.25:14080">http://193.40.157.25:14080</a></td><td><a href="http://193.40.157.25:14088">http://193.40.157.25:14088</a></td></tr>
 
-<tr><td>romankuchin-2</td><td>192.168.42.80</td><td>ubuntu@193.40.157.25 port 8022</td><td><a href="http://193.40.157.25:8080">http://193.40.157.25:8080</a></td></tr>
+<tr><td>romankuchin-2</td><td>192.168.42.80</td><td>ubuntu@193.40.157.25 port 8022</td><td><a href="http://193.40.157.25:8080">http://193.40.157.25:8080</a></td><td><a href="http://193.40.157.25:8088">http://193.40.157.25:8088</a></td></tr>
 
 <tr><td colspan="5">Complete <a href="https://github.com/romankuchin/ica0002-2026/tree/main/14-dns-slave">lab 14 tasks</a> to get your third machine.</td></tr>
 
@@ -51,9 +51,10 @@
 <tr><th>Service</th><th>romankuchin-1</th><th>romankuchin-2</th><th>Status</th></tr>
 
 <tr><td>DNS server</td><td>---</td><td>192.168.42.80:53</td><td class="ok">1/1 up</td></tr>
-<tr><td>Web server</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Web server</td><td>---</td><td>---</td><td class="fail">0/2 up</td></tr>
 <tr><td>Prometheus</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
 <tr><td>Grafana</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Web app HA </td><td><a href="http://193.40.157.25:14088">http://193.40.157.25:14088</a></td><td>---</td><td class="ok">1/1 up</td></tr>
 </table>
 <h2>Git repository checks</h2>
 <ul>
@@ -71,7 +72,9 @@
 <li><span class="ok">Ok</span>: <code>roles/grafana/files/main.json</code> found.</li>
 <li><span class="ok">Ok</span>: <code>roles/grafana/files/mysql.json</code> found.</li>
 <li><span class="ok">Ok</span>: <code>roles/grafana/tasks/main.yaml</code> found.</li>
+<li><span class="ok">Ok</span>: <code>roles/haproxy/tasks/main.yaml</code> found.</li>
 <li><span class="ok">Ok</span>: <code>roles/init/tasks/main.yaml</code> found.</li>
+<li><span class="ok">Ok</span>: <code>roles/keepalived/tasks/main.yaml</code> found.</li>
 <li><span class="ok">Ok</span>: <code>roles/loki/tasks/main.yaml</code> found.</li>
 <li><span class="ok">Ok</span>: <code>roles/loki/templates/backup-cron.j2</code> found.</li>
 <li><span class="ok">Ok</span>: <code>roles/mysql/tasks/main.yaml</code> found.</li>
@@ -84,5 +87,5 @@
 </ul>
 
 <p>All good so far.</p>
-<p>Last checked on Nov 24 at 15:44 UTC.</p>
+<p>Last checked on Nov 24 at 15:51 UTC.</p>
 </body></html>
