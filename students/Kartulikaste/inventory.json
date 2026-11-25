@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "Kartulikaste-1": {
-        "ansible_port": 41022
+        "ansible_port": 622
       },
       "Kartulikaste-2": {
-        "ansible_port": 32322
+        "ansible_port": 7122
       }
     }
   },

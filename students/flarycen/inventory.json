@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "flarycen-1": {
-        "ansible_port": 22222
+        "ansible_port": 43222
       },
       "flarycen-2": {
-        "ansible_port": 3422
+        "ansible_port": 43122
       }
     }
   },

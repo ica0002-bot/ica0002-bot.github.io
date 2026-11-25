@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "JRoderickJ-1": {
-        "ansible_port": 7722
+        "ansible_port": 31922
       },
       "JRoderickJ-2": {
-        "ansible_port": 1322
+        "ansible_port": 41422
       }
     }
   },

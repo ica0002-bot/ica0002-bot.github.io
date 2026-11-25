@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "Aveira-jdk-1": {
-        "ansible_port": 42722
+        "ansible_port": 8022
       },
       "Aveira-jdk-2": {
-        "ansible_port": 28922
+        "ansible_port": 22422
       }
     }
   },
