@@ -49,10 +49,10 @@
 <table>
 <tr><th>Service</th><th>wwqeew-1</th><th>wwqeew-2</th><th>Status</th></tr>
 
-<tr><td>DNS server</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
-<tr><td>Web server</td><td>---</td><td>---</td><td class="fail">0/2 up</td></tr>
-<tr><td>Prometheus</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
-<tr><td>Grafana</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>DNS server</td><td>---</td><td>192.168.42.232:53</td><td class="ok">1/1 up</td></tr>
+<tr><td>Web server</td><td><a href="http://193.40.157.25:21580">http://193.40.157.25:21580</a> -- <span class="fail">HTTP 500</span></td><td><a href="http://193.40.157.25:23280">http://193.40.157.25:23280</a> -- <span class="fail">HTTP 500</span></td><td class="fail">0/2 up</td></tr>
+<tr><td>Prometheus</td><td>---</td><td><a href="http://193.40.157.25:23280/prometheus">http://193.40.157.25:23280/prometheus</a></td><td class="ok">1/1 up</td></tr>
+<tr><td>Grafana</td><td><a href="http://193.40.157.25:21580/grafana">http://193.40.157.25:21580/grafana</a> -- <span class="fail">HTTP 404</span></td><td><a href="http://193.40.157.25:23280/grafana">http://193.40.157.25:23280/grafana</a> -- <span class="fail">HTTP 500</span></td><td class="fail">0/1 up</td></tr>
 <tr><td>Web app HA </td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
 </table>
 <h2>Git repository checks</h2>
@@ -87,5 +87,5 @@
 
 <p>A few problems found.</p>
 <p>Labs not accepted: 13.</p>
-<p>Last checked on Nov 25 at 10:26 UTC.</p>
+<p>Last checked on Nov 25 at 10:57 UTC.</p>
 </body></html>
