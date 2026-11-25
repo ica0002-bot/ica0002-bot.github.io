@@ -52,7 +52,7 @@
 <tr><td>DNS server</td><td>---</td><td>192.168.43.67:53</td><td class="ok">1/1 up</td></tr>
 <tr><td>Web server</td><td><a href="http://193.40.157.25:28780">http://193.40.157.25:28780</a></td><td><a href="http://193.40.157.25:32380">http://193.40.157.25:32380</a></td><td class="ok">2/2 up</td></tr>
 <tr><td>Prometheus</td><td>---</td><td><a href="http://193.40.157.25:32380/prometheus">http://193.40.157.25:32380/prometheus</a></td><td class="ok">1/1 up</td></tr>
-<tr><td>Grafana</td><td><a href="http://193.40.157.25:28780/grafana">http://193.40.157.25:28780/grafana</a> -- <span class="fail">HTTP 404</span></td><td><a href="http://193.40.157.25:32380/grafana">http://193.40.157.25:32380/grafana</a> -- <span class="fail">HTTP 404</span></td><td class="fail">0/1 up</td></tr>
+<tr><td>Grafana</td><td>---</td><td><a href="http://193.40.157.25:32380/grafana">http://193.40.157.25:32380/grafana</a></td><td class="ok">1/1 up</td></tr>
 <tr><td>Web app HA </td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
 </table>
 <h2>Git repository checks</h2>
@@ -60,7 +60,7 @@
 <li><span class="ok">Ok</span>: GitHub repository is set up correctly.</li>
 <li><span class="ok">Ok</span>: <code>ansible.cfg</code> found.</li>
 <li><span class="fail">Problem</span>: <code>docs/backup_restore.md</code> is missing; labs not completed: 10.</li>
-<li><span class="fail">Problem</span>: <code>docs/backup_sla.md</code> is missing; labs not completed: 9, 10.</li>
+<li><span class="ok">Ok</span>: <code>docs/backup_sla.md</code> found.</li>
 <li><span class="ok">Ok</span>: <code>group_vars/all.yaml</code> found.</li>
 <li><span class="ok">Ok</span>: <code>infra.yaml</code> found.</li>
 <li><span class="ok">Ok</span>: <code>docs/prom_queries.txt</code> found.</li>
@@ -86,6 +86,6 @@
 </ul>
 
 <p>A few problems found.</p>
-<p>Labs not accepted: 9, 10, 11, 12, 13.</p>
-<p>Last checked on Nov 25 at 18:57 UTC.</p>
+<p>Labs not accepted: 10, 11, 12, 13.</p>
+<p>Last checked on Nov 25 at 19:27 UTC.</p>
 </body></html>
