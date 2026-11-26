@@ -1,9 +1,19 @@
 {
   "_meta": {
-    "hostvars": {}
+    "hostvars": {
+      "karkee03-1": {
+        "ansible_port": 39422
+      },
+      "karkee03-2": {
+        "ansible_port": 29522
+      }
+    }
   },
   "all": {
-    "hosts": [],
+    "hosts": [
+      "karkee03-1",
+      "karkee03-2"
+    ],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
@@ -12,21 +22,35 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "karkee03-1",
+      "karkee03-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "karkee03-2"
+    ]
   },
   "grafana_servers": {
-    "hosts": []
+    "hosts": [
+      "karkee03-1"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "karkee03-2"
+    ]
   },
   "loki_servers": {
-    "hosts": []
+    "hosts": [
+      "karkee03-1"
+    ]
   },
   "web_servers": {
-    "hosts": []
+    "hosts": [
+      "karkee03-1",
+      "karkee03-2"
+    ]
   }
 }
