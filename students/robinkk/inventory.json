@@ -1,14 +1,14 @@
 {
   "_meta": {
     "hostvars": {
-      "robinkk-1": {
-        "ansible_port": 25422
+      "robinkk-2": {
+        "ansible_port": 17722
       }
     }
   },
   "all": {
     "hosts": [
-      "robinkk-1"
+      "robinkk-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -34,7 +34,7 @@
   },
   "web_servers": {
     "hosts": [
-      "robinkk-1"
+      "robinkk-2"
     ]
   }
 }
