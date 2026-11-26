@@ -14,9 +14,9 @@
 <table>
 <tr><th>Name</th><th>Internal IP</th><th>Public SSH</th><th>Public URL</th><th>Public HA URL</th></tr>
 
-<tr><td>whosandrey-1</td><td>192.168.42.208</td><td>ubuntu@193.40.157.25 port 20822</td><td><a href="http://193.40.157.25:20880">http://193.40.157.25:20880</a></td><td><a href="http://193.40.157.25:20888">http://193.40.157.25:20888</a></td></tr>
+<tr><td>whosandrey-1</td><td>192.168.43.33</td><td>ubuntu@193.40.157.25 port 28922</td><td><a href="http://193.40.157.25:28980">http://193.40.157.25:28980</a></td><td><a href="http://193.40.157.25:28988">http://193.40.157.25:28988</a></td></tr>
 
-<tr><td>whosandrey-2</td><td>192.168.42.88</td><td>ubuntu@193.40.157.25 port 8822</td><td><a href="http://193.40.157.25:8880">http://193.40.157.25:8880</a></td><td><a href="http://193.40.157.25:8888">http://193.40.157.25:8888</a></td></tr>
+<tr><td>whosandrey-2</td><td>192.168.43.184</td><td>ubuntu@193.40.157.25 port 44022</td><td><a href="http://193.40.157.25:44080">http://193.40.157.25:44080</a></td><td><a href="http://193.40.157.25:44088">http://193.40.157.25:44088</a></td></tr>
 
 <tr><td colspan="5">Complete <a href="https://github.com/romankuchin/ica0002-2026/tree/main/14-dns-slave">lab 14 tasks</a> to get your third machine.</td></tr>
 
@@ -49,10 +49,10 @@
 <table>
 <tr><th>Service</th><th>whosandrey-1</th><th>whosandrey-2</th><th>Status</th></tr>
 
-<tr><td>DNS server</td><td>192.168.42.208:53</td><td>192.168.42.88:53</td><td class="ok">2/1 up</td></tr>
-<tr><td>Web server</td><td><a href="http://193.40.157.25:20880">http://193.40.157.25:20880</a></td><td><a href="http://193.40.157.25:8880">http://193.40.157.25:8880</a></td><td class="ok">2/2 up</td></tr>
-<tr><td>Prometheus</td><td><a href="http://193.40.157.25:20880/prometheus">http://193.40.157.25:20880/prometheus</a> -- <span class="fail">HTTP 404</span></td><td><a href="http://193.40.157.25:8880/prometheus">http://193.40.157.25:8880/prometheus</a> -- <span class="fail">HTTP 404</span></td><td class="fail">0/1 up</td></tr>
-<tr><td>Grafana</td><td><a href="http://193.40.157.25:20880/grafana">http://193.40.157.25:20880/grafana</a> -- <span class="fail">HTTP 404</span></td><td><a href="http://193.40.157.25:8880/grafana">http://193.40.157.25:8880/grafana</a> -- <span class="fail">HTTP 404</span></td><td class="fail">0/1 up</td></tr>
+<tr><td>DNS server</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Web server</td><td>---</td><td>---</td><td class="fail">0/2 up</td></tr>
+<tr><td>Prometheus</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Grafana</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
 <tr><td>Web app HA </td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
 </table>
 <h2>Git repository checks</h2>
@@ -66,7 +66,7 @@
 <li><span class="ok">Ok</span>: <code>docs/prom_queries.txt</code> found.</li>
 <li><span class="ok">Ok</span>: <code>roles/agama/tasks/main.yaml</code> found.</li>
 <li><span class="ok">Ok</span>: <code>roles/bind/tasks/main.yaml</code> found.</li>
-<li><span class="fail">Problem</span>: <code>roles/docker/tasks/main.yaml</code> is missing; labs not completed: 12.</li>
+<li><span class="ok">Ok</span>: <code>roles/docker/tasks/main.yaml</code> found.</li>
 <li><span class="ok">Ok</span>: <code>roles/grafana/files/backups.json</code> found.</li>
 <li><span class="ok">Ok</span>: <code>roles/grafana/files/main.json</code> found.</li>
 <li><span class="ok">Ok</span>: <code>roles/grafana/files/mysql.json</code> found.</li>
@@ -86,6 +86,6 @@
 </ul>
 
 <p>A few problems found.</p>
-<p>Labs not accepted: 12, 13.</p>
-<p>Last checked on Nov 26 at 00:58 UTC.</p>
+<p>Labs not accepted: 13.</p>
+<p>Last checked on Nov 26 at 03:48 UTC.</p>
 </body></html>

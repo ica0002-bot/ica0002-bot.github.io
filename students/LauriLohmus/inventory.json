@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "LauriLohmus-1": {
-        "ansible_port": 45522
+        "ansible_port": 19722
       },
       "LauriLohmus-2": {
-        "ansible_port": 50722
+        "ansible_port": 5922
       }
     }
   },

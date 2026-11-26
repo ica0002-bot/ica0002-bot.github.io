@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "deallatt-1": {
-        "ansible_port": 50522
+        "ansible_port": 12422
       },
       "deallatt-2": {
-        "ansible_port": 31022
+        "ansible_port": 622
       }
     }
   },
