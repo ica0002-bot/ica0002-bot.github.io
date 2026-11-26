@@ -3,12 +3,16 @@
     "hostvars": {
       "MarkusLehtla-1": {
         "ansible_port": 44822
+      },
+      "MarkusLehtla-2": {
+        "ansible_port": 27622
       }
     }
   },
   "all": {
     "hosts": [
-      "MarkusLehtla-1"
+      "MarkusLehtla-1",
+      "MarkusLehtla-2"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -18,23 +22,35 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "MarkusLehtla-1",
+      "MarkusLehtla-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "MarkusLehtla-2"
+    ]
   },
   "grafana_servers": {
-    "hosts": []
+    "hosts": [
+      "MarkusLehtla-1"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "MarkusLehtla-2"
+    ]
   },
   "loki_servers": {
-    "hosts": []
+    "hosts": [
+      "MarkusLehtla-1"
+    ]
   },
   "web_servers": {
     "hosts": [
-      "MarkusLehtla-1"
+      "MarkusLehtla-1",
+      "MarkusLehtla-2"
     ]
   }
 }
