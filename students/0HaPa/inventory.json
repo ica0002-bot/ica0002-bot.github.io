@@ -1,14 +1,14 @@
 {
   "_meta": {
     "hostvars": {
-      "0HaPa-2": {
-        "ansible_port": 34622
+      "0HaPa-1": {
+        "ansible_port": 33422
       }
     }
   },
   "all": {
     "hosts": [
-      "0HaPa-2"
+      "0HaPa-1"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -34,7 +34,7 @@
   },
   "web_servers": {
     "hosts": [
-      "0HaPa-2"
+      "0HaPa-1"
     ]
   }
 }
