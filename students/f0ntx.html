@@ -11,7 +11,14 @@
 <p>Public key: <a href="https://github.com/f0ntx.keys">https://github.com/f0ntx.keys</a></p>
 <h2>Virtual machines</h2>
 
-<p>Complete <a href="https://github.com/romankuchin/ica0002-2026/tree/main/01-intro">GitHub repository setup</a> to get your first machine.</p>
+<table>
+<tr><th>Name</th><th>Internal IP</th><th>Public SSH</th><th>Public URL</th><th>Public HA URL</th></tr>
+
+<tr><td>f0ntx-1</td><td>192.168.43.113</td><td>ubuntu@193.40.157.25 port 36922</td><td><a href="http://193.40.157.25:36980">http://193.40.157.25:36980</a></td><td><a href="http://193.40.157.25:36988">http://193.40.157.25:36988</a></td></tr>
+
+<tr><td colspan="5">Complete <a href="https://github.com/romankuchin/ica0002-2026/tree/main/03-web-app">lab 3 tasks</a> to get your second machine.</td></tr>
+
+</table>
 
 
 <br>
@@ -37,40 +44,46 @@
 </details>
 <h2>Services</h2>
 <table>
-<p>Complete <a href="https://github.com/romankuchin/ica0002-2026/tree/main/01-intro">GitHub repository setup</a> to get your first machine.</p>
+<table>
+<tr><th>Service</th><th>f0ntx-1</th><th>Status</th></tr>
 
+<tr><td>DNS server</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Web server</td><td>---</td><td class="fail">0/2 up</td></tr>
+<tr><td>Prometheus</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Grafana</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Web app HA </td><td>---</td><td class="fail">0/1 up</td></tr>
 </table>
 <h2>Git repository checks</h2>
 <ul>
 <li><span class="ok">Ok</span>: GitHub repository is set up correctly.</li>
 <li><span class="ok">Ok</span>: <code>ansible.cfg</code> found.</li>
-<li><span class="fail">Problem</span>: <code>docs/backup_restore.md</code> is missing; labs not completed: 10.</li>
-<li><span class="fail">Problem</span>: <code>docs/backup_sla.md</code> is missing; labs not completed: 9, 10.</li>
-<li><span class="fail">Problem</span>: <code>group_vars/all.yaml</code> is missing; labs not completed: 4, 5, 6, 7, 8, 10.</li>
+<li><span class="ok">Ok</span>: <code>docs/backup_restore.md</code> found.</li>
+<li><span class="ok">Ok</span>: <code>docs/backup_sla.md</code> found.</li>
+<li><span class="ok">Ok</span>: <code>group_vars/all.yaml</code> found.</li>
 <li><span class="ok">Ok</span>: <code>infra.yaml</code> found.</li>
-<li><span class="fail">Problem</span>: <code>docs/prom_queries.txt</code> is missing; labs not completed: 6.</li>
-<li><span class="fail">Problem</span>: <code>roles/agama/tasks/main.yaml</code> is missing; labs not completed: 3, 4, 11, 12.</li>
-<li><span class="fail">Problem</span>: <code>roles/bind/tasks/main.yaml</code> is missing; labs not completed: 5, 6.</li>
-<li><span class="fail">Problem</span>: <code>roles/docker/tasks/main.yaml</code> is missing; labs not completed: 12.</li>
-<li><span class="fail">Problem</span>: <code>roles/grafana/files/backups.json</code> is missing; labs not completed: 10.</li>
-<li><span class="fail">Problem</span>: <code>roles/grafana/files/main.json</code> is missing; labs not completed: 7, 8.</li>
-<li><span class="fail">Problem</span>: <code>roles/grafana/files/mysql.json</code> is missing; labs not completed: 11.</li>
-<li><span class="fail">Problem</span>: <code>roles/grafana/tasks/main.yaml</code> is missing; labs not completed: 7, 8, 12.</li>
-<li><span class="fail">Problem</span>: <code>roles/haproxy/tasks/main.yaml</code> is missing; labs not completed: 13.</li>
+<li><span class="ok">Ok</span>: <code>docs/prom_queries.txt</code> found.</li>
+<li><span class="ok">Ok</span>: <code>roles/agama/tasks/main.yaml</code> found.</li>
+<li><span class="ok">Ok</span>: <code>roles/bind/tasks/main.yaml</code> found.</li>
+<li><span class="ok">Ok</span>: <code>roles/docker/tasks/main.yaml</code> found.</li>
+<li><span class="ok">Ok</span>: <code>roles/grafana/files/backups.json</code> found.</li>
+<li><span class="ok">Ok</span>: <code>roles/grafana/files/main.json</code> found.</li>
+<li><span class="ok">Ok</span>: <code>roles/grafana/files/mysql.json</code> found.</li>
+<li><span class="ok">Ok</span>: <code>roles/grafana/tasks/main.yaml</code> found.</li>
+<li><span class="ok">Ok</span>: <code>roles/haproxy/tasks/main.yaml</code> found.</li>
 <li><span class="ok">Ok</span>: <code>roles/init/tasks/main.yaml</code> found.</li>
-<li><span class="fail">Problem</span>: <code>roles/keepalived/tasks/main.yaml</code> is missing; labs not completed: 13.</li>
-<li><span class="fail">Problem</span>: <code>roles/loki/tasks/main.yaml</code> is missing; labs not completed: 8, 10.</li>
-<li><span class="fail">Problem</span>: <code>roles/loki/templates/backup-cron.j2</code> is missing; labs not completed: 10.</li>
-<li><span class="fail">Problem</span>: <code>roles/mysql/tasks/main.yaml</code> is missing; labs not completed: 4, 10, 11.</li>
-<li><span class="fail">Problem</span>: <code>roles/mysql/templates/backup-cron.j2</code> is missing; labs not completed: 10.</li>
-<li><span class="fail">Problem</span>: <code>roles/nginx/tasks/main.yaml</code> is missing; labs not completed: 2, 3, 6.</li>
-<li><span class="fail">Problem</span>: <code>roles/prometheus/tasks/main.yaml</code> is missing; labs not completed: 6, 10.</li>
-<li><span class="fail">Problem</span>: <code>roles/prometheus/templates/backup-cron.j2</code> is missing; labs not completed: 10.</li>
+<li><span class="ok">Ok</span>: <code>roles/keepalived/tasks/main.yaml</code> found.</li>
+<li><span class="ok">Ok</span>: <code>roles/loki/tasks/main.yaml</code> found.</li>
+<li><span class="ok">Ok</span>: <code>roles/loki/templates/backup-cron.j2</code> found.</li>
+<li><span class="ok">Ok</span>: <code>roles/mysql/tasks/main.yaml</code> found.</li>
+<li><span class="ok">Ok</span>: <code>roles/mysql/templates/backup-cron.j2</code> found.</li>
+<li><span class="ok">Ok</span>: <code>roles/nginx/tasks/main.yaml</code> found.</li>
+<li><span class="ok">Ok</span>: <code>roles/prometheus/tasks/main.yaml</code> found.</li>
+<li><span class="ok">Ok</span>: <code>roles/prometheus/templates/backup-cron.j2</code> found.</li>
 <li><span class="fail">Problem</span>: <code>roles/uwsgi/tasks/main.yaml</code> is missing; labs not completed: 3, 4.</li>
-<li><span class="fail">Problem</span>: <code>docs/slo.md</code> is missing; labs not completed: 8.</li>
+<li><span class="ok">Ok</span>: <code>docs/slo.md</code> found.</li>
 </ul>
 
 <p>A few problems found.</p>
-<p>Labs not accepted: 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13.</p>
-<p>Last checked on Nov 27 at 19:33 UTC.</p>
+<p>Labs not accepted: 3, 4.</p>
+<p>Last checked on Nov 27 at 20:16 UTC.</p>
 </body></html>
