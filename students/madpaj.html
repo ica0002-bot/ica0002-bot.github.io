@@ -49,11 +49,11 @@
 <table>
 <tr><th>Service</th><th>madpaj-1</th><th>madpaj-2</th><th>Status</th></tr>
 
-<tr><td>DNS server</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
-<tr><td>Web server</td><td>---</td><td>---</td><td class="fail">0/2 up</td></tr>
-<tr><td>Prometheus</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
-<tr><td>Grafana</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
-<tr><td>Web app HA </td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>DNS server</td><td>---</td><td>192.168.42.50:53</td><td class="ok">1/1 up</td></tr>
+<tr><td>Web server</td><td><a href="http://193.40.157.25:18080">http://193.40.157.25:18080</a></td><td><a href="http://193.40.157.25:5080">http://193.40.157.25:5080</a></td><td class="ok">2/2 up</td></tr>
+<tr><td>Prometheus</td><td>---</td><td><a href="http://193.40.157.25:5080/prometheus">http://193.40.157.25:5080/prometheus</a></td><td class="ok">1/1 up</td></tr>
+<tr><td>Grafana</td><td><a href="http://193.40.157.25:18080/grafana">http://193.40.157.25:18080/grafana</a></td><td>---</td><td class="ok">1/1 up</td></tr>
+<tr><td>Web app HA </td><td><a href="http://193.40.157.25:18088">http://193.40.157.25:18088</a></td><td>---</td><td class="ok">1/1 up</td></tr>
 </table>
 <h2>Git repository checks</h2>
 <ul>
@@ -71,9 +71,9 @@
 <li><span class="ok">Ok</span>: <code>roles/grafana/files/main.json</code> found.</li>
 <li><span class="ok">Ok</span>: <code>roles/grafana/files/mysql.json</code> found.</li>
 <li><span class="ok">Ok</span>: <code>roles/grafana/tasks/main.yaml</code> found.</li>
-<li><span class="fail">Problem</span>: <code>roles/haproxy/tasks/main.yaml</code> is missing; labs not completed: 13.</li>
+<li><span class="ok">Ok</span>: <code>roles/haproxy/tasks/main.yaml</code> found.</li>
 <li><span class="ok">Ok</span>: <code>roles/init/tasks/main.yaml</code> found.</li>
-<li><span class="fail">Problem</span>: <code>roles/keepalived/tasks/main.yaml</code> is missing; labs not completed: 13.</li>
+<li><span class="ok">Ok</span>: <code>roles/keepalived/tasks/main.yaml</code> found.</li>
 <li><span class="ok">Ok</span>: <code>roles/loki/tasks/main.yaml</code> found.</li>
 <li><span class="ok">Ok</span>: <code>roles/loki/templates/backup-cron.j2</code> found.</li>
 <li><span class="ok">Ok</span>: <code>roles/mysql/tasks/main.yaml</code> found.</li>
@@ -85,7 +85,6 @@
 <li><span class="ok">Ok</span>: <code>docs/slo.md</code> found.</li>
 </ul>
 
-<p>A few problems found.</p>
-<p>Labs not accepted: 13.</p>
-<p>Last checked on Nov 27 at 03:52 UTC.</p>
+<p>All good so far.</p>
+<p>Last checked on Nov 27 at 04:06 UTC.</p>
 </body></html>
