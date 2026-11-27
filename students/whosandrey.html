@@ -49,10 +49,10 @@
 <table>
 <tr><th>Service</th><th>whosandrey-1</th><th>whosandrey-2</th><th>Status</th></tr>
 
-<tr><td>DNS server</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
-<tr><td>Web server</td><td>---</td><td>---</td><td class="fail">0/2 up</td></tr>
-<tr><td>Prometheus</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
-<tr><td>Grafana</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>DNS server</td><td>192.168.43.33:53</td><td>192.168.43.184:53</td><td class="ok">2/1 up</td></tr>
+<tr><td>Web server</td><td><a href="http://193.40.157.25:28980">http://193.40.157.25:28980</a></td><td><a href="http://193.40.157.25:44080">http://193.40.157.25:44080</a></td><td class="ok">2/2 up</td></tr>
+<tr><td>Prometheus</td><td><a href="http://193.40.157.25:28980/prometheus">http://193.40.157.25:28980/prometheus</a> -- <span class="fail">HTTP 404</span></td><td><a href="http://193.40.157.25:44080/prometheus">http://193.40.157.25:44080/prometheus</a> -- <span class="fail">HTTP 404</span></td><td class="fail">0/1 up</td></tr>
+<tr><td>Grafana</td><td><a href="http://193.40.157.25:28980/grafana">http://193.40.157.25:28980/grafana</a> -- <span class="fail">HTTP 404</span></td><td><a href="http://193.40.157.25:44080/grafana">http://193.40.157.25:44080/grafana</a> -- <span class="fail">HTTP 404</span></td><td class="fail">0/1 up</td></tr>
 <tr><td>Web app HA </td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
 </table>
 <h2>Git repository checks</h2>
@@ -87,5 +87,5 @@
 
 <p>A few problems found.</p>
 <p>Labs not accepted: 13.</p>
-<p>Last checked on Nov 26 at 23:41 UTC.</p>
+<p>Last checked on Nov 27 at 00:10 UTC.</p>
 </body></html>
