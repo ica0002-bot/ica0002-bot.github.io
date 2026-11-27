@@ -1,13 +1,17 @@
 {
   "_meta": {
     "hostvars": {
+      "robinkk-1": {
+        "ansible_port": 14422
+      },
       "robinkk-2": {
-        "ansible_port": 17722
+        "ansible_port": 43822
       }
     }
   },
   "all": {
     "hosts": [
+      "robinkk-1",
       "robinkk-2"
     ],
     "vars": {
@@ -18,22 +22,34 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "robinkk-1",
+      "robinkk-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "robinkk-2"
+    ]
   },
   "grafana_servers": {
-    "hosts": []
+    "hosts": [
+      "robinkk-1"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "robinkk-2"
+    ]
   },
   "loki_servers": {
-    "hosts": []
+    "hosts": [
+      "robinkk-1"
+    ]
   },
   "web_servers": {
     "hosts": [
+      "robinkk-1",
       "robinkk-2"
     ]
   }

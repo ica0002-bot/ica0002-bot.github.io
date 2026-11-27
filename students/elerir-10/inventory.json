@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "elerir-10-1": {
-        "ansible_port": 31222
+        "ansible_port": 24122
       },
       "elerir-10-2": {
-        "ansible_port": 31922
+        "ansible_port": 1922
       }
     }
   },

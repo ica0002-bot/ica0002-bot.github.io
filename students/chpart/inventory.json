@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "chpart-1": {
-        "ansible_port": 38422
+        "ansible_port": 10822
       },
       "chpart-2": {
-        "ansible_port": 46622
+        "ansible_port": 17522
       }
     }
   },
