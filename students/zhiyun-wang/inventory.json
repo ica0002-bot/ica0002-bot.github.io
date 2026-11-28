@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "zhiyun-wang-1": {
-        "ansible_port": 34922
+        "ansible_port": 17522
       },
       "zhiyun-wang-2": {
-        "ansible_port": 42622
+        "ansible_port": 13622
       }
     }
   },

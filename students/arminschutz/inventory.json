@@ -2,10 +2,10 @@
   "_meta": {
     "hostvars": {
       "arminschutz-1": {
-        "ansible_port": 17222
+        "ansible_port": 29522
       },
       "arminschutz-2": {
-        "ansible_port": 9522
+        "ansible_port": 43822
       }
     }
   },

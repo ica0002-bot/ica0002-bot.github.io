@@ -1,13 +1,17 @@
 {
   "_meta": {
     "hostvars": {
+      "Atuii-1": {
+        "ansible_port": 27622
+      },
       "Atuii-2": {
-        "ansible_port": 5922
+        "ansible_port": 30722
       }
     }
   },
   "all": {
     "hosts": [
+      "Atuii-1",
       "Atuii-2"
     ],
     "vars": {
@@ -18,22 +22,34 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "Atuii-1",
+      "Atuii-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "Atuii-2"
+    ]
   },
   "grafana_servers": {
-    "hosts": []
+    "hosts": [
+      "Atuii-1"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "Atuii-2"
+    ]
   },
   "loki_servers": {
-    "hosts": []
+    "hosts": [
+      "Atuii-1"
+    ]
   },
   "web_servers": {
     "hosts": [
+      "Atuii-1",
       "Atuii-2"
     ]
   }

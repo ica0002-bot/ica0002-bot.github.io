@@ -1,13 +1,17 @@
 {
   "_meta": {
     "hostvars": {
+      "h3llboychick-1": {
+        "ansible_port": 22022
+      },
       "h3llboychick-2": {
-        "ansible_port": 30722
+        "ansible_port": 25322
       }
     }
   },
   "all": {
     "hosts": [
+      "h3llboychick-1",
       "h3llboychick-2"
     ],
     "vars": {
@@ -18,22 +22,34 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "h3llboychick-1",
+      "h3llboychick-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "h3llboychick-2"
+    ]
   },
   "grafana_servers": {
-    "hosts": []
+    "hosts": [
+      "h3llboychick-1"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "h3llboychick-2"
+    ]
   },
   "loki_servers": {
-    "hosts": []
+    "hosts": [
+      "h3llboychick-1"
+    ]
   },
   "web_servers": {
     "hosts": [
+      "h3llboychick-1",
       "h3llboychick-2"
     ]
   }

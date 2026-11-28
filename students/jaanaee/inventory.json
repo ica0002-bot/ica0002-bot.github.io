@@ -1,9 +1,19 @@
 {
   "_meta": {
-    "hostvars": {}
+    "hostvars": {
+      "jaanaee-1": {
+        "ansible_port": 42822
+      },
+      "jaanaee-2": {
+        "ansible_port": 7722
+      }
+    }
   },
   "all": {
-    "hosts": [],
+    "hosts": [
+      "jaanaee-1",
+      "jaanaee-2"
+    ],
     "vars": {
       "ansible_host": "193.40.157.25",
       "ansible_host_key_checking": false,
@@ -12,21 +22,35 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "jaanaee-1",
+      "jaanaee-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "jaanaee-2"
+    ]
   },
   "grafana_servers": {
-    "hosts": []
+    "hosts": [
+      "jaanaee-1"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "jaanaee-2"
+    ]
   },
   "loki_servers": {
-    "hosts": []
+    "hosts": [
+      "jaanaee-1"
+    ]
   },
   "web_servers": {
-    "hosts": []
+    "hosts": [
+      "jaanaee-1",
+      "jaanaee-2"
+    ]
   }
 }

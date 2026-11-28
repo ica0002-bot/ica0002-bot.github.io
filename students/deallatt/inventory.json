@@ -2,17 +2,13 @@
   "_meta": {
     "hostvars": {
       "deallatt-1": {
-        "ansible_port": 47722
-      },
-      "deallatt-2": {
-        "ansible_port": 26222
+        "ansible_port": 18222
       }
     }
   },
   "all": {
     "hosts": [
-      "deallatt-1",
-      "deallatt-2"
+      "deallatt-1"
     ],
     "vars": {
       "ansible_host": "193.40.157.25",
@@ -22,35 +18,23 @@
     }
   },
   "db_servers": {
-    "hosts": [
-      "deallatt-1",
-      "deallatt-2"
-    ]
+    "hosts": []
   },
   "dns_servers": {
-    "hosts": [
-      "deallatt-2"
-    ]
+    "hosts": []
   },
   "grafana_servers": {
-    "hosts": [
-      "deallatt-1"
-    ]
+    "hosts": []
   },
   "prometheus_servers": {
-    "hosts": [
-      "deallatt-2"
-    ]
+    "hosts": []
   },
   "loki_servers": {
-    "hosts": [
-      "deallatt-1"
-    ]
+    "hosts": []
   },
   "web_servers": {
     "hosts": [
-      "deallatt-1",
-      "deallatt-2"
+      "deallatt-1"
     ]
   }
 }

@@ -14,9 +14,9 @@
 <table>
 <tr><th>Name</th><th>Internal IP</th><th>Public SSH</th><th>Public URL</th><th>Public HA URL</th></tr>
 
-<tr><td>LauriLohmus-1</td><td>192.168.43.59</td><td>ubuntu@193.40.157.25 port 31522</td><td><a href="http://193.40.157.25:31580">http://193.40.157.25:31580</a></td><td><a href="http://193.40.157.25:31588">http://193.40.157.25:31588</a></td></tr>
+<tr><td>LauriLohmus-1</td><td>192.168.42.216</td><td>ubuntu@193.40.157.25 port 21622</td><td><a href="http://193.40.157.25:21680">http://193.40.157.25:21680</a></td><td><a href="http://193.40.157.25:21688">http://193.40.157.25:21688</a></td></tr>
 
-<tr><td>LauriLohmus-2</td><td>192.168.43.239</td><td>ubuntu@193.40.157.25 port 49522</td><td><a href="http://193.40.157.25:49580">http://193.40.157.25:49580</a></td><td><a href="http://193.40.157.25:49588">http://193.40.157.25:49588</a></td></tr>
+<tr><td>LauriLohmus-2</td><td>192.168.42.83</td><td>ubuntu@193.40.157.25 port 8322</td><td><a href="http://193.40.157.25:8380">http://193.40.157.25:8380</a></td><td><a href="http://193.40.157.25:8388">http://193.40.157.25:8388</a></td></tr>
 
 <tr><td colspan="5">Complete <a href="https://github.com/romankuchin/ica0002-2026/tree/main/14-dns-slave">lab 14 tasks</a> to get your third machine.</td></tr>
 
@@ -49,10 +49,10 @@
 <table>
 <tr><th>Service</th><th>LauriLohmus-1</th><th>LauriLohmus-2</th><th>Status</th></tr>
 
-<tr><td>DNS server</td><td>---</td><td>192.168.43.239:53</td><td class="ok">1/1 up</td></tr>
-<tr><td>Web server</td><td><a href="http://193.40.157.25:31580">http://193.40.157.25:31580</a></td><td><a href="http://193.40.157.25:49580">http://193.40.157.25:49580</a></td><td class="ok">2/2 up</td></tr>
-<tr><td>Prometheus</td><td>---</td><td><a href="http://193.40.157.25:49580/prometheus">http://193.40.157.25:49580/prometheus</a></td><td class="ok">1/1 up</td></tr>
-<tr><td>Grafana</td><td><a href="http://193.40.157.25:31580/grafana">http://193.40.157.25:31580/grafana</a></td><td>---</td><td class="ok">1/1 up</td></tr>
+<tr><td>DNS server</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Web server</td><td>---</td><td>---</td><td class="fail">0/2 up</td></tr>
+<tr><td>Prometheus</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Grafana</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
 <tr><td>Web app HA </td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
 </table>
 <h2>Git repository checks</h2>
@@ -87,5 +87,5 @@
 
 <p>A few problems found.</p>
 <p>Labs not accepted: 13.</p>
-<p>Last checked on Nov 28 at 00:55 UTC.</p>
+<p>Last checked on Nov 28 at 03:51 UTC.</p>
 </body></html>

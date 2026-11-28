@@ -14,9 +14,9 @@
 <table>
 <tr><th>Name</th><th>Internal IP</th><th>Public SSH</th><th>Public URL</th><th>Public HA URL</th></tr>
 
-<tr><td>0HaPa-1</td><td>192.168.43.78</td><td>ubuntu@193.40.157.25 port 33422</td><td><a href="http://193.40.157.25:33480">http://193.40.157.25:33480</a></td><td><a href="http://193.40.157.25:33488">http://193.40.157.25:33488</a></td></tr>
+<tr><td>0HaPa-1</td><td>192.168.42.223</td><td>ubuntu@193.40.157.25 port 22322</td><td><a href="http://193.40.157.25:22380">http://193.40.157.25:22380</a></td><td><a href="http://193.40.157.25:22388">http://193.40.157.25:22388</a></td></tr>
 
-<tr><td>0HaPa-2</td><td>192.168.43.80</td><td>ubuntu@193.40.157.25 port 33622</td><td><a href="http://193.40.157.25:33680">http://193.40.157.25:33680</a></td><td><a href="http://193.40.157.25:33688">http://193.40.157.25:33688</a></td></tr>
+<tr><td>0HaPa-2</td><td>192.168.42.149</td><td>ubuntu@193.40.157.25 port 14922</td><td><a href="http://193.40.157.25:14980">http://193.40.157.25:14980</a></td><td><a href="http://193.40.157.25:14988">http://193.40.157.25:14988</a></td></tr>
 
 <tr><td colspan="5">Complete <a href="https://github.com/romankuchin/ica0002-2026/tree/main/14-dns-slave">lab 14 tasks</a> to get your third machine.</td></tr>
 
@@ -49,11 +49,11 @@
 <table>
 <tr><th>Service</th><th>0HaPa-1</th><th>0HaPa-2</th><th>Status</th></tr>
 
-<tr><td>DNS server</td><td>---</td><td>192.168.43.80:53</td><td class="ok">1/1 up</td></tr>
-<tr><td>Web server</td><td><a href="http://193.40.157.25:33480">http://193.40.157.25:33480</a></td><td><a href="http://193.40.157.25:33680">http://193.40.157.25:33680</a></td><td class="ok">2/2 up</td></tr>
-<tr><td>Prometheus</td><td>---</td><td><a href="http://193.40.157.25:33680/prometheus">http://193.40.157.25:33680/prometheus</a></td><td class="ok">1/1 up</td></tr>
-<tr><td>Grafana</td><td><a href="http://193.40.157.25:33480/grafana">http://193.40.157.25:33480/grafana</a></td><td>---</td><td class="ok">1/1 up</td></tr>
-<tr><td>Web app HA </td><td><a href="http://193.40.157.25:33488">http://193.40.157.25:33488</a></td><td>---</td><td class="ok">1/1 up</td></tr>
+<tr><td>DNS server</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Web server</td><td>---</td><td>---</td><td class="fail">0/2 up</td></tr>
+<tr><td>Prometheus</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Grafana</td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
+<tr><td>Web app HA </td><td>---</td><td>---</td><td class="fail">0/1 up</td></tr>
 </table>
 <h2>Git repository checks</h2>
 <ul>
@@ -87,5 +87,5 @@
 
 <p>A few problems found.</p>
 <p>Labs not accepted: 13.</p>
-<p>Last checked on Nov 28 at 00:53 UTC.</p>
+<p>Last checked on Nov 28 at 03:49 UTC.</p>
 </body></html>
