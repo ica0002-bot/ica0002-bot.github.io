@@ -1,6 +1,9 @@
 {
   "_meta": {
     "hostvars": {
+      "alexgot1151-1": {
+        "ansible_port": 36622
+      },
       "alexgot1151-2": {
         "ansible_port": 32022
       }
@@ -8,6 +11,7 @@
   },
   "all": {
     "hosts": [
+      "alexgot1151-1",
       "alexgot1151-2"
     ],
     "vars": {
@@ -18,22 +22,34 @@
     }
   },
   "db_servers": {
-    "hosts": []
+    "hosts": [
+      "alexgot1151-1",
+      "alexgot1151-2"
+    ]
   },
   "dns_servers": {
-    "hosts": []
+    "hosts": [
+      "alexgot1151-2"
+    ]
   },
   "grafana_servers": {
-    "hosts": []
+    "hosts": [
+      "alexgot1151-1"
+    ]
   },
   "prometheus_servers": {
-    "hosts": []
+    "hosts": [
+      "alexgot1151-2"
+    ]
   },
   "loki_servers": {
-    "hosts": []
+    "hosts": [
+      "alexgot1151-1"
+    ]
   },
   "web_servers": {
     "hosts": [
+      "alexgot1151-1",
       "alexgot1151-2"
     ]
   }
